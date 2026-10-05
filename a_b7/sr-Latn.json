@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Šta nikad ne deliš sa AI-jem?",
+   "options": [
+    "Lozinke i brojeve kartica",
+    "Ideju za ručak",
+    "Pitanje iz istorije",
+    "Plan treninga"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Kako bezbedno tražiš pomoć oko ličnog dokumenta?",
+   "options": [
+    "Zameniš prave podatke oznakama kao [IME]",
+    "Nalepiš ceo dokument sa svim brojevima",
+    "Pošalješ sliku lične karte",
+    "Napišeš lozinku"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Neko te zove glasom tvog rođaka i hitno traži novac. Šta radiš?",
+   "options": [
+    "Prekinem i sam ga pozovem na poznat broj",
+    "Odmah pošaljem novac",
+    "Dam podatke sa kartice",
+    "Ništa ne proveravam"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Odakle preuzimaš AI aplikaciju?",
+   "options": [
+    "Samo sa zvaničnog izvora (prodavnica, zvaničan sajt)",
+    "Sa bilo kog linka iz poruke",
+    "Od nepoznatih ljudi",
+    "Iz sumnjivog oglasa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "U označeno polje upravo kucaš broj kartice. Šta treba da uradiš?",
+   "options": [
+    "Obrišem ga – to se nikad ne deli",
+    "Pošaljem ga",
+    "Dodam i PIN",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Označena poruka traži lozinku od tvoje banke. Šta je to?",
+   "options": [
+    "Znak prevare – nikad je ne daješ",
+    "Normalna stvar",
+    "Obavezan korak",
+    "Poklon"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Treba ti pomoć da napišeš žalbu stanodavcu, ali ne želiš da otkriješ ime, adresu ni kiriju. Napiši bezbedan prompt.",
+   "seconds": 120,
+   "checklist": [
+    "Koristiš oznake umesto pravih podataka",
+    "Jasno opisuješ problem",
+    "Tražiš ton i dužinu"
+   ],
+   "example": "Pomozi mi da napišem žalbu stanodavcu [IME], koji već [BROJ] nedelja ne popravlja curenje vode u kupatilu stana na adresi [ADRESA]. Ton odlučan, ali ljubazan, najviše 120 reči."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Quelle est la meilleure façon de retenir une leçon ?",
+   "options": [
+    "Te faire interroger par l'IA pour devoir te souvenir",
+    "Seulement lire",
+    "Ne pas étudier",
+    "Tout recopier"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Que dis-tu d'abord à l'IA quand tu commences à apprendre ?",
+   "options": [
+    "Ce que tu sais déjà et ce que tu veux atteindre",
+    "Ton adresse",
+    "Rien",
+    "Ton mot de passe"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Que veut dire « ne me donne pas la solution, pose-moi des questions » ?",
+   "options": [
+    "L'IA te guide par des questions jusqu'à ce que tu trouves",
+    "L'IA se tait",
+    "L'IA refuse d'aider",
+    "L'IA efface la discussion"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Quelle est la meilleure façon d'apprendre ?",
+   "options": [
+    "Par petits morceaux : explication, exemple, exercice",
+    "Tout en un jour",
+    "Seulement regarder des vidéos",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA t'a expliqué une leçon (en évidence). Quelle est une bonne étape suivante ?",
+   "options": [
+    "Demander un petit exercice ou un quiz",
+    "Fermer l'appli",
+    "Copier le texte",
+    "Rien"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu expliques avec tes mots ce que tu as appris. Pourquoi ?",
+   "options": [
+    "Pour que l'IA vérifie que j'ai compris",
+    "Pour l'embrouiller",
+    "Sans raison",
+    "Pour avoir un cadeau"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Écris un prompt pour commencer à apprendre une langue à partir de zéro.",
+   "seconds": 150,
+   "checklist": [
+    "Quelle langue et pourquoi",
+    "Combien de temps tu as",
+    "Comment tu veux apprendre (leçons, quiz, conversation)"
+   ],
+   "example": "Je veux apprendre les bases de l'espagnol pour un voyage dans 2 mois. J'ai 20 minutes par jour et je suis grand débutant. Fais un programme semaine par semaine et commence par la leçon 1 : les 10 phrases les plus utiles, la prononciation et un court quiz."
+  }
+ ]
+}

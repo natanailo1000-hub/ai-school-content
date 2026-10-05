@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "How do you get a formula from AI?",
+   "options": [
+    "Describe in words what to calculate and where the data is",
+    "Send your password",
+    "Just say \"formula\"",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Before you trust a formula:",
+   "options": [
+    "Check it on a few examples",
+    "Use it for everything right away",
+    "Delete the table",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is the 50/30/20 rule?",
+   "options": [
+    "Splitting income into needs, wants and savings",
+    "An internet speed",
+    "A recipe",
+    "A school grade"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "The AI added up numbers in a chat message. What's smart?",
+   "options": [
+    "Check it or ask it to use a table",
+    "Trust it without checking",
+    "Multiply by 2",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI wrote a formula (highlighted). You don't understand it. What do you write?",
+   "options": [
+    "\"Explain the formula step by step\"",
+    "Nothing",
+    "\"Bye\"",
+    "Delete the table"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "In the highlighted message you describe your table. What's important to include?",
+   "options": [
+    "Which column has which data",
+    "Your password",
+    "Your card number",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Write a prompt for a formula that calculates the average grade from column C.",
+   "seconds": 150,
+   "checklist": [
+    "Where the data is (column, rows)",
+    "What to calculate",
+    "Which program (Excel or Google Sheets) and an explanation"
+   ],
+   "example": "In Excel, column C from C2 to C30 has grades. Write a formula that calculates the average grade rounded to 2 decimals, and explain it simply."
+  }
+ ]
+}

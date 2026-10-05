@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Koja kompanija je napravila Gemini?",
+   "options": [
+    "Google",
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Gde možeš da koristiš Gemini?",
+   "options": [
+    "Na sajtu gemini.google.com ili u aplikaciji",
+    "Samo na televizoru",
+    "Samo telefonskim pozivom",
+    "Samo u prodavnici"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Želiš da pričaš o novoj temi. Šta je najbolje?",
+   "options": [
+    "Otvori novi razgovor",
+    "Obriši aplikaciju",
+    "Piši velikim slovima",
+    "Sačekaj jedan dan"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Koja prva poruka je najbolja?",
+   "options": [
+    "Pomozi mi da napišem kratak, ljubazan mejl stanodavcu o pokvarenom grejanju.",
+    "mejl",
+    "Pomoć",
+    "Napiši nešto"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Gde pišeš poruku za Gemini?",
+   "options": [
+    "U označeno polje",
+    "U odgovor iznad",
+    "U podešavanja",
+    "Nigde – on čita misli"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "send_button",
+   "q": "Šta radi označeno dugme?",
+   "options": [
+    "Šalje tvoju poruku",
+    "Briše razgovor",
+    "Otvara podešavanja",
+    "Gasi aplikaciju"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Napiši svoju prvu pravu poruku za Gemini: traži da ti isplanira večere za 3 dana od onoga što imaš kod kuće (izaberi 4–5 namirnica).",
+   "seconds": 120,
+   "checklist": [
+    "Šta želiš (plan večera za 3 dana)",
+    "Šta imaš (namirnice)",
+    "Ograničenja (vreme, budžet, bez mesa…)"
+   ],
+   "example": "Isplaniraj mi večere za 3 dana koristeći samo: jaja, krompir, pirinač, paradajz i sir. Svaka večera da traje kraće od 30 minuta. Daj mi kratak spisak za kupovinu za ono što fali."
+  }
+ ]
+}

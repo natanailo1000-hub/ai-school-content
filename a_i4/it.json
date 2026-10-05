@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qual è il modo migliore per ricordare ciò che studi?",
+   "options": [
+    "Farti interrogare dall'IA così devi ricordare",
+    "Solo leggere",
+    "Non studiare",
+    "Copiare tutto"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Cosa dici prima all'IA quando inizi a imparare?",
+   "options": [
+    "Cosa sai già e cosa vuoi raggiungere",
+    "Il tuo indirizzo",
+    "Niente",
+    "La tua password"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Cosa significa \"non darmi la soluzione, fammi domande\"?",
+   "options": [
+    "L'IA ti guida con domande finché trovi la risposta",
+    "L'IA sta zitta",
+    "L'IA si rifiuta di aiutare",
+    "L'IA cancella la chat"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qual è il modo migliore di imparare?",
+   "options": [
+    "A piccoli pezzi: spiegazione, esempio, esercizio",
+    "Tutto in un giorno",
+    "Solo guardare video",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ti ha spiegato una lezione (evidenziata). Qual è un buon passo successivo?",
+   "options": [
+    "Chiedere un piccolo esercizio o un quiz",
+    "Chiudere l'app",
+    "Copiare il testo",
+    "Niente"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato spieghi con parole tue cosa hai imparato. Perché?",
+   "options": [
+    "Perché l'IA controlli se ho capito",
+    "Per confonderla",
+    "Senza motivo",
+    "Per avere un regalo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Scrivi un prompt per iniziare a imparare una lingua da zero.",
+   "seconds": 150,
+   "checklist": [
+    "Quale lingua e perché",
+    "Quanto tempo hai",
+    "Come vuoi imparare (lezioni, quiz, conversazione)"
+   ],
+   "example": "Voglio imparare lo spagnolo di base per un viaggio tra 2 mesi. Ho 20 minuti al giorno e sono un principiante assoluto. Fai un piano settimana per settimana e inizia con la prima lezione: le 10 frasi più utili, la pronuncia e un breve quiz."
+  }
+ ]
+}

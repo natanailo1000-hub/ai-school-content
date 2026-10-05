@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qual è una buona richiesta per un documento lungo?",
+   "options": [
+    "Un riassunto in 5 punti e tutte le scadenze",
+    "\"Leggi\"",
+    "Niente",
+    "\"Bello\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Il contratto è complicato. Come aiuta l'IA?",
+   "options": [
+    "Lo spiega con parole semplici",
+    "Lo firma al posto tuo",
+    "Lo manda a un avvocato",
+    "Lo cancella"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Prima di firmare un contratto importante:",
+   "options": [
+    "Chiedo a un esperto: l'IA serve a capire",
+    "Mi fido solo dell'IA",
+    "Non leggo niente",
+    "Firmo subito"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Il documento è lunghissimo. Cosa fai?",
+   "options": [
+    "Chiedo di lavorare una parte alla volta",
+    "Mi arrendo",
+    "Mando solo il titolo",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Dove incolli il testo del documento?",
+   "options": [
+    "Nella casella del messaggio evidenziata",
+    "Nelle impostazioni del telefono",
+    "Nello store",
+    "Da nessuna parte"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "L'IA ha fatto un riassunto (evidenziato). Una scadenza sembra strana. Cosa fai?",
+   "options": [
+    "Controllo quella scadenza nel documento originale",
+    "Ci credo",
+    "La ignoro",
+    "Firmo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Scrivi un prompt per far analizzare le condizioni di un'app prima di comprarla.",
+   "seconds": 150,
+   "checklist": [
+    "Che documento è",
+    "Cosa ti interessa (prezzo, disdetta, dati)",
+    "Formato della risposta (punti, avvertenze)"
+   ],
+   "example": "Incollo le condizioni di un'app che voglio comprare. Elencami in punti: quanto costa, come disdire l'abbonamento, cosa fanno con i miei dati e a cosa fare attenzione. [testo]"
+  }
+ ]
+}

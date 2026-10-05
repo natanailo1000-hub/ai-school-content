@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Come ottieni una formula dall'IA?",
+   "options": [
+    "Descrivendo a parole cosa calcolare e dove sono i dati",
+    "Mandando la password",
+    "Dicendo solo \"formula\"",
+    "Non si può"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Prima di fidarti di una formula:",
+   "options": [
+    "La controlli su qualche esempio",
+    "La usi subito per tutto",
+    "Cancelli la tabella",
+    "Niente"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Cos'è la regola 50/30/20?",
+   "options": [
+    "Dividere il reddito tra bisogni, desideri e risparmi",
+    "Una velocità di internet",
+    "Una ricetta",
+    "Un voto scolastico"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "L'IA ha sommato numeri nella chat. Cosa è furbo?",
+   "options": [
+    "Controllare o chiedere di usare una tabella",
+    "Crederci senza controllare",
+    "Moltiplicare per 2",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ha scritto una formula (evidenziata). Non la capisci. Cosa scrivi?",
+   "options": [
+    "\"Spiega la formula passo dopo passo\"",
+    "Niente",
+    "\"Ciao\"",
+    "Cancello la tabella"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato descrivi la tabella. Cosa è importante scrivere?",
+   "options": [
+    "Quali dati ci sono in ogni colonna",
+    "La password",
+    "Il numero della carta",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Scrivi un prompt per una formula che calcoli la media dei voti della colonna C.",
+   "seconds": 150,
+   "checklist": [
+    "Dove sono i dati (colonna, righe)",
+    "Cosa calcolare",
+    "Quale programma (Excel o Fogli Google) e una spiegazione"
+   ],
+   "example": "In Excel, nella colonna C da C2 a C30 ci sono i voti. Scrivi una formula che calcoli la media arrotondata a 2 decimali e spiegala in modo semplice."
+  }
+ ]
+}

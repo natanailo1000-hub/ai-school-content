@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Koji je prvi korak kod dužeg teksta?",
+   "options": [
+    "Plan i struktura",
+    "Završna provera",
+    "Slanje",
+    "Štampanje"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Kako da tekst zvuči kao ti?",
+   "options": [
+    "Daš primer svog teksta i tražiš taj stil",
+    "Pišeš samo velikim slovima",
+    "Ne daješ ništa",
+    "Tražiš „robotski stil“"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta je bolje kod dugog teksta?",
+   "options": [
+    "Pisati deo po deo",
+    "Sve odjednom bez plana",
+    "Ne čitati ga",
+    "Kopirati tuđi tekst"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "AI je u tekst ubacio citat poznate osobe. Šta radiš?",
+   "options": [
+    "Proverim da li je citat stvaran",
+    "Ostavim ga",
+    "Izmislim još jedan",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI je napisao nacrt (označeno), ali je predugačak. Šta pišeš?",
+   "options": [
+    "„Skrati na pola, zadrži glavne tačke“",
+    "Ništa",
+    "„Napiši duže“",
+    "Obrišem sve"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "U označenu poruku nalepio si svoj stari tekst. Zašto?",
+   "options": [
+    "Da AI piše u mom stilu",
+    "Da ga obriše",
+    "Bez razloga",
+    "Da ga prevede na kineski"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Napiši prompt kojim tražiš strukturu blog teksta na tvoju temu.",
+   "seconds": 150,
+   "checklist": [
+    "Tema i za koga je blog",
+    "Dužina",
+    "Šta tražiš (naslov, podnaslovi, glavne tačke)"
+   ],
+   "example": "Pišem blog od 800 reči za početnike o tome kako da počnu da trče. Predloži privlačan naslov, 5 podnaslova i 2–3 glavne tačke za svaki deo."
+  }
+ ]
+}

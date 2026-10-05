@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Wie bekommst du eine Formel von der KI?",
+   "options": [
+    "In Worten beschreiben, was berechnet werden soll und wo die Daten stehen",
+    "Dein Passwort schicken",
+    "Nur \"Formel\" sagen",
+    "Gar nicht"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Bevor du einer Formel vertraust:",
+   "options": [
+    "An ein paar Beispielen prüfen",
+    "Sofort überall nutzen",
+    "Die Tabelle löschen",
+    "Nichts"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Was ist die 50/30/20-Regel?",
+   "options": [
+    "Einkommen aufteilen in Bedarf, Wünsche und Sparen",
+    "Eine Internetgeschwindigkeit",
+    "Ein Rezept",
+    "Eine Schulnote"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Die KI hat im Chat Zahlen addiert. Was ist klug?",
+   "options": [
+    "Nachprüfen oder sie eine Tabelle nutzen lassen",
+    "Ungeprüft glauben",
+    "Mal 2 nehmen",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat eine Formel geschrieben (markiert). Du verstehst sie nicht. Was schreibst du?",
+   "options": [
+    "\"Erkläre die Formel Schritt für Schritt\"",
+    "Nichts",
+    "\"Tschüss\"",
+    "Die Tabelle löschen"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "In der markierten Nachricht beschreibst du deine Tabelle. Was ist wichtig?",
+   "options": [
+    "Welche Spalte welche Daten enthält",
+    "Dein Passwort",
+    "Deine Kartennummer",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Schreib einen Prompt für eine Formel, die den Notendurchschnitt aus Spalte C berechnet.",
+   "seconds": 150,
+   "checklist": [
+    "Wo die Daten stehen (Spalte, Zeilen)",
+    "Was berechnet werden soll",
+    "Welches Programm (Excel oder Google Tabellen) und eine Erklärung"
+   ],
+   "example": "In Excel stehen in Spalte C von C2 bis C30 Noten. Schreib eine Formel, die den Durchschnitt auf 2 Nachkommastellen gerundet berechnet, und erkläre sie einfach."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "O que é mais importante dizer à IA ao escrever um e-mail?",
+   "options": [
+    "Para quem você escreve e o que quer conseguir",
+    "Qual celular você tem",
+    "Quantos anos você tem",
+    "Nada – ela adivinha"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Como melhorar seu próprio texto com IA?",
+   "options": [
+    "Colar o texto e dizer o que mudar",
+    "Copiar à mão 3 vezes",
+    "Enviar um e-mail vazio",
+    "Apagar o texto"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O que a IA NÃO deve fazer no seu currículo?",
+   "options": [
+    "Inventar experiência ou diplomas",
+    "Corrigir a gramática",
+    "Encurtar o texto",
+    "Sugerir um layout melhor"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Quem é responsável pelo e-mail que você envia?",
+   "options": [
+    "Você – sempre leia antes de enviar",
+    "A IA",
+    "A empresa que faz a IA",
+    "Ninguém"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA escreveu um e-mail para você (destacado). O que fazer antes de enviar?",
+   "options": [
+    "Ler e conferir os fatos",
+    "Enviar sem ler",
+    "Traduzir",
+    "Apagar"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Onde você cola seu texto para a IA melhorar?",
+   "options": [
+    "Na caixa de mensagem destacada",
+    "Na resposta da IA",
+    "Nas configurações do celular",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Seu vizinho emprestou uma furadeira e você quebrou sem querer. Escreva um prompt para conseguir uma mensagem de desculpas.",
+   "seconds": 120,
+   "checklist": [
+    "Para quem (o vizinho)",
+    "O que aconteceu (a furadeira quebrada)",
+    "O que você oferece (conserto ou uma nova) e o tom (sincero, curto)"
+   ],
+   "example": "Escreva uma mensagem curta e sincera de desculpas para meu vizinho. Ele me emprestou a furadeira e eu quebrei sem querer. Ofereça comprar uma nova ou pagar o conserto. No máximo 4 frases, tom amigável."
+  }
+ ]
+}

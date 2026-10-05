@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "What's the first step for a long text?",
+   "options": [
+    "A plan and structure",
+    "The final check",
+    "Sending it",
+    "Printing it"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How do you make the text sound like you?",
+   "options": [
+    "Give an example of your writing and ask for that style",
+    "Write only in capitals",
+    "Give nothing",
+    "Ask for a \"robot style\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What's better for a long text?",
+   "options": [
+    "Writing part by part",
+    "Everything at once with no plan",
+    "Not reading it",
+    "Copying someone else's text"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "The AI added a quote from a famous person. What do you do?",
+   "options": [
+    "Check that the quote is real",
+    "Leave it",
+    "Invent another one",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI wrote a draft (highlighted), but it's too long. What do you write?",
+   "options": [
+    "\"Cut it in half, keep the main points\"",
+    "Nothing",
+    "\"Make it longer\"",
+    "Delete everything"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "You pasted your old text in the highlighted message. Why?",
+   "options": [
+    "So the AI writes in my style",
+    "So it deletes it",
+    "No reason",
+    "To translate it into Chinese"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Write a prompt asking for the structure of a blog post on your topic.",
+   "seconds": 150,
+   "checklist": [
+    "Topic and who the blog is for",
+    "Length",
+    "What you want (title, subheadings, main points)"
+   ],
+   "example": "I'm writing an 800-word blog for beginners about how to start running. Suggest a catchy title, 5 subheadings and 2–3 main points for each part."
+  }
+ ]
+}

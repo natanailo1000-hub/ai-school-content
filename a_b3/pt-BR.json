@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "O que é um prompt?",
+   "options": [
+    "A mensagem ou instrução que você envia para a IA",
+    "Um tipo de vírus de computador",
+    "O botão de enviar",
+    "Um plano pago"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qual destes é contexto?",
+   "options": [
+    "\"É para meu chefe, sou iniciante\"",
+    "\"Escreva\"",
+    "\"Tabela\"",
+    "\"Obrigado\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "A resposta não ficou boa. O que é melhor?",
+   "options": [
+    "Dizer o que mudar, por exemplo \"mais curto e formal\"",
+    "Apagar o app",
+    "Enviar o mesmo prompt 10 vezes",
+    "Desistir"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qual prompt é o melhor?",
+   "options": [
+    "Me dê 3 ideias de festa de aniversário para um menino de 8 anos que ama dinossauros, orçamento de 300 reais.",
+    "Ideias de aniversário",
+    "aniversário??",
+    "Ajuda"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "O que há na parte destacada?",
+   "options": [
+    "Seu prompt – a mensagem que você enviou",
+    "A resposta da IA",
+    "Um anúncio",
+    "As configurações"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Você não gostou da resposta destacada. O que faz?",
+   "options": [
+    "Escreve uma nova mensagem dizendo o que mudar",
+    "Nada – a IA sempre sabe mais",
+    "Desliga o celular",
+    "Compra um celular novo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Transforme este prompt fraco em um bom: \"escreva um anúncio\". Você está vendendo uma bicicleta.",
+   "seconds": 150,
+   "checklist": [
+    "A tarefa (anúncio de venda de bicicleta)",
+    "Detalhes (tipo, estado, preço)",
+    "Formato (tamanho, tom)"
+   ],
+   "example": "Escreva um anúncio curto para vender uma bicicleta infantil (aro 20, vermelha, pouco usada) por 300 reais. Tom simpático, no máximo 5 frases, terminando com um convite para me mandar mensagem."
+  }
+ ]
+}

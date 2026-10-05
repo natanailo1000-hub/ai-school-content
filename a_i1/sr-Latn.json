@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Koliko teksta ide na slajd?",
+   "options": [
+    "Malo – 3 do 5 kratkih tačaka",
+    "Ceo esej",
+    "Ništa, samo brojevi",
+    "Što više, to bolje"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta su beleške za govornika?",
+   "options": [
+    "Šta ćeš govoriti uz svaki slajd",
+    "Spisak slika",
+    "Font",
+    "Cena prezentacije"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta prvo tražiš od AI-ja?",
+   "options": [
+    "Strukturu: naslove slajdova i tačke",
+    "Boju pozadine",
+    "Muziku",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "AI je stavio statistiku na slajd. Šta radiš?",
+   "options": [
+    "Proverim izvor pre prezentovanja",
+    "Ostavim bez provere",
+    "Povećam broj",
+    "Obrišem sve slajdove"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI ti je dao strukturu (označeno). Hoćeš kraću. Šta pišeš?",
+   "options": [
+    "„Skrati na 6 slajdova“",
+    "Ništa",
+    "Obrišem aplikaciju",
+    "„Ćao“"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Gde opisuješ publiku i trajanje?",
+   "options": [
+    "U označenom polju za poruku",
+    "U podešavanjima",
+    "U nazivu fajla",
+    "Nigde"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Napiši prompt za prezentaciju od 5 minuta o svom hobiju za prijatelje.",
+   "seconds": 150,
+   "checklist": [
+    "Tema i publika",
+    "Trajanje i broj slajdova",
+    "Šta tražiš (naslovi, tačke, beleške za govor)"
+   ],
+   "example": "Pravim prezentaciju od 6 slajdova za prijatelje o planinarenju, traje 5 minuta. Predloži naslove, po 3 kratke tačke i kratke beleške šta da kažem uz svaki slajd."
+  }
+ ]
+}

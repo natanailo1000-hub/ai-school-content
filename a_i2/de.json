@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Was ist eine gute Bitte für ein langes Dokument?",
+   "options": [
+    "Zusammenfassung in 5 Punkten plus alle Fristen",
+    "\"Lies\"",
+    "Nichts",
+    "\"Schön\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Der Vertrag ist kompliziert. Wie hilft KI?",
+   "options": [
+    "Sie erklärt ihn in einfacher Sprache",
+    "Sie unterschreibt für dich",
+    "Sie schickt ihn einem Anwalt",
+    "Sie löscht ihn"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Vor der Unterschrift eines wichtigen Vertrags:",
+   "options": [
+    "Fachleute fragen – KI ist zum Verstehen da",
+    "Nur der KI vertrauen",
+    "Nichts lesen",
+    "Sofort unterschreiben"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Das Dokument ist sehr lang. Was tust du?",
+   "options": [
+    "Um Arbeit in Teilen bitten",
+    "Aufgeben",
+    "Nur den Titel schicken",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Wo fügst du den Dokumenttext ein?",
+   "options": [
+    "Im markierten Nachrichtenfeld",
+    "In den Handy-Einstellungen",
+    "Im App-Store",
+    "Nirgends"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat eine Zusammenfassung gemacht (markiert). Eine Frist wirkt seltsam. Was tust du?",
+   "options": [
+    "Diese Frist im Original prüfen",
+    "Glauben",
+    "Ignorieren",
+    "Unterschreiben"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Schreib einen Prompt für eine Analyse der Nutzungsbedingungen einer App, bevor du sie kaufst.",
+   "seconds": 150,
+   "checklist": [
+    "Was das Dokument ist",
+    "Was dich interessiert (Preis, Kündigung, Daten)",
+    "Antwortform (Punkte, Warnungen)"
+   ],
+   "example": "Ich füge die Bedingungen einer App ein, die ich kaufen will. Liste in Punkten: was sie kostet, wie ich das Abo kündige, was mit meinen Daten passiert und worauf ich achten muss. [Text]"
+  }
+ ]
+}

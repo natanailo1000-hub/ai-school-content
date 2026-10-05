@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "¿Cuál es la mejor forma de recordar lo que estudias?",
+   "options": [
+    "Que la IA te tome examen para que tengas que recordar",
+    "Solo leer",
+    "No estudiar",
+    "Copiar todo"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Qué le dices primero a la IA al empezar a aprender?",
+   "options": [
+    "Qué sabes y qué quieres lograr",
+    "Tu dirección",
+    "Nada",
+    "Tu contraseña"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Qué significa \"no me des la solución, hazme preguntas\"?",
+   "options": [
+    "La IA te guía con preguntas hasta que encuentras la respuesta",
+    "La IA se queda callada",
+    "La IA no quiere ayudar",
+    "La IA borra el chat"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Cuál es la mejor forma de aprender?",
+   "options": [
+    "En partes pequeñas: explicación, ejemplo, tarea",
+    "Todo en un día",
+    "Solo ver videos",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA te explicó una lección (resaltada). ¿Qué es un buen siguiente paso?",
+   "options": [
+    "Pedir una tarea corta o un quiz",
+    "Cerrar la app",
+    "Copiar el texto",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "En el mensaje resaltado explicas con tus palabras lo que aprendiste. ¿Por qué?",
+   "options": [
+    "Para que la IA revise si entendí bien",
+    "Para confundirla",
+    "Sin motivo",
+    "Para recibir un regalo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escribe un prompt para empezar a aprender un idioma desde cero.",
+   "seconds": 150,
+   "checklist": [
+    "Qué idioma y por qué",
+    "Cuánto tiempo tienes",
+    "Cómo quieres aprender (lecciones, quiz, conversación)"
+   ],
+   "example": "Quiero aprender inglés básico para un viaje en 2 meses. Tengo 20 minutos al día y soy principiante total. Haz un plan por semanas y empieza con la primera lección: las 10 frases más útiles, la pronunciación y un quiz corto."
+  }
+ ]
+}

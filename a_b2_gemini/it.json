@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Quale azienda ha creato Gemini?",
+   "options": [
+    "Google",
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Dove puoi usare Gemini?",
+   "options": [
+    "Sul sito gemini.google.com o nell'app",
+    "Solo in TV",
+    "Solo per telefono",
+    "Solo in negozio"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Vuoi parlare di un argomento nuovo. Cosa conviene fare?",
+   "options": [
+    "Aprire una nuova chat",
+    "Cancellare l'app",
+    "Scrivere in maiuscolo",
+    "Aspettare un giorno"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qual è il primo messaggio migliore?",
+   "options": [
+    "Aiutami a scrivere un'e-mail breve e gentile al padrone di casa per il riscaldamento rotto.",
+    "e-mail",
+    "Aiuto",
+    "Scrivi qualcosa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Dove scrivi il tuo messaggio a Gemini?",
+   "options": [
+    "Nella casella evidenziata",
+    "Nella risposta sopra",
+    "Nelle impostazioni",
+    "Da nessuna parte, legge nel pensiero"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "send_button",
+   "q": "Cosa fa il pulsante evidenziato?",
+   "options": [
+    "Invia il tuo messaggio",
+    "Cancella la chat",
+    "Apre le impostazioni",
+    "Spegne l'app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Scrivi il tuo primo vero messaggio a Gemini: chiedigli di pianificare le cene per 3 giorni con quello che hai in casa (scegli 4–5 ingredienti).",
+   "seconds": 120,
+   "checklist": [
+    "Cosa vuoi (cene per 3 giorni)",
+    "Cosa hai (gli ingredienti)",
+    "I limiti (tempo, budget, niente carne…)"
+   ],
+   "example": "Pianifica le cene per 3 giorni usando solo: uova, patate, riso, pomodori e formaggio. Ogni cena deve richiedere meno di 30 minuti. Dammi una breve lista della spesa per ciò che manca."
+  }
+ ]
+}

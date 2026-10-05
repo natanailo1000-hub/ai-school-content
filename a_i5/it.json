@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qual è il primo passo per un testo lungo?",
+   "options": [
+    "Un piano e una struttura",
+    "Il controllo finale",
+    "L'invio",
+    "La stampa"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Come fai a far suonare il testo come te?",
+   "options": [
+    "Dai un esempio di un tuo testo e chiedi quello stile",
+    "Scrivi solo in maiuscolo",
+    "Non dai niente",
+    "Chiedi uno \"stile robot\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Cosa è meglio per un testo lungo?",
+   "options": [
+    "Scrivere una parte alla volta",
+    "Tutto insieme senza piano",
+    "Non rileggerlo",
+    "Copiare il testo di altri"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "L'IA ha inserito una citazione di una persona famosa. Cosa fai?",
+   "options": [
+    "Controllo che la citazione sia vera",
+    "La lascio",
+    "Ne invento un'altra",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ha scritto una bozza (evidenziata), ma è troppo lunga. Cosa scrivi?",
+   "options": [
+    "\"Dimezzala, tenendo i punti principali\"",
+    "Niente",
+    "\"Allungala\"",
+    "Cancello tutto"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato hai incollato un tuo vecchio testo. Perché?",
+   "options": [
+    "Perché l'IA scriva nel mio stile",
+    "Perché lo cancelli",
+    "Senza motivo",
+    "Per tradurlo in cinese"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Scrivi un prompt per chiedere la struttura di un articolo di blog sul tuo argomento.",
+   "seconds": 150,
+   "checklist": [
+    "Argomento e per chi è il blog",
+    "Lunghezza",
+    "Cosa vuoi (titolo, sottotitoli, punti principali)"
+   ],
+   "example": "Sto scrivendo un blog di 800 parole per principianti su come iniziare a correre. Proponi un titolo accattivante, 5 sottotitoli e 2–3 punti principali per ogni parte."
+  }
+ ]
+}

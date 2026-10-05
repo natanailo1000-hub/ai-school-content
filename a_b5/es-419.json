@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "¿Qué es lo más importante decirle a la IA al hacer un plan?",
+   "options": [
+    "Tu objetivo, el tiempo que tienes y tus límites",
+    "Solo tu nombre",
+    "Tu película favorita",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Tienes un problema del corazón y la IA te dio un plan de ejercicio. ¿Qué haces?",
+   "options": [
+    "Muestro el plan a un médico antes de empezar",
+    "Empiezo a máxima intensidad",
+    "Duplico los ejercicios",
+    "Ignoro al médico"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "El miércoles no puedes cumplir el plan. ¿Qué es lo más fácil?",
+   "options": [
+    "Pedirle a la IA que reorganice el plan",
+    "Rehacer todo a mano",
+    "Abandonar toda la semana",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Qué forma de plan es más clara para una semana?",
+   "options": [
+    "Una tabla por días",
+    "Una oración larguísima",
+    "Un poema",
+    "Una imagen sin texto"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA te dio un plan de viaje (resaltado). ¿Y los precios y horarios?",
+   "options": [
+    "Los reviso en sitios oficiales",
+    "Los creo sin revisar",
+    "Ignoro todo el plan",
+    "Se lo mando a todos ya"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Aquí escribiste tus tareas. ¿Cómo se llama esto?",
+   "options": [
+    "Un prompt",
+    "Una contraseña",
+    "Un anuncio",
+    "La respuesta de la IA"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escribe un prompt para un plan de preparación de una fiesta de cumpleaños para 10 personas en casa el próximo sábado.",
+   "seconds": 120,
+   "checklist": [
+    "El objetivo (fiesta para 10 personas en casa)",
+    "Tiempo (hasta el sábado) y presupuesto",
+    "Formato (lista por días o tareas)"
+   ],
+   "example": "Ayúdame a organizar una fiesta de cumpleaños para 10 personas en mi casa el próximo sábado. Mi presupuesto es de 100 dólares. Haz una lista de tareas por día hasta el sábado: compras, comida, decoración y qué hacer el mismo día."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "¿Cuál es el primer paso en un texto largo?",
+   "options": [
+    "Un plan y una estructura",
+    "La revisión final",
+    "Enviarlo",
+    "Imprimirlo"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Cómo haces que el texto suene a ti?",
+   "options": [
+    "Das un ejemplo de lo que escribes y pides ese estilo",
+    "Escribes solo en mayúsculas",
+    "No das nada",
+    "Pides \"estilo robot\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Qué es mejor en un texto largo?",
+   "options": [
+    "Escribir por partes",
+    "Todo de una vez sin plan",
+    "No leerlo",
+    "Copiar un texto ajeno"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "La IA agregó una cita de una persona famosa. ¿Qué haces?",
+   "options": [
+    "Verifico que la cita sea real",
+    "La dejo",
+    "Invento otra",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA escribió un borrador (resaltado), pero es muy largo. ¿Qué escribes?",
+   "options": [
+    "\"Acórtalo a la mitad y conserva las ideas principales\"",
+    "Nada",
+    "\"Hazlo más largo\"",
+    "Borro todo"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "En el mensaje resaltado pegaste un texto tuyo. ¿Por qué?",
+   "options": [
+    "Para que la IA escriba con mi estilo",
+    "Para que lo borre",
+    "Sin motivo",
+    "Para traducirlo al chino"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escribe un prompt pidiendo la estructura de un artículo de blog sobre tu tema.",
+   "seconds": 150,
+   "checklist": [
+    "Tema y para quién es el blog",
+    "Extensión",
+    "Qué quieres (título, subtítulos, ideas principales)"
+   ],
+   "example": "Estoy escribiendo un blog de 800 palabras para principiantes sobre cómo empezar a correr. Sugiere un título atractivo, 5 subtítulos y 2 o 3 ideas principales para cada parte."
+  }
+ ]
+}

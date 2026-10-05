@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "What is an AI \"hallucination\"?",
+   "options": [
+    "When the AI makes up wrong information but sounds sure",
+    "When the app crashes",
+    "When the AI answers too briefly",
+    "When the AI draws pictures"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where does AI make mistakes most often?",
+   "options": [
+    "Exact numbers, dates and sources",
+    "Greetings",
+    "General writing tips",
+    "Birthday ideas"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "The AI gave you a source. What do you do?",
+   "options": [
+    "Open it and check it really exists",
+    "Trust it without checking",
+    "Delete the chat",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Who decides which medicine you take?",
+   "options": [
+    "A doctor or pharmacist",
+    "The AI",
+    "Any website",
+    "Your neighbour"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In the highlighted answer the AI wrote the exact date of a law. What do you do?",
+   "options": [
+    "Check it on an official website",
+    "Trust it because it sounds sure",
+    "Copy it into a contract",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Where can you ask the AI \"How sure are you?\"",
+   "options": [
+    "In the highlighted message box",
+    "In the settings",
+    "Nowhere – it won't answer that",
+    "In the app store"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "The AI told you a city is the capital of a country, but you're not sure. Write a message to check the answer.",
+   "seconds": 90,
+   "checklist": [
+    "Ask it to say how sure it is",
+    "Ask for a source",
+    "Plan to check in a reliable place"
+   ],
+   "example": "How sure are you about this answer? Give me a reliable source where I can check it, and tell me if there's a chance you're wrong."
+  }
+ ]
+}

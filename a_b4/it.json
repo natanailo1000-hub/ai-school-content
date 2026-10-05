@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qual è la cosa più importante da dire all'IA quando scrivi un'e-mail?",
+   "options": [
+    "A chi scrivi e cosa vuoi ottenere",
+    "Che telefono hai",
+    "Quanti anni hai",
+    "Niente, lo indovina"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Come migliori un tuo testo con l'IA?",
+   "options": [
+    "Incolli il testo e dici cosa cambiare",
+    "Lo ricopi a mano 3 volte",
+    "Invii un'e-mail vuota",
+    "Lo cancelli"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Cosa NON deve fare l'IA nel tuo CV?",
+   "options": [
+    "Inventare esperienze o titoli di studio",
+    "Correggere la grammatica",
+    "Accorciare il testo",
+    "Proporre un layout migliore"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Chi è responsabile dell'e-mail che invii?",
+   "options": [
+    "Tu – leggila sempre prima di inviarla",
+    "L'IA",
+    "L'azienda che fa l'IA",
+    "Nessuno"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ti ha scritto un'e-mail (evidenziata). Cosa fai prima di inviarla?",
+   "options": [
+    "La leggo e controllo i fatti",
+    "La invio senza leggere",
+    "La traduco",
+    "La cancello"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Dove incolli il tuo testo perché l'IA lo migliori?",
+   "options": [
+    "Nella casella del messaggio evidenziata",
+    "Nella risposta dell'IA",
+    "Nelle impostazioni del telefono",
+    "Da nessuna parte"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Il vicino ti ha prestato un trapano e l'hai rotto per sbaglio. Scrivi un prompt per ottenere un messaggio di scuse.",
+   "seconds": 120,
+   "checklist": [
+    "Per chi (il vicino)",
+    "Cosa è successo (il trapano rotto)",
+    "Cosa offri (riparazione o uno nuovo) e il tono (sincero, breve)"
+   ],
+   "example": "Scrivi un breve messaggio di scuse sincero al mio vicino. Mi ha prestato il trapano e l'ho rotto per sbaglio. Offri di comprarne uno nuovo o di pagare la riparazione. Massimo 4 frasi, tono amichevole."
+  }
+ ]
+}

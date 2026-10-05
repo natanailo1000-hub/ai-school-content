@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Was ist ein Prompt?",
+   "options": [
+    "Die Nachricht oder Anweisung, die du an die KI schickst",
+    "Eine Art Computervirus",
+    "Der Senden-Knopf",
+    "Ein bezahlter Plan"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Was davon ist Kontext?",
+   "options": [
+    "\"Das ist für meinen Chef, ich bin Anfänger\"",
+    "\"Schreib\"",
+    "\"Tabelle\"",
+    "\"Danke\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Die Antwort passt nicht. Was ist am besten?",
+   "options": [
+    "Sagen, was sich ändern soll, z. B. \"kürzer und förmlicher\"",
+    "Die App löschen",
+    "Denselben Prompt 10-mal schicken",
+    "Aufgeben"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Welcher Prompt ist am besten?",
+   "options": [
+    "Gib mir 3 Ideen für eine Geburtstagsparty für einen 8-Jährigen, der Dinosaurier liebt, Budget 50 Euro.",
+    "Geburtstagsideen",
+    "Geburtstag??",
+    "Hilfe"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Was ist im markierten Teil?",
+   "options": [
+    "Dein Prompt – die Nachricht, die du geschickt hast",
+    "Die Antwort der KI",
+    "Eine Werbung",
+    "Die Einstellungen"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Dir gefällt die markierte Antwort nicht. Was tust du?",
+   "options": [
+    "Eine neue Nachricht schreiben und sagen, was sich ändern soll",
+    "Nichts – die KI weiß es immer am besten",
+    "Das Handy ausschalten",
+    "Ein neues Handy kaufen"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Mach aus diesem schwachen Prompt einen starken: \"schreib eine Anzeige\". Du verkaufst ein Fahrrad.",
+   "seconds": 150,
+   "checklist": [
+    "Die Aufgabe (Verkaufsanzeige für ein Fahrrad)",
+    "Details (Art, Zustand, Preis)",
+    "Format (Länge, Ton)"
+   ],
+   "example": "Schreib eine kurze Anzeige für den Verkauf eines Kinderfahrrads (20 Zoll, rot, wenig benutzt) für 60 Euro. Freundlicher Ton, höchstens 5 Sätze, am Ende die Bitte, mir eine Nachricht zu schreiben."
+  }
+ ]
+}

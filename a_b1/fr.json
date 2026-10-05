@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qu'est-ce qu'un assistant IA comme Claude ?",
+   "options": [
+    "Un programme qui a appris à partir de nombreux textes et rédige des réponses",
+    "Un moteur de recherche qui n'affiche que des liens",
+    "Une personne qui répond à tes messages",
+    "Un programme qui ne fait que des calculs"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Comment l'IA construit-elle sa réponse ?",
+   "options": [
+    "Elle prédit, mot après mot, la réponse la plus adaptée",
+    "Elle copie la réponse d'un site web",
+    "Elle demande à une autre personne",
+    "Elle choisit une phrase au hasard"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Que faire des informations importantes (santé, argent, droit) données par l'IA ?",
+   "options": [
+    "Toujours les vérifier",
+    "Leur faire entièrement confiance",
+    "Les partager tout de suite",
+    "Les ignorer"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Pour laquelle de ces tâches l'IA peut-elle t'aider ?",
+   "options": [
+    "Écrire un e-mail ou un CV",
+    "Réparer ta voiture toute seule",
+    "Passer un appel à ta place",
+    "Cuisiner ton dîner"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Comment s'appelle la partie mise en évidence ?",
+   "options": [
+    "La zone de message où tu écris ton prompt",
+    "La réponse de l'IA",
+    "Le menu des paramètres",
+    "L'historique de la discussion"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Que montre la partie mise en évidence ?",
+   "options": [
+    "La réponse de l'IA",
+    "Ton message",
+    "Une publicité",
+    "Le bouton d'envoi"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Tu veux prendre ton vendredi prochain. Écris un message à Claude pour obtenir un bon e-mail à ton responsable.",
+   "seconds": 120,
+   "checklist": [
+    "À qui s'adresse l'e-mail (ton responsable)",
+    "Ce que tu veux (vendredi prochain de congé)",
+    "Le ton (poli, court)"
+   ],
+   "example": "Rédige un e-mail court et poli à mon responsable pour demander un jour de congé vendredi prochain. Précise que je terminerai mes tâches avant."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Wie viel Text gehört auf eine Folie?",
+   "options": [
+    "Wenig – 3 bis 5 kurze Punkte",
+    "Ein ganzer Aufsatz",
+    "Keiner, nur Zahlen",
+    "Je mehr, desto besser"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Was sind Sprechernotizen?",
+   "options": [
+    "Was du zu jeder Folie sagst",
+    "Eine Bilderliste",
+    "Die Schriftart",
+    "Der Preis der Präsentation"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Worum bittest du die KI zuerst?",
+   "options": [
+    "Um die Struktur: Folientitel und Punkte",
+    "Um die Hintergrundfarbe",
+    "Um Musik",
+    "Um nichts"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Die KI hat eine Statistik auf eine Folie gesetzt. Was tust du?",
+   "options": [
+    "Die Quelle vor dem Vortrag prüfen",
+    "Ungeprüft lassen",
+    "Die Zahl vergrößern",
+    "Alle Folien löschen"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dir eine Struktur gegeben (markiert). Du willst sie kürzer. Was schreibst du?",
+   "options": [
+    "\"Kürze auf 6 Folien\"",
+    "Nichts",
+    "Die App löschen",
+    "\"Tschüss\""
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Wo beschreibst du Publikum und Länge?",
+   "options": [
+    "Im markierten Nachrichtenfeld",
+    "In den Einstellungen",
+    "Im Dateinamen",
+    "Nirgends"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Schreib einen Prompt für eine 5-minütige Präsentation über dein Hobby für Freunde.",
+   "seconds": 150,
+   "checklist": [
+    "Thema und Publikum",
+    "Länge und Folienanzahl",
+    "Was du willst (Titel, Punkte, Sprechernotizen)"
+   ],
+   "example": "Ich mache eine Präsentation mit 6 Folien für Freunde übers Wandern, 5 Minuten lang. Schlag Folientitel, je 3 kurze Punkte und kurze Notizen vor, was ich zu jeder Folie sage."
+  }
+ ]
+}

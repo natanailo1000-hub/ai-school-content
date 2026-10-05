@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Was ist am wichtigsten, wenn die KI einen Plan machen soll?",
+   "options": [
+    "Dein Ziel, deine verfügbare Zeit und deine Grenzen",
+    "Nur dein Name",
+    "Dein Lieblingsfilm",
+    "Nichts"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Du hast ein Herzproblem und einen Trainingsplan von der KI. Was tust du?",
+   "options": [
+    "Den Plan vor dem Start einem Arzt zeigen",
+    "Sofort mit voller Kraft loslegen",
+    "Die Übungen verdoppeln",
+    "Den Arzt ignorieren"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Am Mittwoch klappt der Plan nicht. Was ist am einfachsten?",
+   "options": [
+    "Die KI bitten, den Plan umzuplanen",
+    "Alles von Hand neu machen",
+    "Die ganze Woche aufgeben",
+    "Nichts"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Welche Planform ist für eine Woche am übersichtlichsten?",
+   "options": [
+    "Eine Tabelle nach Tagen",
+    "Ein langer Satz",
+    "Ein Gedicht",
+    "Ein Bild ohne Text"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dir einen Reiseplan gegeben (markiert). Was ist mit Preisen und Öffnungszeiten?",
+   "options": [
+    "Auf offiziellen Websites prüfen",
+    "Ungeprüft glauben",
+    "Den ganzen Plan ignorieren",
+    "Sofort an alle schicken"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Hier hast du deine Aufgaben geschrieben. Wie heißt das?",
+   "options": [
+    "Ein Prompt",
+    "Ein Passwort",
+    "Eine Werbung",
+    "Die Antwort der KI"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Schreib einen Prompt für einen Plan, um nächsten Samstag eine Geburtstagsfeier für 10 Personen zu Hause vorzubereiten.",
+   "seconds": 120,
+   "checklist": [
+    "Das Ziel (Feier für 10 Personen zu Hause)",
+    "Zeit (bis Samstag) und Budget",
+    "Form (Liste nach Tagen oder Aufgaben)"
+   ],
+   "example": "Hilf mir, nächsten Samstag eine Geburtstagsfeier für 10 Personen bei mir zu Hause zu organisieren. Mein Budget sind 100 Euro. Mach eine Aufgabenliste nach Tagen bis Samstag: Einkauf, Essen, Deko und was am Tag selbst zu tun ist."
+  }
+ ]
+}

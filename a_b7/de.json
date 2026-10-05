@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Was teilst du nie mit einer KI?",
+   "options": [
+    "Passwörter und Kartennummern",
+    "Eine Idee fürs Mittagessen",
+    "Eine Geschichtsfrage",
+    "Einen Trainingsplan"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Wie holst du dir sicher Hilfe bei einem persönlichen Dokument?",
+   "options": [
+    "Echte Daten durch Platzhalter wie [NAME] ersetzen",
+    "Das ganze Dokument mit allen Nummern einfügen",
+    "Ein Foto deines Ausweises schicken",
+    "Dein Passwort schreiben"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Jemand ruft mit der Stimme eines Verwandten an und will dringend Geld. Was tust du?",
+   "options": [
+    "Auflegen und selbst unter bekannter Nummer zurückrufen",
+    "Sofort Geld schicken",
+    "Kartendaten durchgeben",
+    "Nichts prüfen"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Wo holst du dir eine KI-App?",
+   "options": [
+    "Nur aus offizieller Quelle (App-Store, offizielle Website)",
+    "Über irgendeinen Link aus einer Nachricht",
+    "Von Fremden",
+    "Aus einer verdächtigen Werbung"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Du tippst gerade deine Kartennummer ins markierte Feld. Was solltest du tun?",
+   "options": [
+    "Löschen – das teilt man nie",
+    "Abschicken",
+    "Auch die PIN dazuschreiben",
+    "Nichts"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Die markierte Nachricht fragt nach deinem Bankpasswort. Was ist das?",
+   "options": [
+    "Ein Zeichen für Betrug – niemals angeben",
+    "Normal",
+    "Ein Pflichtschritt",
+    "Ein Geschenk"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Du brauchst Hilfe bei einer Beschwerde an deinen Vermieter, willst aber Name, Adresse und Miete nicht verraten. Schreib einen sicheren Prompt.",
+   "seconds": 120,
+   "checklist": [
+    "Du nutzt Platzhalter statt echter Daten",
+    "Du beschreibst das Problem klar",
+    "Du wünschst dir Ton und Länge"
+   ],
+   "example": "Hilf mir, eine Beschwerde an meinen Vermieter [NAME] zu schreiben, der seit [ANZAHL] Wochen ein Wasserleck im Bad der Wohnung in [ADRESSE] nicht repariert. Bestimmter, aber höflicher Ton, höchstens 120 Wörter."
+  }
+ ]
+}

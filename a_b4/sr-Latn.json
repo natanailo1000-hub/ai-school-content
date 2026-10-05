@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Šta je najvažnije reći AI-ju kad tražiš mejl?",
+   "options": [
+    "Kome pišeš i šta želiš da postigneš",
+    "Koji telefon imaš",
+    "Koliko imaš godina",
+    "Ništa – sam će pogoditi"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Kako da uz AI popraviš svoj tekst?",
+   "options": [
+    "Nalepiš tekst i kažeš šta da promeni",
+    "Prepišeš ga ručno 3 puta",
+    "Pošalješ prazan mejl",
+    "Obrišeš ga"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta AI NE sme da radi u tvom CV-u?",
+   "options": [
+    "Da izmisli iskustvo ili diplome",
+    "Da ispravi gramatiku",
+    "Da skrati tekst",
+    "Da predloži bolji raspored"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Ko je odgovoran za mejl koji pošalješ?",
+   "options": [
+    "Ti – uvek ga pročitaj pre slanja",
+    "AI",
+    "Kompanija koja pravi AI",
+    "Niko"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI ti je napisao mejl (označeno). Šta radiš pre slanja?",
+   "options": [
+    "Pročitam ga i proverim činjenice",
+    "Pošaljem ga bez čitanja",
+    "Prevedem ga",
+    "Obrišem ga"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Gde nalepiš svoj tekst da bi ga AI popravio?",
+   "options": [
+    "U označeno polje za poruku",
+    "U odgovor AI-ja",
+    "U podešavanja telefona",
+    "Nigde"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Komšija ti je pozajmio bušilicu, a ti si je slučajno pokvario. Napiši prompt kojim ćeš dobiti poruku izvinjenja.",
+   "seconds": 120,
+   "checklist": [
+    "Kome pišeš (komšiji)",
+    "Šta se desilo (pokvarena bušilica)",
+    "Šta nudiš (popravku ili novu) i ton (iskreno, kratko)"
+   ],
+   "example": "Napiši kratku, iskrenu poruku izvinjenja mom komšiji. Pozajmio mi je bušilicu i slučajno sam je pokvario. Ponudi da kupim novu ili platim popravku. Najviše 4 rečenice, prijateljski ton."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Como conseguir uma fórmula da IA?",
+   "options": [
+    "Descrevendo em palavras o que calcular e onde estão os dados",
+    "Mandando sua senha",
+    "Dizendo só \"fórmula\"",
+    "Não tem como"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Antes de confiar numa fórmula:",
+   "options": [
+    "Testar em alguns exemplos",
+    "Usar em tudo na hora",
+    "Apagar a planilha",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O que é a regra 50/30/20?",
+   "options": [
+    "Dividir a renda entre necessidades, desejos e poupança",
+    "Uma velocidade de internet",
+    "Uma receita",
+    "Uma nota escolar"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "A IA somou números no chat. O que é esperto?",
+   "options": [
+    "Conferir ou pedir que use uma tabela",
+    "Acreditar sem conferir",
+    "Multiplicar por 2",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA escreveu uma fórmula (destacada). Você não entendeu. O que escreve?",
+   "options": [
+    "\"Explique a fórmula passo a passo\"",
+    "Nada",
+    "\"Tchau\"",
+    "Apago a planilha"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Na mensagem destacada você descreve sua planilha. O que é importante dizer?",
+   "options": [
+    "Que dados estão em cada coluna",
+    "Sua senha",
+    "O número do cartão",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escreva um prompt para uma fórmula que calcule a média das notas da coluna C.",
+   "seconds": 150,
+   "checklist": [
+    "Onde estão os dados (coluna, linhas)",
+    "O que calcular",
+    "Qual programa (Excel ou Google Planilhas) e uma explicação"
+   ],
+   "example": "No Excel, a coluna C de C2 a C30 tem notas. Escreva uma fórmula que calcule a média arredondada para 2 casas decimais e explique de forma simples."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Šta je „halucinacija“ kod AI-ja?",
+   "options": [
+    "Kad AI izmisli netačan podatak, a zvuči sigurno",
+    "Kad se aplikacija ugasi",
+    "Kad AI odgovori previše kratko",
+    "Kad AI crta slike"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Gde AI najčešće greši?",
+   "options": [
+    "Kod tačnih brojeva, datuma i izvora",
+    "Kod pozdrava",
+    "Kod opštih saveta za pisanje",
+    "Kod ideja za rođendan"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "AI ti je naveo izvor. Šta radiš?",
+   "options": [
+    "Otvorim ga i proverim da li stvarno postoji",
+    "Verujem bez provere",
+    "Obrišem razgovor",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Ko odlučuje koji lek piješ?",
+   "options": [
+    "Lekar ili farmaceut",
+    "AI",
+    "Bilo koji sajt",
+    "Komšija"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "U označenom odgovoru AI je napisao tačan datum nekog zakona. Šta radiš?",
+   "options": [
+    "Proverim na zvaničnom sajtu",
+    "Verujem jer zvuči sigurno",
+    "Prepišem ga u ugovor",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Gde možeš da pitaš AI „Koliko si siguran?“",
+   "options": [
+    "U označenom polju za poruku",
+    "U podešavanjima",
+    "Nigde – na to ne odgovara",
+    "U prodavnici aplikacija"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "AI ti je rekao da je neki grad glavni grad države, ali nisi siguran. Napiši poruku kojom ćeš proveriti odgovor.",
+   "seconds": 90,
+   "checklist": [
+    "Traži da kaže koliko je siguran",
+    "Traži izvor",
+    "Planiraj da proveriš na pouzdanom mestu"
+   ],
+   "example": "Koliko si siguran u ovaj odgovor? Navedi mi pouzdan izvor gde mogu da proverim i reci mi da li postoji šansa da grešiš."
+  }
+ ]
+}

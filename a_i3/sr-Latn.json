@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Kako da dobiješ formulu od AI-ja?",
+   "options": [
+    "Rečima opišeš šta treba da izračuna i gde su podaci",
+    "Pošalješ lozinku",
+    "Kažeš samo „formula“",
+    "Nikako"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Pre nego što poveruješ formuli:",
+   "options": [
+    "Proveriš je na par primera",
+    "Odmah je koristiš za sve",
+    "Obrišeš tabelu",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta je pravilo 50/30/20?",
+   "options": [
+    "Podela prihoda na potrebe, želje i štednju",
+    "Brzina interneta",
+    "Recept",
+    "Ocena u školi"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "AI je sabrao brojeve u poruci. Šta je pametno?",
+   "options": [
+    "Proveriti ili tražiti da koristi tabelu",
+    "Verovati bez provere",
+    "Pomnožiti sa 2",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI je napisao formulu (označeno). Ne razumeš je. Šta pišeš?",
+   "options": [
+    "„Objasni formulu korak po korak“",
+    "Ništa",
+    "„Ćao“",
+    "Obrišem tabelu"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "U označenoj poruci opisuješ tabelu. Šta je važno da napišeš?",
+   "options": [
+    "U kojoj koloni su koji podaci",
+    "Svoju lozinku",
+    "Broj kartice",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Napiši prompt za formulu koja računa prosečnu ocenu iz kolone C.",
+   "seconds": 150,
+   "checklist": [
+    "Gde su podaci (kolona, redovi)",
+    "Šta treba izračunati",
+    "Koji program (Excel ili Google Sheets) i objašnjenje"
+   ],
+   "example": "U Excelu, u koloni C od C2 do C30 su ocene. Napiši formulu koja računa prosečnu ocenu zaokruženu na 2 decimale i objasni je jednostavno."
+  }
+ ]
+}

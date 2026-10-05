@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Wie merkst du dir Lernstoff am besten?",
+   "options": [
+    "Dich von der KI abfragen lassen, damit du dich erinnern musst",
+    "Nur lesen",
+    "Nicht lernen",
+    "Alles abschreiben"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Was sagst du der KI zuerst, wenn du anfängst zu lernen?",
+   "options": [
+    "Was du schon kannst und was du erreichen willst",
+    "Deine Adresse",
+    "Nichts",
+    "Dein Passwort"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Was bedeutet \"Gib mir nicht die Lösung, stell mir Fragen\"?",
+   "options": [
+    "Die KI führt dich mit Fragen, bis du die Antwort findest",
+    "Die KI schweigt",
+    "Die KI verweigert die Hilfe",
+    "Die KI löscht den Chat"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Wie lernst du am besten?",
+   "options": [
+    "In kleinen Häppchen: Erklärung, Beispiel, Aufgabe",
+    "Alles an einem Tag",
+    "Nur Videos schauen",
+    "Gar nicht"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat eine Lektion erklärt (markiert). Was ist ein guter nächster Schritt?",
+   "options": [
+    "Um eine kleine Aufgabe oder ein Quiz bitten",
+    "Die App schließen",
+    "Den Text kopieren",
+    "Nichts"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "In der markierten Nachricht erklärst du in eigenen Worten, was du gelernt hast. Warum?",
+   "options": [
+    "Damit die KI prüft, ob ich es verstanden habe",
+    "Um sie zu verwirren",
+    "Ohne Grund",
+    "Um ein Geschenk zu bekommen"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Schreib einen Prompt, um eine neue Sprache von null zu lernen.",
+   "seconds": 150,
+   "checklist": [
+    "Welche Sprache und warum",
+    "Wie viel Zeit du hast",
+    "Wie du lernen willst (Lektionen, Quiz, Gespräch)"
+   ],
+   "example": "Ich will in 2 Monaten Grundkenntnisse in Spanisch für eine Reise lernen. Ich habe 20 Minuten am Tag und bin absoluter Anfänger. Mach einen Plan nach Wochen und starte mit Lektion eins: die 10 nützlichsten Sätze, Aussprache und ein kurzes Quiz."
+  }
+ ]
+}

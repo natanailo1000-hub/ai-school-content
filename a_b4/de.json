@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Was ist am wichtigsten, wenn du der KI eine E-Mail beschreibst?",
+   "options": [
+    "An wen du schreibst und was du erreichen willst",
+    "Welches Handy du hast",
+    "Wie alt du bist",
+    "Nichts – sie errät es"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Wie verbesserst du einen eigenen Text mit KI?",
+   "options": [
+    "Text einfügen und sagen, was sich ändern soll",
+    "Ihn 3-mal abschreiben",
+    "Eine leere E-Mail schicken",
+    "Ihn löschen"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Was darf die KI in deinem Lebenslauf NICHT tun?",
+   "options": [
+    "Erfahrung oder Abschlüsse erfinden",
+    "Grammatik korrigieren",
+    "Den Text kürzen",
+    "Ein besseres Layout vorschlagen"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Wer ist für die E-Mail verantwortlich, die du schickst?",
+   "options": [
+    "Du – lies sie immer vor dem Senden",
+    "Die KI",
+    "Die Firma hinter der KI",
+    "Niemand"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dir eine E-Mail geschrieben (markiert). Was tust du vor dem Senden?",
+   "options": [
+    "Lesen und die Fakten prüfen",
+    "Ungelesen abschicken",
+    "Übersetzen",
+    "Löschen"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Wo fügst du deinen Text ein, damit die KI ihn verbessert?",
+   "options": [
+    "In das markierte Nachrichtenfeld",
+    "In die Antwort der KI",
+    "In die Handy-Einstellungen",
+    "Nirgends"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Dein Nachbar hat dir eine Bohrmaschine geliehen, und du hast sie aus Versehen kaputt gemacht. Schreib einen Prompt für eine Entschuldigungsnachricht.",
+   "seconds": 120,
+   "checklist": [
+    "An wen (der Nachbar)",
+    "Was passiert ist (kaputte Bohrmaschine)",
+    "Was du anbietest (Reparatur oder neue) und der Ton (ehrlich, kurz)"
+   ],
+   "example": "Schreib eine kurze, ehrliche Entschuldigung an meinen Nachbarn. Er hat mir seine Bohrmaschine geliehen und ich habe sie aus Versehen kaputt gemacht. Biete an, eine neue zu kaufen oder die Reparatur zu zahlen. Höchstens 4 Sätze, freundlicher Ton."
+  }
+ ]
+}

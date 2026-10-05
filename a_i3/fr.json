@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Comment obtenir une formule de l'IA ?",
+   "options": [
+    "Décrire avec des mots quoi calculer et où sont les données",
+    "Envoyer ton mot de passe",
+    "Dire seulement « formule »",
+    "Impossible"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Avant de faire confiance à une formule :",
+   "options": [
+    "La tester sur quelques exemples",
+    "L'utiliser partout tout de suite",
+    "Supprimer le tableau",
+    "Rien"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qu'est-ce que la règle 50/30/20 ?",
+   "options": [
+    "Répartir ses revenus entre besoins, envies et épargne",
+    "Un débit internet",
+    "Une recette",
+    "Une note scolaire"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "L'IA a additionné des chiffres dans la discussion. Le plus malin ?",
+   "options": [
+    "Vérifier ou lui demander d'utiliser un tableau",
+    "La croire sans vérifier",
+    "Multiplier par 2",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA a écrit une formule (en évidence). Tu ne la comprends pas. Qu'écris-tu ?",
+   "options": [
+    "« Explique la formule étape par étape »",
+    "Rien",
+    "« Salut »",
+    "Je supprime le tableau"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu décris ton tableau. Qu'est-il important d'indiquer ?",
+   "options": [
+    "Quelles données sont dans quelle colonne",
+    "Ton mot de passe",
+    "Ton numéro de carte",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Écris un prompt pour une formule qui calcule la moyenne des notes de la colonne C.",
+   "seconds": 150,
+   "checklist": [
+    "Où sont les données (colonne, lignes)",
+    "Ce qu'il faut calculer",
+    "Quel logiciel (Excel ou Google Sheets) et une explication"
+   ],
+   "example": "Dans Excel, la colonne C de C2 à C30 contient des notes. Écris une formule qui calcule la moyenne arrondie à 2 décimales, et explique-la simplement."
+  }
+ ]
+}

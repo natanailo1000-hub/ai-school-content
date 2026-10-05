@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "What's most important to tell the AI when writing an email?",
+   "options": [
+    "Who you're writing to and what you want to achieve",
+    "Which phone you have",
+    "How old you are",
+    "Nothing – it will guess"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How do you improve your own text with AI?",
+   "options": [
+    "Paste the text and say what to change",
+    "Copy it out by hand 3 times",
+    "Send an empty email",
+    "Delete it"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What must AI NOT do in your CV?",
+   "options": [
+    "Invent experience or degrees",
+    "Fix grammar",
+    "Shorten the text",
+    "Suggest a better layout"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Who is responsible for the email you send?",
+   "options": [
+    "You – always read it before sending",
+    "The AI",
+    "The company that makes the AI",
+    "Nobody"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI wrote an email for you (highlighted). What do you do before sending?",
+   "options": [
+    "Read it and check the facts",
+    "Send it without reading",
+    "Translate it",
+    "Delete it"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Where do you paste your text so the AI can improve it?",
+   "options": [
+    "In the highlighted message box",
+    "In the AI's answer",
+    "In the phone settings",
+    "Nowhere"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Your neighbour lent you a drill and you accidentally broke it. Write a prompt to get an apology message.",
+   "seconds": 120,
+   "checklist": [
+    "Who it's for (the neighbour)",
+    "What happened (the broken drill)",
+    "What you offer (repair or a new one) and the tone (honest, short)"
+   ],
+   "example": "Write a short, honest apology message to my neighbour. He lent me his drill and I accidentally broke it. Offer to buy a new one or pay for the repair. Max 4 sentences, friendly tone."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Was kann KI mit einem Foto eines Kassenbons machen?",
+   "options": [
+    "Die Posten in eine Tabelle übertragen",
+    "Die Rechnung bezahlen",
+    "Den Bon an den Laden schicken",
+    "Nichts"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Wie bekommst du ein besseres KI-Bild?",
+   "options": [
+    "Inhalt, Stil und Farben genau beschreiben",
+    "Nur \"Bild\" schreiben",
+    "Dein Passwort schicken",
+    "Gar nicht"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Die KI sagt, welche Pflanze auf deinem Foto ist. Es ist wichtig (z. B. giftig?). Was tust du?",
+   "options": [
+    "Bei Fachleuten oder einer zuverlässigen Quelle prüfen",
+    "Glauben und probieren",
+    "Nichts",
+    "Das Handy wegwerfen"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Was schickst du nicht ohne Erlaubnis?",
+   "options": [
+    "Fotos von fremden Gesichtern und Dokumenten",
+    "Ein Sonnenuntergangsfoto",
+    "Ein Foto deiner Zeichnung",
+    "Ein Foto einer Blume"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Wo fügst du ein Foto hinzu?",
+   "options": [
+    "Über das Nachrichtenfeld (Anhang-Knopf)",
+    "In den Handy-Einstellungen",
+    "Im Taschenrechner",
+    "Nirgends"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dein Foto beschrieben (markiert). Die Beschreibung stimmt nicht. Was tust du?",
+   "options": [
+    "Sagen, was falsch ist, und neu analysieren lassen",
+    "Der Beschreibung glauben",
+    "Nichts",
+    "Die App löschen"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Schreib einen Prompt für ein KI-Bild: ein Logo für dein kleines Geschäft (Bäckerei, Friseur …).",
+   "seconds": 150,
+   "checklist": [
+    "Was auf dem Bild ist (Symbol, Name)",
+    "Stil und Farben",
+    "Wofür es verwendet wird"
+   ],
+   "example": "Erstelle ein einfaches Logo für eine kleine Bäckerei namens \"Korn\": eine Ähre in einem Kreis, warme Braun- und Goldtöne, minimalistischer Stil, das auf einer Tüte und auf Instagram gut aussieht."
+  }
+ ]
+}

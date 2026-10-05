@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Che cos'è un prompt?",
+   "options": [
+    "Il messaggio o l'istruzione che invii all'IA",
+    "Un tipo di virus informatico",
+    "Il pulsante di invio",
+    "Un piano a pagamento"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Quale di questi è contesto?",
+   "options": [
+    "\"È per il mio capo, sono principiante\"",
+    "\"Scrivi\"",
+    "\"Tabella\"",
+    "\"Grazie\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "La risposta non va bene. Cosa conviene fare?",
+   "options": [
+    "Dire cosa cambiare, per esempio \"più breve e formale\"",
+    "Cancellare l'app",
+    "Inviare lo stesso prompt 10 volte",
+    "Arrendersi"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Quale prompt è il migliore?",
+   "options": [
+    "Dammi 3 idee per una festa di compleanno per un bambino di 8 anni che ama i dinosauri, budget 50 euro.",
+    "Idee compleanno",
+    "compleanno??",
+    "Aiuto"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Cosa c'è nella parte evidenziata?",
+   "options": [
+    "Il tuo prompt – il messaggio che hai inviato",
+    "La risposta dell'IA",
+    "Una pubblicità",
+    "Le impostazioni"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "La risposta evidenziata non ti piace. Cosa fai?",
+   "options": [
+    "Scrivi un nuovo messaggio dicendo cosa cambiare",
+    "Niente, l'IA sa sempre meglio",
+    "Spegni il telefono",
+    "Compri un telefono nuovo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Trasforma questo prompt debole in uno forte: \"scrivi un annuncio\". Stai vendendo una bici.",
+   "seconds": 150,
+   "checklist": [
+    "Il compito (annuncio per vendere una bici)",
+    "Dettagli (tipo, condizioni, prezzo)",
+    "Formato (lunghezza, tono)"
+   ],
+   "example": "Scrivi un breve annuncio per vendere una bici da bambino (20 pollici, rossa, poco usata) a 60 euro. Tono cordiale, massimo 5 frasi, e alla fine l'invito a scrivermi un messaggio."
+  }
+ ]
+}

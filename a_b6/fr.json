@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qu'est-ce qu'une « hallucination » de l'IA ?",
+   "options": [
+    "Quand l'IA invente une info fausse tout en ayant l'air sûre",
+    "Quand l'application plante",
+    "Quand l'IA répond trop court",
+    "Quand l'IA dessine"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Où l'IA se trompe-t-elle le plus ?",
+   "options": [
+    "Chiffres exacts, dates et sources",
+    "Salutations",
+    "Conseils d'écriture généraux",
+    "Idées d'anniversaire"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "L'IA t'a donné une source. Que fais-tu ?",
+   "options": [
+    "Je l'ouvre et vérifie qu'elle existe",
+    "Je la crois sans vérifier",
+    "Je supprime la discussion",
+    "Rien"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qui décide du médicament que tu prends ?",
+   "options": [
+    "Un médecin ou un pharmacien",
+    "L'IA",
+    "N'importe quel site",
+    "Ton voisin"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Dans la réponse mise en évidence, l'IA donne la date exacte d'une loi. Que fais-tu ?",
+   "options": [
+    "Je vérifie sur un site officiel",
+    "Je la crois parce qu'elle a l'air sûre",
+    "Je la copie dans un contrat",
+    "Rien"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Où peux-tu demander à l'IA « À quel point es-tu sûr ? »",
+   "options": [
+    "Dans la zone de message mise en évidence",
+    "Dans les paramètres",
+    "Nulle part, elle ne répond pas à ça",
+    "Dans la boutique d'applis"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "L'IA t'a dit qu'une ville est la capitale d'un pays, mais tu as un doute. Écris un message pour vérifier la réponse.",
+   "seconds": 90,
+   "checklist": [
+    "Demande-lui à quel point elle est sûre",
+    "Demande une source",
+    "Prévois de vérifier à un endroit fiable"
+   ],
+   "example": "À quel point es-tu sûr de cette réponse ? Donne-moi une source fiable où je peux vérifier, et dis-moi s'il est possible que tu te trompes."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Koji je najbolji način da zapamtiš gradivo?",
+   "options": [
+    "Da te AI ispituje, pa moraš da se prisećaš",
+    "Samo da čitaš",
+    "Da ne učiš",
+    "Da sve prepišeš"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta prvo kažeš AI-ju kad počinješ da učiš?",
+   "options": [
+    "Šta već znaš i šta želiš da postigneš",
+    "Svoju adresu",
+    "Ništa",
+    "Svoju lozinku"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta znači „ne daj mi rešenje, postavljaj mi pitanja“?",
+   "options": [
+    "AI te vodi pitanjima dok sam ne dođeš do odgovora",
+    "AI ćuti",
+    "AI odbija da pomogne",
+    "AI briše razgovor"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Kako je najbolje učiti?",
+   "options": [
+    "U malim delovima: objašnjenje, primer, zadatak",
+    "Sve za jedan dan",
+    "Samo gledanjem videa",
+    "Nikako"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI ti je objasnio lekciju (označeno). Koji je dobar sledeći korak?",
+   "options": [
+    "Tražim mali zadatak ili kviz",
+    "Zatvorim aplikaciju",
+    "Kopiram tekst",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "U označenoj poruci svojim rečima objašnjavaš šta si naučio. Zašto?",
+   "options": [
+    "Da AI proveri da li sam dobro razumeo",
+    "Da ga zbunim",
+    "Bez razloga",
+    "Da dobijem poklon"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Napiši prompt kojim počinješ da učiš novi jezik od nule.",
+   "seconds": 150,
+   "checklist": [
+    "Koji jezik i zašto",
+    "Koliko vremena imaš",
+    "Kako želiš da učiš (lekcije, kviz, razgovor)"
+   ],
+   "example": "Želim da naučim osnove španskog za putovanje za 2 meseca. Imam 20 minuta dnevno i potpuni sam početnik. Napravi plan po nedeljama i počni prvom lekcijom: 10 najkorisnijih fraza, izgovor i kratak kviz."
+  }
+ ]
+}

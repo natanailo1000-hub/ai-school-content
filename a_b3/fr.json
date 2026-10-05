@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qu'est-ce qu'un prompt ?",
+   "options": [
+    "Le message ou la consigne que tu envoies à l'IA",
+    "Un type de virus informatique",
+    "Le bouton d'envoi",
+    "Une offre payante"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Lequel de ces éléments est du contexte ?",
+   "options": [
+    "« C'est pour mon chef, je débute »",
+    "« Écris »",
+    "« Tableau »",
+    "« Merci »"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "La réponse ne convient pas. Que faire ?",
+   "options": [
+    "Dire ce qu'il faut changer, par ex. « plus court et plus formel »",
+    "Supprimer l'application",
+    "Envoyer le même prompt 10 fois",
+    "Abandonner"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Quel prompt est le meilleur ?",
+   "options": [
+    "Donne-moi 3 idées de fête d'anniversaire pour un garçon de 8 ans qui adore les dinosaures, budget 50 euros.",
+    "Idées d'anniversaire",
+    "anniversaire ??",
+    "Aide"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Qu'y a-t-il dans la partie mise en évidence ?",
+   "options": [
+    "Ton prompt – le message que tu as envoyé",
+    "La réponse de l'IA",
+    "Une publicité",
+    "Les paramètres"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "La réponse mise en évidence ne te plaît pas. Que fais-tu ?",
+   "options": [
+    "J'écris un nouveau message pour dire quoi changer",
+    "Rien, l'IA sait toujours mieux",
+    "J'éteins le téléphone",
+    "J'achète un nouveau téléphone"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Transforme ce prompt faible en bon prompt : « écris une annonce ». Tu vends un vélo.",
+   "seconds": 150,
+   "checklist": [
+    "La tâche (une annonce pour vendre un vélo)",
+    "Des détails (type, état, prix)",
+    "Le format (longueur, ton)"
+   ],
+   "example": "Écris une courte annonce pour vendre un vélo enfant (20 pouces, rouge, peu utilisé) à 60 euros. Ton sympathique, 5 phrases maximum, et termine en invitant à m'envoyer un message."
+  }
+ ]
+}

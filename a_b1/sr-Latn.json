@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Šta je AI asistent kao što je Claude?",
+   "options": [
+    "Program koji je učio na mnogo tekstova i piše odgovore",
+    "Pretraživač koji prikazuje samo linkove",
+    "Osoba koja odgovara na tvoje poruke",
+    "Program koji samo računa"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Kako AI sastavlja odgovor?",
+   "options": [
+    "Reč po reč predviđa odgovor koji najbolje odgovara",
+    "Kopira odgovor sa jednog sajta",
+    "Pita drugu osobu",
+    "Bira nasumičnu rečenicu"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta da radiš sa važnim činjenicama (zdravlje, novac, zakon) koje ti da AI?",
+   "options": [
+    "Uvek ih proveri",
+    "Potpuno im veruj",
+    "Odmah ih podeli",
+    "Ignoriši ih"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "U čemu od ovoga AI može da ti pomogne?",
+   "options": [
+    "Da napišeš mejl ili CV",
+    "Da sam popravi tvoj auto",
+    "Da obavi telefonski poziv umesto tebe",
+    "Da ti skuva večeru"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Kako se zove označeni deo?",
+   "options": [
+    "Polje za poruku u koje pišeš svoj prompt",
+    "Odgovor AI-ja",
+    "Meni podešavanja",
+    "Istorija četa"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Šta prikazuje označeni deo?",
+   "options": [
+    "Odgovor AI-ja",
+    "Tvoju poruku",
+    "Reklamu",
+    "Dugme za slanje"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Hoćeš slobodan dan sledećeg petka. Napiši poruku za Claude-a kojom ćeš dobiti dobar mejl za šefa.",
+   "seconds": 120,
+   "checklist": [
+    "Kome je mejl (šefu)",
+    "Šta želiš (slobodan sledeći petak)",
+    "Ton (ljubazno, kratko)"
+   ],
+   "example": "Napiši kratak i ljubazan mejl mom šefu u kom tražim slobodan dan sledećeg petka. Napomeni da ću završiti svoje zadatke pre toga."
+  }
+ ]
+}

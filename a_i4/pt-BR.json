@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qual é o melhor jeito de lembrar a matéria?",
+   "options": [
+    "Deixar a IA te testar para você precisar lembrar",
+    "Só ler",
+    "Não estudar",
+    "Copiar tudo"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O que você diz primeiro à IA ao começar a aprender?",
+   "options": [
+    "O que já sabe e o que quer alcançar",
+    "Seu endereço",
+    "Nada",
+    "Sua senha"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O que significa \"não me dê a solução, faça perguntas\"?",
+   "options": [
+    "A IA te guia com perguntas até você achar a resposta",
+    "A IA fica quieta",
+    "A IA se recusa a ajudar",
+    "A IA apaga o chat"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qual é o melhor jeito de aprender?",
+   "options": [
+    "Em partes pequenas: explicação, exemplo, tarefa",
+    "Tudo num dia",
+    "Só vendo vídeos",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA explicou uma aula (destacada). Qual é um bom próximo passo?",
+   "options": [
+    "Pedir uma tarefa curta ou um quiz",
+    "Fechar o app",
+    "Copiar o texto",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Na mensagem destacada você explica com suas palavras o que aprendeu. Por quê?",
+   "options": [
+    "Para a IA conferir se entendi",
+    "Para confundi-la",
+    "Sem motivo",
+    "Para ganhar um presente"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escreva um prompt para começar a aprender um idioma do zero.",
+   "seconds": 150,
+   "checklist": [
+    "Qual idioma e por quê",
+    "Quanto tempo você tem",
+    "Como quer aprender (aulas, quiz, conversa)"
+   ],
+   "example": "Quero aprender inglês básico para uma viagem em 2 meses. Tenho 20 minutos por dia e sou iniciante total. Monte um plano por semana e comece pela primeira aula: as 10 frases mais úteis, a pronúncia e um quiz curto."
+  }
+ ]
+}

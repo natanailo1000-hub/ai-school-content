@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Quelle est une bonne demande pour un long document ?",
+   "options": [
+    "Un résumé en 5 points et tous les délais",
+    "« Lis »",
+    "Rien",
+    "« Joli »"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Le contrat est compliqué. Comment l'IA aide-t-elle ?",
+   "options": [
+    "Elle l'explique simplement",
+    "Elle le signe pour toi",
+    "Elle l'envoie à un avocat",
+    "Elle le supprime"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Avant de signer un contrat important :",
+   "options": [
+    "Demander à un expert – l'IA sert à comprendre",
+    "Ne faire confiance qu'à l'IA",
+    "Ne rien lire",
+    "Signer tout de suite"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Le document est très long. Que fais-tu ?",
+   "options": [
+    "Je demande de travailler partie par partie",
+    "J'abandonne",
+    "J'envoie seulement le titre",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Où colles-tu le texte du document ?",
+   "options": [
+    "Dans la zone de message mise en évidence",
+    "Dans les réglages du téléphone",
+    "Dans la boutique d'applis",
+    "Nulle part"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "L'IA a fait un résumé (en évidence). Un délai te paraît bizarre. Que fais-tu ?",
+   "options": [
+    "Je vérifie ce délai dans le document original",
+    "Je le crois",
+    "Je l'ignore",
+    "Je signe"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Écris un prompt pour faire analyser les conditions d'une appli avant de l'acheter.",
+   "seconds": 150,
+   "checklist": [
+    "De quel document il s'agit",
+    "Ce qui t'intéresse (prix, résiliation, données)",
+    "La forme de la réponse (points, alertes)"
+   ],
+   "example": "Je vais coller les conditions d'une appli que je veux acheter. Indique en points : son prix, comment résilier l'abonnement, ce qu'ils font de mes données et ce à quoi je dois faire attention. [texte]"
+  }
+ ]
+}

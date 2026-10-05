@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qual é um bom pedido para um documento longo?",
+   "options": [
+    "Resumo em 5 tópicos e todos os prazos",
+    "\"Leia\"",
+    "Nada",
+    "\"Legal\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O contrato é complicado. Como a IA ajuda?",
+   "options": [
+    "Explica em linguagem simples",
+    "Assina por você",
+    "Manda para um advogado",
+    "Apaga"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Antes de assinar um contrato importante:",
+   "options": [
+    "Consultar um especialista – a IA serve para entender",
+    "Confiar só na IA",
+    "Não ler nada",
+    "Assinar na hora"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O documento é muito longo. O que fazer?",
+   "options": [
+    "Pedir para trabalhar por partes",
+    "Desistir",
+    "Mandar só o título",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Onde você cola o texto do documento?",
+   "options": [
+    "Na caixa de mensagem destacada",
+    "Nas configurações do celular",
+    "Na loja de apps",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "A IA fez um resumo (destacado). Um prazo parece estranho. O que fazer?",
+   "options": [
+    "Conferir esse prazo no documento original",
+    "Acreditar",
+    "Ignorar",
+    "Assinar"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escreva um prompt pedindo a análise dos termos de um app antes de comprá-lo.",
+   "seconds": 150,
+   "checklist": [
+    "Que documento é",
+    "O que te importa (preço, cancelamento, dados)",
+    "Formato da resposta (tópicos, alertas)"
+   ],
+   "example": "Vou colar os termos de um app que quero comprar. Liste em tópicos: quanto custa, como cancelar a assinatura, o que fazem com meus dados e com o que devo tomar cuidado. [texto]"
+  }
+ ]
+}

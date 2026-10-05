@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Cos'è un'\"allucinazione\" dell'IA?",
+   "options": [
+    "Quando l'IA inventa un'informazione falsa ma sembra sicura",
+    "Quando l'app si blocca",
+    "Quando l'IA risponde troppo breve",
+    "Quando l'IA disegna"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Dove sbaglia più spesso l'IA?",
+   "options": [
+    "Numeri esatti, date e fonti",
+    "Saluti",
+    "Consigli generali di scrittura",
+    "Idee per compleanni"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "L'IA ti ha dato una fonte. Cosa fai?",
+   "options": [
+    "La apro e controllo che esista davvero",
+    "Ci credo senza controllare",
+    "Cancello la chat",
+    "Niente"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Chi decide quale farmaco prendi?",
+   "options": [
+    "Un medico o un farmacista",
+    "L'IA",
+    "Un sito qualsiasi",
+    "Il tuo vicino"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Nella risposta evidenziata l'IA ha scritto la data esatta di una legge. Cosa fai?",
+   "options": [
+    "La controllo su un sito ufficiale",
+    "Ci credo perché sembra sicura",
+    "La copio in un contratto",
+    "Niente"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Dove puoi chiedere all'IA \"Quanto sei sicuro?\"",
+   "options": [
+    "Nella casella del messaggio evidenziata",
+    "Nelle impostazioni",
+    "Da nessuna parte, non risponde",
+    "Nello store delle app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "L'IA ti ha detto che una città è la capitale di un paese, ma non sei sicuro. Scrivi un messaggio per verificare la risposta.",
+   "seconds": 90,
+   "checklist": [
+    "Chiedi quanto è sicura",
+    "Chiedi una fonte",
+    "Prevedi di controllare in un posto affidabile"
+   ],
+   "example": "Quanto sei sicuro di questa risposta? Dammi una fonte affidabile dove posso controllare e dimmi se c'è la possibilità che tu stia sbagliando."
+  }
+ ]
+}

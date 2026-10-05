@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "O que você nunca compartilha com a IA?",
+   "options": [
+    "Senhas e números de cartão",
+    "Uma ideia de almoço",
+    "Uma pergunta de história",
+    "Um plano de treino"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Como pedir ajuda com segurança para um documento pessoal?",
+   "options": [
+    "Trocar dados reais por marcadores como [NOME]",
+    "Colar o documento inteiro com todos os números",
+    "Enviar uma foto do seu RG",
+    "Escrever sua senha"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Alguém liga com a voz de um parente e pede dinheiro com urgência. O que fazer?",
+   "options": [
+    "Desligar e ligar você mesmo para um número conhecido",
+    "Mandar o dinheiro na hora",
+    "Passar os dados do cartão",
+    "Não conferir nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "De onde você baixa um app de IA?",
+   "options": [
+    "Só de uma fonte oficial (loja, site oficial)",
+    "De qualquer link numa mensagem",
+    "De estranhos",
+    "De um anúncio suspeito"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Você está digitando o número do cartão na caixa destacada. O que fazer?",
+   "options": [
+    "Apagar – isso nunca se compartilha",
+    "Enviar",
+    "Colocar o PIN também",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "A mensagem destacada pede a senha do seu banco. O que é isso?",
+   "options": [
+    "Sinal de golpe – nunca passe",
+    "Normal",
+    "Um passo obrigatório",
+    "Um presente"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Você precisa de ajuda para escrever uma reclamação ao proprietário, mas não quer revelar nome, endereço nem aluguel. Escreva um prompt seguro.",
+   "seconds": 120,
+   "checklist": [
+    "Você usa marcadores em vez de dados reais",
+    "Descreve o problema com clareza",
+    "Pede tom e tamanho"
+   ],
+   "example": "Me ajude a escrever uma reclamação ao proprietário [NOME], que há [NÚMERO] semanas não conserta um vazamento no banheiro do apartamento em [ENDEREÇO]. Tom firme, mas educado, no máximo 120 palavras."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Quelle est la première étape pour un long texte ?",
+   "options": [
+    "Un plan et une structure",
+    "La relecture finale",
+    "L'envoi",
+    "L'impression"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Comment faire pour que le texte te ressemble ?",
+   "options": [
+    "Donner un exemple de ton écriture et demander ce style",
+    "Écrire en majuscules",
+    "Ne rien donner",
+    "Demander un « style robot »"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qu'est-ce qui est mieux pour un long texte ?",
+   "options": [
+    "Écrire partie par partie",
+    "Tout d'un coup sans plan",
+    "Ne pas le relire",
+    "Copier le texte de quelqu'un"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "L'IA a ajouté une citation d'une célébrité. Que fais-tu ?",
+   "options": [
+    "Je vérifie que la citation est réelle",
+    "Je la laisse",
+    "J'en invente une autre",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA a écrit un brouillon (en évidence), mais il est trop long. Qu'écris-tu ?",
+   "options": [
+    "« Réduis de moitié en gardant l'essentiel »",
+    "Rien",
+    "« Rallonge-le »",
+    "Je supprime tout"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu as collé un ancien texte à toi. Pourquoi ?",
+   "options": [
+    "Pour que l'IA écrive dans mon style",
+    "Pour qu'elle l'efface",
+    "Sans raison",
+    "Pour le traduire en chinois"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Écris un prompt pour demander la structure d'un article de blog sur ton sujet.",
+   "seconds": 150,
+   "checklist": [
+    "Le sujet et le public du blog",
+    "La longueur",
+    "Ce que tu veux (titre, intertitres, idées principales)"
+   ],
+   "example": "J'écris un article de blog de 800 mots pour les débutants sur comment commencer à courir. Propose un titre accrocheur, 5 intertitres et 2 ou 3 idées principales pour chaque partie."
+  }
+ ]
+}

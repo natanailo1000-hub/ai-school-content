@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Combien de texte sur une diapo ?",
+   "options": [
+    "Peu – 3 à 5 points courts",
+    "Une dissertation entière",
+    "Aucun, seulement des chiffres",
+    "Plus il y en a, mieux c'est"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Que sont les notes de l'orateur ?",
+   "options": [
+    "Ce que tu diras pour chaque diapo",
+    "Une liste d'images",
+    "La police",
+    "Le prix de la présentation"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Que demandes-tu d'abord à l'IA ?",
+   "options": [
+    "La structure : titres et points",
+    "La couleur de fond",
+    "De la musique",
+    "Rien"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "L'IA a mis une statistique sur une diapo. Que fais-tu ?",
+   "options": [
+    "Je vérifie la source avant de présenter",
+    "Je la laisse sans vérifier",
+    "J'augmente le chiffre",
+    "Je supprime toutes les diapos"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA t'a donné une structure (en évidence). Tu la veux plus courte. Qu'écris-tu ?",
+   "options": [
+    "« Réduis à 6 diapos »",
+    "Rien",
+    "Je supprime l'appli",
+    "« Salut »"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Où décris-tu le public et la durée ?",
+   "options": [
+    "Dans la zone de message mise en évidence",
+    "Dans les paramètres",
+    "Dans le nom du fichier",
+    "Nulle part"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Écris un prompt pour une présentation de 5 minutes sur ton loisir, pour des amis.",
+   "seconds": 150,
+   "checklist": [
+    "Le sujet et le public",
+    "La durée et le nombre de diapos",
+    "Ce que tu veux (titres, points, notes)"
+   ],
+   "example": "Je prépare une présentation de 6 diapos pour des amis sur la randonnée, 5 minutes. Propose des titres, 3 points courts par diapo et de courtes notes sur ce que je dois dire."
+  }
+ ]
+}

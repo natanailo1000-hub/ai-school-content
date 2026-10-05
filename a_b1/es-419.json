@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "¿Qué es un asistente de IA como Claude?",
+   "options": [
+    "Un programa que aprendió de muchos textos y escribe respuestas",
+    "Un buscador que solo muestra enlaces",
+    "Una persona que responde tus mensajes",
+    "Un programa que solo hace cuentas"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Cómo arma la IA su respuesta?",
+   "options": [
+    "Predice la respuesta que mejor encaja, palabra por palabra",
+    "Copia la respuesta de un sitio web",
+    "Le pregunta a otra persona",
+    "Elige una oración al azar"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Qué debes hacer con datos importantes (salud, dinero, leyes) que te da la IA?",
+   "options": [
+    "Revisarlos siempre",
+    "Confiar en ellos por completo",
+    "Compartirlos de inmediato",
+    "Ignorarlos"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Con cuál de estas cosas te puede ayudar la IA?",
+   "options": [
+    "Escribir un correo o un CV",
+    "Reparar tu auto por sí sola",
+    "Hacer una llamada por ti",
+    "Cocinar tu cena"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "¿Cómo se llama la parte resaltada?",
+   "options": [
+    "El cuadro de mensaje donde escribes tu prompt",
+    "La respuesta de la IA",
+    "El menú de configuración",
+    "El historial del chat"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "¿Qué muestra la parte resaltada?",
+   "options": [
+    "La respuesta de la IA",
+    "Tu mensaje",
+    "Un anuncio",
+    "El botón de enviar"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Quieres tener libre el próximo viernes. Escribe un mensaje para Claude que te dé un buen correo para tu jefe.",
+   "seconds": 120,
+   "checklist": [
+    "Para quién es el correo (tu jefe)",
+    "Qué quieres (el próximo viernes libre)",
+    "El tono (amable, breve)"
+   ],
+   "example": "Escribe un correo breve y amable para mi jefe pidiendo el próximo viernes libre. Menciona que terminaré mis tareas antes."
+  }
+ ]
+}

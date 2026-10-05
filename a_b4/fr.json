@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qu'est-ce qui compte le plus quand tu demandes un e-mail à l'IA ?",
+   "options": [
+    "À qui tu écris et ce que tu veux obtenir",
+    "Quel téléphone tu as",
+    "Ton âge",
+    "Rien, elle devine"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Comment améliorer ton propre texte avec l'IA ?",
+   "options": [
+    "Coller le texte et dire quoi changer",
+    "Le recopier 3 fois à la main",
+    "Envoyer un e-mail vide",
+    "Le supprimer"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Que ne doit PAS faire l'IA dans ton CV ?",
+   "options": [
+    "Inventer une expérience ou des diplômes",
+    "Corriger la grammaire",
+    "Raccourcir le texte",
+    "Proposer une meilleure mise en page"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qui est responsable de l'e-mail que tu envoies ?",
+   "options": [
+    "Toi – relis toujours avant d'envoyer",
+    "L'IA",
+    "L'entreprise qui fait l'IA",
+    "Personne"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA t'a écrit un e-mail (en évidence). Que fais-tu avant de l'envoyer ?",
+   "options": [
+    "Je le relis et je vérifie les faits",
+    "Je l'envoie sans lire",
+    "Je le traduis",
+    "Je le supprime"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Où colles-tu ton texte pour que l'IA l'améliore ?",
+   "options": [
+    "Dans la zone de message mise en évidence",
+    "Dans la réponse de l'IA",
+    "Dans les réglages du téléphone",
+    "Nulle part"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Ton voisin t'a prêté une perceuse et tu l'as cassée sans le vouloir. Écris un prompt pour obtenir un message d'excuses.",
+   "seconds": 120,
+   "checklist": [
+    "Pour qui (le voisin)",
+    "Ce qui s'est passé (la perceuse cassée)",
+    "Ce que tu proposes (réparation ou neuve) et le ton (sincère, court)"
+   ],
+   "example": "Écris un court message d'excuses sincère à mon voisin. Il m'a prêté sa perceuse et je l'ai cassée sans le vouloir. Propose de lui en racheter une ou de payer la réparation. 4 phrases maximum, ton amical."
+  }
+ ]
+}

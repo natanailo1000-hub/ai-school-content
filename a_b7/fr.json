@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Que ne partages-tu jamais avec une IA ?",
+   "options": [
+    "Mots de passe et numéros de carte",
+    "Une idée de déjeuner",
+    "Une question d'histoire",
+    "Un programme sportif"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Comment demander de l'aide en sécurité pour un document personnel ?",
+   "options": [
+    "Remplacer les vraies infos par des repères comme [NOM]",
+    "Coller tout le document avec tous les numéros",
+    "Envoyer une photo de ta carte d'identité",
+    "Écrire ton mot de passe"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Quelqu'un appelle avec la voix d'un proche et demande de l'argent en urgence. Que fais-tu ?",
+   "options": [
+    "Je raccroche et je le rappelle moi-même sur un numéro connu",
+    "J'envoie l'argent tout de suite",
+    "Je donne mes infos de carte",
+    "Je ne vérifie rien"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Où télécharges-tu une appli d'IA ?",
+   "options": [
+    "Seulement depuis une source officielle (boutique, site officiel)",
+    "Depuis n'importe quel lien reçu",
+    "Auprès d'inconnus",
+    "Depuis une pub suspecte"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Tu tapes ton numéro de carte dans la zone mise en évidence. Que dois-tu faire ?",
+   "options": [
+    "L'effacer – ça ne se partage jamais",
+    "L'envoyer",
+    "Ajouter aussi le code PIN",
+    "Rien"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Le message mis en évidence demande ton mot de passe bancaire. Qu'est-ce que c'est ?",
+   "options": [
+    "Un signe d'arnaque – ne le donne jamais",
+    "Normal",
+    "Une étape obligatoire",
+    "Un cadeau"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Tu as besoin d'aide pour écrire une réclamation à ton propriétaire, sans révéler ton nom, ton adresse ni ton loyer. Écris un prompt sûr.",
+   "seconds": 120,
+   "checklist": [
+    "Tu utilises des repères au lieu des vraies infos",
+    "Tu décris clairement le problème",
+    "Tu demandes un ton et une longueur"
+   ],
+   "example": "Aide-moi à écrire une réclamation à mon propriétaire [NOM], qui ne répare pas depuis [NOMBRE] semaines une fuite d'eau dans la salle de bain du logement situé [ADRESSE]. Ton ferme mais poli, 120 mots maximum."
+  }
+ ]
+}

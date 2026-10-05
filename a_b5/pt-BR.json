@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "O que é mais importante dizer à IA ao fazer um plano?",
+   "options": [
+    "Seu objetivo, o tempo que você tem e seus limites",
+    "Só seu nome",
+    "Seu filme favorito",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Você tem um problema no coração e recebeu um plano de treino da IA. O que faz?",
+   "options": [
+    "Mostro o plano a um médico antes de começar",
+    "Começo com tudo",
+    "Dobro os exercícios",
+    "Ignoro o médico"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Na quarta você não consegue seguir o plano. O que é mais fácil?",
+   "options": [
+    "Pedir à IA para reorganizar o plano",
+    "Refazer tudo à mão",
+    "Desistir da semana toda",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Qual formato de plano é mais claro para uma semana?",
+   "options": [
+    "Uma tabela por dia",
+    "Uma frase enorme",
+    "Um poema",
+    "Uma imagem sem texto"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA te deu um plano de viagem (destacado). E os preços e horários?",
+   "options": [
+    "Confiro nos sites oficiais",
+    "Acredito sem conferir",
+    "Ignoro o plano todo",
+    "Mando para todo mundo na hora"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Aqui você escreveu suas tarefas. Como isso se chama?",
+   "options": [
+    "Um prompt",
+    "Uma senha",
+    "Um anúncio",
+    "A resposta da IA"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escreva um prompt para um plano de preparação de uma festa de aniversário para 10 pessoas em casa no próximo sábado.",
+   "seconds": 120,
+   "checklist": [
+    "O objetivo (festa para 10 pessoas em casa)",
+    "Tempo (até sábado) e orçamento",
+    "Formato (lista por dia ou por tarefa)"
+   ],
+   "example": "Me ajude a organizar uma festa de aniversário para 10 pessoas na minha casa no próximo sábado. Meu orçamento é de 500 reais. Faça uma lista de tarefas por dia até sábado: compras, comida, decoração e o que fazer no próprio dia."
+  }
+ ]
+}

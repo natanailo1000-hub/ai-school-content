@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Qual è la cosa più importante da dire all'IA per fare un piano?",
+   "options": [
+    "Il tuo obiettivo, il tempo che hai e i tuoi limiti",
+    "Solo il tuo nome",
+    "Il tuo film preferito",
+    "Niente"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Hai un problema al cuore e l'IA ti ha dato un piano di allenamento. Cosa fai?",
+   "options": [
+    "Mostro il piano a un medico prima di iniziare",
+    "Parto al massimo",
+    "Raddoppio gli esercizi",
+    "Ignoro il medico"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Mercoledì non riesci a seguire il piano. Cosa è più semplice?",
+   "options": [
+    "Chiedere all'IA di riorganizzare il piano",
+    "Rifare tutto a mano",
+    "Abbandonare tutta la settimana",
+    "Niente"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Quale forma di piano è più chiara per una settimana?",
+   "options": [
+    "Una tabella per giorni",
+    "Una frase lunghissima",
+    "Una poesia",
+    "Un'immagine senza testo"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ti ha dato un piano di viaggio (evidenziato). E prezzi e orari?",
+   "options": [
+    "Li controllo sui siti ufficiali",
+    "Ci credo senza controllare",
+    "Ignoro tutto il piano",
+    "Lo mando subito a tutti"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Qui hai scritto i tuoi impegni. Come si chiama?",
+   "options": [
+    "Un prompt",
+    "Una password",
+    "Una pubblicità",
+    "La risposta dell'IA"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Scrivi un prompt per un piano di preparazione di una festa di compleanno per 10 persone a casa sabato prossimo.",
+   "seconds": 120,
+   "checklist": [
+    "L'obiettivo (festa per 10 persone a casa)",
+    "Tempo (fino a sabato) e budget",
+    "Formato (lista per giorni o per compiti)"
+   ],
+   "example": "Aiutami a organizzare una festa di compleanno per 10 persone a casa mia sabato prossimo. Il budget è di 100 euro. Fai una lista di cose da fare per giorno fino a sabato: spesa, cibo, decorazioni e cosa fare il giorno stesso."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Šta je najvažnije reći AI-ju kad praviš plan?",
+   "options": [
+    "Cilj, vreme koje imaš i ograničenja",
+    "Samo svoje ime",
+    "Svoj omiljeni film",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Imaš problem sa srcem i dobio si plan treninga od AI-ja. Šta radiš?",
+   "options": [
+    "Pokažem plan lekaru pre početka",
+    "Odmah krenem najjače",
+    "Udvostručim vežbe",
+    "Ignorišem lekara"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "U sredu ne možeš da ispoštuješ plan. Šta je najlakše?",
+   "options": [
+    "Tražim od AI-ja da preraspodeli plan",
+    "Ručno pravim sve ispočetka",
+    "Odustanem od cele nedelje",
+    "Ništa"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Koji oblik plana je najpregledniji za nedelju?",
+   "options": [
+    "Tabela po danima",
+    "Jedna duga rečenica",
+    "Pesma",
+    "Slika bez teksta"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI ti je dao plan putovanja (označeno). A cene i radno vreme?",
+   "options": [
+    "Proverim na zvaničnim sajtovima",
+    "Verujem bez provere",
+    "Ignorišem ceo plan",
+    "Odmah ga pošaljem svima"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "Ovde si napisao svoje obaveze. Kako se to zove?",
+   "options": [
+    "Prompt",
+    "Lozinka",
+    "Reklama",
+    "Odgovor AI-ja"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Napiši prompt za plan pripreme rođendanske proslave za 10 ljudi kod kuće sledeće subote.",
+   "seconds": 120,
+   "checklist": [
+    "Cilj (proslava za 10 ljudi kod kuće)",
+    "Vreme (do subote) i budžet",
+    "Oblik (spisak po danima ili zadacima)"
+   ],
+   "example": "Pomozi mi da organizujem rođendansku proslavu za 10 ljudi kod mene kući sledeće subote. Budžet je 100 evra. Napravi spisak zadataka po danima do subote: kupovina, hrana, dekoracija i šta da uradim na sam dan."
+  }
+ ]
+}

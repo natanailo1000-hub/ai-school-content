@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "¿Cómo consigues una fórmula de la IA?",
+   "options": [
+    "Describiendo con palabras qué calcular y dónde están los datos",
+    "Enviando tu contraseña",
+    "Diciendo solo \"fórmula\"",
+    "De ninguna forma"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Antes de confiar en una fórmula:",
+   "options": [
+    "La pruebo con algunos ejemplos",
+    "La uso para todo enseguida",
+    "Borro la tabla",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Qué es la regla 50/30/20?",
+   "options": [
+    "Dividir el ingreso en necesidades, gustos y ahorro",
+    "Una velocidad de internet",
+    "Una receta",
+    "Una nota escolar"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "La IA sumó números en el chat. ¿Qué es lo inteligente?",
+   "options": [
+    "Revisarlo o pedir que use una tabla",
+    "Creerle sin revisar",
+    "Multiplicar por 2",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA escribió una fórmula (resaltada). No la entiendes. ¿Qué escribes?",
+   "options": [
+    "\"Explica la fórmula paso a paso\"",
+    "Nada",
+    "\"Chau\"",
+    "Borro la tabla"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "En el mensaje resaltado describes tu tabla. ¿Qué es importante incluir?",
+   "options": [
+    "Qué datos hay en cada columna",
+    "Tu contraseña",
+    "Tu número de tarjeta",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escribe un prompt para una fórmula que calcule el promedio de notas de la columna C.",
+   "seconds": 150,
+   "checklist": [
+    "Dónde están los datos (columna, filas)",
+    "Qué calcular",
+    "Qué programa (Excel u Hojas de cálculo de Google) y una explicación"
+   ],
+   "example": "En Excel, la columna C de C2 a C30 tiene notas. Escribe una fórmula que calcule el promedio redondeado a 2 decimales y explícala de forma sencilla."
+  }
+ ]
+}

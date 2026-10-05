@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Quanto texto vai num slide?",
+   "options": [
+    "Pouco – 3 a 5 tópicos curtos",
+    "Uma redação inteira",
+    "Nenhum, só números",
+    "Quanto mais, melhor"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O que são notas do apresentador?",
+   "options": [
+    "O que você vai falar em cada slide",
+    "Uma lista de imagens",
+    "A fonte",
+    "O preço da apresentação"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O que você pede primeiro à IA?",
+   "options": [
+    "A estrutura: títulos e tópicos",
+    "A cor de fundo",
+    "Música",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "A IA colocou uma estatística num slide. O que fazer?",
+   "options": [
+    "Conferir a fonte antes de apresentar",
+    "Deixar sem conferir",
+    "Aumentar o número",
+    "Apagar todos os slides"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA te deu uma estrutura (destacada). Você quer menor. O que escreve?",
+   "options": [
+    "\"Reduza para 6 slides\"",
+    "Nada",
+    "Apago o app",
+    "\"Tchau\""
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_input",
+   "q": "Onde você descreve o público e a duração?",
+   "options": [
+    "Na caixa de mensagem destacada",
+    "Nas configurações",
+    "No nome do arquivo",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Escreva um prompt para uma apresentação de 5 minutos sobre seu hobby para amigos.",
+   "seconds": 150,
+   "checklist": [
+    "Tema e público",
+    "Duração e número de slides",
+    "O que você quer (títulos, tópicos, notas)"
+   ],
+   "example": "Estou fazendo uma apresentação de 6 slides para amigos sobre trilhas, de 5 minutos. Sugira títulos, 3 tópicos curtos para cada slide e notas curtas do que falar."
+  }
+ ]
+}

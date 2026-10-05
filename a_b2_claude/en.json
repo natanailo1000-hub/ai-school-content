@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Which company made Claude?",
+   "options": [
+    "Anthropic",
+    "OpenAI",
+    "Google",
+    "Microsoft"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where can you use Claude?",
+   "options": [
+    "On the website claude.ai or in the app",
+    "Only on a TV",
+    "Only by phone call",
+    "Only in a shop"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "You want to talk about a new topic. What's the best thing to do?",
+   "options": [
+    "Start a new chat",
+    "Delete the app",
+    "Write in capital letters",
+    "Wait a day"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which first message is best?",
+   "options": [
+    "Help me write a short, polite email to my landlord about a broken heater.",
+    "email",
+    "Help",
+    "Write something"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Where do you type your message to Claude?",
+   "options": [
+    "In the highlighted box",
+    "In the answer above",
+    "In the settings",
+    "Nowhere – it reads your mind"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "send_button",
+   "q": "What does the highlighted button do?",
+   "options": [
+    "Sends your message",
+    "Deletes the chat",
+    "Opens settings",
+    "Turns off the app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Write your first real message to Claude: ask it to plan dinners for 3 days using what you have at home (pick 4–5 ingredients).",
+   "seconds": 120,
+   "checklist": [
+    "What you want (a dinner plan for 3 days)",
+    "What you have (the ingredients)",
+    "Any limits (time, budget, no meat…)"
+   ],
+   "example": "Plan dinners for 3 days using only: eggs, potatoes, rice, tomatoes and cheese. Each dinner should take under 30 minutes. Give me a short shopping list for anything extra."
+  }
+ ]
+}

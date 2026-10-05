@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Šta je prompt?",
+   "options": [
+    "Poruka ili uputstvo koje šalješ AI-ju",
+    "Vrsta kompjuterskog virusa",
+    "Dugme za slanje",
+    "Plaćeni plan"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Šta od ovoga je kontekst?",
+   "options": [
+    "„Ovo je za šefa, ja sam početnik“",
+    "„Napiši“",
+    "„Tabela“",
+    "„Hvala“"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Odgovor nije dobar. Šta je najbolje?",
+   "options": [
+    "Reci šta da promeni, npr. „kraće i ozbiljnije“",
+    "Obriši aplikaciju",
+    "Pošalji isti prompt 10 puta",
+    "Odustani"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Koji prompt je najbolji?",
+   "options": [
+    "Daj mi 3 ideje za rođendan dečaka od 8 godina koji voli dinosauruse, budžet 50 evra.",
+    "Ideje za rođendan",
+    "rođendan??",
+    "Pomoć"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Šta je u označenom delu?",
+   "options": [
+    "Tvoj prompt – poruka koju si poslao",
+    "Odgovor AI-ja",
+    "Reklama",
+    "Podešavanja"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Ne dopada ti se označeni odgovor. Šta radiš?",
+   "options": [
+    "Napišeš novu poruku i kažeš šta da promeni",
+    "Ništa – AI uvek zna najbolje",
+    "Ugasiš telefon",
+    "Kupiš novi telefon"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Pretvori ovaj slab prompt u dobar: „napiši oglas“. Prodaješ bicikl.",
+   "seconds": 150,
+   "checklist": [
+    "Zadatak (oglas za prodaju bicikla)",
+    "Detalje (vrsta, stanje, cena)",
+    "Format (dužina, ton)"
+   ],
+   "example": "Napiši kratak oglas za prodaju dečijeg bicikla (20 inča, crveni, malo korišćen) za 60 evra. Prijatan ton, najviše 5 rečenica, a na kraju poziv da mi pošalju poruku."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "What's most important to tell the AI when making a plan?",
+   "options": [
+    "Your goal, the time you have and your limits",
+    "Only your name",
+    "Your favourite film",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "You have a heart condition and got a workout plan from AI. What do you do?",
+   "options": [
+    "Show the plan to a doctor before starting",
+    "Start at full intensity",
+    "Double the exercises",
+    "Ignore the doctor"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "You can't follow the plan on Wednesday. What's easiest?",
+   "options": [
+    "Ask the AI to rearrange the plan",
+    "Redo everything by hand",
+    "Give up the whole week",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which plan format is clearest for a week?",
+   "options": [
+    "A table by day",
+    "One long sentence",
+    "A poem",
+    "A picture with no text"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI gave you a trip plan (highlighted). What about prices and opening hours?",
+   "options": [
+    "Check them on official websites",
+    "Trust them without checking",
+    "Ignore the whole plan",
+    "Send it to everyone right away"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_user",
+   "q": "You wrote your tasks here. What is this called?",
+   "options": [
+    "A prompt",
+    "A password",
+    "An ad",
+    "The AI's answer"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Write a prompt for a plan to prepare a birthday party for 10 people at home next Saturday.",
+   "seconds": 120,
+   "checklist": [
+    "The goal (a party for 10 people at home)",
+    "Time (until Saturday) and budget",
+    "Format (a list by day or by task)"
+   ],
+   "example": "Help me organise a birthday party for 10 people at home next Saturday. My budget is 100 euros. Make a task list by day until Saturday: shopping, food, decorations, and what to do on the day itself."
+  }
+ ]
+}

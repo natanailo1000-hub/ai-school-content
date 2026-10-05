@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "Welche Firma hat ChatGPT entwickelt?",
+   "options": [
+    "OpenAI",
+    "Google",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Wo kannst du ChatGPT nutzen?",
+   "options": [
+    "Auf der Website chatgpt.com oder in der App",
+    "Nur am Fernseher",
+    "Nur per Telefonanruf",
+    "Nur im Geschäft"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Du willst über ein neues Thema sprechen. Was ist am besten?",
+   "options": [
+    "Einen neuen Chat starten",
+    "Die App löschen",
+    "In Großbuchstaben schreiben",
+    "Einen Tag warten"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Welche erste Nachricht ist am besten?",
+   "options": [
+    "Hilf mir, eine kurze, höfliche E-Mail an meinen Vermieter wegen der kaputten Heizung zu schreiben.",
+    "E-Mail",
+    "Hilfe",
+    "Schreib was"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Wo schreibst du deine Nachricht an ChatGPT?",
+   "options": [
+    "In das markierte Feld",
+    "In die Antwort oben",
+    "In die Einstellungen",
+    "Nirgends – es liest Gedanken"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "send_button",
+   "q": "Was macht der markierte Knopf?",
+   "options": [
+    "Er sendet deine Nachricht",
+    "Er löscht den Chat",
+    "Er öffnet die Einstellungen",
+    "Er schaltet die App aus"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Schreib deine erste echte Nachricht an ChatGPT: Lass dir Abendessen für 3 Tage planen, mit dem, was du zu Hause hast (wähle 4–5 Zutaten).",
+   "seconds": 120,
+   "checklist": [
+    "Was du willst (Abendessen für 3 Tage)",
+    "Was du hast (die Zutaten)",
+    "Grenzen (Zeit, Budget, kein Fleisch …)"
+   ],
+   "example": "Plane Abendessen für 3 Tage nur mit: Eiern, Kartoffeln, Reis, Tomaten und Käse. Jedes Essen soll unter 30 Minuten dauern. Gib mir eine kurze Einkaufsliste für alles Zusätzliche."
+  }
+ ]
+}

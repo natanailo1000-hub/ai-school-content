@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "¿Qué nunca compartes con la IA?",
+   "options": [
+    "Contraseñas y números de tarjeta",
+    "Una idea para el almuerzo",
+    "Una pregunta de historia",
+    "Un plan de ejercicio"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿Cómo pides ayuda de forma segura con un documento personal?",
+   "options": [
+    "Cambias los datos reales por marcadores como [NOMBRE]",
+    "Pegas todo el documento con todos los números",
+    "Envías una foto de tu identificación",
+    "Escribes tu contraseña"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Alguien llama con la voz de un familiar y pide dinero urgente. ¿Qué haces?",
+   "options": [
+    "Cuelgo y lo llamo yo a un número conocido",
+    "Envío el dinero ya",
+    "Le doy los datos de mi tarjeta",
+    "No verifico nada"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "¿De dónde descargas una app de IA?",
+   "options": [
+    "Solo de una fuente oficial (tienda, sitio oficial)",
+    "De cualquier enlace en un mensaje",
+    "De desconocidos",
+    "De un anuncio sospechoso"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Estás escribiendo tu número de tarjeta en el cuadro resaltado. ¿Qué debes hacer?",
+   "options": [
+    "Borrarlo: eso nunca se comparte",
+    "Enviarlo",
+    "Agregar también el PIN",
+    "Nada"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "El mensaje resaltado pide la contraseña de tu banco. ¿Qué es?",
+   "options": [
+    "Una señal de estafa: nunca la des",
+    "Algo normal",
+    "Un paso obligatorio",
+    "Un regalo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Necesitas ayuda para escribir un reclamo al dueño de tu departamento, pero no quieres revelar tu nombre, dirección ni alquiler. Escribe un prompt seguro.",
+   "seconds": 120,
+   "checklist": [
+    "Usas marcadores en vez de datos reales",
+    "Describes el problema con claridad",
+    "Pides tono y extensión"
+   ],
+   "example": "Ayúdame a escribir un reclamo al dueño [NOMBRE], que desde hace [NÚMERO] semanas no arregla una fuga de agua en el baño del departamento en [DIRECCIÓN]. Tono firme pero amable, máximo 120 palabras."
+  }
+ ]
+}

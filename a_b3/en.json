@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "What is a prompt?",
+   "options": [
+    "The message or instruction you send to the AI",
+    "A kind of computer virus",
+    "The send button",
+    "A paid plan"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which of these is context?",
+   "options": [
+    "\"This is for my boss, I'm a beginner\"",
+    "\"Write\"",
+    "\"Table\"",
+    "\"Thanks\""
+   ],
+   "answer": 0
+  },
+  {
+   "q": "The answer isn't good. What's best?",
+   "options": [
+    "Say what to change, e.g. \"shorter and more formal\"",
+    "Delete the app",
+    "Send the same prompt 10 times",
+    "Give up"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which prompt is best?",
+   "options": [
+    "Give me 3 birthday party ideas for an 8-year-old who loves dinosaurs, budget 50 euros.",
+    "Birthday ideas",
+    "birthday??",
+    "Help"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "What is in the highlighted part?",
+   "options": [
+    "Your prompt – the message you sent",
+    "The AI's answer",
+    "An ad",
+    "The settings"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "You don't like the highlighted answer. What do you do?",
+   "options": [
+    "Write a new message saying what to change",
+    "Nothing – the AI always knows best",
+    "Turn off the phone",
+    "Buy a new phone"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Turn this weak prompt into a strong one: \"write an ad\". You're selling a bike.",
+   "seconds": 150,
+   "checklist": [
+    "The task (an ad for selling a bike)",
+    "Details (type, condition, price)",
+    "Format (length, tone)"
+   ],
+   "example": "Write a short ad for selling a kids' bike (20-inch, red, lightly used) for 60 euros. Friendly tone, max 5 sentences, ending with an invitation to message me."
+  }
+ ]
+}

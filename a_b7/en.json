@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "What do you never share with AI?",
+   "options": [
+    "Passwords and card numbers",
+    "A lunch idea",
+    "A history question",
+    "A workout plan"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How do you safely get help with a personal document?",
+   "options": [
+    "Replace real details with placeholders like [NAME]",
+    "Paste the whole document with all numbers",
+    "Send a photo of your ID",
+    "Write your password"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Someone calls with your relative's voice and urgently asks for money. What do you do?",
+   "options": [
+    "Hang up and call them yourself on a known number",
+    "Send the money right away",
+    "Give them your card details",
+    "Don't check anything"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where do you get an AI app?",
+   "options": [
+    "Only from an official source (app store, official site)",
+    "From any link in a message",
+    "From strangers",
+    "From a suspicious ad"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "You're typing your card number in the highlighted box. What should you do?",
+   "options": [
+    "Delete it – that's never shared",
+    "Send it",
+    "Add the PIN too",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "The highlighted message asks for your bank password. What is it?",
+   "options": [
+    "A sign of a scam – never give it",
+    "Normal",
+    "A required step",
+    "A gift"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "You need help writing a complaint to your landlord, but you don't want to reveal your name, address or rent. Write a safe prompt.",
+   "seconds": 120,
+   "checklist": [
+    "You use placeholders instead of real data",
+    "You describe the problem clearly",
+    "You ask for a tone and length"
+   ],
+   "example": "Help me write a complaint to my landlord [NAME], who hasn't fixed a water leak in the bathroom of the flat at [ADDRESS] for [NUMBER] weeks. Firm but polite tone, max 120 words."
+  }
+ ]
+}
