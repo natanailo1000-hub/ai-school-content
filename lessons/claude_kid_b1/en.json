@@ -1,0 +1,39 @@
+{
+ "id": "claude_kid_b1",
+ "updated": "2026-10-05",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI is a computer program that has read a huge amount of text and learned to chat with people. Claude is one of these AIs."
+  },
+  {
+   "type": "h",
+   "text": "How does it know the answers?"
+  },
+  {
+   "type": "p",
+   "text": "Imagine a friend who has read a million books. When you ask something, they remember what they read and put an answer together. AI works in a similar way – just much faster."
+  },
+  {
+   "type": "h",
+   "text": "What can it do?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Explain a school lesson in an easier way",
+    "Make up a story or a joke",
+    "Help you make a study plan",
+    "Answer questions when you're curious about something"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "AI isn't always right! If something matters, check it with a teacher or a parent. And never give it personal info like your address or passwords."
+  },
+  {
+   "type": "try",
+   "text": "Explain how volcanoes work as if I'm 12 years old."
+  }
+ ]
+}

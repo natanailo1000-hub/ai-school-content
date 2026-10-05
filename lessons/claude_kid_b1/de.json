@@ -1,0 +1,39 @@
+{
+ "id": "claude_kid_b1",
+ "updated": "2026-10-05",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI ist ein Computerprogramm, das riesig viele Texte gelesen und so gelernt hat, mit Menschen zu chatten. Claude ist so eine KI."
+  },
+  {
+   "type": "h",
+   "text": "Woher kennt sie die Antworten?"
+  },
+  {
+   "type": "p",
+   "text": "Stell dir einen Freund vor, der eine Million Bücher gelesen hat. Wenn du ihn etwas fragst, erinnert er sich an das Gelesene und baut eine Antwort zusammen. KI funktioniert ähnlich – nur viel schneller."
+  },
+  {
+   "type": "h",
+   "text": "Was kann sie?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ein Schulthema einfacher erklären",
+    "Eine Geschichte oder einen Witz erfinden",
+    "Dir helfen, einen Lernplan zu machen",
+    "Fragen beantworten, wenn du neugierig bist"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "KI hat nicht immer recht! Wenn etwas wichtig ist, frag eine Lehrkraft oder deine Eltern. Und gib ihr nie persönliche Daten wie deine Adresse oder Passwörter."
+  },
+  {
+   "type": "try",
+   "text": "Erkläre mir, wie Vulkane funktionieren, als wäre ich 12 Jahre alt."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "claude_adult_b1",
+ "updated": "2026-10-05",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI (künstliche Intelligenz) ist hier ein Programm, das aus einer riesigen Menge an Texten gelernt hat und jetzt Fragen versteht und Antworten schreibt. Claude, ChatGPT und Gemini sind solche Programme – man nennt sie auch KI-Assistenten."
+  },
+  {
+   "type": "h",
+   "text": "So funktioniert es, kurz erklärt"
+  },
+  {
+   "type": "p",
+   "text": "Wenn du eine Nachricht schickst, sagt die KI Wort für Wort voraus, welche Antwort am besten passt. Sie schlägt nicht nach wie ein Lexikon, sondern baut die Antwort aus gelernten Mustern."
+  },
+  {
+   "type": "h",
+   "text": "Was sie für dich tun kann"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Etwas Kompliziertes in einfachen Worten erklären",
+    "Texte schreiben oder verbessern: E-Mail, Nachricht, Lebenslauf",
+    "Einen Plan machen: Reise, Training, eine volle Arbeitswoche",
+    "Dir helfen, Ideen zu finden"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "KI macht manchmal Fehler und klingt dabei sicher. Prüfe wichtige Fakten (Gesundheit, Geld, Recht) immer nach."
+  },
+  {
+   "type": "try",
+   "text": "Erkläre mir als absolutem Anfänger in 5 Sätzen, was künstliche Intelligenz ist."
+  }
+ ]
+}

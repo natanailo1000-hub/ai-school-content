@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "O que é um assistente de IA como o Claude?",
+   "options": [
+    "Um programa que aprendeu com muitos textos e escreve respostas",
+    "Um buscador que só mostra links",
+    "Uma pessoa que responde suas mensagens",
+    "Um programa que só faz contas"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Como a IA monta a resposta?",
+   "options": [
+    "Ela prevê a resposta que melhor combina, palavra por palavra",
+    "Copia a resposta de um site",
+    "Pergunta para outra pessoa",
+    "Escolhe uma frase aleatória"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "O que fazer com fatos importantes (saúde, dinheiro, leis) vindos da IA?",
+   "options": [
+    "Sempre conferir",
+    "Confiar totalmente",
+    "Compartilhar na hora",
+    "Ignorar"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Em qual destas coisas a IA pode ajudar?",
+   "options": [
+    "Escrever um e-mail ou um currículo",
+    "Consertar seu carro sozinha",
+    "Fazer uma ligação por você",
+    "Cozinhar seu jantar"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Como se chama a parte destacada?",
+   "options": [
+    "A caixa de mensagem onde você escreve seu prompt",
+    "A resposta da IA",
+    "O menu de configurações",
+    "O histórico do chat"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "O que a parte destacada mostra?",
+   "options": [
+    "A resposta da IA",
+    "Sua mensagem",
+    "Um anúncio",
+    "O botão de enviar"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "Você quer folga na próxima sexta. Escreva uma mensagem para o Claude que gere um bom e-mail para seu chefe.",
+   "seconds": 120,
+   "checklist": [
+    "Para quem é o e-mail (seu chefe)",
+    "O que você quer (folga na próxima sexta)",
+    "O tom (educado, curto)"
+   ],
+   "example": "Escreva um e-mail curto e educado para meu chefe pedindo folga na próxima sexta. Diga que vou terminar minhas tarefas antes."
+  }
+ ]
+}

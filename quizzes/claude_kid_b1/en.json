@@ -1,0 +1,80 @@
+{
+ "quick": [
+  {
+   "q": "What is AI?",
+   "options": [
+    "A computer program that learned from lots of texts",
+    "A robot that lives in your phone",
+    "A kind of video game",
+    "A person in a call center"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How does AI know answers?",
+   "options": [
+    "It learned by reading a huge amount of text",
+    "It guesses randomly",
+    "It calls its friends",
+    "It looks in your notebook"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Is AI always right?",
+   "options": [
+    "No, sometimes it makes mistakes",
+    "Yes, always",
+    "Only on weekends",
+    "Only about games"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you NEVER tell AI?",
+   "options": [
+    "Your address or passwords",
+    "Your favorite color",
+    "A question about volcanoes",
+    "An idea for a story"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Where do you type your question to the AI?",
+   "options": [
+    "In the highlighted box",
+    "In the AI's answer",
+    "On the send button",
+    "Nowhere – you just talk"
+   ],
+   "answer": 0
+  },
+  {
+   "image": "chat_reply",
+   "q": "Who wrote the highlighted message?",
+   "options": [
+    "The AI",
+    "You",
+    "Your teacher",
+    "Nobody"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
+  {
+   "task": "You have a test about planets next week. Write a message asking AI to help you learn.",
+   "seconds": 120,
+   "checklist": [
+    "What the topic is (planets)",
+    "How old you are or what grade you're in",
+    "Something concrete (easy explanation, a quiz, a plan)"
+   ],
+   "example": "I'm 12 and I have a test about planets next week. Explain the planets simply, then give me 5 quiz questions."
+  }
+ ]
+}

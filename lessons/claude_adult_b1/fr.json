@@ -1,0 +1,39 @@
+{
+ "id": "claude_adult_b1",
+ "updated": "2026-10-05",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA (intelligence artificielle), ici, c'est un programme qui a appris à partir d'une énorme quantité de textes et qui comprend maintenant les questions et rédige des réponses. Claude, ChatGPT et Gemini sont de tels programmes, qu'on appelle aussi assistants IA."
+  },
+  {
+   "type": "h",
+   "text": "Comment ça marche, en bref"
+  },
+  {
+   "type": "p",
+   "text": "Quand tu envoies un message, l'IA prédit, mot après mot, la réponse qui convient le mieux. Elle ne cherche pas comme dans une encyclopédie : elle construit sa réponse à partir de ce qu'elle a appris."
+  },
+  {
+   "type": "h",
+   "text": "Ce qu'elle peut faire pour toi"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Expliquer quelque chose de compliqué avec des mots simples",
+    "Écrire ou améliorer un texte : e-mail, message, CV",
+    "Faire un plan : un voyage, un entraînement, une semaine chargée",
+    "T'aider à trouver des idées"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "L'IA se trompe parfois tout en ayant l'air sûre d'elle. Vérifie toujours les informations importantes (santé, argent, droit)."
+  },
+  {
+   "type": "try",
+   "text": "Explique-moi, comme à un grand débutant, ce qu'est l'intelligence artificielle, en 5 phrases."
+  }
+ ]
+}

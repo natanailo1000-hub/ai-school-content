@@ -1,0 +1,39 @@
+{
+ "id": "claude_kid_b1",
+ "updated": "2026-10-05",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "La IA es un programa de computadora que leyó muchísimos textos y así aprendió a conversar con las personas. Claude es una de esas IA."
+  },
+  {
+   "type": "h",
+   "text": "¿Cómo sabe las respuestas?"
+  },
+  {
+   "type": "p",
+   "text": "Imagina a un amigo que leyó un millón de libros. Cuando le preguntas algo, recuerda lo que leyó y arma una respuesta. La IA funciona parecido, pero mucho más rápido."
+  },
+  {
+   "type": "h",
+   "text": "¿Qué puede hacer?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Explicarte un tema de la escuela de forma más fácil",
+    "Inventar una historia o un chiste",
+    "Ayudarte a hacer un plan de estudio",
+    "Responder preguntas cuando algo te da curiosidad"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "¡La IA no siempre tiene razón! Si algo es importante, compruébalo con un maestro o con tus papás. Y nunca le des datos personales como tu dirección o tus contraseñas."
+  },
+  {
+   "type": "try",
+   "text": "Explícame cómo funcionan los volcanes como si tuviera 12 años."
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "version": 1,
+ "tools": [
+  {
+   "id": "claude",
+   "name": "Claude",
+   "badge": "Cl",
+   "color": "FFC96A4B"
+  },
+  {
+   "id": "chatgpt",
+   "name": "ChatGPT",
+   "badge": "Ch",
+   "color": "FF1F8F6E"
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "badge": "Ge",
+   "color": "FF3B6FD8"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "claude_adult_b1",
+   "tool": "claude",
+   "audience": "adult",
+   "level": "beginner",
+   "content": true,
+   "titles": {
+    "en": "Intro: what AI is and how it works",
+    "de": "Einführung: Was KI ist und wie sie funktioniert",
+    "es-419": "Introducción: qué es la IA y cómo funciona",
+    "pt-BR": "Introdução: o que é IA e como ela funciona",
+    "fr": "Introduction : ce qu'est l'IA et comment elle fonctionne",
+    "it": "Introduzione: cos'è l'IA e come funziona",
+    "sr-Latn": "Uvod: šta je AI i kako radi"
+   },
+   "quiz": true
+  },
+  {
+   "id": "claude_adult_b2",
+   "tool": "claude",
+   "audience": "adult",
+   "level": "beginner",
+   "titles": {
+    "en": "Your first message to Claude",
+    "de": "Deine erste Nachricht an Claude",
+    "es-419": "Tu primer mensaje a Claude",
+    "pt-BR": "Sua primeira mensagem para o Claude",
+    "fr": "Ton premier message à Claude",
+    "it": "Il tuo primo messaggio a Claude",
+    "sr-Latn": "Tvoja prva poruka Claude-u"
+   }
+  },
+  {
+   "id": "claude_adult_i1",
+   "tool": "claude",
+   "audience": "adult",
+   "level": "intermediate",
+   "titles": {
+    "en": "Make a presentation with AI",
+    "de": "Eine Präsentation mit KI erstellen",
+    "es-419": "Crea una presentación con IA",
+    "pt-BR": "Crie uma apresentação com IA",
+    "fr": "Créer une présentation avec l'IA",
+    "it": "Crea una presentazione con l'IA",
+    "sr-Latn": "Napravi prezentaciju uz AI"
+   }
+  },
+  {
+   "id": "claude_adult_p1",
+   "tool": "claude",
+   "audience": "adult",
+   "level": "pro",
+   "pro": true,
+   "titles": {
+    "en": "Build a website with AI",
+    "de": "Eine Website mit KI bauen",
+    "es-419": "Crea un sitio web con IA",
+    "pt-BR": "Crie um site com IA",
+    "fr": "Créer un site web avec l'IA",
+    "it": "Crea un sito web con l'IA",
+    "sr-Latn": "Napravi sajt uz pomoć AI"
+   }
+  },
+  {
+   "id": "claude_adult_p2",
+   "tool": "claude",
+   "audience": "adult",
+   "level": "pro",
+   "pro": true,
+   "titles": {
+    "en": "Build an app with AI",
+    "de": "Eine App mit KI bauen",
+    "es-419": "Crea una app con IA",
+    "pt-BR": "Crie um app com IA",
+    "fr": "Créer une application avec l'IA",
+    "it": "Crea un'app con l'IA",
+    "sr-Latn": "Napravi aplikaciju uz pomoć AI"
+   }
+  },
+  {
+   "id": "claude_kid_b1",
+   "tool": "claude",
+   "audience": "kid",
+   "level": "beginner",
+   "content": true,
+   "titles": {
+    "en": "What is AI?",
+    "de": "Was ist KI?",
+    "es-419": "¿Qué es la IA?",
+    "pt-BR": "O que é IA?",
+    "fr": "C'est quoi, l'IA ?",
+    "it": "Che cos'è l'IA?",
+    "sr-Latn": "Šta je AI?"
+   },
+   "quiz": true
+  },
+  {
+   "id": "claude_kid_b2",
+   "tool": "claude",
+   "audience": "kid",
+   "level": "beginner",
+   "titles": {
+    "en": "What AI can't do",
+    "de": "Was KI nicht kann",
+    "es-419": "Lo que la IA no puede hacer",
+    "pt-BR": "O que a IA não consegue fazer",
+    "fr": "Ce que l'IA ne sait pas faire",
+    "it": "Cosa non sa fare l'IA",
+    "sr-Latn": "Šta AI ne može?"
+   }
+  },
+  {
+   "id": "claude_kid_i1",
+   "tool": "claude",
+   "audience": "kid",
+   "level": "intermediate",
+   "titles": {
+    "en": "AI as your school helper",
+    "de": "KI als Helfer für die Schule",
+    "es-419": "La IA como ayudante para la escuela",
+    "pt-BR": "A IA como ajudante na escola",
+    "fr": "L'IA, ton assistant pour l'école",
+    "it": "L'IA come aiuto per la scuola",
+    "sr-Latn": "AI kao pomoćnik za školu"
+   }
+  },
+  {
+   "id": "claude_kid_p1",
+   "tool": "claude",
+   "audience": "kid",
+   "level": "pro",
+   "titles": {
+    "en": "Make a presentation with AI",
+    "de": "Eine Präsentation mit KI erstellen",
+    "es-419": "Crea una presentación con IA",
+    "pt-BR": "Crie uma apresentação com IA",
+    "fr": "Crée une présentation avec l'IA",
+    "it": "Crea una presentazione con l'IA",
+    "sr-Latn": "Napravi prezentaciju uz AI"
+   }
+  }
+ ],
+ "files": [
+  "lessons/claude_adult_b1/de.json",
+  "lessons/claude_adult_b1/en.json",
+  "lessons/claude_adult_b1/es-419.json",
+  "lessons/claude_adult_b1/fr.json",
+  "lessons/claude_adult_b1/it.json",
+  "lessons/claude_adult_b1/pt-BR.json",
+  "lessons/claude_adult_b1/sr-Latn.json",
+  "lessons/claude_kid_b1/de.json",
+  "lessons/claude_kid_b1/en.json",
+  "lessons/claude_kid_b1/es-419.json",
+  "lessons/claude_kid_b1/fr.json",
+  "lessons/claude_kid_b1/it.json",
+  "lessons/claude_kid_b1/pt-BR.json",
+  "lessons/claude_kid_b1/sr-Latn.json",
+  "quizzes/claude_adult_b1/de.json",
+  "quizzes/claude_adult_b1/en.json",
+  "quizzes/claude_adult_b1/es-419.json",
+  "quizzes/claude_adult_b1/fr.json",
+  "quizzes/claude_adult_b1/it.json",
+  "quizzes/claude_adult_b1/pt-BR.json",
+  "quizzes/claude_adult_b1/sr-Latn.json",
+  "quizzes/claude_kid_b1/de.json",
+  "quizzes/claude_kid_b1/en.json",
+  "quizzes/claude_kid_b1/es-419.json",
+  "quizzes/claude_kid_b1/fr.json",
+  "quizzes/claude_kid_b1/it.json",
+  "quizzes/claude_kid_b1/pt-BR.json",
+  "quizzes/claude_kid_b1/sr-Latn.json"
+ ]
+}

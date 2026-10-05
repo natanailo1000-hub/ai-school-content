@@ -1,0 +1,39 @@
+{
+ "id": "claude_kid_b1",
+ "updated": "2026-10-05",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI je kompjuterski program koji je pročitao ogromnu količinu tekstova i tako naučio da priča sa ljudima. Claude je jedan takav AI."
+  },
+  {
+   "type": "h",
+   "text": "Kako on zna odgovore?"
+  },
+  {
+   "type": "p",
+   "text": "Zamisli prijatelja koji je pročitao milion knjiga. Kad ga nešto pitaš, seti se šta je čitao i sastavi odgovor. AI radi slično, samo mnogo brže."
+  },
+  {
+   "type": "h",
+   "text": "Šta sve može?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Da ti objasni lekciju iz škole na lakši način",
+    "Da smisli priču ili šalu",
+    "Da ti pomogne da napraviš plan za učenje",
+    "Da odgovori na pitanja kad te nešto zanima"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "AI nije uvek u pravu! Ako je nešto važno, proveri sa nastavnikom ili roditeljem. I nikad mu ne daj lične podatke, kao što su adresa ili lozinke."
+  },
+  {
+   "type": "try",
+   "text": "Objasni mi kako rade vulkani kao da imam 12 godina."
+  }
+ ]
+}
