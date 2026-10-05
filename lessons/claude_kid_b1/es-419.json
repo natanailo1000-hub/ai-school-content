@@ -1,6 +1,6 @@
 {
  "id": "claude_kid_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "¡La IA no siempre tiene razón! Si algo es importante, compruébalo con un maestro o con tus papás. Y nunca le des datos personales como tu dirección o tus contraseñas."
+  },
+  {
+   "type": "tip",
+   "text": "Nuevo consejo: ¿no entendiste la respuesta? Escribe \"Explícamelo como si tuviera 10 años\" ¡y la IA lo hará más fácil!"
   },
   {
    "type": "try",

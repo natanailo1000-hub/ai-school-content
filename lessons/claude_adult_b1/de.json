@@ -1,6 +1,6 @@
 {
  "id": "claude_adult_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "KI macht manchmal Fehler und klingt dabei sicher. Prüfe wichtige Fakten (Gesundheit, Geld, Recht) immer nach."
+  },
+  {
+   "type": "tip",
+   "text": "Neuer Tipp: Wenn eine Antwort zu kompliziert ist, schreib einfach „Erklär das einfacher“ – die KI versucht es noch einmal."
   },
   {
    "type": "try",

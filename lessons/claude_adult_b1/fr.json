@@ -1,6 +1,6 @@
 {
  "id": "claude_adult_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "L'IA se trompe parfois tout en ayant l'air sûre d'elle. Vérifie toujours les informations importantes (santé, argent, droit)."
+  },
+  {
+   "type": "tip",
+   "text": "Nouveau conseil : si une réponse est trop compliquée, écris simplement « Explique plus simplement » – l'IA réessaiera."
   },
   {
    "type": "try",

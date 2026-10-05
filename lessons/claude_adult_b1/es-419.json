@@ -1,6 +1,6 @@
 {
  "id": "claude_adult_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "A veces la IA se equivoca aunque suene segura. Revisa siempre los datos importantes (salud, dinero, leyes)."
+  },
+  {
+   "type": "tip",
+   "text": "Nuevo consejo: si una respuesta es muy complicada, escribe \"Explícalo más fácil\" y la IA lo intentará de nuevo."
   },
   {
    "type": "try",

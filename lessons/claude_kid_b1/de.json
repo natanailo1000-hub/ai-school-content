@@ -1,6 +1,6 @@
 {
  "id": "claude_kid_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "KI hat nicht immer recht! Wenn etwas wichtig ist, frag eine Lehrkraft oder deine Eltern. Und gib ihr nie persönliche Daten wie deine Adresse oder Passwörter."
+  },
+  {
+   "type": "tip",
+   "text": "Neuer Tipp: Antwort nicht verstanden? Schreib „Erklär es, als wäre ich 10“ und die KI macht es einfacher!"
   },
   {
    "type": "try",

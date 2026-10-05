@@ -1,6 +1,6 @@
 {
  "id": "claude_kid_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "L'IA non ha sempre ragione! Se una cosa è importante, controllala con un insegnante o con i tuoi genitori. E non darle mai dati personali come il tuo indirizzo o le password."
+  },
+  {
+   "type": "tip",
+   "text": "Nuovo consiglio: non hai capito la risposta? Scrivi \"Spiegamelo come se avessi 10 anni\" e l'IA la renderà più facile!"
   },
   {
    "type": "try",

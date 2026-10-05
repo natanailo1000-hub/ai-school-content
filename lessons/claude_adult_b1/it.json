@@ -1,6 +1,6 @@
 {
  "id": "claude_adult_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "A volte l'IA sbaglia, anche se sembra sicura. Controlla sempre le informazioni importanti (salute, soldi, leggi)."
+  },
+  {
+   "type": "tip",
+   "text": "Nuovo consiglio: se una risposta è troppo complicata, scrivi \"Spiegalo in modo più semplice\" e l'IA ci riproverà."
   },
   {
    "type": "try",

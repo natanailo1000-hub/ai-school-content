@@ -1,6 +1,6 @@
 {
  "id": "claude_adult_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "AI ponekad pogreši, a zvuči sigurno. Važne činjenice (zdravlje, novac, zakon) uvek proveri."
+  },
+  {
+   "type": "tip",
+   "text": "Novi savet: ako ti je odgovor previše komplikovan, samo napiši „Objasni to jednostavnije“ i AI će pokušati ponovo."
   },
   {
    "type": "try",

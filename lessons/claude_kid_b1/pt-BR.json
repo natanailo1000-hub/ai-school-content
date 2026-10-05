@@ -1,6 +1,6 @@
 {
  "id": "claude_kid_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "A IA nem sempre está certa! Se algo for importante, confira com um professor ou com seus pais. E nunca passe dados pessoais, como seu endereço ou suas senhas."
+  },
+  {
+   "type": "tip",
+   "text": "Nova dica: não entendeu a resposta? Escreva \"Explique como se eu tivesse 10 anos\" e a IA deixa mais fácil!"
   },
   {
    "type": "try",

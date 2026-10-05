@@ -1,6 +1,6 @@
 {
  "id": "claude_kid_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "AI nije uvek u pravu! Ako je nešto važno, proveri sa nastavnikom ili roditeljem. I nikad mu ne daj lične podatke, kao što su adresa ili lozinke."
+  },
+  {
+   "type": "tip",
+   "text": "Novi savet: nisi razumeo odgovor? Napiši „Objasni mi kao da imam 10 godina“ i AI će ti objasniti lakše!"
   },
   {
    "type": "try",

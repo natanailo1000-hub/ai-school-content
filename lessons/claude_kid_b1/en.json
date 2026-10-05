@@ -1,6 +1,6 @@
 {
  "id": "claude_kid_b1",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "blocks": [
   {
    "type": "p",
@@ -30,6 +30,10 @@
   {
    "type": "tip",
    "text": "AI isn't always right! If something matters, check it with a teacher or a parent. And never give it personal info like your address or passwords."
+  },
+  {
+   "type": "tip",
+   "text": "New tip: didn't understand the answer? Write \"Explain it like I'm 10\" and the AI will make it easier!"
   },
   {
    "type": "try",
