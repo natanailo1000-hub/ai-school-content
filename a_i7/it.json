@@ -1,65 +1,80 @@
 {
- "id": "a_i7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Una volta padroneggiate le basi, questi trucchi ti daranno risposte da esperto."
+   "q": "Perché è utile dare un esempio?",
+   "options": [
+    "L'IA segue meglio il tipo di risposta che vuoi",
+    "L'IA si confonde",
+    "Non è utile",
+    "Per renderlo più lungo"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "1. Dai esempi"
+   "q": "Cosa significa \"lascia che ti faccia domande\"?",
+   "options": [
+    "Chiedi all'IA di fare domande prima di rispondere",
+    "L'IA ti telefona",
+    "L'IA sta zitta",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Mostra un esempio del tipo di risposta che vuoi. L'IA segue un esempio molto meglio di una descrizione."
+   "q": "La prima risposta non è perfetta. Cos'è l'iterazione?",
+   "options": [
+    "Dare un riscontro e chiedere modifiche",
+    "Arrendersi",
+    "Cancellare tutto",
+    "Comprare un altro telefono"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "2. Dividi in passaggi"
+   "q": "Dove tieni i prompt che funzionano bene?",
+   "options": [
+    "Nelle tue note, per riusarli",
+    "Da nessuna parte",
+    "Su un foglio che butti",
+    "Li mandi a sconosciuti"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ti ha fatto 3 domande (evidenziato) prima di rispondere. Cosa fai?",
+   "options": [
+    "Rispondo per ottenere un risultato migliore",
+    "Le ignoro",
+    "Chiudo l'app",
+    "Scrivo la mia password"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Per un compito complesso, chiedi di lavorare passo dopo passo: \"Prima fai un piano, aspetta il mio ok, poi scrivi.\""
-  },
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato hai dato un esempio di buona risposta. Come si chiama questa tecnica?",
+   "options": [
+    "Dare esempi",
+    "Allucinazione",
+    "Password",
+    "Pubblicità"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "h",
-   "text": "3. Lascia che ti faccia domande"
-  },
-  {
-   "type": "p",
-   "text": "Scrivi: \"Prima di rispondere, fammi 3 domande che ti aiutino a rispondere meglio.\""
-  },
-  {
-   "type": "h",
-   "text": "4. Itera"
-  },
-  {
-   "type": "p",
-   "text": "La prima risposta è una bozza. Dai un riscontro: cosa va bene, cosa no, cosa cambiare."
-  },
-  {
-   "type": "try",
-   "text": "Voglio scrivere la descrizione di un prodotto per un negozio online. Prima di iniziare, fammi 5 domande sul prodotto e sui clienti. Poi scrivi 2 versioni: una breve e una dettagliata. Ecco un esempio di descrizione che mi piace: [esempio]."
-  },
-  {
-   "type": "tip",
-   "text": "Salva i prompt che funzionano bene (per esempio nelle Note di questa app), così li riusi."
-  },
-  {
-   "type": "tip",
-   "text": "In Claude puoi creare un \"Progetto\" con istruzioni e documenti fissi, così non devi rispiegare tutto ogni volta.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "In ChatGPT puoi creare il tuo GPT o un progetto con istruzioni fisse per un compito che fai spesso.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "In Gemini puoi creare una \"Gem\": il tuo assistente con istruzioni fisse per un compito specifico.",
-   "tool": "gemini"
+   "task": "Scrivi un prompt avanzato per pianificare il marketing di un bar di quartiere, usando almeno 2 trucchi di questa lezione.",
+   "seconds": 180,
+   "checklist": [
+    "Chiedi all'IA di farti prima delle domande",
+    "Dividi il compito in passaggi",
+    "Dai un esempio o un formato chiaro"
+   ],
+   "example": "Aiutami a fare un piano mensile di post Instagram per il mio bar. Prima fammi 5 domande sul locale e sui clienti. Poi fai un piano settimana per settimana e aspetta il mio ok prima di scrivere i post. Formato: tabella con data, tema e testo del post."
   }
  ]
 }

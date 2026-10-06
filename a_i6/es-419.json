@@ -1,64 +1,80 @@
 {
- "id": "a_i6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Las herramientas de IA de hoy no solo entienden texto: pueden \"ver\" imágenes. Tomas una foto y la IA te explica qué hay en ella."
+   "q": "¿Qué puede hacer la IA con la foto de un ticket?",
+   "options": [
+    "Pasar los productos a una tabla",
+    "Pagar la cuenta",
+    "Mandar el ticket a la tienda",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Qué puedes hacer"
+   "q": "¿Cómo consigues una mejor imagen hecha con IA?",
+   "options": [
+    "Describiendo con precisión contenido, estilo y colores",
+    "Escribiendo solo \"imagen\"",
+    "Enviando tu contraseña",
+    "De ninguna forma"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Fotografiar instrucciones en otro idioma y pedir la traducción.",
-    "Sacarle foto a un ticket y pedir que pase los productos a una tabla.",
-    "Fotografiar una planta o una falla y preguntar qué es (¡y luego verificar!).",
-    "Enviar un gráfico y pedir que te lo explique."
-   ]
+   "q": "La IA dice qué planta hay en tu foto. Es importante (¿es venenosa?). ¿Qué haces?",
+   "options": [
+    "Lo verifico con un experto o una fuente confiable",
+    "Le creo y la pruebo",
+    "Nada",
+    "Tiro el teléfono"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "[adjunta la foto de un ticket] Pasa todos los productos de este ticket a una tabla: nombre, cantidad, precio. Al final suma el total y compáralo con el monto del ticket."
+   "q": "¿Qué no envías sin permiso?",
+   "options": [
+    "Fotos de caras y documentos de otras personas",
+    "Una foto del atardecer",
+    "Una foto de tu dibujo",
+    "Una foto de una flor"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "¿Dónde agregas una foto?",
+   "options": [
+    "Desde el cuadro de mensaje (botón de adjuntar)",
+    "En la configuración del teléfono",
+    "En la calculadora",
+    "En ningún lado"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Crear imágenes"
-  },
+   "image": "chat_reply",
+   "q": "La IA describió tu foto (resaltado). La descripción está mal. ¿Qué haces?",
+   "options": [
+    "Digo qué está mal y pido un nuevo análisis",
+    "Creo la descripción",
+    "Nada",
+    "Borro la app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Algunas herramientas de IA también crean una imagen nueva a partir de tu descripción. Describe qué hay en la imagen, el estilo, los colores y la distribución. Cuanto más precisa la descripción, mejor la imagen."
-  },
-  {
-   "type": "tip",
-   "text": "Claude lee y analiza muy bien las imágenes y documentos que le envías, pero no crea imágenes nuevas: para eso usa otra herramienta.",
-   "tool": "claude"
-  },
-  {
-   "type": "try",
-   "text": "Haz una ilustración para una invitación de cumpleaños: un oso alegre con globos, colores pastel, estilo de caricatura simple y espacio vacío arriba para el texto.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "try",
-   "text": "Haz una ilustración para una invitación de cumpleaños: un oso alegre con globos, colores pastel, estilo de caricatura simple y espacio vacío arriba para el texto.",
-   "tool": "gemini"
-  },
-  {
-   "type": "tip",
-   "text": "No envíes fotos de caras o documentos de otras personas sin permiso. Y no presentes imágenes hechas con IA como fotos reales."
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT puede analizar imágenes y también crear imágenes nuevas a partir de tu descripción.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini puede analizar imágenes y también crear imágenes nuevas a partir de tu descripción.",
-   "tool": "gemini"
+   "task": "Escribe un prompt para una imagen con IA: el logo de tu pequeño negocio (panadería, peluquería…).",
+   "seconds": 150,
+   "checklist": [
+    "Qué hay en la imagen (símbolo, nombre)",
+    "Estilo y colores",
+    "Para qué se va a usar"
+   ],
+   "example": "Crea un logo sencillo para una pequeña panadería llamada \"Grano\": una espiga de trigo en un círculo, colores marrón cálido y dorado, estilo minimalista, que se vea bien en una bolsa y en Instagram."
   }
  ]
 }

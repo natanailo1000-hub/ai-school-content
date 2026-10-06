@@ -1,65 +1,80 @@
 {
- "id": "a_i7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Once you've mastered the basics, these tricks will get you expert-level answers."
+   "q": "Why is giving an example useful?",
+   "options": [
+    "The AI follows the kind of answer you want better",
+    "The AI gets confused",
+    "It isn't useful",
+    "To make it longer"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "1. Give examples"
+   "q": "What does \"let it ask you\" mean?",
+   "options": [
+    "You ask the AI to ask questions before answering",
+    "The AI phones you",
+    "The AI stays silent",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Show an example of the kind of answer you want. The AI follows an example much better than a description."
+   "q": "The first answer isn't perfect. What is iteration?",
+   "options": [
+    "Giving feedback and asking for changes",
+    "Giving up",
+    "Deleting everything",
+    "Buying another phone"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "2. Split it into steps"
+   "q": "Where do you keep prompts that work well?",
+   "options": [
+    "In your notes, to reuse them",
+    "Nowhere",
+    "On paper you throw away",
+    "You send them to strangers"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI asked you 3 questions (highlighted) before answering. What do you do?",
+   "options": [
+    "Answer them to get a better result",
+    "Ignore them",
+    "Close the app",
+    "Write my password"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "For a complex task, ask it to work step by step: \"First make a plan, wait for my OK, then write.\""
-  },
+   "image": "chat_user",
+   "q": "In the highlighted message you gave an example of a good answer. What's this technique called?",
+   "options": [
+    "Giving examples",
+    "A hallucination",
+    "A password",
+    "An ad"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "h",
-   "text": "3. Let it ask you"
-  },
-  {
-   "type": "p",
-   "text": "Write: \"Before you answer, ask me 3 questions that will help you give a better answer.\""
-  },
-  {
-   "type": "h",
-   "text": "4. Iterate"
-  },
-  {
-   "type": "p",
-   "text": "The first answer is a draft. Give feedback: what's good, what isn't, what to change."
-  },
-  {
-   "type": "try",
-   "text": "I want to write a product description for an online shop. Before you start, ask me 5 questions about the product and the customers. Then write 2 versions: a short one and a detailed one. Here's an example description I like: [example]."
-  },
-  {
-   "type": "tip",
-   "text": "Save prompts that work well (for example in Notes in this app) – that way you can reuse them."
-  },
-  {
-   "type": "tip",
-   "text": "In Claude you can create a \"Project\" with standing instructions and documents, so you don't have to explain everything every time.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "In ChatGPT you can create your own GPT or a project with standing instructions for a task you do often.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "In Gemini you can create a \"Gem\" – your own assistant with standing instructions for a specific task.",
-   "tool": "gemini"
+   "task": "Write an advanced prompt to plan marketing for a local café, using at least 2 tricks from this lesson.",
+   "seconds": 180,
+   "checklist": [
+    "You ask the AI to ask you questions first",
+    "You split the task into steps",
+    "You give an example or a clear format"
+   ],
+   "example": "Help me make a monthly Instagram post plan for my café. First ask me 5 questions about the café and the guests. Then make a week-by-week plan and wait for my OK before writing the posts. Format: a table – date, topic, post text."
   }
  ]
 }

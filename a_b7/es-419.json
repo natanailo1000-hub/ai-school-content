@@ -1,67 +1,80 @@
 {
- "id": "a_b7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Todo lo que le escribes a una IA se envía a los servidores de la empresa. Por eso, cuida lo que compartes, como en cualquier parte de internet."
+   "q": "¿Qué nunca compartes con la IA?",
+   "options": [
+    "Contraseñas y números de tarjeta",
+    "Una idea para el almuerzo",
+    "Una pregunta de historia",
+    "Un plan de ejercicio"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Nunca compartas"
+   "q": "¿Cómo pides ayuda de forma segura con un documento personal?",
+   "options": [
+    "Cambias los datos reales por marcadores como [NOMBRE]",
+    "Pegas todo el documento con todos los números",
+    "Envías una foto de tu identificación",
+    "Escribes tu contraseña"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Contraseñas y PIN.",
-    "Números de tarjetas y cuentas bancarias.",
-    "Número de identificación o pasaporte.",
-    "Datos privados de otras personas sin permiso (salud, direcciones, teléfonos)."
-   ]
+   "q": "Alguien llama con la voz de un familiar y pide dinero urgente. ¿Qué haces?",
+   "options": [
+    "Cuelgo y lo llamo yo a un número conocido",
+    "Envío el dinero ya",
+    "Le doy los datos de mi tarjeta",
+    "No verifico nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cómo preguntar de forma segura"
+   "q": "¿De dónde descargas una app de IA?",
+   "options": [
+    "Solo de una fuente oficial (tienda, sitio oficial)",
+    "De cualquier enlace en un mensaje",
+    "De desconocidos",
+    "De un anuncio sospechoso"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Estás escribiendo tu número de tarjeta en el cuadro resaltado. ¿Qué debes hacer?",
+   "options": [
+    "Borrarlo: eso nunca se comparte",
+    "Enviarlo",
+    "Agregar también el PIN",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Si necesitas ayuda con un documento personal, cambia los nombres y números reales por inventados o marcadores ([NOMBRE], [MONTO]). La IA necesita la estructura del problema, no tus datos reales."
-  },
+   "image": "chat_reply",
+   "q": "El mensaje resaltado pide la contraseña de tu banco. ¿Qué es?",
+   "options": [
+    "Una señal de estafa: nunca la des",
+    "Algo normal",
+    "Un paso obligatorio",
+    "Un regalo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Ayúdame a escribir un reclamo a mi banco por un cargo de [MONTO] cobrado dos veces el [FECHA]. Mi nombre es [NOMBRE]. Tono firme pero amable."
-  },
-  {
-   "type": "h",
-   "text": "Estafas e IA falsa"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Usa solo las apps y sitios oficiales de las herramientas.",
-    "Cuidado con apps falsas de nombre y logo parecidos.",
-    "Las voces e imágenes con IA se pueden falsificar: si alguien te pide dinero \"urgente\", verifícalo llamando tú.",
-    "Nadie de la empresa te pedirá tu contraseña en el chat."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "En el trabajo: antes de subir documentos laborales, revisa las reglas de tu empresa sobre el uso de IA."
-  },
-  {
-   "type": "tip",
-   "text": "En la configuración de Claude puedes ver si tus chats se usan para mejorar los modelos y desactivarlo.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT tiene un chat temporal que no se guarda en el historial y una opción para que tus chats no se usen para entrenar.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "En tu cuenta de Google puedes decidir si se guarda tu actividad en Gemini y por cuánto tiempo.",
-   "tool": "gemini"
+   "task": "Necesitas ayuda para escribir un reclamo al dueño de tu departamento, pero no quieres revelar tu nombre, dirección ni alquiler. Escribe un prompt seguro.",
+   "seconds": 120,
+   "checklist": [
+    "Usas marcadores en vez de datos reales",
+    "Describes el problema con claridad",
+    "Pides tono y extensión"
+   ],
+   "example": "Ayúdame a escribir un reclamo al dueño [NOMBRE], que desde hace [NÚMERO] semanas no arregla una fuga de agua en el baño del departamento en [DIRECCIÓN]. Tono firme pero amable, máximo 120 palabras."
   }
  ]
 }

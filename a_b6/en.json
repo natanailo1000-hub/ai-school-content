@@ -1,60 +1,80 @@
 {
- "id": "a_b6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI sometimes makes up facts, numbers or sources – and sounds completely sure. This is called a \"hallucination\". The good news: it's easy to learn how to protect yourself."
+   "q": "What is an AI \"hallucination\"?",
+   "options": [
+    "When the AI makes up wrong information but sounds sure",
+    "When the app crashes",
+    "When the AI answers too briefly",
+    "When the AI draws pictures"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "When AI makes mistakes most often"
+   "q": "Where does AI make mistakes most often?",
+   "options": [
+    "Exact numbers, dates and sources",
+    "Greetings",
+    "General writing tips",
+    "Birthday ideas"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Exact numbers, dates and quotes.",
-    "The latest news and prices.",
-    "Narrow expert details (laws, medicines, taxes).",
-    "Links and titles of books or studies."
-   ]
+   "q": "The AI gave you a source. What do you do?",
+   "options": [
+    "Open it and check it really exists",
+    "Trust it without checking",
+    "Delete the chat",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "5 tricks for checking"
+   "q": "Who decides which medicine you take?",
+   "options": [
+    "A doctor or pharmacist",
+    "The AI",
+    "Any website",
+    "Your neighbour"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In the highlighted answer the AI wrote the exact date of a law. What do you do?",
+   "options": [
+    "Check it on an official website",
+    "Trust it because it sounds sure",
+    "Copy it into a contract",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Ask: \"How sure are you? What should I double-check here?\"",
-    "Ask for sources – then open them and check they really exist.",
-    "Check important things on an official website or with an expert.",
-    "Ask the same question in a different way and compare.",
-    "Compare with another AI tool."
-   ]
-  },
+   "image": "chat_input",
+   "q": "Where can you ask the AI \"How sure are you?\"",
+   "options": [
+    "In the highlighted message box",
+    "In the settings",
+    "Nowhere – it won't answer that",
+    "In the app store"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Answer my question, and at the end list separately which parts I should double-check and where. Question: how long is an adult passport valid in the UK?"
-  },
-  {
-   "type": "tip",
-   "text": "AI is great for understanding and ideas, but for final decisions about health, money and the law, always ask an expert."
-  },
-  {
-   "type": "tip",
-   "text": "Claude will often say when it isn't sure – watch for those sentences and check exactly those parts.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT can search the web and show links to sources – click them and check.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Some versions of Gemini offer a button to double-check the answer with Google Search – use it when it matters.",
-   "tool": "gemini"
+   "task": "The AI told you a city is the capital of a country, but you're not sure. Write a message to check the answer.",
+   "seconds": 90,
+   "checklist": [
+    "Ask it to say how sure it is",
+    "Ask for a source",
+    "Plan to check in a reliable place"
+   ],
+   "example": "How sure are you about this answer? Give me a reliable source where I can check it, and tell me if there's a chance you're wrong."
   }
  ]
 }

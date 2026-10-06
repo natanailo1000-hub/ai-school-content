@@ -1,64 +1,80 @@
 {
- "id": "a_i6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Les outils d'IA actuels ne comprennent pas que le texte : ils peuvent « voir » les images. Tu prends une photo et l'IA t'explique ce qu'il y a dessus."
+   "q": "Que peut faire l'IA avec la photo d'un ticket de caisse ?",
+   "options": [
+    "Mettre les articles dans un tableau",
+    "Payer la facture",
+    "Envoyer le ticket au magasin",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Ce que tu peux faire"
+   "q": "Comment obtenir une meilleure image créée par IA ?",
+   "options": [
+    "Décrire précisément le contenu, le style et les couleurs",
+    "Écrire juste « image »",
+    "Envoyer ton mot de passe",
+    "Impossible"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Photographier un mode d'emploi en langue étrangère et demander la traduction.",
-    "Prendre un ticket de caisse en photo et faire mettre les articles dans un tableau.",
-    "Photographier une plante ou une panne et demander ce que c'est (puis vérifier !).",
-    "Envoyer un graphique et demander une explication."
-   ]
+   "q": "L'IA dit quelle plante est sur ta photo. C'est important (est-elle toxique ?). Que fais-tu ?",
+   "options": [
+    "Je vérifie auprès d'un expert ou d'une source fiable",
+    "Je la crois et je goûte",
+    "Rien",
+    "Je jette le téléphone"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "[joins la photo d'un ticket de caisse] Mets tous les articles de ce ticket dans un tableau : nom, quantité, prix. À la fin, calcule le total et compare-le avec le montant du ticket."
+   "q": "Qu'est-ce que tu n'envoies pas sans permission ?",
+   "options": [
+    "Des photos de visages et de documents d'autres personnes",
+    "Une photo de coucher de soleil",
+    "Une photo de ton dessin",
+    "Une photo de fleur"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Où ajoutes-tu une photo ?",
+   "options": [
+    "Via la zone de message (bouton pièce jointe)",
+    "Dans les réglages du téléphone",
+    "Dans la calculatrice",
+    "Nulle part"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Créer des images"
-  },
+   "image": "chat_reply",
+   "q": "L'IA a décrit ta photo (en évidence). La description est fausse. Que fais-tu ?",
+   "options": [
+    "Je dis ce qui ne va pas et je demande une nouvelle analyse",
+    "Je crois la description",
+    "Rien",
+    "Je supprime l'appli"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Certains outils d'IA peuvent aussi créer une nouvelle image à partir de ta description. Décris le contenu, le style, les couleurs et la composition. Plus la description est précise, meilleure est l'image."
-  },
-  {
-   "type": "tip",
-   "text": "Claude lit et analyse très bien les images et documents que tu lui envoies, mais il ne crée pas de nouvelles images : utilise un autre outil pour ça.",
-   "tool": "claude"
-  },
-  {
-   "type": "try",
-   "text": "Crée une illustration pour une invitation d'anniversaire : un ours joyeux avec des ballons, couleurs pastel, style dessin animé simple, espace vide en haut pour le texte.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "try",
-   "text": "Crée une illustration pour une invitation d'anniversaire : un ours joyeux avec des ballons, couleurs pastel, style dessin animé simple, espace vide en haut pour le texte.",
-   "tool": "gemini"
-  },
-  {
-   "type": "tip",
-   "text": "N'envoie pas de photos de visages ou de documents d'autres personnes sans leur accord. Et ne fais pas passer des images créées par IA pour de vraies photos."
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT peut analyser des images et en créer de nouvelles à partir de ta description.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini peut analyser des images et en créer de nouvelles à partir de ta description.",
-   "tool": "gemini"
+   "task": "Écris un prompt pour une image IA : le logo de ta petite entreprise (boulangerie, coiffeur…).",
+   "seconds": 150,
+   "checklist": [
+    "Ce qu'il y a sur l'image (symbole, nom)",
+    "Le style et les couleurs",
+    "À quoi il servira"
+   ],
+   "example": "Crée un logo simple pour une petite boulangerie appelée « Grain » : un épi de blé dans un cercle, des tons brun chaud et or, style minimaliste, qui rende bien sur un sac et sur Instagram."
   }
  ]
 }

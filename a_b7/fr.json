@@ -1,67 +1,80 @@
 {
- "id": "a_b7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Tout ce que tu écris à une IA est envoyé sur les serveurs de l'entreprise. Fais donc attention à ce que tu partages, comme partout sur internet."
+   "q": "Que ne partages-tu jamais avec une IA ?",
+   "options": [
+    "Mots de passe et numéros de carte",
+    "Une idée de déjeuner",
+    "Une question d'histoire",
+    "Un programme sportif"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Ne partage jamais"
+   "q": "Comment demander de l'aide en sécurité pour un document personnel ?",
+   "options": [
+    "Remplacer les vraies infos par des repères comme [NOM]",
+    "Coller tout le document avec tous les numéros",
+    "Envoyer une photo de ta carte d'identité",
+    "Écrire ton mot de passe"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Mots de passe et codes PIN.",
-    "Numéros de carte et de compte bancaire.",
-    "Numéros de carte d'identité ou de passeport.",
-    "Les données privées d'autres personnes sans leur accord (santé, adresses, numéros)."
-   ]
+   "q": "Quelqu'un appelle avec la voix d'un proche et demande de l'argent en urgence. Que fais-tu ?",
+   "options": [
+    "Je raccroche et je le rappelle moi-même sur un numéro connu",
+    "J'envoie l'argent tout de suite",
+    "Je donne mes infos de carte",
+    "Je ne vérifie rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Demander en toute sécurité"
+   "q": "Où télécharges-tu une appli d'IA ?",
+   "options": [
+    "Seulement depuis une source officielle (boutique, site officiel)",
+    "Depuis n'importe quel lien reçu",
+    "Auprès d'inconnus",
+    "Depuis une pub suspecte"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Tu tapes ton numéro de carte dans la zone mise en évidence. Que dois-tu faire ?",
+   "options": [
+    "L'effacer – ça ne se partage jamais",
+    "L'envoyer",
+    "Ajouter aussi le code PIN",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Quand tu as besoin d'aide pour un document personnel, remplace les vrais noms et numéros par des faux ou des repères ([NOM], [MONTANT]). L'IA a besoin de la structure du problème, pas de tes vraies données."
-  },
+   "image": "chat_reply",
+   "q": "Le message mis en évidence demande ton mot de passe bancaire. Qu'est-ce que c'est ?",
+   "options": [
+    "Un signe d'arnaque – ne le donne jamais",
+    "Normal",
+    "Une étape obligatoire",
+    "Un cadeau"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Aide-moi à écrire une réclamation à ma banque pour une opération de [MONTANT] débitée deux fois le [DATE]. Je m'appelle [NOM]. Ton ferme mais poli."
-  },
-  {
-   "type": "h",
-   "text": "Arnaques et fausse IA"
-  },
-  {
-   "type": "list",
-   "items": [
-    "N'utilise que les applis et sites officiels des outils.",
-    "Méfie-toi des fausses applis au nom et au logo ressemblants.",
-    "Les voix et images d'IA peuvent être truquées : si quelqu'un te demande de l'argent « en urgence », vérifie en rappelant toi-même.",
-    "Personne de l'entreprise ne te demandera ton mot de passe dans la discussion."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Au travail : avant d'importer des documents professionnels, vérifie les règles de ton entreprise sur l'IA."
-  },
-  {
-   "type": "tip",
-   "text": "Dans les paramètres de Claude, tu peux vérifier si tes discussions servent à améliorer les modèles et le désactiver.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT propose une discussion temporaire non enregistrée dans l'historique, et un réglage pour que tes discussions ne servent pas à l'entraînement.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Dans ton compte Google, tu peux choisir si ton activité Gemini est enregistrée et pendant combien de temps.",
-   "tool": "gemini"
+   "task": "Tu as besoin d'aide pour écrire une réclamation à ton propriétaire, sans révéler ton nom, ton adresse ni ton loyer. Écris un prompt sûr.",
+   "seconds": 120,
+   "checklist": [
+    "Tu utilises des repères au lieu des vraies infos",
+    "Tu décris clairement le problème",
+    "Tu demandes un ton et une longueur"
+   ],
+   "example": "Aide-moi à écrire une réclamation à mon propriétaire [NOM], qui ne répare pas depuis [NOMBRE] semaines une fuite d'eau dans la salle de bain du logement situé [ADRESSE]. Ton ferme mais poli, 120 mots maximum."
   }
  ]
 }

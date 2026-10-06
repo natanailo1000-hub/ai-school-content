@@ -1,66 +1,80 @@
 {
- "id": "a_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI ist eine tolle Planerin: Aus deinen Aufgaben und Wünschen macht sie einen klaren Plan. Du musst ihr nur sagen, was wichtig ist."
+   "q": "Was ist am wichtigsten, wenn die KI einen Plan machen soll?",
+   "options": [
+    "Dein Ziel, deine verfügbare Zeit und deine Grenzen",
+    "Nur dein Name",
+    "Dein Lieblingsfilm",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Was du ihr sagen solltest"
+   "q": "Du hast ein Herzproblem und einen Trainingsplan von der KI. Was tust du?",
+   "options": [
+    "Den Plan vor dem Start einem Arzt zeigen",
+    "Sofort mit voller Kraft loslegen",
+    "Die Übungen verdoppeln",
+    "Den Arzt ignorieren"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Ziel – was du willst (fitter werden, stressfreie Reise, ruhigere Woche).",
-    "Zeit – wie viele Tage, Stunden oder Minuten du hast.",
-    "Grenzen – Budget, Gesundheit, Arbeit, Kinder.",
-    "Form des Plans – nach Tagen, als Tabelle, als Schrittliste."
-   ]
+   "q": "Am Mittwoch klappt der Plan nicht. Was ist am einfachsten?",
+   "options": [
+    "Die KI bitten, den Plan umzuplanen",
+    "Alles von Hand neu machen",
+    "Die ganze Woche aufgeben",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Training"
+   "q": "Welche Planform ist für eine Woche am übersichtlichsten?",
+   "options": [
+    "Eine Tabelle nach Tagen",
+    "Ein langer Satz",
+    "Ein Gedicht",
+    "Ein Bild ohne Text"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dir einen Reiseplan gegeben (markiert). Was ist mit Preisen und Öffnungszeiten?",
+   "options": [
+    "Auf offiziellen Websites prüfen",
+    "Ungeprüft glauben",
+    "Den ganzen Plan ignorieren",
+    "Sofort an alle schicken"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Erstelle mir einen 4-Wochen-Plan mit Spaziergängen und Übungen. Ich bin 45, trainiere nicht, arbeite im Büro und habe 30 Minuten pro Tag. Jede Woche soll etwas schwerer werden. Gib mir eine Tabelle nach Tagen."
-  },
+   "image": "chat_user",
+   "q": "Hier hast du deine Aufgaben geschrieben. Wie heißt das?",
+   "options": [
+    "Ein Prompt",
+    "Ein Passwort",
+    "Eine Werbung",
+    "Die Antwort der KI"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "Bei gesundheitlichen Problemen (Herz, Blutdruck, Verletzungen) zeig den Plan immer einer Ärztin oder einem Arzt. KI ist kein Arzt."
-  },
-  {
-   "type": "h",
-   "text": "Reisen"
-  },
-  {
-   "type": "try",
-   "text": "Ich plane 3 Tage in Rom mit zwei Kindern (7 und 11) im Juli. Mittleres Budget. Mach einen Plan nach Tagen mit 2–3 Hauptpunkten pro Tag, Pausen und Ideen für ein günstiges Mittagessen."
-  },
-  {
-   "type": "h",
-   "text": "Deine Woche"
-  },
-  {
-   "type": "p",
-   "text": "Schreib alle Aufgaben der Woche auf, füge sie bei der KI ein und bitte um einen Plan nach Tagen mit Prioritäten. Wenn etwas dazwischenkommt, schreib einfach: \"Mittwoch geht nicht, plane um\"."
-  },
-  {
-   "type": "tip",
-   "text": "Claude kann deinen Plan in ein ordentliches Dokument verwandeln, das du kopieren oder speichern kannst – bitte einfach \"als Dokument\".",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Manche Versionen von ChatGPT können auch Erinnerungen oder geplante Aufgaben anlegen – schau, was deine App anbietet.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini kann aktuelle Infos für deine Reise nachschlagen (Öffnungszeiten, Ticketpreise) – prüfe sie trotzdem auf der offiziellen Website.",
-   "tool": "gemini"
+   "task": "Schreib einen Prompt für einen Plan, um nächsten Samstag eine Geburtstagsfeier für 10 Personen zu Hause vorzubereiten.",
+   "seconds": 120,
+   "checklist": [
+    "Das Ziel (Feier für 10 Personen zu Hause)",
+    "Zeit (bis Samstag) und Budget",
+    "Form (Liste nach Tagen oder Aufgaben)"
+   ],
+   "example": "Hilf mir, nächsten Samstag eine Geburtstagsfeier für 10 Personen bei mir zu Hause zu organisieren. Mein Budget sind 100 Euro. Mach eine Aufgabenliste nach Tagen bis Samstag: Einkauf, Essen, Deko und was am Tag selbst zu tun ist."
   }
  ]
 }

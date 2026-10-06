@@ -1,58 +1,80 @@
 {
- "id": "a_i1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI kann dir bei einer Präsentation Stunden sparen: von der Struktur über den Folientext bis zu dem, was du sagst."
+   "q": "Wie viel Text gehört auf eine Folie?",
+   "options": [
+    "Wenig – 3 bis 5 kurze Punkte",
+    "Ein ganzer Aufsatz",
+    "Keiner, nur Zahlen",
+    "Je mehr, desto besser"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Schritt 1 – Struktur"
+   "q": "Was sind Sprechernotizen?",
+   "options": [
+    "Was du zu jeder Folie sagst",
+    "Eine Bilderliste",
+    "Die Schriftart",
+    "Der Preis der Präsentation"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Ich erstelle eine Präsentation mit 10 Folien für Kollegen zum Thema Bürokosten senken. Publikum: 15 Kollegen, 10 Minuten. Schlag Folientitel und je 3 kurze Punkte vor."
+   "q": "Worum bittest du die KI zuerst?",
+   "options": [
+    "Um die Struktur: Folientitel und Punkte",
+    "Um die Hintergrundfarbe",
+    "Um Musik",
+    "Um nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Schritt 2 – Text und Vortrag"
+   "q": "Die KI hat eine Statistik auf eine Folie gesetzt. Was tust du?",
+   "options": [
+    "Die Quelle vor dem Vortrag prüfen",
+    "Ungeprüft lassen",
+    "Die Zahl vergrößern",
+    "Alle Folien löschen"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dir eine Struktur gegeben (markiert). Du willst sie kürzer. Was schreibst du?",
+   "options": [
+    "\"Kürze auf 6 Folien\"",
+    "Nichts",
+    "Die App löschen",
+    "\"Tschüss\""
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Auf der Folie: wenig Text, höchstens 3–5 kurze Punkte.",
-    "Bitte die KI um \"Sprechernotizen\" – was du zu jeder Folie sagst.",
-    "Bitte um eine Geschichte oder ein Beispiel für den Einstieg.",
-    "Am Ende: ein klares Fazit und was das Publikum tun soll."
-   ]
-  },
+   "image": "chat_input",
+   "q": "Wo beschreibst du Publikum und Länge?",
+   "options": [
+    "Im markierten Nachrichtenfeld",
+    "In den Einstellungen",
+    "Im Dateinamen",
+    "Nirgends"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "h",
-   "text": "Schritt 3 – Aussehen"
-  },
-  {
-   "type": "p",
-   "text": "KI kann Farben, Aufbau und Bilder für jede Folie vorschlagen. Manche Tools erstellen sogar eine fertige Präsentationsdatei, die du dann in PowerPoint oder Google Präsentationen verfeinerst."
-  },
-  {
-   "type": "tip",
-   "text": "Prüfe jede Zahl und jeden Fakt auf den Folien – das Publikum merkt sie sich."
-  },
-  {
-   "type": "tip",
-   "text": "Claude kann eine fertige PowerPoint-Datei zum Herunterladen erstellen (in Versionen mit Dateierstellung) – bitte einfach um \"eine .pptx-Datei\".",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT kann eine Präsentationsdatei zum Herunterladen erstellen und Bilder für die Folien vorschlagen.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini arbeitet mit Google Präsentationen – in manchen Plänen hilft es dir direkt dort.",
-   "tool": "gemini"
+   "task": "Schreib einen Prompt für eine 5-minütige Präsentation über dein Hobby für Freunde.",
+   "seconds": 150,
+   "checklist": [
+    "Thema und Publikum",
+    "Länge und Folienanzahl",
+    "Was du willst (Titel, Punkte, Sprechernotizen)"
+   ],
+   "example": "Ich mache eine Präsentation mit 6 Folien für Freunde übers Wandern, 5 Minuten lang. Schlag Folientitel, je 3 kurze Punkte und kurze Notizen vor, was ich zu jeder Folie sage."
   }
  ]
 }

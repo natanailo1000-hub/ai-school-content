@@ -1,60 +1,80 @@
 {
- "id": "a_b6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA invente parfois des faits, des chiffres ou des sources, tout en ayant l'air parfaitement sûre d'elle. On appelle ça une « hallucination ». Bonne nouvelle : il est facile d'apprendre à s'en protéger."
+   "q": "Qu'est-ce qu'une « hallucination » de l'IA ?",
+   "options": [
+    "Quand l'IA invente une info fausse tout en ayant l'air sûre",
+    "Quand l'application plante",
+    "Quand l'IA répond trop court",
+    "Quand l'IA dessine"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Quand l'IA se trompe le plus souvent"
+   "q": "Où l'IA se trompe-t-elle le plus ?",
+   "options": [
+    "Chiffres exacts, dates et sources",
+    "Salutations",
+    "Conseils d'écriture généraux",
+    "Idées d'anniversaire"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Chiffres exacts, dates et citations.",
-    "Actualités et prix les plus récents.",
-    "Détails très spécialisés (lois, médicaments, impôts).",
-    "Liens et titres de livres ou d'études."
-   ]
+   "q": "L'IA t'a donné une source. Que fais-tu ?",
+   "options": [
+    "Je l'ouvre et vérifie qu'elle existe",
+    "Je la crois sans vérifier",
+    "Je supprime la discussion",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "5 astuces pour vérifier"
+   "q": "Qui décide du médicament que tu prends ?",
+   "options": [
+    "Un médecin ou un pharmacien",
+    "L'IA",
+    "N'importe quel site",
+    "Ton voisin"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Dans la réponse mise en évidence, l'IA donne la date exacte d'une loi. Que fais-tu ?",
+   "options": [
+    "Je vérifie sur un site officiel",
+    "Je la crois parce qu'elle a l'air sûre",
+    "Je la copie dans un contrat",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Demande : « À quel point es-tu sûr ? Que dois-je vérifier ? »",
-    "Demande des sources, puis ouvre-les pour voir si elles existent vraiment.",
-    "Vérifie l'important sur un site officiel ou auprès d'un expert.",
-    "Pose la même question autrement et compare.",
-    "Compare avec un autre outil d'IA."
-   ]
-  },
+   "image": "chat_input",
+   "q": "Où peux-tu demander à l'IA « À quel point es-tu sûr ? »",
+   "options": [
+    "Dans la zone de message mise en évidence",
+    "Dans les paramètres",
+    "Nulle part, elle ne répond pas à ça",
+    "Dans la boutique d'applis"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Réponds à ma question et indique à la fin, à part, quelles parties je dois vérifier et où. Question : combien de temps un passeport adulte est-il valable en France ?"
-  },
-  {
-   "type": "tip",
-   "text": "L'IA est excellente pour comprendre et trouver des idées, mais pour les décisions finales sur la santé, l'argent et le droit, demande toujours à un expert."
-  },
-  {
-   "type": "tip",
-   "text": "Claude dit souvent lui-même quand il n'est pas sûr : repère ces phrases et vérifie justement ces passages.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT peut chercher sur internet et afficher des liens vers les sources : clique dessus et vérifie.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Certaines versions de Gemini proposent un bouton pour vérifier la réponse avec la recherche Google : utilise-le quand c'est important.",
-   "tool": "gemini"
+   "task": "L'IA t'a dit qu'une ville est la capitale d'un pays, mais tu as un doute. Écris un message pour vérifier la réponse.",
+   "seconds": 90,
+   "checklist": [
+    "Demande-lui à quel point elle est sûre",
+    "Demande une source",
+    "Prévois de vérifier à un endroit fiable"
+   ],
+   "example": "À quel point es-tu sûr de cette réponse ? Donne-moi une source fiable où je peux vérifier, et dis-moi s'il est possible que tu te trompes."
   }
  ]
 }

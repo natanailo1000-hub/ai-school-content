@@ -1,65 +1,80 @@
 {
- "id": "a_i7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Wenn du die Grundlagen beherrschst, bringen dir diese Tricks Antworten auf Profi-Niveau."
+   "q": "Warum ist ein Beispiel nützlich?",
+   "options": [
+    "Die KI trifft die gewünschte Antwort besser",
+    "Die KI wird verwirrt",
+    "Es ist nicht nützlich",
+    "Damit es länger wird"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "1. Gib Beispiele"
+   "q": "Was heißt \"lass dich fragen\"?",
+   "options": [
+    "Du bittest die KI, vor der Antwort Fragen zu stellen",
+    "Die KI ruft dich an",
+    "Die KI schweigt",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Zeig ein Beispiel für die Antwort, die du willst. Einem Beispiel folgt die KI viel besser als einer Beschreibung."
+   "q": "Die erste Antwort ist nicht perfekt. Was ist Iteration?",
+   "options": [
+    "Feedback geben und um Änderungen bitten",
+    "Aufgeben",
+    "Alles löschen",
+    "Ein anderes Handy kaufen"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "2. Teile in Schritte"
+   "q": "Wo bewahrst du gut funktionierende Prompts auf?",
+   "options": [
+    "In deinen Notizen, um sie wiederzuverwenden",
+    "Nirgends",
+    "Auf Papier, das du wegwirfst",
+    "Du schickst sie Fremden"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dir vor der Antwort 3 Fragen gestellt (markiert). Was tust du?",
+   "options": [
+    "Sie beantworten, um ein besseres Ergebnis zu bekommen",
+    "Ignorieren",
+    "Die App schließen",
+    "Mein Passwort schreiben"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Bei einer komplexen Aufgabe bitte um Schritt-für-Schritt-Arbeit: \"Mach zuerst einen Plan, warte auf mein OK, dann schreib.\""
-  },
+   "image": "chat_user",
+   "q": "In der markierten Nachricht hast du ein Beispiel für eine gute Antwort gegeben. Wie heißt diese Technik?",
+   "options": [
+    "Beispiele geben",
+    "Halluzination",
+    "Passwort",
+    "Werbung"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "h",
-   "text": "3. Lass dich fragen"
-  },
-  {
-   "type": "p",
-   "text": "Schreib: \"Bevor du antwortest, stell mir 3 Fragen, die dir helfen, besser zu antworten.\""
-  },
-  {
-   "type": "h",
-   "text": "4. Iteriere"
-  },
-  {
-   "type": "p",
-   "text": "Die erste Antwort ist ein Entwurf. Gib Feedback: was gut ist, was nicht, was sich ändern soll."
-  },
-  {
-   "type": "try",
-   "text": "Ich will eine Produktbeschreibung für einen Onlineshop schreiben. Stell mir vorher 5 Fragen zum Produkt und zu den Kunden. Schreib dann 2 Versionen: eine kurze und eine ausführliche. Hier ist ein Beispiel, das mir gefällt: [Beispiel]."
-  },
-  {
-   "type": "tip",
-   "text": "Speichere Prompts, die gut funktionieren (z. B. in den Notizen dieser App) – so kannst du sie wiederverwenden."
-  },
-  {
-   "type": "tip",
-   "text": "In Claude kannst du ein \"Projekt\" mit festen Anweisungen und Dokumenten anlegen, damit du nicht jedes Mal alles erklären musst.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "In ChatGPT kannst du ein eigenes GPT oder ein Projekt mit festen Anweisungen für eine häufige Aufgabe erstellen.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "In Gemini kannst du ein \"Gem\" erstellen – deinen eigenen Assistenten mit festen Anweisungen für eine bestimmte Aufgabe.",
-   "tool": "gemini"
+   "task": "Schreib einen fortgeschrittenen Prompt, um das Marketing für ein lokales Café zu planen – mit mindestens 2 Tricks aus dieser Lektion.",
+   "seconds": 180,
+   "checklist": [
+    "Du lässt dir zuerst Fragen stellen",
+    "Du teilst die Aufgabe in Schritte",
+    "Du gibst ein Beispiel oder ein klares Format"
+   ],
+   "example": "Hilf mir, einen Monatsplan für Instagram-Posts für mein Café zu erstellen. Stell mir zuerst 5 Fragen zum Café und zu den Gästen. Mach dann einen Plan nach Wochen und warte auf mein OK, bevor du die Posts schreibst. Format: Tabelle – Datum, Thema, Posttext."
   }
  ]
 }

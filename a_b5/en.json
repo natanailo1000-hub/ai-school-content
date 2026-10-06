@@ -1,66 +1,80 @@
 {
- "id": "a_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI is a great planner: it turns your tasks and wishes into a clear schedule. You just need to tell it what matters."
+   "q": "What's most important to tell the AI when making a plan?",
+   "options": [
+    "Your goal, the time you have and your limits",
+    "Only your name",
+    "Your favourite film",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "What to tell it"
+   "q": "You have a heart condition and got a workout plan from AI. What do you do?",
+   "options": [
+    "Show the plan to a doctor before starting",
+    "Start at full intensity",
+    "Double the exercises",
+    "Ignore the doctor"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Goal – what you want (get fit, a stress-free trip, a calmer week).",
-    "Time – how many days, hours or minutes you have.",
-    "Limits – budget, health, work, kids.",
-    "Plan format – by day, a table, a list of steps."
-   ]
+   "q": "You can't follow the plan on Wednesday. What's easiest?",
+   "options": [
+    "Ask the AI to rearrange the plan",
+    "Redo everything by hand",
+    "Give up the whole week",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Workouts"
+   "q": "Which plan format is clearest for a week?",
+   "options": [
+    "A table by day",
+    "One long sentence",
+    "A poem",
+    "A picture with no text"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI gave you a trip plan (highlighted). What about prices and opening hours?",
+   "options": [
+    "Check them on official websites",
+    "Trust them without checking",
+    "Ignore the whole plan",
+    "Send it to everyone right away"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Make me a 4-week walking and exercise plan. I'm 45, I don't train, I work in an office and I have 30 minutes a day. Make each week a bit harder. Give me a table by day."
-  },
+   "image": "chat_user",
+   "q": "You wrote your tasks here. What is this called?",
+   "options": [
+    "A prompt",
+    "A password",
+    "An ad",
+    "The AI's answer"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "If you have health problems (heart, blood pressure, injuries), always show the plan to a doctor. AI is not a doctor."
-  },
-  {
-   "type": "h",
-   "text": "Trips"
-  },
-  {
-   "type": "try",
-   "text": "I'm planning 3 days in Rome with two kids (7 and 11) in July. Medium budget. Make a day-by-day plan with 2–3 main things a day, breaks, and ideas for a cheap lunch."
-  },
-  {
-   "type": "h",
-   "text": "Your week"
-  },
-  {
-   "type": "p",
-   "text": "List all your tasks for the week, paste them to the AI and ask for a day-by-day schedule with priorities. When something comes up, just write \"I can't do Wednesday, rearrange it\"."
-  },
-  {
-   "type": "tip",
-   "text": "Claude can turn your plan into a neat document you can copy or save – just ask for it \"as a document\".",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Some versions of ChatGPT can also set reminders or scheduled tasks – check what your app offers.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini can look up current information for your trip (opening hours, ticket prices) – but still check the official website.",
-   "tool": "gemini"
+   "task": "Write a prompt for a plan to prepare a birthday party for 10 people at home next Saturday.",
+   "seconds": 120,
+   "checklist": [
+    "The goal (a party for 10 people at home)",
+    "Time (until Saturday) and budget",
+    "Format (a list by day or by task)"
+   ],
+   "example": "Help me organise a birthday party for 10 people at home next Saturday. My budget is 100 euros. Make a task list by day until Saturday: shopping, food, decorations, and what to do on the day itself."
   }
  ]
 }

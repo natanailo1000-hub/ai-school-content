@@ -1,60 +1,80 @@
 {
- "id": "a_b6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A veces la IA inventa datos, números o fuentes, y suena totalmente segura. A esto se le llama \"alucinación\". La buena noticia: es fácil aprender a protegerte."
+   "q": "¿Qué es una \"alucinación\" de la IA?",
+   "options": [
+    "Cuando la IA inventa información falsa pero suena segura",
+    "Cuando la app se cierra",
+    "Cuando la IA responde muy corto",
+    "Cuando la IA dibuja"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cuándo se equivoca más la IA"
+   "q": "¿Dónde se equivoca más la IA?",
+   "options": [
+    "Números exactos, fechas y fuentes",
+    "Saludos",
+    "Consejos generales de escritura",
+    "Ideas de cumpleaños"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Números exactos, fechas y citas.",
-    "Noticias y precios más recientes.",
-    "Detalles muy técnicos (leyes, medicamentos, impuestos).",
-    "Enlaces y títulos de libros o estudios."
-   ]
+   "q": "La IA te dio una fuente. ¿Qué haces?",
+   "options": [
+    "La abro y compruebo que existe",
+    "La creo sin revisar",
+    "Borro el chat",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "5 trucos para verificar"
+   "q": "¿Quién decide qué medicamento tomas?",
+   "options": [
+    "Un médico o farmacéutico",
+    "La IA",
+    "Cualquier sitio web",
+    "Tu vecino"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "En la respuesta resaltada, la IA escribió la fecha exacta de una ley. ¿Qué haces?",
+   "options": [
+    "La reviso en un sitio oficial",
+    "La creo porque suena segura",
+    "La copio en un contrato",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Pregunta: \"¿Qué tan seguro estás? ¿Qué debería verificar?\"",
-    "Pide fuentes, ábrelas y comprueba que existen.",
-    "Revisa lo importante en un sitio oficial o con un experto.",
-    "Haz la misma pregunta de otra forma y compara.",
-    "Compara con otra herramienta de IA."
-   ]
-  },
+   "image": "chat_input",
+   "q": "¿Dónde puedes preguntarle a la IA \"¿Qué tan seguro estás?\"",
+   "options": [
+    "En el cuadro de mensaje resaltado",
+    "En la configuración",
+    "En ningún lado, no responde eso",
+    "En la tienda de apps"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Responde mi pregunta y al final indica por separado qué partes debo verificar y dónde. Pregunta: ¿cuánto dura un pasaporte de adulto en México?"
-  },
-  {
-   "type": "tip",
-   "text": "La IA es excelente para entender y tener ideas, pero para decisiones finales sobre salud, dinero y leyes, consulta siempre a un experto."
-  },
-  {
-   "type": "tip",
-   "text": "Claude suele decir cuando no está seguro: presta atención a esas frases y verifica justo esas partes.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT puede buscar en internet y mostrar enlaces a las fuentes: haz clic y revísalas.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Algunas versiones de Gemini tienen un botón para verificar la respuesta con la Búsqueda de Google: úsalo cuando sea importante.",
-   "tool": "gemini"
+   "task": "La IA te dijo que una ciudad es la capital de un país, pero no estás seguro. Escribe un mensaje para verificar la respuesta.",
+   "seconds": 90,
+   "checklist": [
+    "Pídele que diga qué tan seguro está",
+    "Pide una fuente",
+    "Planea revisarlo en un lugar confiable"
+   ],
+   "example": "¿Qué tan seguro estás de esta respuesta? Dame una fuente confiable donde pueda comprobarlo y dime si existe la posibilidad de que te equivoques."
   }
  ]
 }

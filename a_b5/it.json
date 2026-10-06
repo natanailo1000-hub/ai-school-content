@@ -1,66 +1,80 @@
 {
- "id": "a_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA è un'ottima organizzatrice: trasforma i tuoi impegni e desideri in un piano chiaro. Devi solo dirle cosa conta."
+   "q": "Qual è la cosa più importante da dire all'IA per fare un piano?",
+   "options": [
+    "Il tuo obiettivo, il tempo che hai e i tuoi limiti",
+    "Solo il tuo nome",
+    "Il tuo film preferito",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cosa dirle"
+   "q": "Hai un problema al cuore e l'IA ti ha dato un piano di allenamento. Cosa fai?",
+   "options": [
+    "Mostro il piano a un medico prima di iniziare",
+    "Parto al massimo",
+    "Raddoppio gli esercizi",
+    "Ignoro il medico"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Obiettivo – cosa vuoi (rimetterti in forma, un viaggio senza stress, una settimana più tranquilla).",
-    "Tempo – quanti giorni, ore o minuti hai.",
-    "Limiti – budget, salute, lavoro, figli.",
-    "Forma del piano – per giorni, in tabella, lista di passaggi."
-   ]
+   "q": "Mercoledì non riesci a seguire il piano. Cosa è più semplice?",
+   "options": [
+    "Chiedere all'IA di riorganizzare il piano",
+    "Rifare tutto a mano",
+    "Abbandonare tutta la settimana",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Allenamento"
+   "q": "Quale forma di piano è più chiara per una settimana?",
+   "options": [
+    "Una tabella per giorni",
+    "Una frase lunghissima",
+    "Una poesia",
+    "Un'immagine senza testo"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ti ha dato un piano di viaggio (evidenziato). E prezzi e orari?",
+   "options": [
+    "Li controllo sui siti ufficiali",
+    "Ci credo senza controllare",
+    "Ignoro tutto il piano",
+    "Lo mando subito a tutti"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Fammi un piano di camminate ed esercizi di 4 settimane. Ho 45 anni, non mi alleno, lavoro in ufficio e ho 30 minuti al giorno. Ogni settimana deve essere un po' più impegnativa. Dammi una tabella per giorni."
-  },
+   "image": "chat_user",
+   "q": "Qui hai scritto i tuoi impegni. Come si chiama?",
+   "options": [
+    "Un prompt",
+    "Una password",
+    "Una pubblicità",
+    "La risposta dell'IA"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "Se hai problemi di salute (cuore, pressione, infortuni), mostra sempre il piano a un medico. L'IA non è un medico."
-  },
-  {
-   "type": "h",
-   "text": "Viaggi"
-  },
-  {
-   "type": "try",
-   "text": "Sto organizzando 3 giorni a Roma con due figli (7 e 11 anni) a luglio. Budget medio. Fai un piano giorno per giorno con 2–3 cose principali al giorno, pause e idee per un pranzo economico."
-  },
-  {
-   "type": "h",
-   "text": "La tua settimana"
-  },
-  {
-   "type": "p",
-   "text": "Elenca tutti gli impegni della settimana, incollali all'IA e chiedi un piano per giorni con le priorità. Se salta fuori qualcosa, scrivi solo \"mercoledì non posso, riorganizza\"."
-  },
-  {
-   "type": "tip",
-   "text": "Claude può trasformare il tuo piano in un documento ordinato da copiare o salvare: basta chiederlo \"come documento\".",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Alcune versioni di ChatGPT possono anche creare promemoria o attività programmate: controlla cosa offre la tua app.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini può cercare informazioni aggiornate per il viaggio (orari, prezzi dei biglietti), ma controlla comunque sul sito ufficiale.",
-   "tool": "gemini"
+   "task": "Scrivi un prompt per un piano di preparazione di una festa di compleanno per 10 persone a casa sabato prossimo.",
+   "seconds": 120,
+   "checklist": [
+    "L'obiettivo (festa per 10 persone a casa)",
+    "Tempo (fino a sabato) e budget",
+    "Formato (lista per giorni o per compiti)"
+   ],
+   "example": "Aiutami a organizzare una festa di compleanno per 10 persone a casa mia sabato prossimo. Il budget è di 100 euro. Fai una lista di cose da fare per giorno fino a sabato: spesa, cibo, decorazioni e cosa fare il giorno stesso."
   }
  ]
 }

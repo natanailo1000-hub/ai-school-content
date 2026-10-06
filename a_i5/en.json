@@ -1,54 +1,80 @@
 {
- "id": "a_i5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A report, a blog, a term paper or a book chapter – AI helps you from the plan to the last edit. But you stay the author."
+   "q": "What's the first step for a long text?",
+   "options": [
+    "A plan and structure",
+    "The final check",
+    "Sending it",
+    "Printing it"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "The process in 4 steps"
+   "q": "How do you make the text sound like you?",
+   "options": [
+    "Give an example of your writing and ask for that style",
+    "Write only in capitals",
+    "Give nothing",
+    "Ask for a \"robot style\""
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Plan: ask for a structure (sections, main points).",
-    "Draft: write part by part, not everything at once.",
-    "Edit: ask it to shorten, clarify or change the tone.",
-    "Final check: spelling, repetition, logic."
-   ]
+   "q": "What's better for a long text?",
+   "options": [
+    "Writing part by part",
+    "Everything at once with no plan",
+    "Not reading it",
+    "Copying someone else's text"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "I'm writing a 2-page report for my director about the results of a project [project description]. Suggest a structure with headings and what each part should contain. Don't write the full text yet."
+   "q": "The AI added a quote from a famous person. What do you do?",
+   "options": [
+    "Check that the quote is real",
+    "Leave it",
+    "Invent another one",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI wrote a draft (highlighted), but it's too long. What do you write?",
+   "options": [
+    "\"Cut it in half, keep the main points\"",
+    "Nothing",
+    "\"Make it longer\"",
+    "Delete everything"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Your style"
-  },
+   "image": "chat_user",
+   "q": "You pasted your old text in the highlighted message. Why?",
+   "options": [
+    "So the AI writes in my style",
+    "So it deletes it",
+    "No reason",
+    "To translate it into Chinese"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Paste an example of your own writing and say: \"Write in this style.\" That way the text sounds like you, not like a robot."
-  },
-  {
-   "type": "tip",
-   "text": "Don't hand in AI-written text as your own if your school or work rules don't allow it. And always check facts and quotes."
-  },
-  {
-   "type": "tip",
-   "text": "Claude is especially good with longer texts and can write in your style if you give it an example.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT has a special editing view (Canvas) where you can change the text part by part.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini can also help you directly in Google Docs, on some plans.",
-   "tool": "gemini"
+   "task": "Write a prompt asking for the structure of a blog post on your topic.",
+   "seconds": 150,
+   "checklist": [
+    "Topic and who the blog is for",
+    "Length",
+    "What you want (title, subheadings, main points)"
+   ],
+   "example": "I'm writing an 800-word blog for beginners about how to start running. Suggest a catchy title, 5 subheadings and 2–3 main points for each part."
   }
  ]
 }

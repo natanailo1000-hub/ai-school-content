@@ -1,66 +1,80 @@
 {
- "id": "a_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI je odličan planer: od tvojih obaveza i želja pravi jasan raspored. Ti samo treba da mu kažeš šta je bitno."
+   "q": "Šta je najvažnije reći AI-ju kad praviš plan?",
+   "options": [
+    "Cilj, vreme koje imaš i ograničenja",
+    "Samo svoje ime",
+    "Svoj omiljeni film",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Šta da mu kažeš"
+   "q": "Imaš problem sa srcem i dobio si plan treninga od AI-ja. Šta radiš?",
+   "options": [
+    "Pokažem plan lekaru pre početka",
+    "Odmah krenem najjače",
+    "Udvostručim vežbe",
+    "Ignorišem lekara"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Cilj – šta želiš (da budeš u formi, putovanje bez stresa, mirnija nedelja).",
-    "Vreme – koliko dana, sati ili minuta imaš.",
-    "Ograničenja – budžet, zdravlje, posao, deca.",
-    "Oblik plana – po danima, tabela, spisak koraka."
-   ]
+   "q": "U sredu ne možeš da ispoštuješ plan. Šta je najlakše?",
+   "options": [
+    "Tražim od AI-ja da preraspodeli plan",
+    "Ručno pravim sve ispočetka",
+    "Odustanem od cele nedelje",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Trening"
+   "q": "Koji oblik plana je najpregledniji za nedelju?",
+   "options": [
+    "Tabela po danima",
+    "Jedna duga rečenica",
+    "Pesma",
+    "Slika bez teksta"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI ti je dao plan putovanja (označeno). A cene i radno vreme?",
+   "options": [
+    "Proverim na zvaničnim sajtovima",
+    "Verujem bez provere",
+    "Ignorišem ceo plan",
+    "Odmah ga pošaljem svima"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Napravi mi plan šetnje i vežbi za 4 nedelje. Imam 45 godina, ne treniram, radim u kancelariji i imam 30 minuta dnevno. Neka svaka nedelja bude malo teža. Daj mi tabelu po danima."
-  },
+   "image": "chat_user",
+   "q": "Ovde si napisao svoje obaveze. Kako se to zove?",
+   "options": [
+    "Prompt",
+    "Lozinka",
+    "Reklama",
+    "Odgovor AI-ja"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "Ako imaš zdravstvene probleme (srce, pritisak, povrede), plan uvek pokaži lekaru. AI nije lekar."
-  },
-  {
-   "type": "h",
-   "text": "Putovanje"
-  },
-  {
-   "type": "try",
-   "text": "Planiram 3 dana u Rimu sa dvoje dece (7 i 11 godina) u julu. Budžet je srednji. Napravi plan po danima sa 2–3 glavne stvari dnevno, pauzama i idejama za jeftin ručak."
-  },
-  {
-   "type": "h",
-   "text": "Tvoja nedelja"
-  },
-  {
-   "type": "p",
-   "text": "Nabroji sve obaveze za nedelju, nalepi ih AI-ju i traži raspored po danima sa prioritetima. Kad nešto iskrsne, samo napiši „u sredu ne mogu, prerasporedi“."
-  },
-  {
-   "type": "tip",
-   "text": "Claude može tvoj plan da pretvori u uredan dokument koji možeš da kopiraš ili sačuvaš – samo traži „u obliku dokumenta“.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Neke verzije ChatGPT-a mogu da prave i podsetnike ili zakazane zadatke – proveri šta nudi tvoja aplikacija.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini može da proveri aktuelne informacije za putovanje (radno vreme, cene ulaznica) – ali ipak proveri na zvaničnom sajtu.",
-   "tool": "gemini"
+   "task": "Napiši prompt za plan pripreme rođendanske proslave za 10 ljudi kod kuće sledeće subote.",
+   "seconds": 120,
+   "checklist": [
+    "Cilj (proslava za 10 ljudi kod kuće)",
+    "Vreme (do subote) i budžet",
+    "Oblik (spisak po danima ili zadacima)"
+   ],
+   "example": "Pomozi mi da organizujem rođendansku proslavu za 10 ljudi kod mene kući sledeće subote. Budžet je 100 evra. Napravi spisak zadataka po danima do subote: kupovina, hrana, dekoracija i šta da uradim na sam dan."
   }
  ]
 }

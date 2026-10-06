@@ -1,67 +1,80 @@
 {
- "id": "a_b7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Tudo o que você escreve para uma IA é enviado aos servidores da empresa. Então cuidado com o que compartilha – como em qualquer lugar da internet."
+   "q": "O que você nunca compartilha com a IA?",
+   "options": [
+    "Senhas e números de cartão",
+    "Uma ideia de almoço",
+    "Uma pergunta de história",
+    "Um plano de treino"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Nunca compartilhe"
+   "q": "Como pedir ajuda com segurança para um documento pessoal?",
+   "options": [
+    "Trocar dados reais por marcadores como [NOME]",
+    "Colar o documento inteiro com todos os números",
+    "Enviar uma foto do seu RG",
+    "Escrever sua senha"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Senhas e PINs.",
-    "Números de cartão e de conta bancária.",
-    "Número de RG, CPF ou passaporte.",
-    "Dados privados de outras pessoas sem permissão (saúde, endereços, telefones)."
-   ]
+   "q": "Alguém liga com a voz de um parente e pede dinheiro com urgência. O que fazer?",
+   "options": [
+    "Desligar e ligar você mesmo para um número conhecido",
+    "Mandar o dinheiro na hora",
+    "Passar os dados do cartão",
+    "Não conferir nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Como pedir ajuda com segurança"
+   "q": "De onde você baixa um app de IA?",
+   "options": [
+    "Só de uma fonte oficial (loja, site oficial)",
+    "De qualquer link numa mensagem",
+    "De estranhos",
+    "De um anúncio suspeito"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Você está digitando o número do cartão na caixa destacada. O que fazer?",
+   "options": [
+    "Apagar – isso nunca se compartilha",
+    "Enviar",
+    "Colocar o PIN também",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Quando precisar de ajuda com um documento pessoal, troque nomes e números reais por inventados ou marcadores ([NOME], [VALOR]). A IA precisa da estrutura do problema, não dos seus dados reais."
-  },
+   "image": "chat_reply",
+   "q": "A mensagem destacada pede a senha do seu banco. O que é isso?",
+   "options": [
+    "Sinal de golpe – nunca passe",
+    "Normal",
+    "Um passo obrigatório",
+    "Um presente"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Me ajude a escrever uma reclamação para o meu banco sobre uma compra de [VALOR] cobrada duas vezes em [DATA]. Meu nome é [NOME]. Tom firme, mas educado."
-  },
-  {
-   "type": "h",
-   "text": "Golpes e IA falsa"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Use só os apps e sites oficiais das ferramentas.",
-    "Cuidado com apps falsos de nome e logo parecidos.",
-    "Vozes e imagens de IA podem ser falsificadas – se alguém pedir dinheiro \"com urgência\", confirme ligando você mesmo.",
-    "Ninguém da empresa vai pedir sua senha no chat."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "No trabalho: antes de enviar documentos da empresa, veja as regras dela sobre o uso de IA."
-  },
-  {
-   "type": "tip",
-   "text": "Nas configurações do Claude você pode ver se suas conversas são usadas para melhorar os modelos e desligar isso.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "O ChatGPT tem um chat temporário que não fica no histórico e uma opção para suas conversas não serem usadas no treinamento.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Na sua conta Google você pode controlar se a atividade no Gemini é salva e por quanto tempo.",
-   "tool": "gemini"
+   "task": "Você precisa de ajuda para escrever uma reclamação ao proprietário, mas não quer revelar nome, endereço nem aluguel. Escreva um prompt seguro.",
+   "seconds": 120,
+   "checklist": [
+    "Você usa marcadores em vez de dados reais",
+    "Descreve o problema com clareza",
+    "Pede tom e tamanho"
+   ],
+   "example": "Me ajude a escrever uma reclamação ao proprietário [NOME], que há [NÚMERO] semanas não conserta um vazamento no banheiro do apartamento em [ENDEREÇO]. Tom firme, mas educado, no máximo 120 palavras."
   }
  ]
 }

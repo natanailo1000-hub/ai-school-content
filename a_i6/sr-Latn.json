@@ -1,64 +1,80 @@
 {
- "id": "a_i6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Današnji AI alati ne razumeju samo tekst – mogu i da „vide“ slike. Ti fotografišeš nešto, a AI objasni šta je na slici."
+   "q": "Šta AI može da uradi sa fotografijom računa?",
+   "options": [
+    "Da izdvoji stavke u tabelu",
+    "Da plati račun",
+    "Da pošalje račun prodavnici",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Šta možeš"
+   "q": "Kako da dobiješ bolju sliku od AI-ja?",
+   "options": [
+    "Precizno opišeš sadržaj, stil i boje",
+    "Napišeš samo „slika“",
+    "Pošalješ lozinku",
+    "Nikako"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Fotografišeš uputstvo na stranom jeziku i tražiš prevod.",
-    "Slikaš račun i tražiš da izdvoji stavke u tabelu.",
-    "Slikaš biljku ili kvar i pitaš šta je to (pa proveriš!).",
-    "Pošalješ grafikon i tražiš objašnjenje."
-   ]
+   "q": "AI kaže koja je biljka na tvojoj slici. Važno je (da li je otrovna?). Šta radiš?",
+   "options": [
+    "Proverim kod stručnjaka ili u pouzdanom izvoru",
+    "Poverujem i probam je",
+    "Ništa",
+    "Bacim telefon"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "[dodaj sliku računa] Izdvoji sve stavke sa ovog računa u tabelu: naziv, količina, cena. Na kraju saberi ukupno i uporedi sa iznosom na računu."
+   "q": "Šta ne šalješ bez dozvole?",
+   "options": [
+    "Slike tuđih lica i dokumenata",
+    "Sliku zalaska sunca",
+    "Sliku svog crteža",
+    "Sliku cveta"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Gde dodaješ fotografiju?",
+   "options": [
+    "Preko polja za poruku (dugme za prilog)",
+    "U podešavanjima telefona",
+    "U kalkulatoru",
+    "Nigde"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Pravljenje slika"
-  },
+   "image": "chat_reply",
+   "q": "AI je opisao tvoju sliku (označeno). Opis nije tačan. Šta radiš?",
+   "options": [
+    "Napišem šta nije tačno i tražim novu analizu",
+    "Verujem opisu",
+    "Ništa",
+    "Obrišem aplikaciju"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Neki AI alati mogu i da naprave novu sliku od tvog opisa. Opiši šta je na slici, stil, boje i raspored. Što je opis precizniji, to je slika bolja."
-  },
-  {
-   "type": "tip",
-   "text": "Claude odlično čita i analizira slike i dokumente koje mu pošalješ, ali ne pravi nove slike – za to koristi drugi alat.",
-   "tool": "claude"
-  },
-  {
-   "type": "try",
-   "text": "Napravi ilustraciju za pozivnicu za rođendan: veseli meda sa balonima, pastelne boje, jednostavan crtani stil, prazan prostor na vrhu za tekst.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "try",
-   "text": "Napravi ilustraciju za pozivnicu za rođendan: veseli meda sa balonima, pastelne boje, jednostavan crtani stil, prazan prostor na vrhu za tekst.",
-   "tool": "gemini"
-  },
-  {
-   "type": "tip",
-   "text": "Ne šalji slike tuđih lica ili dokumenata bez dozvole. I ne predstavljaj slike koje je napravio AI kao prave fotografije."
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT može i da analizira slike i da pravi nove slike od tvog opisa.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini može i da analizira slike i da pravi nove slike od tvog opisa.",
-   "tool": "gemini"
+   "task": "Napiši prompt za AI sliku: logo za tvoj mali biznis (pekara, frizer...).",
+   "seconds": 150,
+   "checklist": [
+    "Šta je na slici (simbol, naziv)",
+    "Stil i boje",
+    "Za šta će se koristiti"
+   ],
+   "example": "Napravi jednostavan logo za malu pekaru „Zrno“: klas žita u krugu, tople braon i zlatne boje, minimalistički stil, da dobro izgleda i na kesi i na Instagramu."
   }
  ]
 }

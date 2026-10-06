@@ -1,55 +1,80 @@
 {
- "id": "a_i4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Want to learn a language, coding, guitar or history? AI can be your personal teacher, adapted to your pace."
+   "q": "What's the best way to remember material?",
+   "options": [
+    "Let the AI quiz you so you have to recall",
+    "Just read",
+    "Don't study",
+    "Copy everything"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "A method that works"
+   "q": "What do you tell the AI first when you start learning?",
+   "options": [
+    "What you already know and what you want to achieve",
+    "Your address",
+    "Nothing",
+    "Your password"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Say what you already know and what you want to achieve.",
-    "Ask for a week-by-week learning plan.",
-    "Learn in small chunks: explanation, example, small task.",
-    "Ask it to quiz you – active recall is the best way to learn.",
-    "Explain to the AI in your own words what you learned and ask it to correct you."
-   ]
+   "q": "What does \"don't give me the solution, ask me questions\" mean?",
+   "options": [
+    "The AI guides you with questions until you find the answer",
+    "The AI stays silent",
+    "The AI refuses to help",
+    "The AI deletes the chat"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "I want to learn Excel basics for work in 4 weeks, 3 times a week for 30 minutes. I only know how to open a file. Make a plan, then let's start the first lesson: explanation, example and a small task."
+   "q": "What's the best way to learn?",
+   "options": [
+    "In small chunks: explanation, example, task",
+    "Everything in one day",
+    "Only watching videos",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI explained a lesson (highlighted). What's a good next step?",
+   "options": [
+    "Ask for a small task or a quiz",
+    "Close the app",
+    "Copy the text",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "The Socratic method"
-  },
+   "image": "chat_user",
+   "q": "In the highlighted message you explain in your own words what you learned. Why?",
+   "options": [
+    "So the AI can check I understood",
+    "To confuse it",
+    "No reason",
+    "To get a present"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "You can ask the AI not to give you answers but to guide you with questions: \"Don't give me the solution, ask me questions until I get there myself.\""
-  },
-  {
-   "type": "tip",
-   "text": "You learn best when you make an effort to remember, not when you only read. So always ask for a quiz at the end."
-  },
-  {
-   "type": "tip",
-   "text": "Some versions of Claude have a learning mode that guides you with questions instead of giving the answer straight away.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT has a study mode that guides you step by step.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini has a guided learning tool that explains things step by step.",
-   "tool": "gemini"
+   "task": "Write a prompt to start learning a new language from zero.",
+   "seconds": 150,
+   "checklist": [
+    "Which language and why",
+    "How much time you have",
+    "How you want to learn (lessons, quizzes, conversation)"
+   ],
+   "example": "I want to learn basic Spanish for a trip in 2 months. I have 20 minutes a day and I'm a complete beginner. Make a week-by-week plan and start with lesson one: the 10 most useful phrases, pronunciation and a short quiz."
   }
  ]
 }

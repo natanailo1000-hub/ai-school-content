@@ -1,67 +1,80 @@
 {
- "id": "a_b7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Alles, was du einer KI schreibst, wird an die Server der Firma geschickt. Pass also auf, was du teilst – wie überall im Internet."
+   "q": "Was teilst du nie mit einer KI?",
+   "options": [
+    "Passwörter und Kartennummern",
+    "Eine Idee fürs Mittagessen",
+    "Eine Geschichtsfrage",
+    "Einen Trainingsplan"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Teile niemals"
+   "q": "Wie holst du dir sicher Hilfe bei einem persönlichen Dokument?",
+   "options": [
+    "Echte Daten durch Platzhalter wie [NAME] ersetzen",
+    "Das ganze Dokument mit allen Nummern einfügen",
+    "Ein Foto deines Ausweises schicken",
+    "Dein Passwort schreiben"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Passwörter und PINs.",
-    "Karten- und Kontonummern.",
-    "Ausweis- oder Passnummern.",
-    "Private Daten anderer ohne Erlaubnis (Gesundheit, Adressen, Telefonnummern)."
-   ]
+   "q": "Jemand ruft mit der Stimme eines Verwandten an und will dringend Geld. Was tust du?",
+   "options": [
+    "Auflegen und selbst unter bekannter Nummer zurückrufen",
+    "Sofort Geld schicken",
+    "Kartendaten durchgeben",
+    "Nichts prüfen"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "So fragst du sicher"
+   "q": "Wo holst du dir eine KI-App?",
+   "options": [
+    "Nur aus offizieller Quelle (App-Store, offizielle Website)",
+    "Über irgendeinen Link aus einer Nachricht",
+    "Von Fremden",
+    "Aus einer verdächtigen Werbung"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Du tippst gerade deine Kartennummer ins markierte Feld. Was solltest du tun?",
+   "options": [
+    "Löschen – das teilt man nie",
+    "Abschicken",
+    "Auch die PIN dazuschreiben",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Wenn du Hilfe bei einem persönlichen Dokument brauchst, ersetze echte Namen und Zahlen durch erfundene oder Platzhalter ([NAME], [BETRAG]). Die KI braucht die Struktur des Problems, nicht deine echten Daten."
-  },
+   "image": "chat_reply",
+   "q": "Die markierte Nachricht fragt nach deinem Bankpasswort. Was ist das?",
+   "options": [
+    "Ein Zeichen für Betrug – niemals angeben",
+    "Normal",
+    "Ein Pflichtschritt",
+    "Ein Geschenk"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Hilf mir, eine Beschwerde an meine Bank zu schreiben: Eine Buchung über [BETRAG] wurde am [DATUM] doppelt abgebucht. Mein Name ist [NAME]. Bestimmter, aber höflicher Ton."
-  },
-  {
-   "type": "h",
-   "text": "Betrug und falsche KI"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Nutze nur die offiziellen Apps und Websites der Tools.",
-    "Achte auf gefälschte Apps mit ähnlichem Namen und Logo.",
-    "KI-Stimmen und -Bilder können gefälscht sein – wenn jemand \"dringend\" Geld will, ruf selbst zurück und prüfe es.",
-    "Niemand von der Firma fragt im Chat nach deinem Passwort."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Im Job: Prüfe vor dem Hochladen von Arbeitsdokumenten die Regeln deiner Firma zur KI-Nutzung."
-  },
-  {
-   "type": "tip",
-   "text": "In den Einstellungen von Claude kannst du prüfen, ob deine Chats zur Verbesserung der Modelle genutzt werden, und das ausschalten.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT hat einen temporären Chat, der nicht im Verlauf gespeichert wird, und eine Einstellung, damit deine Chats nicht zum Training genutzt werden.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "In deinem Google-Konto kannst du festlegen, ob und wie lange deine Gemini-Aktivität gespeichert wird.",
-   "tool": "gemini"
+   "task": "Du brauchst Hilfe bei einer Beschwerde an deinen Vermieter, willst aber Name, Adresse und Miete nicht verraten. Schreib einen sicheren Prompt.",
+   "seconds": 120,
+   "checklist": [
+    "Du nutzt Platzhalter statt echter Daten",
+    "Du beschreibst das Problem klar",
+    "Du wünschst dir Ton und Länge"
+   ],
+   "example": "Hilf mir, eine Beschwerde an meinen Vermieter [NAME] zu schreiben, der seit [ANZAHL] Wochen ein Wasserleck im Bad der Wohnung in [ADRESSE] nicht repariert. Bestimmter, aber höflicher Ton, höchstens 120 Wörter."
   }
  ]
 }

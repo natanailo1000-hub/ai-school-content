@@ -1,65 +1,80 @@
 {
- "id": "a_i7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Une fois les bases acquises, ces astuces te donneront des réponses de niveau expert."
+   "q": "Pourquoi donner un exemple est-il utile ?",
+   "options": [
+    "L'IA suit mieux le type de réponse que tu veux",
+    "L'IA s'embrouille",
+    "Ce n'est pas utile",
+    "Pour que ce soit plus long"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "1. Donne des exemples"
+   "q": "Que veut dire « laisse-la te poser des questions » ?",
+   "options": [
+    "Tu demandes à l'IA de poser des questions avant de répondre",
+    "L'IA t'appelle",
+    "L'IA se tait",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Montre un exemple du type de réponse que tu veux. L'IA suit un exemple bien mieux qu'une description."
+   "q": "La première réponse n'est pas parfaite. Qu'est-ce qu'itérer ?",
+   "options": [
+    "Donner son avis et demander des modifications",
+    "Abandonner",
+    "Tout effacer",
+    "Acheter un autre téléphone"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "2. Découpe en étapes"
+   "q": "Où gardes-tu les prompts qui marchent bien ?",
+   "options": [
+    "Dans tes notes, pour les réutiliser",
+    "Nulle part",
+    "Sur un papier que tu jettes",
+    "Tu les envoies à des inconnus"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA t'a posé 3 questions (en évidence) avant de répondre. Que fais-tu ?",
+   "options": [
+    "J'y réponds pour obtenir un meilleur résultat",
+    "Je les ignore",
+    "Je ferme l'appli",
+    "J'écris mon mot de passe"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Pour une tâche complexe, demande-lui de travailler étape par étape : « Fais d'abord un plan, attends mon accord, puis rédige. »"
-  },
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu as donné un exemple de bonne réponse. Comment s'appelle cette technique ?",
+   "options": [
+    "Donner des exemples",
+    "Une hallucination",
+    "Un mot de passe",
+    "Une pub"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "h",
-   "text": "3. Laisse-la te poser des questions"
-  },
-  {
-   "type": "p",
-   "text": "Écris : « Avant de répondre, pose-moi 3 questions qui t'aideront à mieux répondre. »"
-  },
-  {
-   "type": "h",
-   "text": "4. Itère"
-  },
-  {
-   "type": "p",
-   "text": "La première réponse est un brouillon. Donne ton avis : ce qui est bien, ce qui ne l'est pas, ce qu'il faut changer."
-  },
-  {
-   "type": "try",
-   "text": "Je veux écrire la description d'un produit pour une boutique en ligne. Avant de commencer, pose-moi 5 questions sur le produit et les clients. Puis écris 2 versions : une courte et une détaillée. Voici un exemple de description que j'aime : [exemple]."
-  },
-  {
-   "type": "tip",
-   "text": "Garde les prompts qui marchent bien (par exemple dans les Notes de cette appli) pour les réutiliser."
-  },
-  {
-   "type": "tip",
-   "text": "Dans Claude, tu peux créer un « Projet » avec des consignes et des documents permanents, pour ne pas tout réexpliquer à chaque fois.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Dans ChatGPT, tu peux créer ton propre GPT ou un projet avec des consignes permanentes pour une tâche fréquente.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Dans Gemini, tu peux créer un « Gem » : ton propre assistant avec des consignes permanentes pour une tâche précise.",
-   "tool": "gemini"
+   "task": "Écris un prompt avancé pour planifier le marketing d'un café de quartier, en utilisant au moins 2 astuces de cette leçon.",
+   "seconds": 180,
+   "checklist": [
+    "Tu demandes d'abord à l'IA de te poser des questions",
+    "Tu découpes la tâche en étapes",
+    "Tu donnes un exemple ou un format clair"
+   ],
+   "example": "Aide-moi à faire un planning mensuel de publications Instagram pour mon café. Pose-moi d'abord 5 questions sur le café et la clientèle. Puis fais un planning semaine par semaine et attends mon accord avant d'écrire les publications. Format : tableau – date, thème, texte."
   }
  ]
 }

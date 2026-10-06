@@ -1,55 +1,80 @@
 {
- "id": "a_i4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Vuoi imparare una lingua, a programmare, la chitarra o la storia? L'IA può essere il tuo insegnante personale, al tuo ritmo."
+   "q": "Qual è il modo migliore per ricordare ciò che studi?",
+   "options": [
+    "Farti interrogare dall'IA così devi ricordare",
+    "Solo leggere",
+    "Non studiare",
+    "Copiare tutto"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Un metodo che funziona"
+   "q": "Cosa dici prima all'IA quando inizi a imparare?",
+   "options": [
+    "Cosa sai già e cosa vuoi raggiungere",
+    "Il tuo indirizzo",
+    "Niente",
+    "La tua password"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Di' cosa sai già e cosa vuoi raggiungere.",
-    "Chiedi un piano di studio settimana per settimana.",
-    "Impara a piccoli pezzi: spiegazione, esempio, piccolo esercizio.",
-    "Fatti interrogare: ricordare attivamente è il modo migliore per imparare.",
-    "Spiega all'IA con parole tue cosa hai imparato e chiedi di correggerti."
-   ]
+   "q": "Cosa significa \"non darmi la soluzione, fammi domande\"?",
+   "options": [
+    "L'IA ti guida con domande finché trovi la risposta",
+    "L'IA sta zitta",
+    "L'IA si rifiuta di aiutare",
+    "L'IA cancella la chat"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Voglio imparare le basi di Excel per il lavoro in 4 settimane, 3 volte a settimana per 30 minuti. So solo aprire un file. Fai un piano e poi iniziamo la prima lezione: spiegazione, esempio e un piccolo esercizio."
+   "q": "Qual è il modo migliore di imparare?",
+   "options": [
+    "A piccoli pezzi: spiegazione, esempio, esercizio",
+    "Tutto in un giorno",
+    "Solo guardare video",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ti ha spiegato una lezione (evidenziata). Qual è un buon passo successivo?",
+   "options": [
+    "Chiedere un piccolo esercizio o un quiz",
+    "Chiudere l'app",
+    "Copiare il testo",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Il metodo socratico"
-  },
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato spieghi con parole tue cosa hai imparato. Perché?",
+   "options": [
+    "Perché l'IA controlli se ho capito",
+    "Per confonderla",
+    "Senza motivo",
+    "Per avere un regalo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Puoi chiedere all'IA di non darti le risposte, ma di guidarti con domande: \"Non darmi la soluzione, fammi domande finché non ci arrivo da solo.\""
-  },
-  {
-   "type": "tip",
-   "text": "Impari meglio quando ti sforzi di ricordare, non quando leggi e basta. Quindi chiedi sempre un quiz alla fine."
-  },
-  {
-   "type": "tip",
-   "text": "Alcune versioni di Claude hanno una modalità di apprendimento che ti guida con domande invece di darti subito la risposta.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT ha una modalità studio che ti guida passo dopo passo.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini ha uno strumento di apprendimento guidato che spiega passo dopo passo.",
-   "tool": "gemini"
+   "task": "Scrivi un prompt per iniziare a imparare una lingua da zero.",
+   "seconds": 150,
+   "checklist": [
+    "Quale lingua e perché",
+    "Quanto tempo hai",
+    "Come vuoi imparare (lezioni, quiz, conversazione)"
+   ],
+   "example": "Voglio imparare lo spagnolo di base per un viaggio tra 2 mesi. Ho 20 minuti al giorno e sono un principiante assoluto. Fai un piano settimana per settimana e inizia con la prima lezione: le 10 frasi più utili, la pronuncia e un breve quiz."
   }
  ]
 }

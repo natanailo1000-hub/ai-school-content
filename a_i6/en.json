@@ -1,64 +1,80 @@
 {
- "id": "a_i6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Today's AI tools don't only understand text – they can \"see\" pictures. You take a photo and the AI explains what's in it."
+   "q": "What can AI do with a photo of a receipt?",
+   "options": [
+    "Put the items into a table",
+    "Pay the bill",
+    "Send the receipt to the shop",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "What you can do"
+   "q": "How do you get a better AI-made image?",
+   "options": [
+    "Describe the content, style and colours precisely",
+    "Just write \"picture\"",
+    "Send your password",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Photograph instructions in a foreign language and ask for a translation.",
-    "Snap a receipt and ask it to put the items in a table.",
-    "Photograph a plant or a fault and ask what it is (then check!).",
-    "Send a chart and ask for an explanation."
-   ]
+   "q": "The AI says what plant is in your photo. It matters (e.g. is it poisonous). What do you do?",
+   "options": [
+    "Check with an expert or a reliable source",
+    "Trust it and taste it",
+    "Nothing",
+    "Throw the phone away"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "[attach a photo of a receipt] Put all the items from this receipt in a table: name, quantity, price. At the end, add up the total and compare it with the amount on the receipt."
+   "q": "What don't you send without permission?",
+   "options": [
+    "Photos of other people's faces and documents",
+    "A sunset photo",
+    "A photo of your own drawing",
+    "A photo of a flower"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Where do you add a photo?",
+   "options": [
+    "Through the message box (attachment button)",
+    "In the phone settings",
+    "In the calculator",
+    "Nowhere"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Creating images"
-  },
+   "image": "chat_reply",
+   "q": "The AI described your photo (highlighted). The description is wrong. What do you do?",
+   "options": [
+    "Say what's wrong and ask for a new analysis",
+    "Trust the description",
+    "Nothing",
+    "Delete the app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Some AI tools can also create a new image from your description. Describe what's in the picture, the style, colours and layout. The more precise the description, the better the image."
-  },
-  {
-   "type": "tip",
-   "text": "Claude reads and analyses the images and documents you send it very well, but it doesn't create new images – use another tool for that.",
-   "tool": "claude"
-  },
-  {
-   "type": "try",
-   "text": "Make an illustration for a birthday invitation: a cheerful bear with balloons, pastel colours, simple cartoon style, empty space at the top for text.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "try",
-   "text": "Make an illustration for a birthday invitation: a cheerful bear with balloons, pastel colours, simple cartoon style, empty space at the top for text.",
-   "tool": "gemini"
-  },
-  {
-   "type": "tip",
-   "text": "Don't send photos of other people's faces or documents without permission. And don't present AI-made images as real photos."
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT can both analyse images and create new ones from your description.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini can both analyse images and create new ones from your description.",
-   "tool": "gemini"
+   "task": "Write a prompt for an AI image: a logo for your small business (bakery, hairdresser…).",
+   "seconds": 150,
+   "checklist": [
+    "What's in the picture (symbol, name)",
+    "Style and colours",
+    "What it will be used for"
+   ],
+   "example": "Create a simple logo for a small bakery called \"Grain\": an ear of wheat in a circle, warm brown and gold colours, minimalist style, looking good on a bag and on Instagram."
   }
  ]
 }

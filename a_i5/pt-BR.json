@@ -1,54 +1,80 @@
 {
- "id": "a_i5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Um relatório, um blog, um TCC ou um capítulo de livro – a IA ajuda do plano até a última revisão. Mas o autor continua sendo você."
+   "q": "Qual é o primeiro passo num texto longo?",
+   "options": [
+    "Plano e estrutura",
+    "A revisão final",
+    "Enviar",
+    "Imprimir"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "O processo em 4 passos"
+   "q": "Como fazer o texto soar como você?",
+   "options": [
+    "Dar um exemplo do seu texto e pedir esse estilo",
+    "Escrever só em maiúsculas",
+    "Não dar nada",
+    "Pedir \"estilo robô\""
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Plano: peça uma estrutura (seções, ideias principais).",
-    "Rascunho: escreva por partes, não tudo de uma vez.",
-    "Edição: peça para encurtar, deixar mais claro ou mudar o tom.",
-    "Revisão final: ortografia, repetições, lógica."
-   ]
+   "q": "O que é melhor num texto longo?",
+   "options": [
+    "Escrever por partes",
+    "Tudo de uma vez sem plano",
+    "Não ler",
+    "Copiar texto dos outros"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Estou escrevendo um relatório de 2 páginas para meu diretor sobre os resultados de um projeto [descrição do projeto]. Sugira uma estrutura com títulos e o que cada parte deve ter. Ainda não escreva o texto completo."
+   "q": "A IA colocou uma citação de uma pessoa famosa. O que fazer?",
+   "options": [
+    "Conferir se a citação é real",
+    "Deixar",
+    "Inventar outra",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA escreveu um rascunho (destacado), mas está longo demais. O que escreve?",
+   "options": [
+    "\"Reduza pela metade, mantendo as ideias principais\"",
+    "Nada",
+    "\"Deixe mais longo\"",
+    "Apago tudo"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Seu estilo"
-  },
+   "image": "chat_user",
+   "q": "Na mensagem destacada você colou um texto seu antigo. Por quê?",
+   "options": [
+    "Para a IA escrever no meu estilo",
+    "Para ela apagar",
+    "Sem motivo",
+    "Para traduzir para o chinês"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Cole um exemplo de um texto seu e diga: \"Escreva neste estilo\". Assim o texto soa como você, e não como um robô."
-  },
-  {
-   "type": "tip",
-   "text": "Não entregue como seu um texto escrito pela IA se as regras da escola ou do trabalho não permitirem. E sempre confira fatos e citações."
-  },
-  {
-   "type": "tip",
-   "text": "O Claude é especialmente bom com textos longos e consegue escrever no seu estilo se você der um exemplo.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "O ChatGPT tem uma visualização especial de edição (Canvas) onde você muda o texto por partes.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "O Gemini também pode ajudar direto no Google Docs, em alguns planos.",
-   "tool": "gemini"
+   "task": "Escreva um prompt pedindo a estrutura de um post de blog sobre o seu tema.",
+   "seconds": 150,
+   "checklist": [
+    "Tema e para quem é o blog",
+    "Tamanho",
+    "O que você quer (título, subtítulos, ideias principais)"
+   ],
+   "example": "Estou escrevendo um blog de 800 palavras para iniciantes sobre como começar a correr. Sugira um título chamativo, 5 subtítulos e 2–3 ideias principais para cada parte."
   }
  ]
 }

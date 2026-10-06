@@ -1,67 +1,80 @@
 {
- "id": "a_b7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Sve što napišeš AI-ju šalje se na servere kompanije. Zato pazi šta deliš – isto kao bilo gde na internetu."
+   "q": "Šta nikad ne deliš sa AI-jem?",
+   "options": [
+    "Lozinke i brojeve kartica",
+    "Ideju za ručak",
+    "Pitanje iz istorije",
+    "Plan treninga"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Nikad ne deli"
+   "q": "Kako bezbedno tražiš pomoć oko ličnog dokumenta?",
+   "options": [
+    "Zameniš prave podatke oznakama kao [IME]",
+    "Nalepiš ceo dokument sa svim brojevima",
+    "Pošalješ sliku lične karte",
+    "Napišeš lozinku"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Lozinke i PIN kodove.",
-    "Brojeve kartica i računa.",
-    "Broj lične karte ili pasoša.",
-    "Tuđe privatne podatke bez dozvole (zdravlje, adrese, telefone)."
-   ]
+   "q": "Neko te zove glasom tvog rođaka i hitno traži novac. Šta radiš?",
+   "options": [
+    "Prekinem i sam ga pozovem na poznat broj",
+    "Odmah pošaljem novac",
+    "Dam podatke sa kartice",
+    "Ništa ne proveravam"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Kako da pitaš bezbedno"
+   "q": "Odakle preuzimaš AI aplikaciju?",
+   "options": [
+    "Samo sa zvaničnog izvora (prodavnica, zvaničan sajt)",
+    "Sa bilo kog linka iz poruke",
+    "Od nepoznatih ljudi",
+    "Iz sumnjivog oglasa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "U označeno polje upravo kucaš broj kartice. Šta treba da uradiš?",
+   "options": [
+    "Obrišem ga – to se nikad ne deli",
+    "Pošaljem ga",
+    "Dodam i PIN",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Kad ti treba pomoć oko ličnog dokumenta, zameni prava imena i brojeve izmišljenim ili oznakama ([IME], [IZNOS]). AI-ju treba struktura problema, a ne tvoji pravi podaci."
-  },
+   "image": "chat_reply",
+   "q": "Označena poruka traži lozinku od tvoje banke. Šta je to?",
+   "options": [
+    "Znak prevare – nikad je ne daješ",
+    "Normalna stvar",
+    "Obavezan korak",
+    "Poklon"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Pomozi mi da napišem žalbu banci zbog transakcije od [IZNOS] koja je naplaćena dva puta dana [DATUM]. Moje ime je [IME]. Ton odlučan, ali ljubazan."
-  },
-  {
-   "type": "h",
-   "text": "Prevare i lažni AI"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Koristi samo zvanične aplikacije i sajtove alata.",
-    "Pazi na lažne aplikacije sa sličnim imenom i logom.",
-    "AI glasovi i slike mogu da se lažiraju – ako neko „hitno“ traži novac, proveri tako što ćeš ga sam pozvati.",
-    "Niko iz kompanije neće tražiti tvoju lozinku u četu."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Na poslu: pre nego što ubaciš poslovne dokumente, proveri pravila svoje firme o korišćenju AI-ja."
-  },
-  {
-   "type": "tip",
-   "text": "U podešavanjima Claude-a možeš da proveriš da li se tvoji razgovori koriste za unapređenje modela i da to isključiš.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT ima privremeni razgovor koji se ne čuva u istoriji i opciju da se tvoji razgovori ne koriste za treniranje.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "U svom Google nalogu možeš da podesiš da li se tvoja Gemini aktivnost čuva i koliko dugo.",
-   "tool": "gemini"
+   "task": "Treba ti pomoć da napišeš žalbu stanodavcu, ali ne želiš da otkriješ ime, adresu ni kiriju. Napiši bezbedan prompt.",
+   "seconds": 120,
+   "checklist": [
+    "Koristiš oznake umesto pravih podataka",
+    "Jasno opisuješ problem",
+    "Tražiš ton i dužinu"
+   ],
+   "example": "Pomozi mi da napišem žalbu stanodavcu [IME], koji već [BROJ] nedelja ne popravlja curenje vode u kupatilu stana na adresi [ADRESA]. Ton odlučan, ali ljubazan, najviše 120 reči."
   }
  ]
 }

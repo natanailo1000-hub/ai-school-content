@@ -1,65 +1,80 @@
 {
- "id": "a_i7",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Kad savladaš osnove, ovi trikovi će ti doneti odgovore kao od stručnjaka."
+   "q": "Zašto je korisno dati primer?",
+   "options": [
+    "AI bolje pogodi kakav odgovor želiš",
+    "AI se zbuni",
+    "Nije korisno",
+    "Da bude duže"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "1. Daj primere"
+   "q": "Šta znači „neka te pita“?",
+   "options": [
+    "Tražiš da AI postavi pitanja pre odgovora",
+    "AI te zove telefonom",
+    "AI ćuti",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Pokaži primer kakav odgovor želiš. AI mnogo bolje prati primer nego opis."
+   "q": "Prvi odgovor nije savršen. Šta je iteracija?",
+   "options": [
+    "Daješ povratnu informaciju i tražiš izmene",
+    "Odustaješ",
+    "Brišeš sve",
+    "Kupuješ drugi telefon"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "2. Podeli na korake"
+   "q": "Gde čuvaš promptove koji ti dobro rade?",
+   "options": [
+    "U beleškama, da ih koristiš ponovo",
+    "Nigde",
+    "Na papiru koji baciš",
+    "Šalješ ih nepoznatima"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI ti je postavio 3 pitanja (označeno) pre odgovora. Šta radiš?",
+   "options": [
+    "Odgovorim na njih da dobijem bolji rezultat",
+    "Ignorišem ih",
+    "Zatvorim aplikaciju",
+    "Napišem lozinku"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Za složen zadatak traži da radi korak po korak: „Prvo napravi plan, sačekaj moju potvrdu, pa tek onda piši.“"
-  },
+   "image": "chat_user",
+   "q": "U označenoj poruci dao si primer dobrog odgovora. Kako se zove ova tehnika?",
+   "options": [
+    "Davanje primera",
+    "Halucinacija",
+    "Lozinka",
+    "Reklama"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "h",
-   "text": "3. Neka te pita"
-  },
-  {
-   "type": "p",
-   "text": "Napiši: „Pre nego što odgovoriš, postavi mi 3 pitanja koja će ti pomoći da odgovor bude bolji.“"
-  },
-  {
-   "type": "h",
-   "text": "4. Iteracija"
-  },
-  {
-   "type": "p",
-   "text": "Prvi odgovor je nacrt. Daj povratnu informaciju: šta je dobro, šta nije i šta da promeni."
-  },
-  {
-   "type": "try",
-   "text": "Želim da napišem opis proizvoda za online prodavnicu. Pre nego što počneš, postavi mi 5 pitanja o proizvodu i kupcima. Onda napiši 2 verzije: kratku i detaljnu. Evo primera opisa koji mi se dopada: [primer]."
-  },
-  {
-   "type": "tip",
-   "text": "Sačuvaj promptove koji ti dobro rade (npr. u Beleškama u ovoj aplikaciji) – tako ćeš ih koristiti ponovo."
-  },
-  {
-   "type": "tip",
-   "text": "U Claude-u možeš da napraviš „Projekat“ sa stalnim uputstvima i dokumentima, pa ne moraš svaki put sve da objašnjavaš.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "U ChatGPT-u možeš da napraviš svoj GPT ili projekat sa stalnim uputstvima za zadatak koji često radiš.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "U Gemini-ju možeš da napraviš „Gem“ – svog asistenta sa stalnim uputstvima za određeni zadatak.",
-   "tool": "gemini"
+   "task": "Napiši napredni prompt za planiranje marketinga lokalnog kafića, koristeći bar 2 trika iz ove lekcije.",
+   "seconds": 180,
+   "checklist": [
+    "Tražiš da ti AI prvo postavi pitanja",
+    "Deliš zadatak na korake",
+    "Daješ primer ili jasan format"
+   ],
+   "example": "Pomozi mi da napravim mesečni plan objava za Instagram za moj kafić. Prvo mi postavi 5 pitanja o kafiću i gostima. Zatim napravi plan po nedeljama i sačekaj moju potvrdu pre nego što napišeš objave. Format: tabela – datum, tema, tekst objave."
   }
  ]
 }

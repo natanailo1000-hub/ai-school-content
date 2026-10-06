@@ -1,64 +1,80 @@
 {
- "id": "a_i6",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "As ferramentas de IA de hoje não entendem só texto – elas \"enxergam\" imagens. Você tira uma foto e a IA explica o que tem nela."
+   "q": "O que a IA pode fazer com a foto de uma nota fiscal?",
+   "options": [
+    "Colocar os itens numa tabela",
+    "Pagar a conta",
+    "Mandar a nota para a loja",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "O que você pode fazer"
+   "q": "Como conseguir uma imagem melhor feita por IA?",
+   "options": [
+    "Descrevendo bem o conteúdo, o estilo e as cores",
+    "Escrevendo só \"imagem\"",
+    "Mandando sua senha",
+    "Não tem como"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Fotografar instruções em outro idioma e pedir a tradução.",
-    "Tirar foto de uma nota fiscal e pedir os itens numa tabela.",
-    "Fotografar uma planta ou um defeito e perguntar o que é (e depois conferir!).",
-    "Mandar um gráfico e pedir uma explicação."
-   ]
+   "q": "A IA diz qual planta está na sua foto. É importante (é venenosa?). O que fazer?",
+   "options": [
+    "Confirmar com um especialista ou fonte confiável",
+    "Acreditar e provar",
+    "Nada",
+    "Jogar o celular fora"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "[anexe a foto de uma nota fiscal] Coloque todos os itens desta nota numa tabela: nome, quantidade, preço. No final, some o total e compare com o valor da nota."
+   "q": "O que você não envia sem permissão?",
+   "options": [
+    "Fotos de rostos e documentos de outras pessoas",
+    "Uma foto do pôr do sol",
+    "Uma foto do seu desenho",
+    "Uma foto de uma flor"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Onde você adiciona uma foto?",
+   "options": [
+    "Pela caixa de mensagem (botão de anexo)",
+    "Nas configurações do celular",
+    "Na calculadora",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Criar imagens"
-  },
+   "image": "chat_reply",
+   "q": "A IA descreveu sua foto (destacado). A descrição está errada. O que fazer?",
+   "options": [
+    "Dizer o que está errado e pedir nova análise",
+    "Acreditar na descrição",
+    "Nada",
+    "Apagar o app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Algumas ferramentas de IA também criam uma imagem nova a partir da sua descrição. Descreva o que aparece, o estilo, as cores e o layout. Quanto mais precisa a descrição, melhor a imagem."
-  },
-  {
-   "type": "tip",
-   "text": "O Claude lê e analisa muito bem as imagens e documentos que você envia, mas não cria imagens novas – para isso, use outra ferramenta.",
-   "tool": "claude"
-  },
-  {
-   "type": "try",
-   "text": "Crie uma ilustração para um convite de aniversário: um urso alegre com balões, cores pastel, estilo de desenho simples e espaço vazio em cima para o texto.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "try",
-   "text": "Crie uma ilustração para um convite de aniversário: um urso alegre com balões, cores pastel, estilo de desenho simples e espaço vazio em cima para o texto.",
-   "tool": "gemini"
-  },
-  {
-   "type": "tip",
-   "text": "Não envie fotos de rostos ou documentos de outras pessoas sem permissão. E não apresente imagens feitas por IA como fotos reais."
-  },
-  {
-   "type": "tip",
-   "text": "O ChatGPT pode analisar imagens e também criar imagens novas a partir da sua descrição.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "O Gemini pode analisar imagens e também criar imagens novas a partir da sua descrição.",
-   "tool": "gemini"
+   "task": "Escreva um prompt para uma imagem de IA: o logo do seu pequeno negócio (padaria, salão…).",
+   "seconds": 150,
+   "checklist": [
+    "O que aparece (símbolo, nome)",
+    "Estilo e cores",
+    "Onde vai ser usado"
+   ],
+   "example": "Crie um logo simples para uma pequena padaria chamada \"Grão\": uma espiga de trigo dentro de um círculo, tons de marrom quente e dourado, estilo minimalista, que fique bem numa sacola e no Instagram."
   }
  ]
 }

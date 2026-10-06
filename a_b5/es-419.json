@@ -1,66 +1,80 @@
 {
- "id": "a_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "La IA es una gran planificadora: convierte tus tareas y deseos en un plan claro. Solo tienes que decirle qué es importante."
+   "q": "¿Qué es lo más importante decirle a la IA al hacer un plan?",
+   "options": [
+    "Tu objetivo, el tiempo que tienes y tus límites",
+    "Solo tu nombre",
+    "Tu película favorita",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Qué decirle"
+   "q": "Tienes un problema del corazón y la IA te dio un plan de ejercicio. ¿Qué haces?",
+   "options": [
+    "Muestro el plan a un médico antes de empezar",
+    "Empiezo a máxima intensidad",
+    "Duplico los ejercicios",
+    "Ignoro al médico"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Objetivo: qué quieres (ponerte en forma, un viaje sin estrés, una semana más tranquila).",
-    "Tiempo: cuántos días, horas o minutos tienes.",
-    "Límites: presupuesto, salud, trabajo, hijos.",
-    "Forma del plan: por días, en tabla, lista de pasos."
-   ]
+   "q": "El miércoles no puedes cumplir el plan. ¿Qué es lo más fácil?",
+   "options": [
+    "Pedirle a la IA que reorganice el plan",
+    "Rehacer todo a mano",
+    "Abandonar toda la semana",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Ejercicio"
+   "q": "¿Qué forma de plan es más clara para una semana?",
+   "options": [
+    "Una tabla por días",
+    "Una oración larguísima",
+    "Un poema",
+    "Una imagen sin texto"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA te dio un plan de viaje (resaltado). ¿Y los precios y horarios?",
+   "options": [
+    "Los reviso en sitios oficiales",
+    "Los creo sin revisar",
+    "Ignoro todo el plan",
+    "Se lo mando a todos ya"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Hazme un plan de caminatas y ejercicios de 4 semanas. Tengo 45 años, no entreno, trabajo en oficina y tengo 30 minutos al día. Que cada semana sea un poco más difícil. Dame una tabla por días."
-  },
+   "image": "chat_user",
+   "q": "Aquí escribiste tus tareas. ¿Cómo se llama esto?",
+   "options": [
+    "Un prompt",
+    "Una contraseña",
+    "Un anuncio",
+    "La respuesta de la IA"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "Si tienes problemas de salud (corazón, presión, lesiones), muestra siempre el plan a un médico. La IA no es médico."
-  },
-  {
-   "type": "h",
-   "text": "Viajes"
-  },
-  {
-   "type": "try",
-   "text": "Estoy planeando 3 días en Roma con dos hijos (7 y 11 años) en julio. Presupuesto medio. Haz un plan por días con 2 o 3 cosas principales por día, descansos e ideas de almuerzo barato."
-  },
-  {
-   "type": "h",
-   "text": "Tu semana"
-  },
-  {
-   "type": "p",
-   "text": "Anota todas tus tareas de la semana, pégalas en la IA y pide un plan por días con prioridades. Si surge algo, solo escribe \"el miércoles no puedo, reorganízalo\"."
-  },
-  {
-   "type": "tip",
-   "text": "Claude puede convertir tu plan en un documento ordenado que puedes copiar o guardar: solo pídelo \"como documento\".",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Algunas versiones de ChatGPT también pueden crear recordatorios o tareas programadas: revisa qué ofrece tu app.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini puede buscar información actual para tu viaje (horarios, precios de entradas), pero igual revisa el sitio oficial.",
-   "tool": "gemini"
+   "task": "Escribe un prompt para un plan de preparación de una fiesta de cumpleaños para 10 personas en casa el próximo sábado.",
+   "seconds": 120,
+   "checklist": [
+    "El objetivo (fiesta para 10 personas en casa)",
+    "Tiempo (hasta el sábado) y presupuesto",
+    "Formato (lista por días o tareas)"
+   ],
+   "example": "Ayúdame a organizar una fiesta de cumpleaños para 10 personas en mi casa el próximo sábado. Mi presupuesto es de 100 dólares. Haz una lista de tareas por día hasta el sábado: compras, comida, decoración y qué hacer el mismo día."
   }
  ]
 }
