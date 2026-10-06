@@ -1,0 +1,54 @@
+{
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Dugačak ugovor, izveštaj ili uputstvo? AI ga pročita za nekoliko sekundi i izvuče ono što ti treba."
+  },
+  {
+   "type": "h",
+   "text": "Šta možeš da tražiš"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Sažetak u 5 tačaka.",
+    "Šta je najvažnije za tebe (rokovi, cene, obaveze).",
+    "Objašnjenje komplikovanih delova običnim jezikom.",
+    "Pitanja koja treba da postaviš pre potpisivanja."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Nalepiću ti uslove ugovora za internet. Napiši: 1) sažetak u 5 tačaka, 2) sve rokove i troškove, 3) na šta da pazim. [nalepi tekst]"
+  },
+  {
+   "type": "h",
+   "text": "Kako da ubaciš dokument"
+  },
+  {
+   "type": "p",
+   "text": "Možeš da nalepiš tekst ili da dodaš fajl (PDF, Word) preko dugmeta za prilog, ako alat to podržava. Za vrlo duge dokumente traži da radi deo po deo."
+  },
+  {
+   "type": "tip",
+   "text": "Kod ugovora, kredita i zakona AI ti pomaže da razumeš – pre potpisivanja pitaj stručnjaka. I ne ubacuj dokumente sa tuđim ličnim podacima bez dozvole."
+  },
+  {
+   "type": "tip",
+   "text": "Claude može odjednom da radi sa veoma dugim dokumentima – odličan je za sažetke i poređenje dokumenata.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "U ChatGPT možeš da dodaš više fajlova i postavljaš pitanja o njima.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može da radi i sa fajlovima sa tvog Google Drive-a, ako mu to dozvoliš.",
+   "tool": "gemini"
+  }
+ ]
+}

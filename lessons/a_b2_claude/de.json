@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_claude",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Claude ist ein KI-Assistent von Anthropic. Du kannst ihn kostenlos am Computer (Website claude.ai) oder am Handy (App Claude aus Google Play) nutzen."
+  },
+  {
+   "type": "h",
+   "text": "Konto erstellen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Öffne claude.ai oder installiere die App Claude.",
+    "Melde dich mit deiner E-Mail oder deinem Google-Konto an.",
+    "Bestätige dein Konto (E-Mail oder Code), falls gefragt.",
+    "Fertig – du siehst ein leeres Feld für deine Nachricht."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude ist nur für Personen ab 18 Jahren."
+  },
+  {
+   "type": "h",
+   "text": "Deine erste Nachricht"
+  },
+  {
+   "type": "p",
+   "text": "Tippe ins Nachrichtenfeld, schreib, was du brauchst, und schick es ab. Schreib wie an eine kluge Kollegin: normale Sätze, mit Details."
+  },
+  {
+   "type": "try",
+   "text": "Hallo! Ich bin Anfänger. Sag mir in 3 kurzen Punkten, wobei du mir im Alltag helfen kannst."
+  },
+  {
+   "type": "h",
+   "text": "Gut zu wissen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Die kostenlose Version hat eine begrenzte Anzahl Nachrichten; bezahlte Pläne bieten mehr.",
+    "Für ein neues Thema starte einen neuen Chat – so bleiben die Antworten klarer.",
+    "Du kannst das Gespräch fortsetzen: Stell eine Nachfrage oder bitte um eine Änderung.",
+    "Das Aussehen der App ändert sich, aber das Nachrichtenfeld ist immer da."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude ist besonders gut im Schreiben, im klaren Erklären und im Arbeiten mit langen Texten und Dokumenten."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_claude",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Claude est un assistant IA créé par Anthropic. Tu peux l'utiliser gratuitement sur ordinateur (site claude.ai) ou sur ton téléphone (application Claude sur Google Play)."
+  },
+  {
+   "type": "h",
+   "text": "Créer un compte"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ouvre claude.ai ou installe l'application Claude.",
+    "Connecte-toi avec ton e-mail ou ton compte Google.",
+    "Confirme ton compte (e-mail ou code), si on te le demande.",
+    "C'est prêt : tu vois une zone vide pour ton message."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude est réservé aux personnes de 18 ans ou plus."
+  },
+  {
+   "type": "h",
+   "text": "Ton premier message"
+  },
+  {
+   "type": "p",
+   "text": "Touche la zone de message, écris ce dont tu as besoin et envoie. Écris comme à un collègue malin : des phrases normales, avec des détails."
+  },
+  {
+   "type": "try",
+   "text": "Bonjour ! Je suis débutant. En 3 points courts, dis-moi ce que tu peux faire pour moi au quotidien."
+  },
+  {
+   "type": "h",
+   "text": "Bon à savoir"
+  },
+  {
+   "type": "list",
+   "items": [
+    "La version gratuite a un nombre limité de messages ; les offres payantes en donnent plus.",
+    "Pour un nouveau sujet, ouvre une nouvelle discussion : les réponses restent plus claires.",
+    "Tu peux continuer la conversation : pose une autre question ou demande de modifier la réponse.",
+    "L'apparence de l'application change avec le temps, mais la zone de message est toujours là."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude est particulièrement doué pour écrire, expliquer clairement et travailler sur de longs textes et documents."
+  }
+ ]
+}

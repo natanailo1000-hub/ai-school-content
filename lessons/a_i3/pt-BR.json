@@ -1,0 +1,49 @@
+{
+ "id": "a_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA é ótima para orçamentos, tabelas e fórmulas do Excel ou do Google Planilhas – mesmo que você não goste de números."
+  },
+  {
+   "type": "h",
+   "text": "Orçamento doméstico"
+  },
+  {
+   "type": "try",
+   "text": "Minha renda mensal é [VALOR]. Despesas: aluguel, comida, transporte, contas, celular. Monte uma tabela de orçamento com quanto separar para cada item e para poupar, pela regra 50/30/20, e explique a regra."
+  },
+  {
+   "type": "h",
+   "text": "Fórmulas"
+  },
+  {
+   "type": "p",
+   "text": "Descreva em palavras o que você quer e a IA escreve a fórmula. Por exemplo: \"Na coluna B estão os preços e na C as quantidades. Preciso do total em D1\"."
+  },
+  {
+   "type": "try",
+   "text": "Numa planilha do Google, a coluna A tem datas e a coluna B valores de despesas. Escreva uma fórmula que some só as despesas de outubro e explique passo a passo."
+  },
+  {
+   "type": "tip",
+   "text": "Confira o resultado da fórmula à mão em alguns exemplos antes de confiar. E para somas dentro do chat: a IA às vezes erra conta, então peça para usar uma tabela ou uma ferramenta de cálculo."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude pode analisar uma tabela que você enviar (por ex. CSV ou Excel) e fazer um gráfico ou relatório.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT pode abrir um arquivo Excel, fazer cálculos e criar gráficos.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini também funciona dentro do Google Planilhas, ajudando direto na tabela (em alguns planos).",
+   "tool": "gemini"
+  }
+ ]
+}

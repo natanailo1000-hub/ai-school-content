@@ -1,0 +1,66 @@
+{
+ "id": "a_b3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Um prompt é a mensagem que você envia para a IA. Quanto mais claro o prompt, melhor a resposta. A IA não sabe nada sobre você além do que você escreve."
+  },
+  {
+   "type": "h",
+   "text": "Os quatro ingredientes de um bom prompt"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Tarefa – o que exatamente você quer (escrever, explicar, comparar, listar).",
+    "Contexto – para quem é e por quê (\"para meu chefe\", \"sou iniciante\", \"tenho 30 minutos\").",
+    "Detalhes ou um exemplo – o que você já tem, do que gosta e do que não gosta.",
+    "Formato – como você quer a resposta (5 tópicos, uma tabela, curta, menos de 100 palavras)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Mesmo pedido, dois prompts"
+  },
+  {
+   "type": "p",
+   "text": "Fraco: \"Escreva um post para o Instagram.\""
+  },
+  {
+   "type": "p",
+   "text": "Forte: \"Escreva um post curto e alegre para o Instagram da minha padaria, que faz 5 anos neste sábado. Fale do desconto de 20% no pão de queijo. No máximo 3 frases e 3 hashtags.\""
+  },
+  {
+   "type": "tip",
+   "text": "Se a resposta não ficou boa, não comece do zero – diga o que mudar: \"mais curto\", \"mais formal\", \"coloque um exemplo\"."
+  },
+  {
+   "type": "h",
+   "text": "Dê um papel a ela"
+  },
+  {
+   "type": "p",
+   "text": "Você pode começar com \"Aja como um treinador experiente\" ou \"Você é professor de matemática\". Assim a IA acerta melhor o tom e o nível."
+  },
+  {
+   "type": "try",
+   "text": "Você é um personal trainer experiente. Monte um plano de treino em casa para 3 dias por semana, 20 minutos cada, sem equipamentos. Sou iniciante total. Responda em forma de tabela."
+  },
+  {
+   "type": "tip",
+   "text": "Com o Claude, escreva à vontade prompts mais longos e detalhados – ele segue bem instruções longas. Você também pode colar um texto inteiro e pedir para trabalhar com ele.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "No ChatGPT você pode salvar instruções permanentes sobre você nas configurações (por exemplo, \"responda de forma curta\"), sem precisar repetir toda vez.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini pode usar a Pesquisa Google, então você pode pedir informações atuais – mas sempre confira as fontes que ele mostra.",
+   "tool": "gemini"
+  }
+ ]
+}

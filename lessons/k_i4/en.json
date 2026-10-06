@@ -1,0 +1,57 @@
+{
+ "id": "k_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The same question can get a weak or a brilliant answer – it all depends on how you ask. This is called writing a prompt."
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "The secret recipe"
+  },
+  {
+   "type": "list",
+   "items": [
+    "What you want: explain, write, list, compare.",
+    "Who you are: your age and what you already know.",
+    "What kind of answer: short, in points, with an example."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Example"
+  },
+  {
+   "type": "p",
+   "text": "Weak: \"dinosaurs\"."
+  },
+  {
+   "type": "p",
+   "text": "Brilliant: \"I'm 11. Explain why the dinosaurs died out, in 5 short points, with one fun fact at the end.\""
+  },
+  {
+   "type": "tip",
+   "text": "If you don't like the answer, don't give up – say what to change: \"shorter\", \"simpler\", \"add an example\"."
+  },
+  {
+   "type": "try",
+   "text": "I'm 12. Compare cats and dogs in a table: food, care, play, how long they live."
+  }
+ ]
+}

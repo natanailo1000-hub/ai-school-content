@@ -1,0 +1,54 @@
+{
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A report, a blog, a term paper or a book chapter – AI helps you from the plan to the last edit. But you stay the author."
+  },
+  {
+   "type": "h",
+   "text": "The process in 4 steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Plan: ask for a structure (sections, main points).",
+    "Draft: write part by part, not everything at once.",
+    "Edit: ask it to shorten, clarify or change the tone.",
+    "Final check: spelling, repetition, logic."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "I'm writing a 2-page report for my director about the results of a project [project description]. Suggest a structure with headings and what each part should contain. Don't write the full text yet."
+  },
+  {
+   "type": "h",
+   "text": "Your style"
+  },
+  {
+   "type": "p",
+   "text": "Paste an example of your own writing and say: \"Write in this style.\" That way the text sounds like you, not like a robot."
+  },
+  {
+   "type": "tip",
+   "text": "Don't hand in AI-written text as your own if your school or work rules don't allow it. And always check facts and quotes."
+  },
+  {
+   "type": "tip",
+   "text": "Claude is especially good with longer texts and can write in your style if you give it an example.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT has a special editing view (Canvas) where you can change the text part by part.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini can also help you directly in Google Docs, on some plans.",
+   "tool": "gemini"
+  }
+ ]
+}

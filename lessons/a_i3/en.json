@@ -1,0 +1,49 @@
+{
+ "id": "a_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI is great for budgets, tables and Excel or Google Sheets formulas – even if you don't like numbers."
+  },
+  {
+   "type": "h",
+   "text": "Household budget"
+  },
+  {
+   "type": "try",
+   "text": "My monthly income is [AMOUNT]. Expenses: rent, food, transport, bills, phone. Make me a budget table suggesting how much to set aside for each item and for savings, using the 50/30/20 rule, and explain the rule."
+  },
+  {
+   "type": "h",
+   "text": "Formulas"
+  },
+  {
+   "type": "p",
+   "text": "Describe in words what you want and the AI will write the formula. For example: \"Column B has prices, column C quantities. I need the grand total in D1.\""
+  },
+  {
+   "type": "try",
+   "text": "In a Google Sheets table, column A has dates and column B has expense amounts. Write a formula that adds up only the October expenses and explain it step by step."
+  },
+  {
+   "type": "tip",
+   "text": "Check a formula's result by hand on a few examples before you trust it. And for sums inside a chat message – AI sometimes miscalculates, so ask it to use a table or a calculation tool."
+  },
+  {
+   "type": "tip",
+   "text": "Claude can analyse a table you add (e.g. CSV or Excel) and make a chart or a report.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT can open an Excel file, do the calculations and make charts.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini also works inside Google Sheets, where it can help directly in the table (on some plans).",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA è un'ottima organizzatrice: trasforma i tuoi impegni e desideri in un piano chiaro. Devi solo dirle cosa conta."
+  },
+  {
+   "type": "h",
+   "text": "Cosa dirle"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obiettivo – cosa vuoi (rimetterti in forma, un viaggio senza stress, una settimana più tranquilla).",
+    "Tempo – quanti giorni, ore o minuti hai.",
+    "Limiti – budget, salute, lavoro, figli.",
+    "Forma del piano – per giorni, in tabella, lista di passaggi."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Allenamento"
+  },
+  {
+   "type": "try",
+   "text": "Fammi un piano di camminate ed esercizi di 4 settimane. Ho 45 anni, non mi alleno, lavoro in ufficio e ho 30 minuti al giorno. Ogni settimana deve essere un po' più impegnativa. Dammi una tabella per giorni."
+  },
+  {
+   "type": "tip",
+   "text": "Se hai problemi di salute (cuore, pressione, infortuni), mostra sempre il piano a un medico. L'IA non è un medico."
+  },
+  {
+   "type": "h",
+   "text": "Viaggi"
+  },
+  {
+   "type": "try",
+   "text": "Sto organizzando 3 giorni a Roma con due figli (7 e 11 anni) a luglio. Budget medio. Fai un piano giorno per giorno con 2–3 cose principali al giorno, pause e idee per un pranzo economico."
+  },
+  {
+   "type": "h",
+   "text": "La tua settimana"
+  },
+  {
+   "type": "p",
+   "text": "Elenca tutti gli impegni della settimana, incollali all'IA e chiedi un piano per giorni con le priorità. Se salta fuori qualcosa, scrivi solo \"mercoledì non posso, riorganizza\"."
+  },
+  {
+   "type": "tip",
+   "text": "Claude può trasformare il tuo piano in un documento ordinato da copiare o salvare: basta chiederlo \"come documento\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Alcune versioni di ChatGPT possono anche creare promemoria o attività programmate: controlla cosa offre la tua app.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini può cercare informazioni aggiornate per il viaggio (orari, prezzi dei biglietti), ma controlla comunque sul sito ufficiale.",
+   "tool": "gemini"
+  }
+ ]
+}

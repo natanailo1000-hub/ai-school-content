@@ -1,0 +1,64 @@
+{
+ "id": "a_i6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Heutige KI-Tools verstehen nicht nur Text – sie können Bilder \"sehen\". Du machst ein Foto und die KI erklärt, was darauf ist."
+  },
+  {
+   "type": "h",
+   "text": "Was du tun kannst"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Eine Anleitung in einer Fremdsprache fotografieren und übersetzen lassen.",
+    "Einen Kassenbon knipsen und die Posten in eine Tabelle übertragen lassen.",
+    "Eine Pflanze oder einen Defekt fotografieren und fragen, was es ist (dann prüfen!).",
+    "Ein Diagramm schicken und erklären lassen."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "[Foto eines Kassenbons anhängen] Übertrage alle Posten dieses Bons in eine Tabelle: Name, Menge, Preis. Addiere am Ende die Summe und vergleiche sie mit dem Betrag auf dem Bon."
+  },
+  {
+   "type": "h",
+   "text": "Bilder erstellen"
+  },
+  {
+   "type": "p",
+   "text": "Manche KI-Tools können aus deiner Beschreibung auch ein neues Bild erstellen. Beschreib Inhalt, Stil, Farben und Aufbau. Je genauer die Beschreibung, desto besser das Bild."
+  },
+  {
+   "type": "tip",
+   "text": "Claude kann Bilder und Dokumente, die du schickst, sehr gut lesen und analysieren, erstellt aber keine neuen Bilder – nutze dafür ein anderes Tool.",
+   "tool": "claude"
+  },
+  {
+   "type": "try",
+   "text": "Erstelle eine Illustration für eine Geburtstagseinladung: ein fröhlicher Bär mit Luftballons, Pastellfarben, einfacher Comicstil, oben freier Platz für Text.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "try",
+   "text": "Erstelle eine Illustration für eine Geburtstagseinladung: ein fröhlicher Bär mit Luftballons, Pastellfarben, einfacher Comicstil, oben freier Platz für Text.",
+   "tool": "gemini"
+  },
+  {
+   "type": "tip",
+   "text": "Schick keine Fotos von fremden Gesichtern oder Dokumenten ohne Erlaubnis. Und gib KI-Bilder nicht als echte Fotos aus."
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT kann Bilder analysieren und aus deiner Beschreibung neue erstellen.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini kann Bilder analysieren und aus deiner Beschreibung neue erstellen.",
+   "tool": "gemini"
+  }
+ ]
+}

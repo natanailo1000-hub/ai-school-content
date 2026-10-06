@@ -1,0 +1,51 @@
+{
+ "id": "k_b3_claude",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Lass uns deine erste Nachricht schicken! Claude ist eine KI der Firma Anthropic."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt."
+  },
+  {
+   "type": "h",
+   "text": "So fängst du an"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Öffne zusammen mit einem Elternteil claude.ai oder die App Claude.",
+    "Tippe ins Nachrichtenfeld.",
+    "Schreib deine Frage in normalen Sätzen.",
+    "Drück auf Senden und warte auf die Antwort."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Was solltest du fragen?"
+  },
+  {
+   "type": "p",
+   "text": "Je mehr Details du gibst, desto besser die Antwort. Sag, was dich interessiert und wie alt du bist, damit die KI es passend für dich erklärt."
+  },
+  {
+   "type": "try",
+   "text": "Hallo! Ich bin 12. Nenne mir 3 spannende Fakten über Kraken, jeden in einem Satz."
+  },
+  {
+   "type": "h",
+   "text": "Und dann?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Du kannst nachfragen: \"Erzähl mir mehr über den zweiten Fakt\".",
+    "Wenn du etwas nicht verstehst, schreib: \"Erklär es einfacher\".",
+    "Für ein neues Thema starte einen neuen Chat."
+   ]
+  }
+ ]
+}

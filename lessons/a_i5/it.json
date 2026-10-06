@@ -1,0 +1,54 @@
+{
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Un report, un blog, una tesina o il capitolo di un libro: l'IA ti aiuta dal piano all'ultima correzione. Ma l'autore resti tu."
+  },
+  {
+   "type": "h",
+   "text": "Il processo in 4 passi"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Piano: chiedi una struttura (sezioni, punti principali).",
+    "Bozza: scrivi una parte alla volta, non tutto insieme.",
+    "Revisione: chiedi di accorciare, chiarire o cambiare tono.",
+    "Controllo finale: ortografia, ripetizioni, logica."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Sto scrivendo un report di 2 pagine per il mio direttore sui risultati di un progetto [descrizione del progetto]. Proponi una struttura con titoli e cosa deve contenere ogni parte. Non scrivere ancora il testo completo."
+  },
+  {
+   "type": "h",
+   "text": "Il tuo stile"
+  },
+  {
+   "type": "p",
+   "text": "Incolla un esempio di un tuo testo e di': \"Scrivi in questo stile.\" Così il testo suona come te e non come un robot."
+  },
+  {
+   "type": "tip",
+   "text": "Non consegnare come tuo un testo scritto dall'IA se le regole della scuola o del lavoro non lo permettono. E controlla sempre fatti e citazioni."
+  },
+  {
+   "type": "tip",
+   "text": "Claude è particolarmente bravo con i testi lunghi e può scrivere nel tuo stile se gli dai un esempio.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ha una vista di modifica speciale (Canvas) dove puoi cambiare il testo una parte alla volta.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini può aiutarti anche direttamente in Documenti Google, con alcuni piani.",
+   "tool": "gemini"
+  }
+ ]
+}

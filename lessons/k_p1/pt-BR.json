@@ -1,0 +1,55 @@
+{
+ "id": "k_p1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tem uma apresentação na escola? A IA te ajuda a planejar e deixar tudo interessante – mas quem faz e apresenta é você."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Passo a passo"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Peça um plano: quantos slides e o que vai em cada um.",
+    "Para cada slide: um título + 3 tópicos curtos (nada de frases enormes!).",
+    "Peça um começo interessante – uma pergunta ou uma curiosidade.",
+    "Peça ideias de imagens, depois procure ou desenhe você mesmo.",
+    "Treine falando em voz alta – a IA pode fazer perguntas como se fosse a plateia."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Tenho 13 anos e estou fazendo uma apresentação para a escola sobre baleias, 6 slides, 5 minutos. Sugira títulos, 3 tópicos curtos para cada slide e uma pergunta interessante para começar."
+  },
+  {
+   "type": "tip",
+   "text": "Confira os fatos dos slides num livro ou num site confiável. E coloque as fontes no final – os professores adoram!"
+  },
+  {
+   "type": "h",
+   "text": "Ensaio"
+  },
+  {
+   "type": "try",
+   "text": "Finja que você é a minha turma. Acabei de apresentar sobre baleias. Me faça 3 perguntas que os colegas e o professor poderiam fazer."
+  }
+ ]
+}

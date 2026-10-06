@@ -1,0 +1,66 @@
+{
+ "id": "a_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI spart dir beim Schreiben viel Zeit: Du gibst den Kern vor, sie liefert gut formulierten Text. Du liest ihn immer selbst und schickst ihn ab."
+  },
+  {
+   "type": "h",
+   "text": "E-Mails und Nachrichten"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Sag, wem du schreibst und in welcher Beziehung ihr steht (Chef, Nachbar, Firma).",
+    "Sag, was du erreichen willst (Entschuldigung, Beschwerde, Dank, Bitte).",
+    "Nenne die wichtigen Fakten (Daten, Zahlen, Namen).",
+    "Wünsch dir einen Ton: höflich, kurz, bestimmt."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Schreib eine kurze, höfliche E-Mail an meinen Internetanbieter. Mein Internet funktioniert seit Montag nicht, ich habe schon zweimal angerufen. Ich bitte darum, diese Woche einen Techniker zu schicken und meine Rechnung zu reduzieren."
+  },
+  {
+   "type": "h",
+   "text": "Eigene Texte verbessern"
+  },
+  {
+   "type": "p",
+   "text": "Du musst nicht bei null anfangen. Füge deinen Text ein und bitte: \"Korrigiere die Fehler\", \"Kürze auf die Hälfte\", \"Lass es professioneller klingen\"."
+  },
+  {
+   "type": "h",
+   "text": "Lebenslauf und Bewerbung"
+  },
+  {
+   "type": "p",
+   "text": "KI kann deinen Lebenslauf aufräumen und ein Anschreiben passend zur Stellenanzeige schreiben. Gib ihr deine echte Erfahrung und den Anzeigentext."
+  },
+  {
+   "type": "try",
+   "text": "Hier ist meine Erfahrung: [deine Erfahrung]. Hier ist die Stellenanzeige: [Anzeigentext]. Schreib ein Anschreiben mit 150 Wörtern, das hervorhebt, was die Anzeige verlangt. Erfinde keine Erfahrung, die ich nicht habe."
+  },
+  {
+   "type": "tip",
+   "text": "Lass die KI nie Abschlüsse oder Erfahrung erfinden. Alles im Lebenslauf muss stimmen – Arbeitgeber prüfen das."
+  },
+  {
+   "type": "tip",
+   "text": "Claude ist besonders gut im Schreiben und Feilen an Texten – bitte um 2–3 Versionen und wähle eine aus.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT kannst du 2–3 Versionen eines Textes auf einmal anfordern und die beste wählen.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wenn du Gmail nutzt, kann Gemini dir auch direkt in Google-Apps beim Schreiben von E-Mails helfen (je nach Plan).",
+   "tool": "gemini"
+  }
+ ]
+}

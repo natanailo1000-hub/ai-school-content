@@ -1,0 +1,49 @@
+{
+ "id": "a_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA è ottima per budget, tabelle e formule di Excel o Fogli Google, anche se non ami i numeri."
+  },
+  {
+   "type": "h",
+   "text": "Budget familiare"
+  },
+  {
+   "type": "try",
+   "text": "Il mio reddito mensile è [IMPORTO]. Spese: affitto, cibo, trasporti, bollette, telefono. Fammi una tabella di budget con quanto mettere da parte per ogni voce e per i risparmi, secondo la regola 50/30/20, e spiegami la regola."
+  },
+  {
+   "type": "h",
+   "text": "Formule"
+  },
+  {
+   "type": "p",
+   "text": "Descrivi a parole cosa vuoi e l'IA scrive la formula. Per esempio: \"Nella colonna B ci sono i prezzi, nella C le quantità. Mi serve il totale in D1.\""
+  },
+  {
+   "type": "try",
+   "text": "In un foglio Google, la colonna A ha le date e la colonna B gli importi delle spese. Scrivi una formula che sommi solo le spese di ottobre e spiegala passo dopo passo."
+  },
+  {
+   "type": "tip",
+   "text": "Controlla a mano il risultato di una formula su qualche esempio prima di fidarti. E per le somme dentro la chat: a volte l'IA sbaglia i conti, quindi chiedi di usare una tabella o uno strumento di calcolo."
+  },
+  {
+   "type": "tip",
+   "text": "Claude può analizzare una tabella che aggiungi (per esempio CSV o Excel) e creare un grafico o un report.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT può aprire un file Excel, fare i calcoli e creare grafici.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini funziona anche dentro Fogli Google, dove può aiutarti direttamente (con alcuni piani).",
+   "tool": "gemini"
+  }
+ ]
+}

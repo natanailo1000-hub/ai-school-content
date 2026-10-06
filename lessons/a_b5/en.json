@@ -1,0 +1,66 @@
+{
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI is a great planner: it turns your tasks and wishes into a clear schedule. You just need to tell it what matters."
+  },
+  {
+   "type": "h",
+   "text": "What to tell it"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Goal – what you want (get fit, a stress-free trip, a calmer week).",
+    "Time – how many days, hours or minutes you have.",
+    "Limits – budget, health, work, kids.",
+    "Plan format – by day, a table, a list of steps."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Workouts"
+  },
+  {
+   "type": "try",
+   "text": "Make me a 4-week walking and exercise plan. I'm 45, I don't train, I work in an office and I have 30 minutes a day. Make each week a bit harder. Give me a table by day."
+  },
+  {
+   "type": "tip",
+   "text": "If you have health problems (heart, blood pressure, injuries), always show the plan to a doctor. AI is not a doctor."
+  },
+  {
+   "type": "h",
+   "text": "Trips"
+  },
+  {
+   "type": "try",
+   "text": "I'm planning 3 days in Rome with two kids (7 and 11) in July. Medium budget. Make a day-by-day plan with 2–3 main things a day, breaks, and ideas for a cheap lunch."
+  },
+  {
+   "type": "h",
+   "text": "Your week"
+  },
+  {
+   "type": "p",
+   "text": "List all your tasks for the week, paste them to the AI and ask for a day-by-day schedule with priorities. When something comes up, just write \"I can't do Wednesday, rearrange it\"."
+  },
+  {
+   "type": "tip",
+   "text": "Claude can turn your plan into a neat document you can copy or save – just ask for it \"as a document\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Some versions of ChatGPT can also set reminders or scheduled tasks – check what your app offers.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini can look up current information for your trip (opening hours, ticket prices) – but still check the official website.",
+   "tool": "gemini"
+  }
+ ]
+}

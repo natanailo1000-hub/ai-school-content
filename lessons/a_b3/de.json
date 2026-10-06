@@ -1,0 +1,66 @@
+{
+ "id": "a_b3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Ein Prompt ist die Nachricht, die du an die KI schickst. Je klarer dein Prompt, desto besser die Antwort. Die KI weiß nichts über dich außer dem, was du schreibst."
+  },
+  {
+   "type": "h",
+   "text": "Die vier Zutaten eines guten Prompts"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Aufgabe – was genau du willst (schreiben, erklären, vergleichen, auflisten).",
+    "Kontext – für wen und wozu (\"für meinen Chef\", \"ich bin Anfänger\", \"ich habe 30 Minuten\").",
+    "Details oder ein Beispiel – was du schon hast, was dir gefällt und was nicht.",
+    "Format – wie die Antwort aussehen soll (5 Stichpunkte, Tabelle, kurz, unter 100 Wörtern)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Gleiche Bitte, zwei Prompts"
+  },
+  {
+   "type": "p",
+   "text": "Schwach: \"Schreib einen Instagram-Post.\""
+  },
+  {
+   "type": "p",
+   "text": "Stark: \"Schreib einen kurzen, fröhlichen Instagram-Post für meine Bäckerei, die diesen Samstag 5 Jahre alt wird. Erwähne 20 % Rabatt auf Croissants. Höchstens 3 Sätze und 3 Hashtags.\""
+  },
+  {
+   "type": "tip",
+   "text": "Wenn die Antwort nicht passt, fang nicht von vorne an – sag, was sich ändern soll: \"kürzer\", \"förmlicher\", \"füge ein Beispiel hinzu\"."
+  },
+  {
+   "type": "h",
+   "text": "Gib ihr eine Rolle"
+  },
+  {
+   "type": "p",
+   "text": "Du kannst mit \"Verhalte dich wie ein erfahrener Coach\" oder \"Du bist Mathelehrer\" beginnen. So trifft die KI Ton und Niveau besser."
+  },
+  {
+   "type": "try",
+   "text": "Du bist ein erfahrener Personal Trainer. Erstelle mir einen Trainingsplan für zu Hause: 3 Tage pro Woche, je 20 Minuten, ohne Geräte. Ich bin absoluter Anfänger. Gib die Antwort als Tabelle."
+  },
+  {
+   "type": "tip",
+   "text": "Bei Claude kannst du ruhig längere, detaillierte Prompts schreiben – es folgt langen Anweisungen gut. Du kannst auch einen ganzen Text einfügen und damit arbeiten lassen.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT kannst du in den Einstellungen dauerhafte Anweisungen über dich speichern (z. B. \"antworte kurz\"), damit du sie nicht jedes Mal wiederholen musst.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini kann die Google-Suche nutzen, du kannst also nach aktuellen Infos fragen – prüfe aber immer die angegebenen Quellen.",
+   "tool": "gemini"
+  }
+ ]
+}

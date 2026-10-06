@@ -1,0 +1,66 @@
+{
+ "id": "a_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI saves you a lot of time with writing: you give the essence, it gives you well-written text. You always read it and you send it."
+  },
+  {
+   "type": "h",
+   "text": "Emails and messages"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Say who you're writing to and your relationship (boss, neighbour, company).",
+    "Say what you want to achieve (apology, complaint, thanks, request).",
+    "Give the key facts (dates, numbers, names).",
+    "Ask for a tone: polite, short, firm."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Write a short, polite email to my internet provider. My internet hasn't worked since Monday and I've already called twice. I'm asking them to send a technician this week and to reduce my bill."
+  },
+  {
+   "type": "h",
+   "text": "Fix your own text"
+  },
+  {
+   "type": "p",
+   "text": "You don't have to start from zero. Paste your text and ask: \"Fix the mistakes\", \"Cut it in half\", \"Make it sound more professional\"."
+  },
+  {
+   "type": "h",
+   "text": "CVs and job applications"
+  },
+  {
+   "type": "p",
+   "text": "AI can tidy up your CV and write a cover letter tailored to a job ad. Give it your real experience and the text of the ad."
+  },
+  {
+   "type": "try",
+   "text": "Here is my experience: [your experience]. Here is the job ad: [ad text]. Write a 150-word cover letter that highlights what the ad asks for. Don't invent experience I don't have."
+  },
+  {
+   "type": "tip",
+   "text": "Never let the AI invent degrees or experience. Everything in your CV must be true – employers check."
+  },
+  {
+   "type": "tip",
+   "text": "Claude is especially good at writing and polishing text – ask it for 2–3 versions so you can pick one.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT you can ask for 2–3 versions of a text at once and choose the best one.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "If you use Gmail, Gemini can also help you write emails directly inside Google apps (depending on your plan).",
+   "tool": "gemini"
+  }
+ ]
+}

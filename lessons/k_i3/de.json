@@ -1,0 +1,54 @@
+{
+ "id": "k_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Mit Schule, Training, Hausaufgaben und Freunden verliert man leicht den Überblick. KI kann dir helfen, alles unterzubringen."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Was du ihr sagen solltest"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Deine festen Termine (Schule, Training, Unterricht).",
+    "Was du diese Woche erledigen musst (Hausaufgaben, Tests).",
+    "Wie viel Zeit du für Pausen und Spielen willst.",
+    "Wann du schlafen gehst."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ich bin in der 7. Klasse. Schule ist von 8 bis 14 Uhr. Training habe ich dienstags und donnerstags von 17 bis 18:30 Uhr. Am Freitag schreibe ich einen Biotest. Mach mir einen Plan für diese Woche mit Zeit zum Lernen, Ausruhen und Spielen. Ich gehe um 22 Uhr schlafen."
+  },
+  {
+   "type": "h",
+   "text": "Training und Gesundheit"
+  },
+  {
+   "type": "p",
+   "text": "KI kann dir ein Aufwärmen oder einen Übungsplan für deinen Sport vorschlagen. Zeig ihn aber immer deinem Trainer oder deinen Eltern – sie wissen, was für dich sicher ist."
+  },
+  {
+   "type": "tip",
+   "text": "Ein Plan soll dir helfen, nicht Stress machen. Wenn du etwas nicht schaffst, bitte die KI einfach, umzuplanen."
+  }
+ ]
+}

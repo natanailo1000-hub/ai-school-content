@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_gemini",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Gemini je AI asistent kompanije Google. Besplatno ga možeš koristiti na računaru (sajt gemini.google.com) ili na telefonu (aplikacija Gemini sa Google Play-a)."
+  },
+  {
+   "type": "h",
+   "text": "Napravi nalog"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Otvori gemini.google.com ili instaliraj aplikaciju Gemini.",
+    "Prijavi se Google nalogom (isti koji koristiš za Gmail).",
+    "Potvrdi nalog (mejl ili kod), ako to traži.",
+    "Gotovo – vidiš prazno polje za poruku."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Pravila o godinama za Gemini zavise od zemlje; deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je dostupno."
+  },
+  {
+   "type": "h",
+   "text": "Tvoja prva poruka"
+  },
+  {
+   "type": "p",
+   "text": "Klikni u polje za poruku, napiši šta ti treba i pošalji. Piši kao da pišeš pametnom kolegi: normalnim rečenicama, sa detaljima."
+  },
+  {
+   "type": "try",
+   "text": "Zdravo! Ja sam početnik. U 3 kratke tačke reci mi u čemu sve možeš da mi pomogneš u svakodnevnom životu."
+  },
+  {
+   "type": "h",
+   "text": "Dobro je znati"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Besplatna verzija ima ograničen broj poruka, a plaćeni planovi daju više.",
+    "Za novu temu otvori novi razgovor – tako odgovori ostaju jasniji.",
+    "Razgovor možeš da nastaviš: postavi dodatno pitanje ili traži da promeni odgovor.",
+    "Izgled aplikacije se vremenom menja, ali polje za poruku je uvek tu."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Gemini je povezan sa Google uslugama i pretragom, pa je zgodan za aktuelne informacije. Na mnogim Android telefonima je već instaliran."
+  }
+ ]
+}

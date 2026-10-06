@@ -1,0 +1,66 @@
+{
+ "id": "k_p2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI kann dir bei einem Aufsatz oder Referat helfen – aber fair. Das Ziel ist, dass DU schreiben lernst."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Erlaubt und nützlich"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Dir helfen, Ideen und einen Plan zu finden.",
+    "Ein Thema erklären, das du nicht verstehst.",
+    "Deinen Text lesen und sagen, was besser geht.",
+    "Rechtschreibung korrigieren und die Fehler erklären."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Nicht fair"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Die KI den ganzen Aufsatz schreiben lassen und ihn als deinen abgeben.",
+    "Sätze der KI abschreiben, ohne sie zu verstehen.",
+    "Sagen, du hättest keine KI benutzt, obwohl du es getan hast."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Frag deine Lehrkraft, was erlaubt ist. Wenn du KI nutzt, sei ehrlich und sag, wie du sie genutzt hast."
+  },
+  {
+   "type": "try",
+   "text": "Ich schreibe einen Aufsatz zum Thema \"Mein schönster Tag\". Schreib ihn nicht für mich! Stell mir 5 Fragen, die mir helfen, mich an Details zu erinnern, und schlag dann einen Plan vor: Einleitung, Hauptteil, Schluss."
+  },
+  {
+   "type": "h",
+   "text": "Wenn du fertig bist"
+  },
+  {
+   "type": "try",
+   "text": "Hier ist mein Aufsatz: [Text einfügen]. Schreib ihn nicht ganz um. Nenne mir 3 Dinge, die gut sind, und 3, die ich verbessern kann, und erkläre warum."
+  }
+ ]
+}

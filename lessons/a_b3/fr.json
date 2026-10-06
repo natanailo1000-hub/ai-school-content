@@ -1,0 +1,66 @@
+{
+ "id": "a_b3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Un prompt, c'est le message que tu envoies à l'IA. Plus ton prompt est clair, meilleure est la réponse. L'IA ne sait rien de toi, sauf ce que tu lui écris."
+  },
+  {
+   "type": "h",
+   "text": "Les quatre ingrédients d'un bon prompt"
+  },
+  {
+   "type": "list",
+   "items": [
+    "La tâche – ce que tu veux exactement (écrire, expliquer, comparer, lister).",
+    "Le contexte – pour qui et pourquoi (« pour mon chef », « je débute », « j'ai 30 minutes »).",
+    "Des détails ou un exemple – ce que tu as déjà, ce que tu aimes ou pas.",
+    "Le format – la forme de la réponse (5 points, un tableau, court, moins de 100 mots)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Même demande, deux prompts"
+  },
+  {
+   "type": "p",
+   "text": "Faible : « Écris un post Instagram. »"
+  },
+  {
+   "type": "p",
+   "text": "Fort : « Écris un post Instagram court et joyeux pour ma boulangerie, qui fête ses 5 ans ce samedi. Mentionne 20 % de réduction sur les croissants. 3 phrases et 3 hashtags maximum. »"
+  },
+  {
+   "type": "tip",
+   "text": "Si la réponse ne convient pas, ne recommence pas tout : dis ce qu'il faut changer – « plus court », « plus formel », « ajoute un exemple »."
+  },
+  {
+   "type": "h",
+   "text": "Donne-lui un rôle"
+  },
+  {
+   "type": "p",
+   "text": "Tu peux commencer par « Agis comme un coach expérimenté » ou « Tu es professeur de maths ». L'IA trouve alors mieux le ton et le niveau."
+  },
+  {
+   "type": "try",
+   "text": "Tu es un coach sportif expérimenté. Fais-moi un programme d'exercices à la maison, 3 jours par semaine, 20 minutes par séance, sans matériel. Je suis grand débutant. Présente la réponse sous forme de tableau."
+  },
+  {
+   "type": "tip",
+   "text": "Avec Claude, n'hésite pas à écrire des prompts plus longs et détaillés : il suit bien les longues consignes. Tu peux aussi coller un texte entier et lui demander de travailler dessus.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Dans ChatGPT, tu peux enregistrer dans les paramètres des instructions durables sur toi (par exemple « réponds brièvement »), pour ne pas les répéter à chaque fois.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini peut utiliser la recherche Google : tu peux donc demander des infos récentes, mais vérifie toujours les sources qu'il indique.",
+   "tool": "gemini"
+  }
+ ]
+}

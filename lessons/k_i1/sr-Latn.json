@@ -1,0 +1,58 @@
+{
+ "id": "k_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI može da bude kao privatni nastavnik koji je budan u 11 uveče i nikad se ne nervira ako ga dvaput pitaš isto. Ali važno je kako ga koristiš."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Dobri načini"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Da ti objasni lekciju koju nisi razumeo na času.",
+    "Da ti da primere, kao da imaš 12 godina.",
+    "Da proveri tvoj zadatak i kaže gde si pogrešio – a da ga ne reši umesto tebe.",
+    "Da ti postavlja pitanja, da vidiš šta znaš."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Loši načini"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Da prepišeš ceo domaći.",
+    "Da predaš tekst AI-ja kao svoj.",
+    "Da veruješ svemu bez provere."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Pitaj nastavnika da li sme da se koristi AI za domaći. U nekim školama postoje pravila o tome."
+  },
+  {
+   "type": "try",
+   "text": "Ne razumem razlomke. Objasni mi ih kao da imam 11 godina, uz primer sa picom. Onda mi daj 3 laka zadatka da probam."
+  }
+ ]
+}

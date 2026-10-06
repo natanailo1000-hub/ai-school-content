@@ -1,0 +1,60 @@
+{
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A veces la IA inventa datos, números o fuentes, y suena totalmente segura. A esto se le llama \"alucinación\". La buena noticia: es fácil aprender a protegerte."
+  },
+  {
+   "type": "h",
+   "text": "Cuándo se equivoca más la IA"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Números exactos, fechas y citas.",
+    "Noticias y precios más recientes.",
+    "Detalles muy técnicos (leyes, medicamentos, impuestos).",
+    "Enlaces y títulos de libros o estudios."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "5 trucos para verificar"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Pregunta: \"¿Qué tan seguro estás? ¿Qué debería verificar?\"",
+    "Pide fuentes, ábrelas y comprueba que existen.",
+    "Revisa lo importante en un sitio oficial o con un experto.",
+    "Haz la misma pregunta de otra forma y compara.",
+    "Compara con otra herramienta de IA."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Responde mi pregunta y al final indica por separado qué partes debo verificar y dónde. Pregunta: ¿cuánto dura un pasaporte de adulto en México?"
+  },
+  {
+   "type": "tip",
+   "text": "La IA es excelente para entender y tener ideas, pero para decisiones finales sobre salud, dinero y leyes, consulta siempre a un experto."
+  },
+  {
+   "type": "tip",
+   "text": "Claude suele decir cuando no está seguro: presta atención a esas frases y verifica justo esas partes.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT puede buscar en internet y mostrar enlaces a las fuentes: haz clic y revísalas.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Algunas versiones de Gemini tienen un botón para verificar la respuesta con la Búsqueda de Google: úsalo cuando sea importante.",
+   "tool": "gemini"
+  }
+ ]
+}

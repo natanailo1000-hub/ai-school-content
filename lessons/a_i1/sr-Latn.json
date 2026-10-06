@@ -1,0 +1,58 @@
+{
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI može da ti uštedi sate rada na prezentaciji: od strukture, preko teksta na slajdovima, do onoga što ćeš govoriti."
+  },
+  {
+   "type": "h",
+   "text": "Korak 1 – struktura"
+  },
+  {
+   "type": "try",
+   "text": "Pravim prezentaciju od 10 slajdova za kolege na temu: kako smanjiti troškove u kancelariji. Publika: 15 kolega, 10 minuta. Predloži naslove slajdova i po 3 kratke tačke za svaki."
+  },
+  {
+   "type": "h",
+   "text": "Korak 2 – tekst i govor"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Na slajdu: malo teksta, najviše 3–5 kratkih tačaka.",
+    "Traži od AI-ja „beleške za govornika“ – šta da kažeš uz svaki slajd.",
+    "Traži priču ili primer za početak, da privučeš pažnju.",
+    "Na kraju: jasan zaključak i šta publika treba da uradi."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Korak 3 – izgled"
+  },
+  {
+   "type": "p",
+   "text": "AI može da ti predloži boje, raspored i slike za svaki slajd. Neki alati mogu i da naprave gotov fajl prezentacije, koji posle doteraš u PowerPointu ili Google prezentacijama."
+  },
+  {
+   "type": "tip",
+   "text": "Proveri svaki broj i činjenicu na slajdovima – publika će ih zapamtiti."
+  },
+  {
+   "type": "tip",
+   "text": "Claude može da napravi gotov PowerPoint fajl za preuzimanje (u verzijama koje prave fajlove) – samo traži „.pptx fajl“.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT može da napravi fajl prezentacije za preuzimanje i da predloži slike za slajdove.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini radi sa Google prezentacijama (Slides) – u nekim planovima može da ti pomogne direktno tamo.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "k_p5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI ist wie eine geduldige Fremdsprachenlehrerin, die immer da ist. Du kannst Gespräche, Wörter und Grammatik üben – ganz ohne Scham."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Wie du üben kannst"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Gespräch: \"Sprich mit mir auf Englisch über Fußball, mit einfachen Wörtern, und korrigiere mich freundlich.\"",
+    "Wörter: Lass dir 10 neue Wörter mit Beispielsätzen geben.",
+    "Spiel: \"Gib mir ein Wort auf Deutsch und ich übersetze es.\"",
+    "Grammatik: Bitte um eine Erklärung mit vielen Beispielen."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ich bin 12 und lerne Englisch. Lass uns über meinen Lieblingsfilm reden. Stell mir einfache Fragen auf Englisch, eine nach der anderen, und wenn ich einen Fehler mache, korrigiere mich und erkläre es auf Deutsch."
+  },
+  {
+   "type": "tip",
+   "text": "Jeden Tag 10 Minuten sind besser als einmal pro Woche eine Stunde."
+  },
+  {
+   "type": "h",
+   "text": "Aussprache"
+  },
+  {
+   "type": "p",
+   "text": "Manche KI-Tools haben einen Sprachmodus, dann kannst du auch laut sprechen. Bitte deine Eltern, dir beim Einschalten zu helfen."
+  }
+ ]
+}

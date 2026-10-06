@@ -1,0 +1,66 @@
+{
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA est une excellente planificatrice : elle transforme tes tâches et tes envies en un planning clair. Il suffit de lui dire ce qui compte."
+  },
+  {
+   "type": "h",
+   "text": "Ce qu'il faut lui dire"
+  },
+  {
+   "type": "list",
+   "items": [
+    "L'objectif – ce que tu veux (te remettre en forme, un voyage sans stress, une semaine plus calme).",
+    "Le temps – combien de jours, d'heures ou de minutes tu as.",
+    "Les contraintes – budget, santé, travail, enfants.",
+    "La forme du plan – par jour, en tableau, en liste d'étapes."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Sport"
+  },
+  {
+   "type": "try",
+   "text": "Fais-moi un programme de marche et d'exercices sur 4 semaines. J'ai 45 ans, je ne fais pas de sport, je travaille au bureau et j'ai 30 minutes par jour. Chaque semaine doit être un peu plus difficile. Donne-moi un tableau par jour."
+  },
+  {
+   "type": "tip",
+   "text": "En cas de problème de santé (cœur, tension, blessures), montre toujours le programme à un médecin. L'IA n'est pas médecin."
+  },
+  {
+   "type": "h",
+   "text": "Voyages"
+  },
+  {
+   "type": "try",
+   "text": "Je prévois 3 jours à Rome avec deux enfants (7 et 11 ans) en juillet. Budget moyen. Fais un programme jour par jour avec 2 ou 3 visites principales, des pauses et des idées de déjeuner pas cher."
+  },
+  {
+   "type": "h",
+   "text": "Ta semaine"
+  },
+  {
+   "type": "p",
+   "text": "Note toutes tes tâches de la semaine, colle-les dans l'IA et demande un planning par jour avec des priorités. Si un imprévu arrive, écris simplement : « Mercredi, je ne peux pas, réorganise »."
+  },
+  {
+   "type": "tip",
+   "text": "Claude peut transformer ton planning en document propre à copier ou enregistrer – demande-le simplement « sous forme de document ».",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Certaines versions de ChatGPT peuvent aussi créer des rappels ou des tâches programmées – regarde ce que propose ton appli.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini peut chercher des infos à jour pour ton voyage (horaires, prix des billets) – vérifie quand même sur le site officiel.",
+   "tool": "gemini"
+  }
+ ]
+}

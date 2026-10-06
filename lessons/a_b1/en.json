@@ -1,0 +1,43 @@
+{
+ "id": "a_b1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI (artificial intelligence) here means a program that learned from a huge amount of text and can now understand questions and write answers. Claude, ChatGPT and Gemini are programs like this, also called AI assistants."
+  },
+  {
+   "type": "h",
+   "text": "How it works, in short"
+  },
+  {
+   "type": "p",
+   "text": "When you send a message, the AI predicts which answer fits best, word by word. It doesn't look things up like an encyclopedia – it builds the answer from patterns it learned."
+  },
+  {
+   "type": "h",
+   "text": "What it can do for you"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Explain something complicated in simple words",
+    "Write or improve text: an email, a message, a CV",
+    "Make a plan: a trip, a workout, a busy week at work",
+    "Help you come up with ideas"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "AI sometimes makes mistakes while sounding confident. Always double-check important facts (health, money, law)."
+  },
+  {
+   "type": "tip",
+   "text": "New tip: if an answer is too complicated, just write \"Explain that more simply\" – the AI will try again."
+  },
+  {
+   "type": "try",
+   "text": "Explain to me, as a complete beginner, what artificial intelligence is, in 5 sentences."
+  }
+ ]
+}

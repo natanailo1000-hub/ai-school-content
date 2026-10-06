@@ -1,0 +1,66 @@
+{
+ "id": "a_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA te fait gagner beaucoup de temps à l'écrit : tu donnes l'essentiel, elle te rend un texte bien tourné. C'est toujours toi qui relis et qui envoies."
+  },
+  {
+   "type": "h",
+   "text": "E-mails et messages"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Dis à qui tu écris et quelle est votre relation (chef, voisin, entreprise).",
+    "Dis ce que tu veux obtenir (excuses, réclamation, remerciement, demande).",
+    "Donne les faits importants (dates, chiffres, noms).",
+    "Demande un ton : poli, court, ferme."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Écris un e-mail court et poli à mon fournisseur internet. Ma connexion ne marche plus depuis lundi et j'ai déjà appelé deux fois. Je demande l'envoi d'un technicien cette semaine et une réduction sur ma facture."
+  },
+  {
+   "type": "h",
+   "text": "Améliorer ton propre texte"
+  },
+  {
+   "type": "p",
+   "text": "Pas besoin de partir de zéro. Colle ton texte et demande : « Corrige les fautes », « Raccourcis de moitié », « Rends-le plus professionnel »."
+  },
+  {
+   "type": "h",
+   "text": "CV et candidatures"
+  },
+  {
+   "type": "p",
+   "text": "L'IA peut mettre ton CV au propre et rédiger une lettre de motivation adaptée à une offre. Donne-lui ton expérience réelle et le texte de l'annonce."
+  },
+  {
+   "type": "try",
+   "text": "Voici mon expérience : [ton expérience]. Voici l'offre d'emploi : [texte de l'offre]. Rédige une lettre de motivation de 150 mots qui met en avant ce que demande l'offre. N'invente pas d'expérience que je n'ai pas."
+  },
+  {
+   "type": "tip",
+   "text": "Ne laisse jamais l'IA inventer des diplômes ou une expérience. Tout dans ton CV doit être vrai : les employeurs vérifient."
+  },
+  {
+   "type": "tip",
+   "text": "Claude est particulièrement doué pour écrire et peaufiner des textes : demande-lui 2 ou 3 versions et choisis.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Dans ChatGPT, tu peux demander 2 ou 3 versions d'un texte d'un coup et choisir la meilleure.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Si tu utilises Gmail, Gemini peut aussi t'aider à rédiger des e-mails directement dans les applis Google (selon ton offre).",
+   "tool": "gemini"
+  }
+ ]
+}

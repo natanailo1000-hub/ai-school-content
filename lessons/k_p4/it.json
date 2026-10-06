@@ -1,0 +1,53 @@
+{
+ "id": "k_p4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Hai un'idea per un fumetto, una storia o un video per la scuola o per internet? L'IA è un'ottima compagna per le idee, e il regista sei tu!"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Fumetto"
+  },
+  {
+   "type": "try",
+   "text": "Aiutami a inventare un fumetto di 6 vignette su un robot che impara a giocare a calcio. Per ogni vignetta scrivi cosa si vede e cosa dicono i personaggi. Lo disegnerò io."
+  },
+  {
+   "type": "h",
+   "text": "Storia"
+  },
+  {
+   "type": "p",
+   "text": "Chiedi all'IA aiuto per personaggi, trama e finale, poi scrivi con parole tue. Puoi anche chiedere \"3 finali diversi\" e sceglierne uno."
+  },
+  {
+   "type": "h",
+   "text": "Video"
+  },
+  {
+   "type": "try",
+   "text": "Sto facendo un video di 1 minuto su come fare un aeroplanino di carta. Scrivimi un copione: cosa si vede, cosa dico e quanto dura ogni parte."
+  },
+  {
+   "type": "tip",
+   "text": "Se pubblichi qualcosa online, chiedi prima ai tuoi genitori. E non usare immagini, musica o personaggi di altri senza permesso."
+  }
+ ]
+}

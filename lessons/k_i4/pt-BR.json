@@ -1,0 +1,57 @@
+{
+ "id": "k_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A mesma pergunta pode ter uma resposta fraca ou incrível – depende de como você pergunta. Isso se chama escrever um prompt."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "A receita secreta"
+  },
+  {
+   "type": "list",
+   "items": [
+    "O que você quer: explicar, escrever, listar, comparar.",
+    "Quem você é: sua idade e o que já sabe.",
+    "Que tipo de resposta: curta, em tópicos, com exemplo."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Exemplo"
+  },
+  {
+   "type": "p",
+   "text": "Fraco: \"dinossauros\"."
+  },
+  {
+   "type": "p",
+   "text": "Incrível: \"Tenho 11 anos. Explique por que os dinossauros foram extintos, em 5 tópicos curtos, com uma curiosidade no final.\""
+  },
+  {
+   "type": "tip",
+   "text": "Se não gostar da resposta, não desista – diga o que mudar: \"mais curto\", \"mais fácil\", \"coloque um exemplo\"."
+  },
+  {
+   "type": "try",
+   "text": "Tenho 12 anos. Compare gatos e cachorros numa tabela: comida, cuidados, brincadeiras e quanto tempo vivem."
+  }
+ ]
+}

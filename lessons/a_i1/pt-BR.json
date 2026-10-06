@@ -1,0 +1,58 @@
+{
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA pode economizar horas numa apresentação: da estrutura ao texto dos slides e ao que você vai falar."
+  },
+  {
+   "type": "h",
+   "text": "Passo 1 – estrutura"
+  },
+  {
+   "type": "try",
+   "text": "Estou fazendo uma apresentação de 10 slides para colegas sobre como reduzir custos no escritório. Público: 15 colegas, 10 minutos. Sugira títulos de slides e 3 tópicos curtos para cada um."
+  },
+  {
+   "type": "h",
+   "text": "Passo 2 – texto e fala"
+  },
+  {
+   "type": "list",
+   "items": [
+    "No slide: pouco texto, no máximo 3 a 5 tópicos curtos.",
+    "Peça à IA \"notas do apresentador\" – o que falar em cada slide.",
+    "Peça uma história ou exemplo para abrir e prender a atenção.",
+    "No final: uma conclusão clara e o que o público deve fazer."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Passo 3 – visual"
+  },
+  {
+   "type": "p",
+   "text": "A IA pode sugerir cores, layout e imagens para cada slide. Algumas ferramentas até criam o arquivo da apresentação pronto, que você depois ajusta no PowerPoint ou no Google Apresentações."
+  },
+  {
+   "type": "tip",
+   "text": "Confira todos os números e fatos dos slides – o público vai lembrar deles."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude pode criar um arquivo de PowerPoint pronto para baixar (nas versões que criam arquivos) – é só pedir \"um arquivo .pptx\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT pode criar um arquivo de apresentação para baixar e sugerir imagens para os slides.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini funciona com o Google Apresentações – em alguns planos ele ajuda direto lá.",
+   "tool": "gemini"
+  }
+ ]
+}

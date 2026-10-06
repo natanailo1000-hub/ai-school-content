@@ -1,0 +1,59 @@
+{
+ "id": "k_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA è sveglia, ma a volte sbaglia, e sembra sicurissima. Un vero detective controlla sempre!"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Trucchi da detective"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Chiedi all'IA: \"Sei sicuro?\"",
+    "Controlla sul libro di scuola o su un'enciclopedia.",
+    "Chiedi a un insegnante o a un genitore.",
+    "Confronta con un altro sito affidabile (per esempio di un museo o di un'enciclopedia)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Cosa controllare più spesso"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Numeri e date.",
+    "Nomi di persone e luoghi.",
+    "Citazioni: chi ha detto cosa.",
+    "Le ultime notizie."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Se l'IA e il libro dicono cose diverse, fidati del libro e chiedi all'insegnante."
+  },
+  {
+   "type": "try",
+   "text": "Dimmi quando è stato inventato il telefono e chi l'ha inventato. Alla fine scrivi quali parti dovrei controllare su un libro."
+  }
+ ]
+}

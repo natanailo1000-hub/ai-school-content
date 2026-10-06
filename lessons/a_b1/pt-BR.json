@@ -1,0 +1,43 @@
+{
+ "id": "a_b1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "IA (inteligência artificial), aqui, é um programa que aprendeu com uma quantidade enorme de textos e agora entende perguntas e escreve respostas. Claude, ChatGPT e Gemini são programas assim, também chamados de assistentes de IA."
+  },
+  {
+   "type": "h",
+   "text": "Como funciona, resumindo"
+  },
+  {
+   "type": "p",
+   "text": "Quando você envia uma mensagem, a IA prevê qual resposta combina melhor, palavra por palavra. Ela não consulta nada como uma enciclopédia: monta a resposta a partir dos padrões que aprendeu."
+  },
+  {
+   "type": "h",
+   "text": "O que ela pode fazer por você"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Explicar algo complicado com palavras simples",
+    "Escrever ou melhorar textos: e-mail, mensagem, currículo",
+    "Montar um plano: viagem, treino, uma semana corrida no trabalho",
+    "Ajudar você a ter ideias"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Às vezes a IA erra, mesmo parecendo segura. Sempre confira fatos importantes (saúde, dinheiro, leis)."
+  },
+  {
+   "type": "tip",
+   "text": "Nova dica: se uma resposta estiver complicada, escreva \"Explique de forma mais simples\" e a IA tenta de novo."
+  },
+  {
+   "type": "try",
+   "text": "Me explique, como para um iniciante total, o que é inteligência artificial, em 5 frases."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "k_p3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Školski projekat traži istraživanje. AI može da bude tvoj vodič – da ti pomogne da postaviš prava pitanja i nađeš put do odgovora."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Korak po korak"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Izaberi temu i suzi je (ne „Svemir“, nego „Kako astronauti jedu u svemiru“).",
+    "Traži od AI-ja 5 pitanja na koja tvoj projekat treba da odgovori.",
+    "Za svako pitanje nađi odgovor u knjigama ili na pouzdanim sajtovima.",
+    "Zapiši izvore: naslov knjige ili ime sajta.",
+    "Na kraju traži od AI-ja da ti pomogne da sve složiš logičnim redom."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Imam 13 godina i radim projekat o tome kako astronauti jedu u svemiru. Predloži mi 5 pitanja na koja moj projekat treba da odgovori i za svako gde da potražim pouzdan odgovor."
+  },
+  {
+   "type": "tip",
+   "text": "AI ponekad izmisli izvore i linkove! Uvek proveri da li knjiga ili sajt stvarno postoje."
+  },
+  {
+   "type": "h",
+   "text": "Rad u timu"
+  },
+  {
+   "type": "p",
+   "text": "Ako radite u grupi, AI može da vam pomogne da podelite zadatke: ko istražuje šta, ko pravi slajdove, a ko izlaže."
+  }
+ ]
+}

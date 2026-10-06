@@ -1,0 +1,61 @@
+{
+ "id": "k_b2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI deluje pametno, ali nije ni čarobnjak ni čovek. Hajde da vidimo gde su mu granice."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "AI ne zna sve"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ponekad izmisli odgovor, a zvuči sigurno – to se zove „halucinacija“.",
+    "Ne zna uvek najnovije vesti.",
+    "Može da pogreši u računu ili činjenicama."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "AI nema osećanja"
+  },
+  {
+   "type": "p",
+   "text": "AI može da piše ljubazno i da zvuči kao drug, ali ništa ne oseća i ne poznaje te kao pravi prijatelj. Ako si tužan, posvađao si se ili imaš problem, razgovaraj sa roditeljem, nastavnikom ili drugom osobom kojoj veruješ."
+  },
+  {
+   "type": "h",
+   "text": "AI ne radi umesto tebe"
+  },
+  {
+   "type": "p",
+   "text": "Ako AI napiše domaći umesto tebe, ništa nisi naučio – a nastavnici to često primete. Koristi AI da ti objasni, a ne da prepisuješ."
+  },
+  {
+   "type": "tip",
+   "text": "Dobro pravilo: AI je kao pametan pomoćnik, a ne neko ko odlučuje umesto tebe."
+  },
+  {
+   "type": "try",
+   "text": "Objasni mi 3 stvari koje AI ne ume dobro, sa po jednim primerom. Piši za dete od 12 godina."
+  }
+ ]
+}

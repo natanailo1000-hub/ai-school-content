@@ -1,0 +1,66 @@
+{
+ "id": "a_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA economiza muito tempo na escrita: você dá a ideia e ela devolve um texto bem escrito. Você sempre lê e você envia."
+  },
+  {
+   "type": "h",
+   "text": "E-mails e mensagens"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Diga para quem está escrevendo e qual é a relação (chefe, vizinho, empresa).",
+    "Diga o que quer conseguir (desculpa, reclamação, agradecimento, pedido).",
+    "Dê os fatos principais (datas, números, nomes).",
+    "Peça um tom: educado, curto, firme."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Escreva um e-mail curto e educado para minha operadora de internet. Minha internet não funciona desde segunda e já liguei duas vezes. Peço que mandem um técnico esta semana e deem um desconto na conta."
+  },
+  {
+   "type": "h",
+   "text": "Melhore seu próprio texto"
+  },
+  {
+   "type": "p",
+   "text": "Você não precisa começar do zero. Cole seu texto e peça: \"Corrija os erros\", \"Reduza pela metade\", \"Deixe mais profissional\"."
+  },
+  {
+   "type": "h",
+   "text": "Currículo e candidaturas"
+  },
+  {
+   "type": "p",
+   "text": "A IA pode organizar seu currículo e escrever uma carta de apresentação feita para a vaga. Dê sua experiência real e o texto da vaga."
+  },
+  {
+   "type": "try",
+   "text": "Esta é minha experiência: [sua experiência]. Esta é a vaga: [texto da vaga]. Escreva uma carta de apresentação de 150 palavras destacando o que a vaga pede. Não invente experiência que eu não tenho."
+  },
+  {
+   "type": "tip",
+   "text": "Nunca deixe a IA inventar diplomas ou experiência. Tudo no currículo precisa ser verdade – as empresas conferem."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude é especialmente bom em escrever e lapidar textos – peça 2 ou 3 versões para escolher.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "No ChatGPT você pode pedir 2 ou 3 versões de um texto de uma vez e escolher a melhor.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Se você usa o Gmail, o Gemini também pode ajudar a escrever e-mails dentro dos apps do Google (dependendo do seu plano).",
+   "tool": "gemini"
+  }
+ ]
+}

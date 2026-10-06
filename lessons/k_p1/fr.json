@@ -1,0 +1,55 @@
+{
+ "id": "k_p1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tu as un exposé à faire ? L'IA t'aide à le préparer et à le rendre intéressant, mais c'est toi qui le crées et le présentes."
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Étape par étape"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Demande un plan : combien de diapos et ce qu'il y a sur chacune.",
+    "Pour chaque diapo : un titre + 3 points courts (pas de longues phrases !).",
+    "Demande un début accrocheur : une question ou un fait étonnant.",
+    "Demande des idées d'images, puis trouve-les ou dessine-les toi-même.",
+    "Entraîne-toi à voix haute : l'IA peut te poser des questions comme un public."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "J'ai 13 ans et je prépare un exposé sur les baleines, 6 diapos, 5 minutes. Propose des titres de diapos, 3 points courts pour chacune et une question intéressante pour commencer."
+  },
+  {
+   "type": "tip",
+   "text": "Vérifie les faits de tes diapos dans un livre ou sur un site fiable. Et cite tes sources à la fin : les professeurs adorent ça !"
+  },
+  {
+   "type": "h",
+   "text": "La répétition"
+  },
+  {
+   "type": "try",
+   "text": "Fais comme si tu étais ma classe. Je viens de finir mon exposé sur les baleines. Pose-moi 3 questions que les élèves et le professeur pourraient poser."
+  }
+ ]
+}

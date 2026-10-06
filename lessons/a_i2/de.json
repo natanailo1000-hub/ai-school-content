@@ -1,0 +1,54 @@
+{
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Ein langer Vertrag, Bericht oder eine Anleitung? Die KI liest sie in Sekunden und holt heraus, was du brauchst."
+  },
+  {
+   "type": "h",
+   "text": "Was du verlangen kannst"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Eine Zusammenfassung in 5 Punkten.",
+    "Was für dich am wichtigsten ist (Fristen, Preise, Pflichten).",
+    "Komplizierte Stellen in einfacher Sprache erklärt.",
+    "Fragen, die du vor der Unterschrift stellen solltest."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ich füge die Bedingungen meines Internetvertrags ein. Schreib: 1) eine Zusammenfassung in 5 Punkten, 2) alle Fristen und Kosten, 3) worauf ich achten muss. [Text einfügen]"
+  },
+  {
+   "type": "h",
+   "text": "Wie du ein Dokument hinzufügst"
+  },
+  {
+   "type": "p",
+   "text": "Du kannst den Text einfügen oder eine Datei (PDF, Word) über den Anhang-Knopf hinzufügen, wenn das Tool es unterstützt. Bei sehr langen Dokumenten bitte um Arbeit in Teilen."
+  },
+  {
+   "type": "tip",
+   "text": "Bei Verträgen, Krediten und Recht hilft KI beim Verstehen – vor der Unterschrift frag Fachleute. Und lade keine Dokumente mit persönlichen Daten anderer ohne Erlaubnis hoch."
+  },
+  {
+   "type": "tip",
+   "text": "Claude kann mit sehr langen Dokumenten auf einmal arbeiten – ideal für Zusammenfassungen und Vergleiche.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT kannst du mehrere Dateien hinzufügen und Fragen dazu stellen.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini kann auch mit Dateien aus deinem Google Drive arbeiten, wenn du es erlaubst.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "k_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI is clever, but sometimes it gets things wrong – and sounds completely sure. A real detective always checks!"
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Detective tricks"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ask the AI: \"Are you sure?\"",
+    "Check in your textbook or an encyclopedia.",
+    "Ask a teacher or a parent.",
+    "Compare with another reliable website (e.g. a museum or encyclopedia site)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "What to check most often"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Numbers and dates.",
+    "Names of people and places.",
+    "Quotes – who said what.",
+    "The latest news."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "If the AI and your book say different things, trust the book and ask your teacher."
+  },
+  {
+   "type": "try",
+   "text": "Tell me when the telephone was invented and who invented it. At the end, write which parts I should check in a book."
+  }
+ ]
+}

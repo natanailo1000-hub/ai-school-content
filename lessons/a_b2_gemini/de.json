@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_gemini",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Gemini ist ein KI-Assistent von Google. Du kannst ihn kostenlos am Computer (Website gemini.google.com) oder am Handy (App Gemini aus Google Play) nutzen."
+  },
+  {
+   "type": "h",
+   "text": "Konto erstellen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Öffne gemini.google.com oder installiere die App Gemini.",
+    "Melde dich mit deinem Google-Konto (dasselbe wie für Gmail) an.",
+    "Bestätige dein Konto (E-Mail oder Code), falls gefragt.",
+    "Fertig – du siehst ein leeres Feld für deine Nachricht."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Die Altersregeln für Gemini hängen vom Land ab; Kinder dürfen es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar."
+  },
+  {
+   "type": "h",
+   "text": "Deine erste Nachricht"
+  },
+  {
+   "type": "p",
+   "text": "Tippe ins Nachrichtenfeld, schreib, was du brauchst, und schick es ab. Schreib wie an eine kluge Kollegin: normale Sätze, mit Details."
+  },
+  {
+   "type": "try",
+   "text": "Hallo! Ich bin Anfänger. Sag mir in 3 kurzen Punkten, wobei du mir im Alltag helfen kannst."
+  },
+  {
+   "type": "h",
+   "text": "Gut zu wissen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Die kostenlose Version hat eine begrenzte Anzahl Nachrichten; bezahlte Pläne bieten mehr.",
+    "Für ein neues Thema starte einen neuen Chat – so bleiben die Antworten klarer.",
+    "Du kannst das Gespräch fortsetzen: Stell eine Nachfrage oder bitte um eine Änderung.",
+    "Das Aussehen der App ändert sich, aber das Nachrichtenfeld ist immer da."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Gemini ist mit Google-Diensten und der Suche verbunden und daher praktisch für aktuelle Infos. Auf vielen Android-Handys ist es schon installiert."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI erfindet manchmal Fakten, Zahlen oder Quellen – und klingt dabei völlig sicher. Das nennt man \"Halluzination\". Die gute Nachricht: Man kann leicht lernen, sich davor zu schützen."
+  },
+  {
+   "type": "h",
+   "text": "Wann KI am häufigsten Fehler macht"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Genaue Zahlen, Daten und Zitate.",
+    "Neueste Nachrichten und Preise.",
+    "Spezielle Fachdetails (Gesetze, Medikamente, Steuern).",
+    "Links und Titel von Büchern oder Studien."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "5 Tricks zum Prüfen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Frag: \"Wie sicher bist du? Was sollte ich hier nachprüfen?\"",
+    "Bitte um Quellen – öffne sie und prüfe, ob es sie wirklich gibt.",
+    "Prüfe Wichtiges auf einer offiziellen Website oder bei Fachleuten.",
+    "Stell dieselbe Frage anders und vergleiche.",
+    "Vergleiche mit einem anderen KI-Tool."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Beantworte meine Frage und liste am Ende separat auf, welche Teile ich nachprüfen sollte und wo. Frage: Wie lange ist ein Reisepass für Erwachsene in Deutschland gültig?"
+  },
+  {
+   "type": "tip",
+   "text": "KI ist super zum Verstehen und für Ideen, aber bei endgültigen Entscheidungen zu Gesundheit, Geld und Recht frag immer Fachleute."
+  },
+  {
+   "type": "tip",
+   "text": "Claude sagt oft selbst, wenn es unsicher ist – achte auf solche Sätze und prüfe genau diese Stellen.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT kann im Internet suchen und Links zu Quellen zeigen – klick sie an und prüfe sie.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Manche Versionen von Gemini bieten einen Knopf, um die Antwort mit der Google-Suche zu überprüfen – nutze ihn, wenn es wichtig ist.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "a_i6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Las herramientas de IA de hoy no solo entienden texto: pueden \"ver\" imágenes. Tomas una foto y la IA te explica qué hay en ella."
+  },
+  {
+   "type": "h",
+   "text": "Qué puedes hacer"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Fotografiar instrucciones en otro idioma y pedir la traducción.",
+    "Sacarle foto a un ticket y pedir que pase los productos a una tabla.",
+    "Fotografiar una planta o una falla y preguntar qué es (¡y luego verificar!).",
+    "Enviar un gráfico y pedir que te lo explique."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "[adjunta la foto de un ticket] Pasa todos los productos de este ticket a una tabla: nombre, cantidad, precio. Al final suma el total y compáralo con el monto del ticket."
+  },
+  {
+   "type": "h",
+   "text": "Crear imágenes"
+  },
+  {
+   "type": "p",
+   "text": "Algunas herramientas de IA también crean una imagen nueva a partir de tu descripción. Describe qué hay en la imagen, el estilo, los colores y la distribución. Cuanto más precisa la descripción, mejor la imagen."
+  },
+  {
+   "type": "tip",
+   "text": "Claude lee y analiza muy bien las imágenes y documentos que le envías, pero no crea imágenes nuevas: para eso usa otra herramienta.",
+   "tool": "claude"
+  },
+  {
+   "type": "try",
+   "text": "Haz una ilustración para una invitación de cumpleaños: un oso alegre con globos, colores pastel, estilo de caricatura simple y espacio vacío arriba para el texto.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "try",
+   "text": "Haz una ilustración para una invitación de cumpleaños: un oso alegre con globos, colores pastel, estilo de caricatura simple y espacio vacío arriba para el texto.",
+   "tool": "gemini"
+  },
+  {
+   "type": "tip",
+   "text": "No envíes fotos de caras o documentos de otras personas sin permiso. Y no presentes imágenes hechas con IA como fotos reales."
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT puede analizar imágenes y también crear imágenes nuevas a partir de tu descripción.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini puede analizar imágenes y también crear imágenes nuevas a partir de tu descripción.",
+   "tool": "gemini"
+  }
+ ]
+}

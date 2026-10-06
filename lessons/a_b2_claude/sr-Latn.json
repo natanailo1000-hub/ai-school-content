@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_claude",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Claude je AI asistent kompanije Anthropic. Besplatno ga možeš koristiti na računaru (sajt claude.ai) ili na telefonu (aplikacija Claude sa Google Play-a)."
+  },
+  {
+   "type": "h",
+   "text": "Napravi nalog"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Otvori claude.ai ili instaliraj aplikaciju Claude.",
+    "Prijavi se mejlom ili Google nalogom.",
+    "Potvrdi nalog (mejl ili kod), ako to traži.",
+    "Gotovo – vidiš prazno polje za poruku."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude je samo za osobe od 18 ili više godina."
+  },
+  {
+   "type": "h",
+   "text": "Tvoja prva poruka"
+  },
+  {
+   "type": "p",
+   "text": "Klikni u polje za poruku, napiši šta ti treba i pošalji. Piši kao da pišeš pametnom kolegi: normalnim rečenicama, sa detaljima."
+  },
+  {
+   "type": "try",
+   "text": "Zdravo! Ja sam početnik. U 3 kratke tačke reci mi u čemu sve možeš da mi pomogneš u svakodnevnom životu."
+  },
+  {
+   "type": "h",
+   "text": "Dobro je znati"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Besplatna verzija ima ograničen broj poruka, a plaćeni planovi daju više.",
+    "Za novu temu otvori novi razgovor – tako odgovori ostaju jasniji.",
+    "Razgovor možeš da nastaviš: postavi dodatno pitanje ili traži da promeni odgovor.",
+    "Izgled aplikacije se vremenom menja, ali polje za poruku je uvek tu."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude je posebno dobar u pisanju, jasnom objašnjavanju i radu sa dugim tekstovima i dokumentima."
+  }
+ ]
+}

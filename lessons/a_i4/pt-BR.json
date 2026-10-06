@@ -1,0 +1,55 @@
+{
+ "id": "a_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Quer aprender um idioma, programação, violão ou história? A IA pode ser seu professor particular, no seu ritmo."
+  },
+  {
+   "type": "h",
+   "text": "Um método que funciona"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Diga o que você já sabe e o que quer alcançar.",
+    "Peça um plano de estudo semana a semana.",
+    "Aprenda em pedaços pequenos: explicação, exemplo, tarefa curta.",
+    "Peça para ela te testar – lembrar ativamente é o melhor jeito de aprender.",
+    "Explique para a IA, com suas palavras, o que aprendeu e peça correções."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Quero aprender o básico de Excel para o trabalho em 4 semanas, 3 vezes por semana, 30 minutos. Só sei abrir um arquivo. Monte um plano e vamos começar a primeira aula: explicação, exemplo e uma tarefa curta."
+  },
+  {
+   "type": "h",
+   "text": "O método socrático"
+  },
+  {
+   "type": "p",
+   "text": "Você pode pedir para a IA não dar respostas, e sim te guiar com perguntas: \"Não me dê a solução, faça perguntas até eu chegar sozinho\"."
+  },
+  {
+   "type": "tip",
+   "text": "Você aprende melhor quando se esforça para lembrar, não quando só lê. Por isso, peça sempre um quiz no final."
+  },
+  {
+   "type": "tip",
+   "text": "Algumas versões do Claude têm um modo de aprendizado que te guia com perguntas em vez de dar a resposta direto.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT tem um modo de estudo que te guia passo a passo.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini tem uma ferramenta de aprendizado guiado que explica passo a passo.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA é ótima para planejar: transforma suas tarefas e desejos em um plano claro. Você só precisa dizer o que é importante."
+  },
+  {
+   "type": "h",
+   "text": "O que dizer a ela"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Objetivo – o que você quer (entrar em forma, viagem sem estresse, semana mais tranquila).",
+    "Tempo – quantos dias, horas ou minutos você tem.",
+    "Limites – orçamento, saúde, trabalho, filhos.",
+    "Formato do plano – por dia, em tabela, lista de passos."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Treino"
+  },
+  {
+   "type": "try",
+   "text": "Monte um plano de 4 semanas de caminhada e exercícios. Tenho 45 anos, não treino, trabalho em escritório e tenho 30 minutos por dia. Cada semana deve ser um pouco mais puxada. Me dê uma tabela por dia."
+  },
+  {
+   "type": "tip",
+   "text": "Se você tem problemas de saúde (coração, pressão, lesões), mostre o plano a um médico antes. A IA não é médica."
+  },
+  {
+   "type": "h",
+   "text": "Viagens"
+  },
+  {
+   "type": "try",
+   "text": "Estou planejando 3 dias em Roma com dois filhos (7 e 11 anos) em julho. Orçamento médio. Faça um plano por dia com 2–3 atrações principais, pausas e ideias de almoço barato."
+  },
+  {
+   "type": "h",
+   "text": "Sua semana"
+  },
+  {
+   "type": "p",
+   "text": "Liste todas as tarefas da semana, cole na IA e peça um plano por dia com prioridades. Se surgir algo, é só escrever \"na quarta não dá, reorganize\"."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude pode transformar seu plano num documento organizado para copiar ou salvar – é só pedir \"em forma de documento\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Algumas versões do ChatGPT também criam lembretes ou tarefas agendadas – veja o que o seu app oferece.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini pode buscar informações atuais para sua viagem (horários, preços de ingressos) – mesmo assim, confira no site oficial.",
+   "tool": "gemini"
+  }
+ ]
+}

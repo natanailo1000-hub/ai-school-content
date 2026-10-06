@@ -1,0 +1,60 @@
+{
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI ponekad izmisli činjenice, brojeve ili izvore – a zvuči potpuno sigurno. To se zove „halucinacija“. Dobra vest: lako je naučiti kako da se zaštitiš."
+  },
+  {
+   "type": "h",
+   "text": "Kada AI najčešće greši"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Tačni brojevi, datumi i citati.",
+    "Najnovije vesti i cene.",
+    "Uski stručni detalji (zakoni, lekovi, porezi).",
+    "Linkovi i nazivi knjiga ili istraživanja."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "5 trikova za proveru"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Pitaj: „Koliko si siguran? Šta od ovoga treba da proverim?“",
+    "Traži izvore – pa ih otvori i proveri da li stvarno postoje.",
+    "Važne stvari proveri na zvaničnom sajtu ili kod stručnjaka.",
+    "Postavi isto pitanje na drugi način i uporedi odgovore.",
+    "Uporedi sa drugim AI alatom."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Odgovori na moje pitanje, a na kraju posebno navedi koje delove treba da proverim i gde. Pitanje: koliko važi pasoš za odrasle u Srbiji?"
+  },
+  {
+   "type": "tip",
+   "text": "AI je odličan za razumevanje i ideje, ali za konačne odluke o zdravlju, novcu i zakonu uvek pitaj stručnjaka."
+  },
+  {
+   "type": "tip",
+   "text": "Claude će često sam reći kad nije siguran – obrati pažnju na takve rečenice i baš te delove proveri.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT može da pretražuje internet i prikaže linkove ka izvorima – klikni i proveri ih.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Neke verzije Gemini-ja imaju dugme za proveru odgovora preko Google pretrage – iskoristi ga kad je važno.",
+   "tool": "gemini"
+  }
+ ]
+}

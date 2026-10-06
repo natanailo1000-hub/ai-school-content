@@ -1,0 +1,54 @@
+{
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "¿Un contrato, informe o manual largo? La IA lo lee en segundos y saca lo que necesitas."
+  },
+  {
+   "type": "h",
+   "text": "Qué puedes pedir"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Un resumen en 5 puntos.",
+    "Lo más importante para ti (plazos, precios, obligaciones).",
+    "Las partes complicadas explicadas en lenguaje simple.",
+    "Preguntas que deberías hacer antes de firmar."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Voy a pegar las condiciones de mi contrato de internet. Escribe: 1) un resumen en 5 puntos, 2) todos los plazos y costos, 3) a qué debo prestar atención. [pega el texto]"
+  },
+  {
+   "type": "h",
+   "text": "Cómo agregar un documento"
+  },
+  {
+   "type": "p",
+   "text": "Puedes pegar el texto o adjuntar un archivo (PDF, Word) con el botón de adjuntar, si la herramienta lo permite. Para documentos muy largos, pide que trabaje por partes."
+  },
+  {
+   "type": "tip",
+   "text": "En contratos, préstamos y temas legales, la IA te ayuda a entender; antes de firmar, consulta a un experto. Y no subas documentos con datos personales de otros sin permiso."
+  },
+  {
+   "type": "tip",
+   "text": "Claude puede trabajar con documentos muy largos de una vez: es excelente para resúmenes y para comparar documentos.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "En ChatGPT puedes agregar varios archivos y hacer preguntas sobre ellos.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini también puede trabajar con archivos de tu Google Drive, si lo permites.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Às vezes a IA inventa fatos, números ou fontes – e parece totalmente segura. Isso se chama \"alucinação\". A boa notícia: é fácil aprender a se proteger."
+  },
+  {
+   "type": "h",
+   "text": "Quando a IA mais erra"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Números exatos, datas e citações.",
+    "Notícias e preços mais recentes.",
+    "Detalhes técnicos específicos (leis, remédios, impostos).",
+    "Links e títulos de livros ou estudos."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "5 truques para conferir"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Pergunte: \"Quão seguro você está? O que eu devo conferir?\"",
+    "Peça fontes – abra e veja se existem mesmo.",
+    "Confira o que é importante num site oficial ou com um especialista.",
+    "Faça a mesma pergunta de outro jeito e compare.",
+    "Compare com outra ferramenta de IA."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Responda minha pergunta e, no final, liste separadamente quais partes devo conferir e onde. Pergunta: quanto tempo vale o passaporte de adulto no Brasil?"
+  },
+  {
+   "type": "tip",
+   "text": "A IA é ótima para entender e ter ideias, mas para decisões finais sobre saúde, dinheiro e leis, sempre consulte um especialista."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude costuma dizer quando não tem certeza – preste atenção nessas frases e confira justamente essas partes.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT pode pesquisar na internet e mostrar links das fontes – clique e confira.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Algumas versões do Gemini têm um botão para conferir a resposta com a Pesquisa Google – use quando for importante.",
+   "tool": "gemini"
+  }
+ ]
+}

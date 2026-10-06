@@ -1,0 +1,67 @@
+{
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tudo o que você escreve para uma IA é enviado aos servidores da empresa. Então cuidado com o que compartilha – como em qualquer lugar da internet."
+  },
+  {
+   "type": "h",
+   "text": "Nunca compartilhe"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Senhas e PINs.",
+    "Números de cartão e de conta bancária.",
+    "Número de RG, CPF ou passaporte.",
+    "Dados privados de outras pessoas sem permissão (saúde, endereços, telefones)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Como pedir ajuda com segurança"
+  },
+  {
+   "type": "p",
+   "text": "Quando precisar de ajuda com um documento pessoal, troque nomes e números reais por inventados ou marcadores ([NOME], [VALOR]). A IA precisa da estrutura do problema, não dos seus dados reais."
+  },
+  {
+   "type": "try",
+   "text": "Me ajude a escrever uma reclamação para o meu banco sobre uma compra de [VALOR] cobrada duas vezes em [DATA]. Meu nome é [NOME]. Tom firme, mas educado."
+  },
+  {
+   "type": "h",
+   "text": "Golpes e IA falsa"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Use só os apps e sites oficiais das ferramentas.",
+    "Cuidado com apps falsos de nome e logo parecidos.",
+    "Vozes e imagens de IA podem ser falsificadas – se alguém pedir dinheiro \"com urgência\", confirme ligando você mesmo.",
+    "Ninguém da empresa vai pedir sua senha no chat."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "No trabalho: antes de enviar documentos da empresa, veja as regras dela sobre o uso de IA."
+  },
+  {
+   "type": "tip",
+   "text": "Nas configurações do Claude você pode ver se suas conversas são usadas para melhorar os modelos e desligar isso.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT tem um chat temporário que não fica no histórico e uma opção para suas conversas não serem usadas no treinamento.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Na sua conta Google você pode controlar se a atividade no Gemini é salva e por quanto tempo.",
+   "tool": "gemini"
+  }
+ ]
+}

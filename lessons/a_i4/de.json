@@ -1,0 +1,55 @@
+{
+ "id": "a_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Du willst eine Sprache, Programmieren, Gitarre oder Geschichte lernen? KI kann deine persönliche Lehrkraft sein, angepasst an dein Tempo."
+  },
+  {
+   "type": "h",
+   "text": "Eine Methode, die funktioniert"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Sag, was du schon kannst und was du erreichen willst.",
+    "Bitte um einen Lernplan Woche für Woche.",
+    "Lerne in kleinen Häppchen: Erklärung, Beispiel, kleine Aufgabe.",
+    "Lass dich abfragen – aktives Erinnern ist die beste Lernmethode.",
+    "Erklär der KI in eigenen Worten, was du gelernt hast, und lass dich korrigieren."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ich will in 4 Wochen Excel-Grundlagen für die Arbeit lernen, 3-mal pro Woche je 30 Minuten. Ich kann nur eine Datei öffnen. Mach einen Plan und lass uns mit der ersten Lektion starten: Erklärung, Beispiel und kleine Aufgabe."
+  },
+  {
+   "type": "h",
+   "text": "Die sokratische Methode"
+  },
+  {
+   "type": "p",
+   "text": "Du kannst die KI bitten, dir keine Antworten zu geben, sondern dich mit Fragen zu führen: \"Gib mir nicht die Lösung, stell mir Fragen, bis ich selbst draufkomme.\""
+  },
+  {
+   "type": "tip",
+   "text": "Am besten lernst du, wenn du dich anstrengst, dich zu erinnern – nicht, wenn du nur liest. Bitte deshalb am Ende immer um ein Quiz."
+  },
+  {
+   "type": "tip",
+   "text": "Manche Versionen von Claude haben einen Lernmodus, der dich mit Fragen führt, statt sofort die Antwort zu geben.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT hat einen Lernmodus, der dich Schritt für Schritt führt.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini hat ein Werkzeug für geführtes Lernen, das Schritt für Schritt erklärt.",
+   "tool": "gemini"
+  }
+ ]
+}

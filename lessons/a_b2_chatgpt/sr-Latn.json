@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_chatgpt",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "ChatGPT je AI asistent kompanije OpenAI. Besplatno ga možeš koristiti na računaru (sajt chatgpt.com) ili na telefonu (aplikacija ChatGPT sa Google Play-a)."
+  },
+  {
+   "type": "h",
+   "text": "Napravi nalog"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Otvori chatgpt.com ili instaliraj aplikaciju ChatGPT.",
+    "Prijavi se mejlom ili Google, Microsoft ili Apple nalogom.",
+    "Potvrdi nalog (mejl ili kod), ako to traži.",
+    "Gotovo – vidiš prazno polje za poruku."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT je za osobe od 13+ godina, a do 18 treba dozvola roditelja."
+  },
+  {
+   "type": "h",
+   "text": "Tvoja prva poruka"
+  },
+  {
+   "type": "p",
+   "text": "Klikni u polje za poruku, napiši šta ti treba i pošalji. Piši kao da pišeš pametnom kolegi: normalnim rečenicama, sa detaljima."
+  },
+  {
+   "type": "try",
+   "text": "Zdravo! Ja sam početnik. U 3 kratke tačke reci mi u čemu sve možeš da mi pomogneš u svakodnevnom životu."
+  },
+  {
+   "type": "h",
+   "text": "Dobro je znati"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Besplatna verzija ima ograničen broj poruka, a plaćeni planovi daju više.",
+    "Za novu temu otvori novi razgovor – tako odgovori ostaju jasniji.",
+    "Razgovor možeš da nastaviš: postavi dodatno pitanje ili traži da promeni odgovor.",
+    "Izgled aplikacije se vremenom menja, ali polje za poruku je uvek tu."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ima mnogo dodatnih mogućnosti – na primer, pravi slike, a možeš i glasom da razgovaraš sa njim."
+  }
+ ]
+}

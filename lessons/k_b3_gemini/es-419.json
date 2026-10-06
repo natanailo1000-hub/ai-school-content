@@ -1,0 +1,51 @@
+{
+ "id": "k_b3_gemini",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "¡Vamos a enviar tu primer mensaje! Gemini es una IA creada por la empresa Google."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible."
+  },
+  {
+   "type": "h",
+   "text": "Cómo empezar"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Junto con tu mamá o tu papá, abre gemini.google.com o la app Gemini.",
+    "Toca el cuadro de mensaje.",
+    "Escribe tu pregunta con oraciones normales.",
+    "Presiona el botón de enviar y espera la respuesta."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "¿Qué preguntar?"
+  },
+  {
+   "type": "p",
+   "text": "Cuantos más detalles des, mejor será la respuesta. Di qué te da curiosidad y cuántos años tienes, para que la IA te lo explique a tu medida."
+  },
+  {
+   "type": "try",
+   "text": "¡Hola! Tengo 12 años. Cuéntame 3 datos curiosos sobre los pulpos, cada uno en una oración."
+  },
+  {
+   "type": "h",
+   "text": "¿Y después?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Puedes preguntar más: \"Cuéntame más del segundo dato\".",
+    "Si no entiendes algo, escribe: \"Explícalo más fácil\".",
+    "Para un tema nuevo, abre un chat nuevo."
+   ]
+  }
+ ]
+}

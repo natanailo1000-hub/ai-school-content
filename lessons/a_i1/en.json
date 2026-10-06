@@ -1,0 +1,58 @@
+{
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI can save you hours on a presentation: from the structure to the slide text and what you'll say."
+  },
+  {
+   "type": "h",
+   "text": "Step 1 – structure"
+  },
+  {
+   "type": "try",
+   "text": "I'm making a 10-slide presentation for colleagues on how to cut office costs. Audience: 15 colleagues, 10 minutes. Suggest slide titles and 3 short points for each."
+  },
+  {
+   "type": "h",
+   "text": "Step 2 – text and talk"
+  },
+  {
+   "type": "list",
+   "items": [
+    "On the slide: little text, max 3–5 short points.",
+    "Ask the AI for \"speaker notes\" – what to say with each slide.",
+    "Ask for a story or example to open with and grab attention.",
+    "At the end: a clear conclusion and what the audience should do."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Step 3 – look"
+  },
+  {
+   "type": "p",
+   "text": "AI can suggest colours, layout and images for each slide. Some tools can even create a ready-made presentation file – which you then polish in PowerPoint or Google Slides."
+  },
+  {
+   "type": "tip",
+   "text": "Check every number and fact on your slides – the audience will remember them."
+  },
+  {
+   "type": "tip",
+   "text": "Claude can create a ready-made PowerPoint file to download (in versions that create files) – just ask for \"a .pptx file\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT can create a presentation file to download and suggest images for the slides.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini works with Google Slides – on some plans it can help you right there.",
+   "tool": "gemini"
+  }
+ ]
+}

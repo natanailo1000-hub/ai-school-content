@@ -1,0 +1,58 @@
+{
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA peut te faire gagner des heures sur une présentation : de la structure au texte des diapos et à ce que tu vas dire."
+  },
+  {
+   "type": "h",
+   "text": "Étape 1 – la structure"
+  },
+  {
+   "type": "try",
+   "text": "Je prépare une présentation de 10 diapositives pour des collègues sur la réduction des coûts au bureau. Public : 15 collègues, 10 minutes. Propose des titres de diapos et 3 points courts pour chacune."
+  },
+  {
+   "type": "h",
+   "text": "Étape 2 – texte et discours"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Sur la diapo : peu de texte, 3 à 5 points courts maximum.",
+    "Demande à l'IA des « notes de l'orateur » : quoi dire pour chaque diapo.",
+    "Demande une anecdote ou un exemple pour capter l'attention au début.",
+    "À la fin : une conclusion claire et ce que le public doit faire."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Étape 3 – l'apparence"
+  },
+  {
+   "type": "p",
+   "text": "L'IA peut proposer couleurs, mise en page et images pour chaque diapo. Certains outils créent même un fichier de présentation prêt, que tu peaufines ensuite dans PowerPoint ou Google Slides."
+  },
+  {
+   "type": "tip",
+   "text": "Vérifie chaque chiffre et chaque fait de tes diapos : le public s'en souviendra."
+  },
+  {
+   "type": "tip",
+   "text": "Claude peut créer un fichier PowerPoint prêt à télécharger (dans les versions qui créent des fichiers) : demande simplement « un fichier .pptx ».",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT peut créer un fichier de présentation à télécharger et proposer des images pour les diapos.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini fonctionne avec Google Slides : avec certaines offres, il t'aide directement dedans.",
+   "tool": "gemini"
+  }
+ ]
+}

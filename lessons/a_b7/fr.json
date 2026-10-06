@@ -1,0 +1,67 @@
+{
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tout ce que tu écris à une IA est envoyé sur les serveurs de l'entreprise. Fais donc attention à ce que tu partages, comme partout sur internet."
+  },
+  {
+   "type": "h",
+   "text": "Ne partage jamais"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Mots de passe et codes PIN.",
+    "Numéros de carte et de compte bancaire.",
+    "Numéros de carte d'identité ou de passeport.",
+    "Les données privées d'autres personnes sans leur accord (santé, adresses, numéros)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Demander en toute sécurité"
+  },
+  {
+   "type": "p",
+   "text": "Quand tu as besoin d'aide pour un document personnel, remplace les vrais noms et numéros par des faux ou des repères ([NOM], [MONTANT]). L'IA a besoin de la structure du problème, pas de tes vraies données."
+  },
+  {
+   "type": "try",
+   "text": "Aide-moi à écrire une réclamation à ma banque pour une opération de [MONTANT] débitée deux fois le [DATE]. Je m'appelle [NOM]. Ton ferme mais poli."
+  },
+  {
+   "type": "h",
+   "text": "Arnaques et fausse IA"
+  },
+  {
+   "type": "list",
+   "items": [
+    "N'utilise que les applis et sites officiels des outils.",
+    "Méfie-toi des fausses applis au nom et au logo ressemblants.",
+    "Les voix et images d'IA peuvent être truquées : si quelqu'un te demande de l'argent « en urgence », vérifie en rappelant toi-même.",
+    "Personne de l'entreprise ne te demandera ton mot de passe dans la discussion."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Au travail : avant d'importer des documents professionnels, vérifie les règles de ton entreprise sur l'IA."
+  },
+  {
+   "type": "tip",
+   "text": "Dans les paramètres de Claude, tu peux vérifier si tes discussions servent à améliorer les modèles et le désactiver.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT propose une discussion temporaire non enregistrée dans l'historique, et un réglage pour que tes discussions ne servent pas à l'entraînement.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Dans ton compte Google, tu peux choisir si ton activité Gemini est enregistrée et pendant combien de temps.",
+   "tool": "gemini"
+  }
+ ]
+}

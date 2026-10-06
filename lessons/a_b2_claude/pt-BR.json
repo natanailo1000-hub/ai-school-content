@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_claude",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "O Claude é um assistente de IA criado pela Anthropic. Você pode usá-lo de graça no computador (site claude.ai) ou no celular (app Claude do Google Play)."
+  },
+  {
+   "type": "h",
+   "text": "Crie uma conta"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Abra claude.ai ou instale o app Claude.",
+    "Entre com seu e-mail ou sua conta Google.",
+    "Confirme sua conta (e-mail ou código), se pedirem.",
+    "Pronto – você verá uma caixa vazia para sua mensagem."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "O Claude é só para pessoas com 18 anos ou mais."
+  },
+  {
+   "type": "h",
+   "text": "Sua primeira mensagem"
+  },
+  {
+   "type": "p",
+   "text": "Toque na caixa de mensagem, escreva o que precisa e envie. Escreva como escreveria para um colega inteligente: frases normais, com detalhes."
+  },
+  {
+   "type": "try",
+   "text": "Oi! Sou iniciante. Em 3 pontos curtos, me diga como você pode me ajudar no dia a dia."
+  },
+  {
+   "type": "h",
+   "text": "É bom saber"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A versão gratuita tem um limite de mensagens; os planos pagos dão mais.",
+    "Para um assunto novo, abra um novo chat – as respostas ficam mais claras.",
+    "Você pode continuar a conversa: faça outra pergunta ou peça para mudar a resposta.",
+    "O visual do app muda com o tempo, mas a caixa de mensagem está sempre lá."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "O Claude é especialmente bom em escrever, explicar com clareza e trabalhar com textos e documentos longos."
+  }
+ ]
+}

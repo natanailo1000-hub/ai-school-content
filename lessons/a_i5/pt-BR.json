@@ -1,0 +1,54 @@
+{
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Um relatório, um blog, um TCC ou um capítulo de livro – a IA ajuda do plano até a última revisão. Mas o autor continua sendo você."
+  },
+  {
+   "type": "h",
+   "text": "O processo em 4 passos"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Plano: peça uma estrutura (seções, ideias principais).",
+    "Rascunho: escreva por partes, não tudo de uma vez.",
+    "Edição: peça para encurtar, deixar mais claro ou mudar o tom.",
+    "Revisão final: ortografia, repetições, lógica."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Estou escrevendo um relatório de 2 páginas para meu diretor sobre os resultados de um projeto [descrição do projeto]. Sugira uma estrutura com títulos e o que cada parte deve ter. Ainda não escreva o texto completo."
+  },
+  {
+   "type": "h",
+   "text": "Seu estilo"
+  },
+  {
+   "type": "p",
+   "text": "Cole um exemplo de um texto seu e diga: \"Escreva neste estilo\". Assim o texto soa como você, e não como um robô."
+  },
+  {
+   "type": "tip",
+   "text": "Não entregue como seu um texto escrito pela IA se as regras da escola ou do trabalho não permitirem. E sempre confira fatos e citações."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude é especialmente bom com textos longos e consegue escrever no seu estilo se você der um exemplo.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT tem uma visualização especial de edição (Canvas) onde você muda o texto por partes.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini também pode ajudar direto no Google Docs, em alguns planos.",
+   "tool": "gemini"
+  }
+ ]
+}

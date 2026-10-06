@@ -1,0 +1,66 @@
+{
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI je odličan planer: od tvojih obaveza i želja pravi jasan raspored. Ti samo treba da mu kažeš šta je bitno."
+  },
+  {
+   "type": "h",
+   "text": "Šta da mu kažeš"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Cilj – šta želiš (da budeš u formi, putovanje bez stresa, mirnija nedelja).",
+    "Vreme – koliko dana, sati ili minuta imaš.",
+    "Ograničenja – budžet, zdravlje, posao, deca.",
+    "Oblik plana – po danima, tabela, spisak koraka."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Trening"
+  },
+  {
+   "type": "try",
+   "text": "Napravi mi plan šetnje i vežbi za 4 nedelje. Imam 45 godina, ne treniram, radim u kancelariji i imam 30 minuta dnevno. Neka svaka nedelja bude malo teža. Daj mi tabelu po danima."
+  },
+  {
+   "type": "tip",
+   "text": "Ako imaš zdravstvene probleme (srce, pritisak, povrede), plan uvek pokaži lekaru. AI nije lekar."
+  },
+  {
+   "type": "h",
+   "text": "Putovanje"
+  },
+  {
+   "type": "try",
+   "text": "Planiram 3 dana u Rimu sa dvoje dece (7 i 11 godina) u julu. Budžet je srednji. Napravi plan po danima sa 2–3 glavne stvari dnevno, pauzama i idejama za jeftin ručak."
+  },
+  {
+   "type": "h",
+   "text": "Tvoja nedelja"
+  },
+  {
+   "type": "p",
+   "text": "Nabroji sve obaveze za nedelju, nalepi ih AI-ju i traži raspored po danima sa prioritetima. Kad nešto iskrsne, samo napiši „u sredu ne mogu, prerasporedi“."
+  },
+  {
+   "type": "tip",
+   "text": "Claude može tvoj plan da pretvori u uredan dokument koji možeš da kopiraš ili sačuvaš – samo traži „u obliku dokumenta“.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Neke verzije ChatGPT-a mogu da prave i podsetnike ili zakazane zadatke – proveri šta nudi tvoja aplikacija.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može da proveri aktuelne informacije za putovanje (radno vreme, cene ulaznica) – ali ipak proveri na zvaničnom sajtu.",
+   "tool": "gemini"
+  }
+ ]
+}

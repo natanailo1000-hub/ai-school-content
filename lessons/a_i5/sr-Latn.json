@@ -1,0 +1,54 @@
+{
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Izveštaj, blog, seminarski ili poglavlje knjige – AI ti pomaže od plana do poslednje ispravke. Ali autor ostaješ ti."
+  },
+  {
+   "type": "h",
+   "text": "Proces u 4 koraka"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Plan: traži strukturu (delove, glavne tačke).",
+    "Nacrt: piši deo po deo, a ne sve odjednom.",
+    "Uređivanje: traži da skrati, pojasni ili promeni ton.",
+    "Završna provera: pravopis, ponavljanja, logika."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Pišem izveštaj od 2 strane za direktora o rezultatima projekta [opis projekta]. Predloži strukturu sa naslovima i šta treba da bude u svakom delu. Još ne piši ceo tekst."
+  },
+  {
+   "type": "h",
+   "text": "Tvoj stil"
+  },
+  {
+   "type": "p",
+   "text": "Nalepi primer svog teksta i reci: „Piši u ovom stilu.“ Tako će tekst zvučati kao ti, a ne kao robot."
+  },
+  {
+   "type": "tip",
+   "text": "Ne predaj tekst koji je napisao AI kao svoj ako pravila škole ili posla to ne dozvoljavaju. I uvek proveri činjenice i citate."
+  },
+  {
+   "type": "tip",
+   "text": "Claude je posebno dobar za duže tekstove i ume da piše u tvom stilu ako mu daš primer.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ima poseban prikaz za uređivanje teksta (Canvas), u kom menjaš deo po deo.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može da ti pomogne i direktno u Google dokumentima (Docs), u nekim planovima.",
+   "tool": "gemini"
+  }
+ ]
+}

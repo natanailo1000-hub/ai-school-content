@@ -1,0 +1,58 @@
+{
+ "id": "k_b1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "La IA es un programa de computadora que leyó muchísimos textos y así aprendió a conversar con las personas. Claude es una de esas IA."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude es para adultos (18+). Por eso, practica las lecciones de Claude junto con tu mamá o tu papá, que usan su propia cuenta.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puedes usar ChatGPT desde los 13 años y solo con permiso de tus padres. Si eres menor, practica junto con ellos.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "¿Cómo sabe las respuestas?"
+  },
+  {
+   "type": "p",
+   "text": "Imagina a un amigo que leyó un millón de libros. Cuando le preguntas algo, recuerda lo que leyó y arma una respuesta. La IA funciona parecido, pero mucho más rápido."
+  },
+  {
+   "type": "h",
+   "text": "¿Qué puede hacer?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Explicarte un tema de la escuela de forma más fácil",
+    "Inventar una historia o un chiste",
+    "Ayudarte a hacer un plan de estudio",
+    "Responder preguntas cuando algo te da curiosidad"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "¡La IA no siempre tiene razón! Si algo es importante, compruébalo con un maestro o con tus papás. Y nunca le des datos personales como tu dirección o tus contraseñas."
+  },
+  {
+   "type": "tip",
+   "text": "Nuevo consejo: ¿no entendiste la respuesta? Escribe \"Explícamelo como si tuviera 10 años\" ¡y la IA lo hará más fácil!"
+  },
+  {
+   "type": "try",
+   "text": "Explícame cómo funcionan los volcanes como si tuviera 12 años."
+  }
+ ]
+}

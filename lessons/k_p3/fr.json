@@ -1,0 +1,55 @@
+{
+ "id": "k_p3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Un projet scolaire demande des recherches. L'IA peut être ton guide : elle t'aide à poser les bonnes questions et à trouver le chemin vers les réponses."
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Étape par étape"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Choisis un sujet et précise-le (pas « L'espace », mais « Comment les astronautes mangent dans l'espace »).",
+    "Demande à l'IA 5 questions auxquelles ton projet doit répondre.",
+    "Pour chaque question, trouve la réponse dans des livres ou sur des sites fiables.",
+    "Note tes sources : le titre du livre ou le nom du site.",
+    "À la fin, demande à l'IA de t'aider à tout mettre dans un ordre logique."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "J'ai 13 ans et je fais un projet sur la façon dont les astronautes mangent dans l'espace. Propose 5 questions auxquelles mon projet doit répondre et, pour chacune, où chercher une réponse fiable."
+  },
+  {
+   "type": "tip",
+   "text": "L'IA invente parfois des sources et des liens ! Vérifie toujours que le livre ou le site existe vraiment."
+  },
+  {
+   "type": "h",
+   "text": "Travail d'équipe"
+  },
+  {
+   "type": "p",
+   "text": "Si vous travaillez en groupe, l'IA peut vous aider à répartir les tâches : qui cherche quoi, qui fait les diapos, qui présente."
+  }
+ ]
+}

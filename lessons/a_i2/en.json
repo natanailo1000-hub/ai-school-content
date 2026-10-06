@@ -1,0 +1,54 @@
+{
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A long contract, report or manual? AI reads it in seconds and pulls out what you need."
+  },
+  {
+   "type": "h",
+   "text": "What you can ask for"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A summary in 5 points.",
+    "What matters most for you (deadlines, prices, obligations).",
+    "Complicated parts explained in plain language.",
+    "Questions you should ask before signing."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "I'll paste the terms of my internet contract. Write: 1) a 5-point summary, 2) all deadlines and costs, 3) what to watch out for. [paste text]"
+  },
+  {
+   "type": "h",
+   "text": "How to add a document"
+  },
+  {
+   "type": "p",
+   "text": "You can paste the text or attach a file (PDF, Word) with the attachment button, if the tool supports it. For very long documents, ask it to work part by part."
+  },
+  {
+   "type": "tip",
+   "text": "For contracts, loans and the law, AI helps you understand – before signing, ask an expert. And don't upload documents with other people's personal data without permission."
+  },
+  {
+   "type": "tip",
+   "text": "Claude can work with very long documents at once – it's great for summaries and comparing documents.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT you can add several files and ask questions about them.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini can also work with files from your Google Drive, if you allow it.",
+   "tool": "gemini"
+  }
+ ]
+}

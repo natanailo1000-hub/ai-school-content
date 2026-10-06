@@ -1,0 +1,55 @@
+{
+ "id": "k_p1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Got a presentation for school? AI helps you plan it and make it interesting – but you're the one who makes it and presents it."
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Step by step"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ask for a plan: how many slides and what goes on each.",
+    "For each slide: a title + 3 short points (not whole sentences!).",
+    "Ask for an interesting opening – a question or a surprising fact.",
+    "Ask for picture ideas, then find the pictures yourself or draw them.",
+    "Practise presenting out loud – the AI can ask you questions like an audience."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "I'm 13 and I'm making a school presentation about whales, 6 slides, 5 minutes. Suggest slide titles, 3 short points for each, and one interesting question to open with."
+  },
+  {
+   "type": "tip",
+   "text": "Check the facts on your slides in a book or on a reliable website. And list your sources at the end – teachers love that!"
+  },
+  {
+   "type": "h",
+   "text": "Rehearsal"
+  },
+  {
+   "type": "try",
+   "text": "Act as my class. I've just finished my presentation about whales. Ask me 3 questions that students and the teacher might ask."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "k_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Kad imaš školu, trening, domaći i druženje, lako je da se izgubiš. AI može da ti pomogne da sve rasporediš."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Šta da mu kažeš"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Svoje stalne obaveze (škola, trening, časovi).",
+    "Šta moraš da uradiš ove nedelje (domaći, kontrolni).",
+    "Koliko vremena želiš za odmor i igru.",
+    "Kada ideš na spavanje."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ja sam u 7. razredu. Škola je od 8 do 14h. Trening imam utorkom i četvrtkom od 17 do 18:30h. U petak imam kontrolni iz biologije. Napravi mi raspored za ovu nedelju, sa vremenom za učenje, odmor i igru. Na spavanje idem u 22h."
+  },
+  {
+   "type": "h",
+   "text": "Trening i zdravlje"
+  },
+  {
+   "type": "p",
+   "text": "AI može da predloži zagrevanje ili plan vežbi za tvoj sport. Ali uvek ga pokaži treneru ili roditelju – oni znaju šta je za tebe bezbedno."
+  },
+  {
+   "type": "tip",
+   "text": "Plan je tu da ti pomogne, a ne da te stresira. Ako nešto ne stigneš, samo zamoli AI da preraspodeli."
+  }
+ ]
+}

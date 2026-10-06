@@ -1,0 +1,54 @@
+{
+ "id": "k_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tra scuola, allenamenti, compiti e amici è facile perdersi. L'IA può aiutarti a far stare tutto nella settimana."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Cosa dirle"
+  },
+  {
+   "type": "list",
+   "items": [
+    "I tuoi impegni fissi (scuola, allenamenti, lezioni).",
+    "Cosa devi fare questa settimana (compiti, verifiche).",
+    "Quanto tempo vuoi per riposarti e giocare.",
+    "A che ora vai a dormire."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Faccio la seconda media. La scuola è dalle 8 alle 14. Ho allenamento il martedì e il giovedì dalle 17 alle 18:30. Venerdì ho la verifica di scienze. Fammi un programma per questa settimana con tempo per studiare, riposare e giocare. Vado a dormire alle 22."
+  },
+  {
+   "type": "h",
+   "text": "Allenamento e salute"
+  },
+  {
+   "type": "p",
+   "text": "L'IA può proporti un riscaldamento o un piano di esercizi per il tuo sport. Ma mostralo sempre all'allenatore o a un genitore: loro sanno cosa è sicuro per te."
+  },
+  {
+   "type": "tip",
+   "text": "Il piano serve ad aiutarti, non a stressarti. Se non riesci a fare qualcosa, chiedi all'IA di riorganizzarlo."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI sometimes makes up facts, numbers or sources – and sounds completely sure. This is called a \"hallucination\". The good news: it's easy to learn how to protect yourself."
+  },
+  {
+   "type": "h",
+   "text": "When AI makes mistakes most often"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Exact numbers, dates and quotes.",
+    "The latest news and prices.",
+    "Narrow expert details (laws, medicines, taxes).",
+    "Links and titles of books or studies."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "5 tricks for checking"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ask: \"How sure are you? What should I double-check here?\"",
+    "Ask for sources – then open them and check they really exist.",
+    "Check important things on an official website or with an expert.",
+    "Ask the same question in a different way and compare.",
+    "Compare with another AI tool."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Answer my question, and at the end list separately which parts I should double-check and where. Question: how long is an adult passport valid in the UK?"
+  },
+  {
+   "type": "tip",
+   "text": "AI is great for understanding and ideas, but for final decisions about health, money and the law, always ask an expert."
+  },
+  {
+   "type": "tip",
+   "text": "Claude will often say when it isn't sure – watch for those sentences and check exactly those parts.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT can search the web and show links to sources – click them and check.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Some versions of Gemini offer a button to double-check the answer with Google Search – use it when it matters.",
+   "tool": "gemini"
+  }
+ ]
+}

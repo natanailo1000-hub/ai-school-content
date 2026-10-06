@@ -1,0 +1,55 @@
+{
+ "id": "a_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Want to learn a language, coding, guitar or history? AI can be your personal teacher, adapted to your pace."
+  },
+  {
+   "type": "h",
+   "text": "A method that works"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Say what you already know and what you want to achieve.",
+    "Ask for a week-by-week learning plan.",
+    "Learn in small chunks: explanation, example, small task.",
+    "Ask it to quiz you – active recall is the best way to learn.",
+    "Explain to the AI in your own words what you learned and ask it to correct you."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "I want to learn Excel basics for work in 4 weeks, 3 times a week for 30 minutes. I only know how to open a file. Make a plan, then let's start the first lesson: explanation, example and a small task."
+  },
+  {
+   "type": "h",
+   "text": "The Socratic method"
+  },
+  {
+   "type": "p",
+   "text": "You can ask the AI not to give you answers but to guide you with questions: \"Don't give me the solution, ask me questions until I get there myself.\""
+  },
+  {
+   "type": "tip",
+   "text": "You learn best when you make an effort to remember, not when you only read. So always ask for a quiz at the end."
+  },
+  {
+   "type": "tip",
+   "text": "Some versions of Claude have a learning mode that guides you with questions instead of giving the answer straight away.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT has a study mode that guides you step by step.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini has a guided learning tool that explains things step by step.",
+   "tool": "gemini"
+  }
+ ]
+}

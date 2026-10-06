@@ -1,0 +1,67 @@
+{
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Alles, was du einer KI schreibst, wird an die Server der Firma geschickt. Pass also auf, was du teilst – wie überall im Internet."
+  },
+  {
+   "type": "h",
+   "text": "Teile niemals"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Passwörter und PINs.",
+    "Karten- und Kontonummern.",
+    "Ausweis- oder Passnummern.",
+    "Private Daten anderer ohne Erlaubnis (Gesundheit, Adressen, Telefonnummern)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "So fragst du sicher"
+  },
+  {
+   "type": "p",
+   "text": "Wenn du Hilfe bei einem persönlichen Dokument brauchst, ersetze echte Namen und Zahlen durch erfundene oder Platzhalter ([NAME], [BETRAG]). Die KI braucht die Struktur des Problems, nicht deine echten Daten."
+  },
+  {
+   "type": "try",
+   "text": "Hilf mir, eine Beschwerde an meine Bank zu schreiben: Eine Buchung über [BETRAG] wurde am [DATUM] doppelt abgebucht. Mein Name ist [NAME]. Bestimmter, aber höflicher Ton."
+  },
+  {
+   "type": "h",
+   "text": "Betrug und falsche KI"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Nutze nur die offiziellen Apps und Websites der Tools.",
+    "Achte auf gefälschte Apps mit ähnlichem Namen und Logo.",
+    "KI-Stimmen und -Bilder können gefälscht sein – wenn jemand \"dringend\" Geld will, ruf selbst zurück und prüfe es.",
+    "Niemand von der Firma fragt im Chat nach deinem Passwort."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Im Job: Prüfe vor dem Hochladen von Arbeitsdokumenten die Regeln deiner Firma zur KI-Nutzung."
+  },
+  {
+   "type": "tip",
+   "text": "In den Einstellungen von Claude kannst du prüfen, ob deine Chats zur Verbesserung der Modelle genutzt werden, und das ausschalten.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT hat einen temporären Chat, der nicht im Verlauf gespeichert wird, und eine Einstellung, damit deine Chats nicht zum Training genutzt werden.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "In deinem Google-Konto kannst du festlegen, ob und wie lange deine Gemini-Aktivität gespeichert wird.",
+   "tool": "gemini"
+  }
+ ]
+}

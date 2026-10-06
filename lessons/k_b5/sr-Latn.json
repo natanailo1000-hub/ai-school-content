@@ -1,0 +1,61 @@
+{
+ "id": "k_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI nije samo za školu – sa njim možeš i da se zabavljaš i budeš kreativan!"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Priče"
+  },
+  {
+   "type": "try",
+   "text": "Napiši kratku smešnu priču o mački koja želi da postane astronaut. Najviše 10 rečenica, za decu od 11 godina."
+  },
+  {
+   "type": "h",
+   "text": "Šale i zagonetke"
+  },
+  {
+   "type": "try",
+   "text": "Daj mi 3 zagonetke o životinjama, a rešenja napiši na kraju."
+  },
+  {
+   "type": "h",
+   "text": "Kviz samo za tebe"
+  },
+  {
+   "type": "try",
+   "text": "Napravi mi kviz od 5 pitanja o fudbalu, jedno po jedno. Sačekaj moj odgovor pre sledećeg pitanja."
+  },
+  {
+   "type": "tip",
+   "text": "Ti si autor! Traži od AI-ja ideje, pa ih promeni po svom – tako priča stvarno postaje tvoja."
+  },
+  {
+   "type": "h",
+   "text": "Igra uloga"
+  },
+  {
+   "type": "p",
+   "text": "Možeš da tražiš: „Ti si vodič kroz svemir, a ja sam astronaut. Provedi me kroz Sunčev sistem.“ AI će igrati ulogu i usput te nečemu naučiti."
+  }
+ ]
+}

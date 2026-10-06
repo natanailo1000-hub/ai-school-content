@@ -1,0 +1,64 @@
+{
+ "id": "a_i6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Današnji AI alati ne razumeju samo tekst – mogu i da „vide“ slike. Ti fotografišeš nešto, a AI objasni šta je na slici."
+  },
+  {
+   "type": "h",
+   "text": "Šta možeš"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Fotografišeš uputstvo na stranom jeziku i tražiš prevod.",
+    "Slikaš račun i tražiš da izdvoji stavke u tabelu.",
+    "Slikaš biljku ili kvar i pitaš šta je to (pa proveriš!).",
+    "Pošalješ grafikon i tražiš objašnjenje."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "[dodaj sliku računa] Izdvoji sve stavke sa ovog računa u tabelu: naziv, količina, cena. Na kraju saberi ukupno i uporedi sa iznosom na računu."
+  },
+  {
+   "type": "h",
+   "text": "Pravljenje slika"
+  },
+  {
+   "type": "p",
+   "text": "Neki AI alati mogu i da naprave novu sliku od tvog opisa. Opiši šta je na slici, stil, boje i raspored. Što je opis precizniji, to je slika bolja."
+  },
+  {
+   "type": "tip",
+   "text": "Claude odlično čita i analizira slike i dokumente koje mu pošalješ, ali ne pravi nove slike – za to koristi drugi alat.",
+   "tool": "claude"
+  },
+  {
+   "type": "try",
+   "text": "Napravi ilustraciju za pozivnicu za rođendan: veseli meda sa balonima, pastelne boje, jednostavan crtani stil, prazan prostor na vrhu za tekst.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "try",
+   "text": "Napravi ilustraciju za pozivnicu za rođendan: veseli meda sa balonima, pastelne boje, jednostavan crtani stil, prazan prostor na vrhu za tekst.",
+   "tool": "gemini"
+  },
+  {
+   "type": "tip",
+   "text": "Ne šalji slike tuđih lica ili dokumenata bez dozvole. I ne predstavljaj slike koje je napravio AI kao prave fotografije."
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT može i da analizira slike i da pravi nove slike od tvog opisa.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može i da analizira slike i da pravi nove slike od tvog opisa.",
+   "tool": "gemini"
+  }
+ ]
+}

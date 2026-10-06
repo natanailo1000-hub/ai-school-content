@@ -1,0 +1,67 @@
+{
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Todo lo que le escribes a una IA se envía a los servidores de la empresa. Por eso, cuida lo que compartes, como en cualquier parte de internet."
+  },
+  {
+   "type": "h",
+   "text": "Nunca compartas"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Contraseñas y PIN.",
+    "Números de tarjetas y cuentas bancarias.",
+    "Número de identificación o pasaporte.",
+    "Datos privados de otras personas sin permiso (salud, direcciones, teléfonos)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Cómo preguntar de forma segura"
+  },
+  {
+   "type": "p",
+   "text": "Si necesitas ayuda con un documento personal, cambia los nombres y números reales por inventados o marcadores ([NOMBRE], [MONTO]). La IA necesita la estructura del problema, no tus datos reales."
+  },
+  {
+   "type": "try",
+   "text": "Ayúdame a escribir un reclamo a mi banco por un cargo de [MONTO] cobrado dos veces el [FECHA]. Mi nombre es [NOMBRE]. Tono firme pero amable."
+  },
+  {
+   "type": "h",
+   "text": "Estafas e IA falsa"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Usa solo las apps y sitios oficiales de las herramientas.",
+    "Cuidado con apps falsas de nombre y logo parecidos.",
+    "Las voces e imágenes con IA se pueden falsificar: si alguien te pide dinero \"urgente\", verifícalo llamando tú.",
+    "Nadie de la empresa te pedirá tu contraseña en el chat."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "En el trabajo: antes de subir documentos laborales, revisa las reglas de tu empresa sobre el uso de IA."
+  },
+  {
+   "type": "tip",
+   "text": "En la configuración de Claude puedes ver si tus chats se usan para mejorar los modelos y desactivarlo.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT tiene un chat temporal que no se guarda en el historial y una opción para que tus chats no se usen para entrenar.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "En tu cuenta de Google puedes decidir si se guarda tu actividad en Gemini y por cuánto tiempo.",
+   "tool": "gemini"
+  }
+ ]
+}

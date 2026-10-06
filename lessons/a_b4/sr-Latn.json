@@ -1,0 +1,66 @@
+{
+ "id": "a_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI ti štedi mnogo vremena kod pisanja: ti daš suštinu, on ti da lepo sročen tekst. Ti ga uvek pročitaš i ti ga šalješ."
+  },
+  {
+   "type": "h",
+   "text": "Mejlovi i poruke"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reci kome pišeš i kakav vam je odnos (šef, komšija, firma).",
+    "Reci šta želiš da postigneš (izvinjenje, žalba, zahvalnost, molba).",
+    "Navedi bitne činjenice (datume, brojeve, imena).",
+    "Traži ton: ljubazno, kratko, odlučno."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Napiši kratak i ljubazan mejl mom internet provajderu. Od ponedeljka mi ne radi internet, a već sam zvao dva puta. Tražim da pošalju tehničara ove nedelje i da mi umanje račun."
+  },
+  {
+   "type": "h",
+   "text": "Popravi svoj tekst"
+  },
+  {
+   "type": "p",
+   "text": "Ne moraš da kreneš od nule. Nalepi svoj tekst i traži: „Ispravi greške“, „Skrati na pola“, „Neka zvuči profesionalnije“."
+  },
+  {
+   "type": "h",
+   "text": "CV i prijava za posao"
+  },
+  {
+   "type": "p",
+   "text": "AI može da sredi tvoj CV i napiše propratno pismo prilagođeno oglasu. Daj mu svoje stvarno iskustvo i tekst oglasa."
+  },
+  {
+   "type": "try",
+   "text": "Ovo je moje iskustvo: [tvoje iskustvo]. Ovo je oglas: [tekst oglasa]. Napiši propratno pismo od 150 reči koje ističe ono što oglas traži. Ne izmišljaj iskustvo koje nemam."
+  },
+  {
+   "type": "tip",
+   "text": "Nikad ne dozvoli da AI izmisli diplome ili iskustvo. Sve u CV-u mora da bude istina – poslodavci to proveravaju."
+  },
+  {
+   "type": "tip",
+   "text": "Claude je posebno dobar u pisanju i doterivanju teksta – traži mu 2–3 verzije pa izaberi.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "U ChatGPT-u možeš odjednom da tražiš 2–3 verzije teksta i izabereš najbolju.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Ako koristiš Gmail, Gemini može da ti pomogne i u pisanju mejlova direktno u Google aplikacijama (zavisi od tvog plana).",
+   "tool": "gemini"
+  }
+ ]
+}

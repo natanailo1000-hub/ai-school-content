@@ -1,0 +1,54 @@
+{
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Ein Bericht, ein Blog, eine Hausarbeit oder ein Buchkapitel – KI hilft dir vom Plan bis zur letzten Korrektur. Aber du bleibst der Autor."
+  },
+  {
+   "type": "h",
+   "text": "Der Ablauf in 4 Schritten"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Plan: Bitte um eine Gliederung (Abschnitte, Hauptpunkte).",
+    "Entwurf: Schreib Teil für Teil, nicht alles auf einmal.",
+    "Überarbeitung: Lass kürzen, klarer machen oder den Ton ändern.",
+    "Schlusskontrolle: Rechtschreibung, Wiederholungen, Logik."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ich schreibe einen 2-seitigen Bericht für meinen Direktor über die Ergebnisse eines Projekts [Projektbeschreibung]. Schlag eine Gliederung mit Überschriften vor und was in jeden Teil gehört. Schreib den ganzen Text noch nicht."
+  },
+  {
+   "type": "h",
+   "text": "Dein Stil"
+  },
+  {
+   "type": "p",
+   "text": "Füge ein Beispiel deines eigenen Textes ein und sag: \"Schreib in diesem Stil.\" So klingt der Text nach dir und nicht nach einem Roboter."
+  },
+  {
+   "type": "tip",
+   "text": "Gib KI-Text nicht als deinen eigenen ab, wenn die Regeln in Schule oder Job das nicht erlauben. Und prüfe immer Fakten und Zitate."
+  },
+  {
+   "type": "tip",
+   "text": "Claude ist besonders gut bei längeren Texten und kann in deinem Stil schreiben, wenn du ein Beispiel gibst.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT hat eine eigene Bearbeitungsansicht (Canvas), in der du den Text Stück für Stück ändern kannst.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini kann dir in manchen Plänen auch direkt in Google Docs helfen.",
+   "tool": "gemini"
+  }
+ ]
+}

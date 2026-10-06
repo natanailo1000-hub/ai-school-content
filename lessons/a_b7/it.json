@@ -1,0 +1,67 @@
+{
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tutto ciò che scrivi a un'IA viene inviato ai server dell'azienda. Quindi fai attenzione a cosa condividi, come ovunque su internet."
+  },
+  {
+   "type": "h",
+   "text": "Non condividere mai"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Password e PIN.",
+    "Numeri di carte e conti bancari.",
+    "Numero della carta d'identità o del passaporto.",
+    "Dati privati di altre persone senza permesso (salute, indirizzi, numeri di telefono)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Come chiedere in sicurezza"
+  },
+  {
+   "type": "p",
+   "text": "Se ti serve aiuto con un documento personale, sostituisci nomi e numeri veri con dati inventati o segnaposto ([NOME], [IMPORTO]). All'IA serve la struttura del problema, non i tuoi dati reali."
+  },
+  {
+   "type": "try",
+   "text": "Aiutami a scrivere un reclamo alla mia banca per un addebito di [IMPORTO] fatto due volte il [DATA]. Mi chiamo [NOME]. Tono deciso ma gentile."
+  },
+  {
+   "type": "h",
+   "text": "Truffe e IA false"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Usa solo le app e i siti ufficiali degli strumenti.",
+    "Attenzione alle app false con nome e logo simili.",
+    "Le voci e le immagini create con l'IA si possono falsificare: se qualcuno ti chiede soldi \"urgentemente\", verifica richiamando tu.",
+    "Nessuno dell'azienda ti chiederà la password in chat."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Al lavoro: prima di caricare documenti aziendali, controlla le regole della tua azienda sull'uso dell'IA."
+  },
+  {
+   "type": "tip",
+   "text": "Nelle impostazioni di Claude puoi verificare se le tue chat vengono usate per migliorare i modelli e disattivarlo.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ha una chat temporanea che non resta nella cronologia e un'impostazione per non usare le tue chat per l'addestramento.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Nel tuo account Google puoi decidere se salvare la tua attività su Gemini e per quanto tempo.",
+   "tool": "gemini"
+  }
+ ]
+}

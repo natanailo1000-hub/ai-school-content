@@ -1,0 +1,66 @@
+{
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI ist eine tolle Planerin: Aus deinen Aufgaben und Wünschen macht sie einen klaren Plan. Du musst ihr nur sagen, was wichtig ist."
+  },
+  {
+   "type": "h",
+   "text": "Was du ihr sagen solltest"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ziel – was du willst (fitter werden, stressfreie Reise, ruhigere Woche).",
+    "Zeit – wie viele Tage, Stunden oder Minuten du hast.",
+    "Grenzen – Budget, Gesundheit, Arbeit, Kinder.",
+    "Form des Plans – nach Tagen, als Tabelle, als Schrittliste."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Training"
+  },
+  {
+   "type": "try",
+   "text": "Erstelle mir einen 4-Wochen-Plan mit Spaziergängen und Übungen. Ich bin 45, trainiere nicht, arbeite im Büro und habe 30 Minuten pro Tag. Jede Woche soll etwas schwerer werden. Gib mir eine Tabelle nach Tagen."
+  },
+  {
+   "type": "tip",
+   "text": "Bei gesundheitlichen Problemen (Herz, Blutdruck, Verletzungen) zeig den Plan immer einer Ärztin oder einem Arzt. KI ist kein Arzt."
+  },
+  {
+   "type": "h",
+   "text": "Reisen"
+  },
+  {
+   "type": "try",
+   "text": "Ich plane 3 Tage in Rom mit zwei Kindern (7 und 11) im Juli. Mittleres Budget. Mach einen Plan nach Tagen mit 2–3 Hauptpunkten pro Tag, Pausen und Ideen für ein günstiges Mittagessen."
+  },
+  {
+   "type": "h",
+   "text": "Deine Woche"
+  },
+  {
+   "type": "p",
+   "text": "Schreib alle Aufgaben der Woche auf, füge sie bei der KI ein und bitte um einen Plan nach Tagen mit Prioritäten. Wenn etwas dazwischenkommt, schreib einfach: \"Mittwoch geht nicht, plane um\"."
+  },
+  {
+   "type": "tip",
+   "text": "Claude kann deinen Plan in ein ordentliches Dokument verwandeln, das du kopieren oder speichern kannst – bitte einfach \"als Dokument\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Manche Versionen von ChatGPT können auch Erinnerungen oder geplante Aufgaben anlegen – schau, was deine App anbietet.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini kann aktuelle Infos für deine Reise nachschlagen (Öffnungszeiten, Ticketpreise) – prüfe sie trotzdem auf der offiziellen Website.",
+   "tool": "gemini"
+  }
+ ]
+}

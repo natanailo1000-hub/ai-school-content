@@ -1,0 +1,60 @@
+{
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA invente parfois des faits, des chiffres ou des sources, tout en ayant l'air parfaitement sûre d'elle. On appelle ça une « hallucination ». Bonne nouvelle : il est facile d'apprendre à s'en protéger."
+  },
+  {
+   "type": "h",
+   "text": "Quand l'IA se trompe le plus souvent"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Chiffres exacts, dates et citations.",
+    "Actualités et prix les plus récents.",
+    "Détails très spécialisés (lois, médicaments, impôts).",
+    "Liens et titres de livres ou d'études."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "5 astuces pour vérifier"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Demande : « À quel point es-tu sûr ? Que dois-je vérifier ? »",
+    "Demande des sources, puis ouvre-les pour voir si elles existent vraiment.",
+    "Vérifie l'important sur un site officiel ou auprès d'un expert.",
+    "Pose la même question autrement et compare.",
+    "Compare avec un autre outil d'IA."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Réponds à ma question et indique à la fin, à part, quelles parties je dois vérifier et où. Question : combien de temps un passeport adulte est-il valable en France ?"
+  },
+  {
+   "type": "tip",
+   "text": "L'IA est excellente pour comprendre et trouver des idées, mais pour les décisions finales sur la santé, l'argent et le droit, demande toujours à un expert."
+  },
+  {
+   "type": "tip",
+   "text": "Claude dit souvent lui-même quand il n'est pas sûr : repère ces phrases et vérifie justement ces passages.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT peut chercher sur internet et afficher des liens vers les sources : clique dessus et vérifie.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Certaines versions de Gemini proposent un bouton pour vérifier la réponse avec la recherche Google : utilise-le quand c'est important.",
+   "tool": "gemini"
+  }
+ ]
+}

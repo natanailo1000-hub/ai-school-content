@@ -1,0 +1,43 @@
+{
+ "id": "a_b1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI (veštačka inteligencija) je ovde program koji je učio na ogromnoj količini teksta i sada razume pitanja i piše odgovore. Claude, ChatGPT i Gemini su takvi programi, a zovu se i AI asistenti."
+  },
+  {
+   "type": "h",
+   "text": "Kako radi, ukratko"
+  },
+  {
+   "type": "p",
+   "text": "Kad mu pošalješ poruku, AI reč po reč predviđa koji odgovor najbolje odgovara. On ne traži odgovor kao u enciklopediji, nego ga sastavlja na osnovu onoga što je naučio."
+  },
+  {
+   "type": "h",
+   "text": "Šta može da uradi za tebe"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Da objasni nešto komplikovano jednostavnim rečima",
+    "Da napiše ili popravi tekst: mejl, poruku, CV",
+    "Da napravi plan: putovanje, trening, gustu nedelju na poslu",
+    "Da ti pomogne da smisliš ideje"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "AI ponekad pogreši, a zvuči sigurno. Važne činjenice (zdravlje, novac, zakon) uvek proveri."
+  },
+  {
+   "type": "tip",
+   "text": "Novi savet: ako ti je odgovor previše komplikovan, samo napiši „Objasni to jednostavnije“ i AI će pokušati ponovo."
+  },
+  {
+   "type": "try",
+   "text": "Objasni mi kao potpunom početniku šta je veštačka inteligencija, u 5 rečenica."
+  }
+ ]
+}

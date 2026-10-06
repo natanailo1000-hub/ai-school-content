@@ -1,0 +1,54 @@
+{
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Un long contrat, rapport ou mode d'emploi ? L'IA le lit en quelques secondes et en extrait ce dont tu as besoin."
+  },
+  {
+   "type": "h",
+   "text": "Ce que tu peux demander"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Un résumé en 5 points.",
+    "Ce qui compte le plus pour toi (délais, prix, obligations).",
+    "Les passages compliqués expliqués simplement.",
+    "Les questions à poser avant de signer."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Je vais coller les conditions de mon contrat internet. Écris : 1) un résumé en 5 points, 2) tous les délais et les coûts, 3) les points de vigilance. [colle le texte]"
+  },
+  {
+   "type": "h",
+   "text": "Comment ajouter un document"
+  },
+  {
+   "type": "p",
+   "text": "Tu peux coller le texte ou joindre un fichier (PDF, Word) avec le bouton pièce jointe, si l'outil le permet. Pour les très longs documents, demande-lui de travailler partie par partie."
+  },
+  {
+   "type": "tip",
+   "text": "Pour les contrats, les crédits et le droit, l'IA t'aide à comprendre ; avant de signer, demande à un expert. Et n'importe pas de documents contenant les données personnelles d'autres personnes sans leur accord."
+  },
+  {
+   "type": "tip",
+   "text": "Claude peut traiter de très longs documents d'un coup : il excelle pour les résumés et les comparaisons de documents.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Dans ChatGPT, tu peux ajouter plusieurs fichiers et poser des questions dessus.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini peut aussi travailler avec les fichiers de ton Google Drive, si tu l'autorises.",
+   "tool": "gemini"
+  }
+ ]
+}

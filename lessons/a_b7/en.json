@@ -1,0 +1,67 @@
+{
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Everything you write to an AI is sent to the company's servers. So be careful what you share – just like anywhere online."
+  },
+  {
+   "type": "h",
+   "text": "Never share"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Passwords and PIN codes.",
+    "Card and bank account numbers.",
+    "ID card or passport numbers.",
+    "Other people's private details without permission (health, addresses, phone numbers)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "How to ask safely"
+  },
+  {
+   "type": "p",
+   "text": "When you need help with a personal document, replace real names and numbers with made-up ones or placeholders ([NAME], [AMOUNT]). The AI needs the structure of the problem, not your real data."
+  },
+  {
+   "type": "try",
+   "text": "Help me write a complaint to my bank about a transaction of [AMOUNT] that was charged twice on [DATE]. My name is [NAME]. Firm but polite tone."
+  },
+  {
+   "type": "h",
+   "text": "Scams and fake AI"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Use only the official apps and websites of the tools.",
+    "Watch out for fake apps with a similar name and logo.",
+    "AI voices and images can be faked – if someone \"urgently\" asks you for money, check by calling them yourself.",
+    "Nobody from the company will ask for your password in the chat."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "At work: before you upload work documents, check your company's rules on using AI."
+  },
+  {
+   "type": "tip",
+   "text": "In Claude's settings you can check whether your chats are used to improve the models and turn that off.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT has a temporary chat that isn't saved in your history, and a setting so your chats aren't used for training.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "In your Google account you can control whether your Gemini activity is saved and for how long.",
+   "tool": "gemini"
+  }
+ ]
+}

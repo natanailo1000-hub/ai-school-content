@@ -1,0 +1,55 @@
+{
+ "id": "k_p3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Ein Schulprojekt braucht Recherche. KI kann dein Wegweiser sein – sie hilft dir, die richtigen Fragen zu stellen und den Weg zu den Antworten zu finden."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Schritt für Schritt"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Wähl ein Thema und grenz es ein (nicht \"Weltall\", sondern \"Wie Astronauten im Weltall essen\").",
+    "Lass dir von der KI 5 Fragen geben, die dein Projekt beantworten soll.",
+    "Such zu jeder Frage die Antwort in Büchern oder auf zuverlässigen Websites.",
+    "Schreib deine Quellen auf: Buchtitel oder Name der Website.",
+    "Lass dir am Ende von der KI helfen, alles logisch zu ordnen."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ich bin 13 und mache ein Projekt darüber, wie Astronauten im Weltall essen. Schlag 5 Fragen vor, die mein Projekt beantworten soll, und wo ich jeweils eine zuverlässige Antwort finde."
+  },
+  {
+   "type": "tip",
+   "text": "KI erfindet manchmal Quellen und Links! Prüf immer, ob es das Buch oder die Website wirklich gibt."
+  },
+  {
+   "type": "h",
+   "text": "Teamarbeit"
+  },
+  {
+   "type": "p",
+   "text": "Wenn ihr in einer Gruppe arbeitet, kann KI helfen, die Aufgaben zu verteilen: wer was recherchiert, wer die Folien macht, wer vorträgt."
+  }
+ ]
+}

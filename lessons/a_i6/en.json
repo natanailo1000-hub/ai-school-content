@@ -1,0 +1,64 @@
+{
+ "id": "a_i6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Today's AI tools don't only understand text – they can \"see\" pictures. You take a photo and the AI explains what's in it."
+  },
+  {
+   "type": "h",
+   "text": "What you can do"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Photograph instructions in a foreign language and ask for a translation.",
+    "Snap a receipt and ask it to put the items in a table.",
+    "Photograph a plant or a fault and ask what it is (then check!).",
+    "Send a chart and ask for an explanation."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "[attach a photo of a receipt] Put all the items from this receipt in a table: name, quantity, price. At the end, add up the total and compare it with the amount on the receipt."
+  },
+  {
+   "type": "h",
+   "text": "Creating images"
+  },
+  {
+   "type": "p",
+   "text": "Some AI tools can also create a new image from your description. Describe what's in the picture, the style, colours and layout. The more precise the description, the better the image."
+  },
+  {
+   "type": "tip",
+   "text": "Claude reads and analyses the images and documents you send it very well, but it doesn't create new images – use another tool for that.",
+   "tool": "claude"
+  },
+  {
+   "type": "try",
+   "text": "Make an illustration for a birthday invitation: a cheerful bear with balloons, pastel colours, simple cartoon style, empty space at the top for text.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "try",
+   "text": "Make an illustration for a birthday invitation: a cheerful bear with balloons, pastel colours, simple cartoon style, empty space at the top for text.",
+   "tool": "gemini"
+  },
+  {
+   "type": "tip",
+   "text": "Don't send photos of other people's faces or documents without permission. And don't present AI-made images as real photos."
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT can both analyse images and create new ones from your description.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini can both analyse images and create new ones from your description.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "a_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA ti fa risparmiare molto tempo nella scrittura: tu dai il succo, lei ti restituisce un testo ben scritto. Sei sempre tu a leggerlo e a inviarlo."
+  },
+  {
+   "type": "h",
+   "text": "E-mail e messaggi"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Di' a chi scrivi e che rapporto avete (capo, vicino, azienda).",
+    "Di' cosa vuoi ottenere (scuse, reclamo, ringraziamento, richiesta).",
+    "Indica i fatti importanti (date, numeri, nomi).",
+    "Chiedi un tono: gentile, breve, deciso."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Scrivi un'e-mail breve e gentile al mio fornitore di internet. Internet non funziona da lunedì e ho già chiamato due volte. Chiedo di mandare un tecnico questa settimana e uno sconto sulla bolletta."
+  },
+  {
+   "type": "h",
+   "text": "Migliora un tuo testo"
+  },
+  {
+   "type": "p",
+   "text": "Non devi partire da zero. Incolla il tuo testo e chiedi: \"Correggi gli errori\", \"Accorcialo della metà\", \"Rendilo più professionale\"."
+  },
+  {
+   "type": "h",
+   "text": "CV e candidature"
+  },
+  {
+   "type": "p",
+   "text": "L'IA può sistemare il tuo CV e scrivere una lettera di presentazione adatta all'annuncio. Dalle la tua esperienza reale e il testo dell'annuncio."
+  },
+  {
+   "type": "try",
+   "text": "Ecco la mia esperienza: [la tua esperienza]. Ecco l'annuncio: [testo dell'annuncio]. Scrivi una lettera di presentazione di 150 parole che metta in risalto ciò che chiede l'annuncio. Non inventare esperienze che non ho."
+  },
+  {
+   "type": "tip",
+   "text": "Non lasciare mai che l'IA inventi titoli di studio o esperienze. Tutto nel CV deve essere vero: i datori di lavoro controllano."
+  },
+  {
+   "type": "tip",
+   "text": "Claude è particolarmente bravo a scrivere e rifinire testi: chiedigli 2–3 versioni e scegline una.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT puoi chiedere 2–3 versioni di un testo in una volta e scegliere la migliore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Se usi Gmail, Gemini può aiutarti a scrivere e-mail anche direttamente nelle app Google (a seconda del tuo piano).",
+   "tool": "gemini"
+  }
+ ]
+}

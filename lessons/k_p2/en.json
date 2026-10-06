@@ -1,0 +1,66 @@
+{
+ "id": "k_p2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI can help with an essay or a report – but in a fair way. The goal is for YOU to learn to write."
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Allowed and useful"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Helping you come up with ideas and a plan.",
+    "Explaining a topic you don't understand.",
+    "Reading your text and saying what could be better.",
+    "Correcting your spelling and explaining the mistakes."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Not fair"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Letting the AI write the whole essay and handing it in as yours.",
+    "Copying the AI's sentences without understanding them.",
+    "Saying you didn't use AI when you did."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Ask your teacher what's allowed. If you use AI, be honest and say how you used it."
+  },
+  {
+   "type": "try",
+   "text": "I'm writing an essay called \"My best day ever\". Don't write it for me! Ask me 5 questions to help me remember the details, then suggest a plan: introduction, middle, ending."
+  },
+  {
+   "type": "h",
+   "text": "When you've written it"
+  },
+  {
+   "type": "try",
+   "text": "Here is my essay: [paste text]. Don't rewrite all of it. Tell me 3 things that are good and 3 things I could improve, and explain why."
+  }
+ ]
+}

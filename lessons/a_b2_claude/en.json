@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_claude",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Claude is an AI assistant made by Anthropic. You can use it for free on a computer (website claude.ai) or on your phone (the Claude app from Google Play)."
+  },
+  {
+   "type": "h",
+   "text": "Create an account"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open claude.ai or install the Claude app.",
+    "Sign in with your email or Google account.",
+    "Confirm your account (email or code), if asked.",
+    "Done – you'll see an empty box for your message."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude is only for people aged 18 or older."
+  },
+  {
+   "type": "h",
+   "text": "Your first message"
+  },
+  {
+   "type": "p",
+   "text": "Tap the message box, type what you need and send it. Write like you would to a smart colleague: normal sentences, with details."
+  },
+  {
+   "type": "try",
+   "text": "Hi! I'm a beginner. In 3 short points, tell me what you can do for me in everyday life."
+  },
+  {
+   "type": "h",
+   "text": "Good to know"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The free version has a limited number of messages; paid plans give you more.",
+    "For a new topic, start a new chat – answers stay clearer.",
+    "You can continue the conversation: ask a follow-up or ask it to change the answer.",
+    "The app's look changes over time, but the message box is always there."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude is especially good at writing, explaining things clearly and working with long texts and documents."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI kann dir bei einer Präsentation Stunden sparen: von der Struktur über den Folientext bis zu dem, was du sagst."
+  },
+  {
+   "type": "h",
+   "text": "Schritt 1 – Struktur"
+  },
+  {
+   "type": "try",
+   "text": "Ich erstelle eine Präsentation mit 10 Folien für Kollegen zum Thema Bürokosten senken. Publikum: 15 Kollegen, 10 Minuten. Schlag Folientitel und je 3 kurze Punkte vor."
+  },
+  {
+   "type": "h",
+   "text": "Schritt 2 – Text und Vortrag"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Auf der Folie: wenig Text, höchstens 3–5 kurze Punkte.",
+    "Bitte die KI um \"Sprechernotizen\" – was du zu jeder Folie sagst.",
+    "Bitte um eine Geschichte oder ein Beispiel für den Einstieg.",
+    "Am Ende: ein klares Fazit und was das Publikum tun soll."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Schritt 3 – Aussehen"
+  },
+  {
+   "type": "p",
+   "text": "KI kann Farben, Aufbau und Bilder für jede Folie vorschlagen. Manche Tools erstellen sogar eine fertige Präsentationsdatei, die du dann in PowerPoint oder Google Präsentationen verfeinerst."
+  },
+  {
+   "type": "tip",
+   "text": "Prüfe jede Zahl und jeden Fakt auf den Folien – das Publikum merkt sie sich."
+  },
+  {
+   "type": "tip",
+   "text": "Claude kann eine fertige PowerPoint-Datei zum Herunterladen erstellen (in Versionen mit Dateierstellung) – bitte einfach um \"eine .pptx-Datei\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT kann eine Präsentationsdatei zum Herunterladen erstellen und Bilder für die Folien vorschlagen.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini arbeitet mit Google Präsentationen – in manchen Plänen hilft es dir direkt dort.",
+   "tool": "gemini"
+  }
+ ]
+}

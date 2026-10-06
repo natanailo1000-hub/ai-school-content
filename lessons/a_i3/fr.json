@@ -1,0 +1,49 @@
+{
+ "id": "a_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA est parfaite pour les budgets, les tableaux et les formules Excel ou Google Sheets – même si tu n'aimes pas les chiffres."
+  },
+  {
+   "type": "h",
+   "text": "Budget du foyer"
+  },
+  {
+   "type": "try",
+   "text": "Mon revenu mensuel est de [MONTANT]. Dépenses : loyer, courses, transports, factures, téléphone. Fais-moi un tableau de budget indiquant combien mettre de côté pour chaque poste et pour l'épargne, selon la règle 50/30/20, et explique la règle."
+  },
+  {
+   "type": "h",
+   "text": "Les formules"
+  },
+  {
+   "type": "p",
+   "text": "Décris avec des mots ce que tu veux, et l'IA écrit la formule. Par exemple : « La colonne B contient les prix, la colonne C les quantités. Il me faut le total en D1. »"
+  },
+  {
+   "type": "try",
+   "text": "Dans un tableau Google Sheets, la colonne A contient des dates et la colonne B des montants de dépenses. Écris une formule qui additionne seulement les dépenses d'octobre et explique-la étape par étape."
+  },
+  {
+   "type": "tip",
+   "text": "Vérifie le résultat d'une formule à la main sur quelques exemples avant de lui faire confiance. Et pour les additions dans la discussion : l'IA se trompe parfois dans les calculs, demande-lui d'utiliser un tableau ou un outil de calcul."
+  },
+  {
+   "type": "tip",
+   "text": "Claude peut analyser un tableau que tu ajoutes (par ex. CSV ou Excel) et créer un graphique ou un rapport.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT peut ouvrir un fichier Excel, faire les calculs et créer des graphiques.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini fonctionne aussi dans Google Sheets, où il peut t'aider directement (avec certaines offres).",
+   "tool": "gemini"
+  }
+ ]
+}

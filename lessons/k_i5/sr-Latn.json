@@ -1,0 +1,59 @@
+{
+ "id": "k_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI je pametan, ali ponekad pogreši – a zvuči potpuno sigurno. Pravi detektiv uvek proverava!"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Detektivski trikovi"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Pitaj AI: „Da li si siguran?“",
+    "Proveri u udžbeniku ili enciklopediji.",
+    "Pitaj nastavnika ili roditelja.",
+    "Uporedi sa drugim pouzdanim sajtom (npr. sajt muzeja ili enciklopedije)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Šta najčešće treba proveriti"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Brojeve i datume.",
+    "Imena ljudi i mesta.",
+    "Citate – ko je šta rekao.",
+    "Najnovije vesti."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Ako AI i knjiga kažu različito, veruj knjizi i pitaj nastavnika."
+  },
+  {
+   "type": "try",
+   "text": "Reci mi kada je izmišljen telefon i ko ga je izmislio. Na kraju napiši šta od ovoga treba da proverim u knjizi."
+  }
+ ]
+}

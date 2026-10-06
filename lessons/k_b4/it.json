@@ -1,0 +1,62 @@
+{
+ "id": "k_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA è divertente e utile, ma su internet valgono sempre le regole di sicurezza."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Non scrivere mai a un'IA"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Il tuo nome completo, il tuo indirizzo o la tua scuola.",
+    "Il tuo numero di telefono o le password.",
+    "Foto di volti, il tuo o quello degli altri.",
+    "I segreti degli altri."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Quando qualcosa sembra strano"
+  },
+  {
+   "type": "p",
+   "text": "Se un'IA (o chiunque online) ti scrive qualcosa che ti spaventa, ti confonde o ti mette a disagio, fermati e dillo subito a un genitore o a un insegnante. Non è colpa tua e non finirai nei guai."
+  },
+  {
+   "type": "h",
+   "text": "Bugie e immagini false"
+  },
+  {
+   "type": "p",
+   "text": "L'IA può creare immagini e voci che sembrano vere, ma non lo sono. Non credere subito a tutto quello che vedi online."
+  },
+  {
+   "type": "tip",
+   "text": "Regola d'oro: quello che non diresti a uno sconosciuto per strada, non scriverlo nemmeno a un'IA."
+  },
+  {
+   "type": "try",
+   "text": "Dammi 5 regole per usare internet in sicurezza, per ragazzi di 12 anni, brevi e chiare."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Sve što napišeš AI-ju šalje se na servere kompanije. Zato pazi šta deliš – isto kao bilo gde na internetu."
+  },
+  {
+   "type": "h",
+   "text": "Nikad ne deli"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Lozinke i PIN kodove.",
+    "Brojeve kartica i računa.",
+    "Broj lične karte ili pasoša.",
+    "Tuđe privatne podatke bez dozvole (zdravlje, adrese, telefone)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Kako da pitaš bezbedno"
+  },
+  {
+   "type": "p",
+   "text": "Kad ti treba pomoć oko ličnog dokumenta, zameni prava imena i brojeve izmišljenim ili oznakama ([IME], [IZNOS]). AI-ju treba struktura problema, a ne tvoji pravi podaci."
+  },
+  {
+   "type": "try",
+   "text": "Pomozi mi da napišem žalbu banci zbog transakcije od [IZNOS] koja je naplaćena dva puta dana [DATUM]. Moje ime je [IME]. Ton odlučan, ali ljubazan."
+  },
+  {
+   "type": "h",
+   "text": "Prevare i lažni AI"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Koristi samo zvanične aplikacije i sajtove alata.",
+    "Pazi na lažne aplikacije sa sličnim imenom i logom.",
+    "AI glasovi i slike mogu da se lažiraju – ako neko „hitno“ traži novac, proveri tako što ćeš ga sam pozvati.",
+    "Niko iz kompanije neće tražiti tvoju lozinku u četu."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Na poslu: pre nego što ubaciš poslovne dokumente, proveri pravila svoje firme o korišćenju AI-ja."
+  },
+  {
+   "type": "tip",
+   "text": "U podešavanjima Claude-a možeš da proveriš da li se tvoji razgovori koriste za unapređenje modela i da to isključiš.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ima privremeni razgovor koji se ne čuva u istoriji i opciju da se tvoji razgovori ne koriste za treniranje.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "U svom Google nalogu možeš da podesiš da li se tvoja Gemini aktivnost čuva i koliko dugo.",
+   "tool": "gemini"
+  }
+ ]
+}

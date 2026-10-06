@@ -1,0 +1,66 @@
+{
+ "id": "a_b3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Prompt je poruka koju šalješ AI-ju. Što je prompt jasniji, to je odgovor bolji. AI ne zna ništa o tebi osim onoga što mu napišeš."
+  },
+  {
+   "type": "h",
+   "text": "Četiri sastojka dobrog prompta"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Zadatak – šta tačno želiš (napiši, objasni, uporedi, napravi spisak).",
+    "Kontekst – za koga je i zašto („za šefa“, „ja sam početnik“, „imam 30 minuta“).",
+    "Detalji ili primer – šta već imaš, šta ti se dopada, a šta ne.",
+    "Format – kakav odgovor želiš (5 tačaka, tabela, kratko, do 100 reči)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Isti zahtev, dva prompta"
+  },
+  {
+   "type": "p",
+   "text": "Slabo: „Napiši objavu za Instagram.“"
+  },
+  {
+   "type": "p",
+   "text": "Dobro: „Napiši kratku, veselu objavu za Instagram za moju pekaru koja ove subote puni 5 godina. Pomeni popust od 20% na kroasane. Najviše 3 rečenice i 3 heštega.“"
+  },
+  {
+   "type": "tip",
+   "text": "Ako odgovor nije dobar, ne kreći ispočetka – reci šta da promeni: „kraće“, „ozbiljnije“, „dodaj primer“."
+  },
+  {
+   "type": "h",
+   "text": "Daj mu ulogu"
+  },
+  {
+   "type": "p",
+   "text": "Možeš da počneš sa „Ponašaj se kao iskusan trener“ ili „Ti si nastavnik matematike“. Tako AI bolje pogodi ton i nivo."
+  },
+  {
+   "type": "try",
+   "text": "Ti si iskusan lični trener. Napravi mi plan vežbanja kod kuće za 3 dana nedeljno, po 20 minuta, bez opreme. Ja sam potpuni početnik. Odgovor daj u obliku tabele."
+  },
+  {
+   "type": "tip",
+   "text": "Kod Claude-a slobodno piši duže i detaljnije promptove – dobro prati duga uputstva. Možeš i da nalepiš ceo tekst i tražiš da radi sa njim.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "U ChatGPT-u možeš u podešavanjima da sačuvaš trajna uputstva o sebi (npr. „odgovaraj kratko“), pa ne moraš svaki put da ih ponavljaš.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može da koristi Google pretragu, pa u promptu slobodno traži aktuelne informacije – ali uvek proveri izvore koje navede.",
+   "tool": "gemini"
+  }
+ ]
+}

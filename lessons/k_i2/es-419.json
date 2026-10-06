@@ -1,0 +1,62 @@
+{
+ "id": "k_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "La IA puede hacerte un plan de estudio, un quiz y tarjetas de repaso, ¡con tus propios apuntes!"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude es para adultos (18+). Por eso, practica las lecciones de Claude junto con tu mamá o tu papá, que usan su propia cuenta.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puedes usar ChatGPT desde los 13 años y solo con permiso de tus padres. Si eres menor, practica junto con ellos.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Paso a paso"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Escribe o pega tus apuntes del cuaderno (o descríbelos brevemente).",
+    "Pídele a la IA un resumen corto de lo más importante.",
+    "Pide un quiz: una pregunta a la vez.",
+    "Lo que respondas mal, repásalo mañana."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Estos son mis apuntes sobre volcanes: [pega los apuntes]. Hazme 8 preguntas de quiz, de una en una, y dime si mi respuesta es correcta."
+  },
+  {
+   "type": "h",
+   "text": "Un plan para la semana"
+  },
+  {
+   "type": "try",
+   "text": "Tengo examen de geografía el viernes. Hoy es lunes y puedo estudiar 30 minutos al día. Hazme un plan de estudio por días."
+  },
+  {
+   "type": "tip",
+   "text": "Estudiar un poco cada día es mejor que mucho la noche antes del examen."
+  },
+  {
+   "type": "h",
+   "text": "Tarjetas de repaso"
+  },
+  {
+   "type": "p",
+   "text": "Pídele a la IA \"tarjetas\": una pregunta de un lado y la respuesta del otro. Escríbelas en papel y practica con un amigo."
+  }
+ ]
+}

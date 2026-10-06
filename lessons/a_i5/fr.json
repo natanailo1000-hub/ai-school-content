@@ -1,0 +1,54 @@
+{
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Un rapport, un blog, un mémoire ou un chapitre de livre : l'IA t'aide du plan à la dernière correction. Mais l'auteur, c'est toi."
+  },
+  {
+   "type": "h",
+   "text": "Le processus en 4 étapes"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Plan : demande une structure (parties, idées principales).",
+    "Brouillon : écris partie par partie, pas tout d'un coup.",
+    "Révision : demande de raccourcir, clarifier ou changer le ton.",
+    "Relecture finale : orthographe, répétitions, logique."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "J'écris un rapport de 2 pages pour mon directeur sur les résultats d'un projet [description du projet]. Propose une structure avec des titres et ce que chaque partie doit contenir. N'écris pas encore le texte complet."
+  },
+  {
+   "type": "h",
+   "text": "Ton style"
+  },
+  {
+   "type": "p",
+   "text": "Colle un exemple de ce que tu as écrit et dis : « Écris dans ce style. » Ainsi, le texte te ressemble au lieu de sonner comme un robot."
+  },
+  {
+   "type": "tip",
+   "text": "Ne rends pas un texte écrit par l'IA comme le tien si les règles de ton école ou de ton travail ne l'autorisent pas. Et vérifie toujours les faits et les citations."
+  },
+  {
+   "type": "tip",
+   "text": "Claude est particulièrement bon pour les longs textes et peut écrire dans ton style si tu lui donnes un exemple.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT a une vue d'édition spéciale (Canvas) où tu peux modifier le texte partie par partie.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini peut aussi t'aider directement dans Google Docs, avec certaines offres.",
+   "tool": "gemini"
+  }
+ ]
+}

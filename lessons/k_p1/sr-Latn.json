@@ -1,0 +1,55 @@
+{
+ "id": "k_p1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Imaš prezentaciju za školu? AI ti pomaže da je isplaniraš i učiniš zanimljivom – ali ti si taj koji je pravi i izlaže."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Korak po korak"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Traži plan: koliko slajdova i šta ide na koji.",
+    "Za svaki slajd: naslov + 3 kratke tačke (ne cele rečenice!).",
+    "Traži zanimljiv početak – pitanje ili neobičnu činjenicu.",
+    "Traži ideje za slike, a slike potraži sam ili ih nacrtaj.",
+    "Vežbaj izlaganje naglas – AI može da ti postavlja pitanja kao publika."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Imam 13 godina i pravim prezentaciju za školu o kitovima, 6 slajdova, 5 minuta. Predloži naslove slajdova, po 3 kratke tačke i jedno zanimljivo pitanje za početak."
+  },
+  {
+   "type": "tip",
+   "text": "Činjenice sa slajdova proveri u knjizi ili na pouzdanom sajtu. I na kraju navedi izvore – nastavnici to vole!"
+  },
+  {
+   "type": "h",
+   "text": "Proba"
+  },
+  {
+   "type": "try",
+   "text": "Ponašaj se kao moj razred. Upravo sam završio prezentaciju o kitovima. Postavi mi 3 pitanja kakva bi postavili učenici i nastavnik."
+  }
+ ]
+}

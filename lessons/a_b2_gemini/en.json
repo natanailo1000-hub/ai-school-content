@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_gemini",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Gemini is an AI assistant made by Google. You can use it for free on a computer (website gemini.google.com) or on your phone (the Gemini app from Google Play)."
+  },
+  {
+   "type": "h",
+   "text": "Create an account"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open gemini.google.com or install the Gemini app.",
+    "Sign in with your Google account (the same one you use for Gmail).",
+    "Confirm your account (email or code), if asked.",
+    "Done – you'll see an empty box for your message."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Age rules for Gemini depend on your country; children can use it only through a parent's Family Link account, where available."
+  },
+  {
+   "type": "h",
+   "text": "Your first message"
+  },
+  {
+   "type": "p",
+   "text": "Tap the message box, type what you need and send it. Write like you would to a smart colleague: normal sentences, with details."
+  },
+  {
+   "type": "try",
+   "text": "Hi! I'm a beginner. In 3 short points, tell me what you can do for me in everyday life."
+  },
+  {
+   "type": "h",
+   "text": "Good to know"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The free version has a limited number of messages; paid plans give you more.",
+    "For a new topic, start a new chat – answers stay clearer.",
+    "You can continue the conversation: ask a follow-up or ask it to change the answer.",
+    "The app's look changes over time, but the message box is always there."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Gemini is connected to Google services and search, so it's handy for up-to-date information. On many Android phones it's already installed."
+  }
+ ]
+}

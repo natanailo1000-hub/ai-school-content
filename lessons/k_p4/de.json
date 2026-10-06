@@ -1,0 +1,53 @@
+{
+ "id": "k_p4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Du hast eine Idee für einen Comic, eine Geschichte oder ein Video für die Schule oder das Internet? KI ist eine tolle Partnerin zum Ideensammeln – und du führst Regie!"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Comic"
+  },
+  {
+   "type": "try",
+   "text": "Hilf mir, einen Comic mit 6 Bildern über einen Roboter auszudenken, der Fußball lernt. Schreib für jedes Bild, was man sieht und was die Figuren sagen. Ich zeichne ihn."
+  },
+  {
+   "type": "h",
+   "text": "Geschichte"
+  },
+  {
+   "type": "p",
+   "text": "Lass dir von der KI bei Figuren, Handlung und Ende helfen – und schreib dann mit deinen eigenen Worten. Du kannst auch um \"3 verschiedene Enden\" bitten und eins auswählen."
+  },
+  {
+   "type": "h",
+   "text": "Video"
+  },
+  {
+   "type": "try",
+   "text": "Ich mache ein 1-minütiges Video darüber, wie man einen Papierflieger faltet. Schreib mir ein Drehbuch: was man sieht, was ich sage und wie lange jeder Teil dauert."
+  },
+  {
+   "type": "tip",
+   "text": "Wenn du etwas im Internet veröffentlichst, frag zuerst deine Eltern. Und nutze keine fremden Bilder, Musik oder Figuren ohne Erlaubnis."
+  }
+ ]
+}

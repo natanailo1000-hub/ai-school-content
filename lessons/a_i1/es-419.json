@@ -1,0 +1,58 @@
+{
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "La IA te puede ahorrar horas en una presentación: desde la estructura hasta el texto de las diapositivas y lo que vas a decir."
+  },
+  {
+   "type": "h",
+   "text": "Paso 1 – estructura"
+  },
+  {
+   "type": "try",
+   "text": "Estoy haciendo una presentación de 10 diapositivas para colegas sobre cómo reducir gastos en la oficina. Público: 15 colegas, 10 minutos. Sugiere títulos de diapositivas y 3 puntos cortos para cada una."
+  },
+  {
+   "type": "h",
+   "text": "Paso 2 – texto y exposición"
+  },
+  {
+   "type": "list",
+   "items": [
+    "En la diapositiva: poco texto, máximo 3 a 5 puntos cortos.",
+    "Pídele a la IA \"notas del orador\": qué decir en cada diapositiva.",
+    "Pide una historia o ejemplo para empezar y captar la atención.",
+    "Al final: una conclusión clara y qué debe hacer el público."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Paso 3 – diseño"
+  },
+  {
+   "type": "p",
+   "text": "La IA puede sugerir colores, distribución e imágenes para cada diapositiva. Algunas herramientas incluso crean el archivo de la presentación, que luego ajustas en PowerPoint o Presentaciones de Google."
+  },
+  {
+   "type": "tip",
+   "text": "Revisa cada número y dato de tus diapositivas: el público los va a recordar."
+  },
+  {
+   "type": "tip",
+   "text": "Claude puede crear un archivo de PowerPoint listo para descargar (en versiones que crean archivos): pídele \"un archivo .pptx\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT puede crear un archivo de presentación para descargar y sugerir imágenes para las diapositivas.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini funciona con Presentaciones de Google: en algunos planes te ayuda directamente ahí.",
+   "tool": "gemini"
+  }
+ ]
+}

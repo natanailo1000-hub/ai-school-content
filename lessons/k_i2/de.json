@@ -1,0 +1,62 @@
+{
+ "id": "k_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI kann dir einen Lernplan, ein Quiz und Lernkarten machen – aus deinen eigenen Notizen!"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Schritt für Schritt"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Schreib deine Notizen aus dem Heft ab oder füge sie ein (oder beschreib sie kurz).",
+    "Bitte die KI um eine kurze Zusammenfassung des Wichtigsten.",
+    "Bitte um ein Quiz – eine Frage nach der anderen.",
+    "Was du falsch hast, wiederholst du morgen."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Das sind meine Notizen über Vulkane: [Notizen einfügen]. Mach mir 8 Quizfragen, eine nach der anderen, und sag mir, ob meine Antwort richtig ist."
+  },
+  {
+   "type": "h",
+   "text": "Ein Plan für die Woche"
+  },
+  {
+   "type": "try",
+   "text": "Ich schreibe am Freitag einen Erdkundetest. Heute ist Montag und ich kann 30 Minuten pro Tag lernen. Mach mir einen Lernplan nach Tagen."
+  },
+  {
+   "type": "tip",
+   "text": "Jeden Tag ein bisschen lernen ist besser als viel am Abend vor dem Test."
+  },
+  {
+   "type": "h",
+   "text": "Lernkarten"
+  },
+  {
+   "type": "p",
+   "text": "Bitte die KI um \"Lernkarten\": eine Frage auf der einen Seite, die Antwort auf der anderen. Schreib sie auf Papier und übe mit einem Freund."
+  }
+ ]
+}

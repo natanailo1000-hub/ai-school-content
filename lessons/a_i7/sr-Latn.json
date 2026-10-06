@@ -1,0 +1,65 @@
+{
+ "id": "a_i7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Kad savladaš osnove, ovi trikovi će ti doneti odgovore kao od stručnjaka."
+  },
+  {
+   "type": "h",
+   "text": "1. Daj primere"
+  },
+  {
+   "type": "p",
+   "text": "Pokaži primer kakav odgovor želiš. AI mnogo bolje prati primer nego opis."
+  },
+  {
+   "type": "h",
+   "text": "2. Podeli na korake"
+  },
+  {
+   "type": "p",
+   "text": "Za složen zadatak traži da radi korak po korak: „Prvo napravi plan, sačekaj moju potvrdu, pa tek onda piši.“"
+  },
+  {
+   "type": "h",
+   "text": "3. Neka te pita"
+  },
+  {
+   "type": "p",
+   "text": "Napiši: „Pre nego što odgovoriš, postavi mi 3 pitanja koja će ti pomoći da odgovor bude bolji.“"
+  },
+  {
+   "type": "h",
+   "text": "4. Iteracija"
+  },
+  {
+   "type": "p",
+   "text": "Prvi odgovor je nacrt. Daj povratnu informaciju: šta je dobro, šta nije i šta da promeni."
+  },
+  {
+   "type": "try",
+   "text": "Želim da napišem opis proizvoda za online prodavnicu. Pre nego što počneš, postavi mi 5 pitanja o proizvodu i kupcima. Onda napiši 2 verzije: kratku i detaljnu. Evo primera opisa koji mi se dopada: [primer]."
+  },
+  {
+   "type": "tip",
+   "text": "Sačuvaj promptove koji ti dobro rade (npr. u Beleškama u ovoj aplikaciji) – tako ćeš ih koristiti ponovo."
+  },
+  {
+   "type": "tip",
+   "text": "U Claude-u možeš da napraviš „Projekat“ sa stalnim uputstvima i dokumentima, pa ne moraš svaki put sve da objašnjavaš.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "U ChatGPT-u možeš da napraviš svoj GPT ili projekat sa stalnim uputstvima za zadatak koji često radiš.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "U Gemini-ju možeš da napraviš „Gem“ – svog asistenta sa stalnim uputstvima za određeni zadatak.",
+   "tool": "gemini"
+  }
+ ]
+}

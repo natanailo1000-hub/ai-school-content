@@ -1,0 +1,54 @@
+{
+ "id": "k_p5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA è come un insegnante di lingue paziente e sempre disponibile. Puoi esercitarti nella conversazione, nelle parole e nella grammatica, senza vergogna."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Modi per esercitarti"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Conversazione: \"Parla con me in inglese di calcio, con parole semplici, e correggimi con gentilezza.\"",
+    "Parole: chiedi 10 parole nuove con frasi d'esempio.",
+    "Gioco: \"Dammi una parola in italiano e io la traduco.\"",
+    "Grammatica: chiedi una spiegazione con tanti esempi."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ho 12 anni e sto imparando l'inglese. Parliamo del mio film preferito. Fammi domande semplici in inglese, una alla volta, e quando sbaglio correggimi e spiegamelo in italiano."
+  },
+  {
+   "type": "tip",
+   "text": "10 minuti ogni giorno sono meglio di un'ora una volta a settimana."
+  },
+  {
+   "type": "h",
+   "text": "Pronuncia"
+  },
+  {
+   "type": "p",
+   "text": "Alcuni strumenti di IA hanno una modalità vocale, così puoi parlare anche ad alta voce. Chiedi a un genitore di aiutarti ad attivarla."
+  }
+ ]
+}

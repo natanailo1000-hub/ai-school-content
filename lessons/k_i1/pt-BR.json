@@ -1,0 +1,58 @@
+{
+ "id": "k_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA pode ser como um professor particular que está acordado às 11 da noite e nunca fica bravo com a mesma pergunta. Mas o jeito de usar faz diferença."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Bons jeitos de usar"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Pedir para explicar uma matéria que você não entendeu na aula.",
+    "Pedir exemplos, como se você tivesse 12 anos.",
+    "Pedir para conferir sua lição e mostrar onde você errou – sem resolver por você.",
+    "Pedir que ela te faça perguntas para ver o que você já sabe."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Jeitos ruins de usar"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Copiar a lição inteira.",
+    "Entregar o texto da IA como se fosse seu.",
+    "Acreditar em tudo sem conferir."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Pergunte ao professor se pode usar IA na lição de casa. Algumas escolas têm regras sobre isso."
+  },
+  {
+   "type": "try",
+   "text": "Não entendo frações. Me explique como se eu tivesse 11 anos, com um exemplo de pizza. Depois me dê 3 exercícios fáceis para treinar."
+  }
+ ]
+}

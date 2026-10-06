@@ -1,0 +1,49 @@
+{
+ "id": "a_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI ist super für Budgets, Tabellen und Formeln in Excel oder Google Tabellen – auch wenn du Zahlen nicht magst."
+  },
+  {
+   "type": "h",
+   "text": "Haushaltsbudget"
+  },
+  {
+   "type": "try",
+   "text": "Mein monatliches Einkommen ist [BETRAG]. Ausgaben: Miete, Essen, Verkehr, Rechnungen, Handy. Erstelle mir eine Budgettabelle mit Vorschlägen, wie viel ich für jeden Posten und zum Sparen zurücklegen sollte, nach der 50/30/20-Regel, und erkläre die Regel."
+  },
+  {
+   "type": "h",
+   "text": "Formeln"
+  },
+  {
+   "type": "p",
+   "text": "Beschreib in Worten, was du willst, und die KI schreibt die Formel. Zum Beispiel: \"In Spalte B stehen Preise, in Spalte C Mengen. Ich brauche die Gesamtsumme in D1.\""
+  },
+  {
+   "type": "try",
+   "text": "In einer Google-Tabelle stehen in Spalte A Daten und in Spalte B Ausgaben. Schreib eine Formel, die nur die Ausgaben im Oktober addiert, und erkläre sie Schritt für Schritt."
+  },
+  {
+   "type": "tip",
+   "text": "Prüfe das Ergebnis einer Formel an ein paar Beispielen von Hand, bevor du ihr vertraust. Und bei Summen direkt im Chat: KI verrechnet sich manchmal, also bitte sie, eine Tabelle oder ein Rechenwerkzeug zu nutzen."
+  },
+  {
+   "type": "tip",
+   "text": "Claude kann eine hinzugefügte Tabelle (z. B. CSV oder Excel) analysieren und ein Diagramm oder einen Bericht erstellen.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT kann eine Excel-Datei öffnen, rechnen und Diagramme erstellen.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini arbeitet auch in Google Tabellen und kann dort direkt helfen (in manchen Plänen).",
+   "tool": "gemini"
+  }
+ ]
+}

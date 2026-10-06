@@ -1,0 +1,59 @@
+{
+ "id": "k_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI ist schlau, aber manchmal irrt sie sich – und klingt trotzdem total sicher. Ein echter Detektiv prüft immer nach!"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Detektiv-Tricks"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Frag die KI: \"Bist du sicher?\"",
+    "Schau im Schulbuch oder in einem Lexikon nach.",
+    "Frag eine Lehrkraft oder deine Eltern.",
+    "Vergleiche mit einer anderen zuverlässigen Website (z. B. eines Museums oder Lexikons)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Was du am häufigsten prüfen solltest"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Zahlen und Daten.",
+    "Namen von Personen und Orten.",
+    "Zitate – wer was gesagt hat.",
+    "Die neuesten Nachrichten."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Wenn KI und Buch etwas anderes sagen, glaub dem Buch und frag deine Lehrkraft."
+  },
+  {
+   "type": "try",
+   "text": "Sag mir, wann das Telefon erfunden wurde und von wem. Schreib am Ende, was ich davon in einem Buch nachprüfen sollte."
+  }
+ ]
+}

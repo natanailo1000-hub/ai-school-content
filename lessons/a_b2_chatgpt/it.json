@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_chatgpt",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "ChatGPT è un assistente IA creato da OpenAI. Puoi usarlo gratis sul computer (sito chatgpt.com) o sul telefono (app ChatGPT su Google Play)."
+  },
+  {
+   "type": "h",
+   "text": "Crea un account"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Apri chatgpt.com o installa l'app ChatGPT.",
+    "Accedi con la tua e-mail o un account Google, Microsoft o Apple.",
+    "Conferma l'account (e-mail o codice), se richiesto.",
+    "Fatto: vedrai una casella vuota per il tuo messaggio."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT è dai 13 anni in su; sotto i 18 serve il permesso di un genitore."
+  },
+  {
+   "type": "h",
+   "text": "Il tuo primo messaggio"
+  },
+  {
+   "type": "p",
+   "text": "Tocca la casella del messaggio, scrivi cosa ti serve e invia. Scrivi come a un collega sveglio: frasi normali, con dettagli."
+  },
+  {
+   "type": "try",
+   "text": "Ciao! Sono un principiante. In 3 punti brevi, dimmi cosa puoi fare per me nella vita di tutti i giorni."
+  },
+  {
+   "type": "h",
+   "text": "Buono a sapersi"
+  },
+  {
+   "type": "list",
+   "items": [
+    "La versione gratuita ha un numero limitato di messaggi; i piani a pagamento ne offrono di più.",
+    "Per un argomento nuovo, apri una nuova chat: le risposte restano più chiare.",
+    "Puoi continuare la conversazione: fai un'altra domanda o chiedi di cambiare la risposta.",
+    "L'aspetto dell'app cambia nel tempo, ma la casella del messaggio c'è sempre."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ha molte funzioni extra: per esempio può creare immagini e puoi parlargli a voce."
+  }
+ ]
+}

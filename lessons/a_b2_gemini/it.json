@@ -1,0 +1,56 @@
+{
+ "id": "a_b2_gemini",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Gemini è un assistente IA creato da Google. Puoi usarlo gratis sul computer (sito gemini.google.com) o sul telefono (app Gemini su Google Play)."
+  },
+  {
+   "type": "h",
+   "text": "Crea un account"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Apri gemini.google.com o installa l'app Gemini.",
+    "Accedi con il tuo account Google (lo stesso di Gmail).",
+    "Conferma l'account (e-mail o codice), se richiesto.",
+    "Fatto: vedrai una casella vuota per il tuo messaggio."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Le regole di età di Gemini dipendono dal paese; i bambini possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile."
+  },
+  {
+   "type": "h",
+   "text": "Il tuo primo messaggio"
+  },
+  {
+   "type": "p",
+   "text": "Tocca la casella del messaggio, scrivi cosa ti serve e invia. Scrivi come a un collega sveglio: frasi normali, con dettagli."
+  },
+  {
+   "type": "try",
+   "text": "Ciao! Sono un principiante. In 3 punti brevi, dimmi cosa puoi fare per me nella vita di tutti i giorni."
+  },
+  {
+   "type": "h",
+   "text": "Buono a sapersi"
+  },
+  {
+   "type": "list",
+   "items": [
+    "La versione gratuita ha un numero limitato di messaggi; i piani a pagamento ne offrono di più.",
+    "Per un argomento nuovo, apri una nuova chat: le risposte restano più chiare.",
+    "Puoi continuare la conversazione: fai un'altra domanda o chiedi di cambiare la risposta.",
+    "L'aspetto dell'app cambia nel tempo, ma la casella del messaggio c'è sempre."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Gemini è collegato ai servizi e alla ricerca di Google, quindi è utile per informazioni aggiornate. Su molti telefoni Android è già installato."
+  }
+ ]
+}
