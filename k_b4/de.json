@@ -1,0 +1,62 @@
+{
+ "id": "k_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI macht Spaß und ist nützlich, aber im Internet gelten immer Sicherheitsregeln."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Schreib einer KI niemals"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Deinen vollen Namen, deine Adresse oder Schule.",
+    "Deine Telefonnummer oder Passwörter.",
+    "Fotos von Gesichtern – deinem oder von anderen.",
+    "Geheimnisse anderer Leute."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Wenn sich etwas komisch anfühlt"
+  },
+  {
+   "type": "p",
+   "text": "Wenn eine KI (oder irgendwer im Internet) etwas schreibt, das dir Angst macht, dich verwirrt oder unangenehm ist – hör auf und sag es sofort deinen Eltern oder einer Lehrkraft. Es ist nicht deine Schuld und du bekommst keinen Ärger."
+  },
+  {
+   "type": "h",
+   "text": "Lügen und falsche Bilder"
+  },
+  {
+   "type": "p",
+   "text": "KI kann Bilder und Stimmen machen, die echt aussehen, aber nicht echt sind. Glaub nicht sofort alles, was du im Internet siehst."
+  },
+  {
+   "type": "tip",
+   "text": "Goldene Regel: Was du einem Fremden auf der Straße nicht sagen würdest, schreibst du auch keiner KI."
+  },
+  {
+   "type": "try",
+   "text": "Gib mir 5 Regeln für sicheres Surfen im Internet für 12-Jährige, kurz und klar."
+  }
+ ]
+}

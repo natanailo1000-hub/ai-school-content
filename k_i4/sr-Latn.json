@@ -1,0 +1,57 @@
+{
+ "id": "k_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Isto pitanje može da dobije slab ili odličan odgovor – sve zavisi od toga kako ga postaviš. To se zove pisanje prompta."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Tajni recept"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Šta želiš: objasni, napiši, nabroj, uporedi.",
+    "Ko si ti: koliko imaš godina i šta već znaš.",
+    "Kakav odgovor: kratko, u tačkama, sa primerom."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Primer"
+  },
+  {
+   "type": "p",
+   "text": "Slabo: „dinosaurusi“."
+  },
+  {
+   "type": "p",
+   "text": "Odlično: „Imam 11 godina. Objasni mi zašto su dinosaurusi izumrli, u 5 kratkih tačaka, sa jednom zanimljivošću na kraju.“"
+  },
+  {
+   "type": "tip",
+   "text": "Ako ti se odgovor ne dopada, ne odustaj – reci šta da promeni: „kraće“, „jednostavnije“, „dodaj primer“."
+  },
+  {
+   "type": "try",
+   "text": "Imam 12 godina. Uporedi mačke i pse u tabeli: hrana, briga, igra i koliko dugo žive."
+  }
+ ]
+}

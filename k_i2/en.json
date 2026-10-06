@@ -1,0 +1,62 @@
+{
+ "id": "k_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI can make you a study plan, a quiz and flashcards – from your own notes!"
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Step by step"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Type or paste your notes from your notebook (or describe them briefly).",
+    "Ask the AI for a short summary of the most important points.",
+    "Ask for a quiz – one question at a time.",
+    "Whatever you get wrong, go over again tomorrow."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "These are my notes about volcanoes: [paste notes]. Make me 8 quiz questions, one at a time, and tell me if my answer is right."
+  },
+  {
+   "type": "h",
+   "text": "A plan for the week"
+  },
+  {
+   "type": "try",
+   "text": "I have a geography test on Friday. Today is Monday and I can study 30 minutes a day. Make me a study plan by day."
+  },
+  {
+   "type": "tip",
+   "text": "A little studying every day is better than a lot the night before the test."
+  },
+  {
+   "type": "h",
+   "text": "Flashcards"
+  },
+  {
+   "type": "p",
+   "text": "Ask the AI to make \"flashcards\": a question on one side, the answer on the other. Write them on paper and practise with a friend."
+  }
+ ]
+}

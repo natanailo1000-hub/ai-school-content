@@ -1,0 +1,57 @@
+{
+ "id": "k_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "La même question peut recevoir une réponse bof ou géniale : tout dépend de la façon dont tu la poses. Ça s'appelle écrire un prompt."
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "La recette secrète"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ce que tu veux : expliquer, écrire, lister, comparer.",
+    "Qui tu es : ton âge et ce que tu sais déjà.",
+    "Quel genre de réponse : courte, en points, avec un exemple."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Exemple"
+  },
+  {
+   "type": "p",
+   "text": "Bof : « dinosaures »."
+  },
+  {
+   "type": "p",
+   "text": "Génial : « J'ai 11 ans. Explique-moi pourquoi les dinosaures ont disparu, en 5 points courts, avec un fait amusant à la fin. »"
+  },
+  {
+   "type": "tip",
+   "text": "Si la réponse ne te plaît pas, n'abandonne pas : dis ce qu'il faut changer – « plus court », « plus simple », « ajoute un exemple »."
+  },
+  {
+   "type": "try",
+   "text": "J'ai 12 ans. Compare les chats et les chiens dans un tableau : nourriture, soins, jeux, durée de vie."
+  }
+ ]
+}

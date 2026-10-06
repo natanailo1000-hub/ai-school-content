@@ -1,0 +1,51 @@
+{
+ "id": "k_b3_claude",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Envoyons ton premier message ! Claude est une IA créée par l'entreprise Anthropic."
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte."
+  },
+  {
+   "type": "h",
+   "text": "Pour commencer"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Avec un parent, ouvre claude.ai ou l'application Claude.",
+    "Touche la zone de message.",
+    "Écris ta question avec des phrases normales.",
+    "Appuie sur le bouton d'envoi et attends la réponse."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Que demander ?"
+  },
+  {
+   "type": "p",
+   "text": "Plus tu donnes de détails, meilleure est la réponse. Dis ce qui t'intéresse et ton âge, pour que l'IA t'explique les choses à ton niveau."
+  },
+  {
+   "type": "try",
+   "text": "Salut ! J'ai 12 ans. Donne-moi 3 faits étonnants sur les pieuvres, chacun en une phrase."
+  },
+  {
+   "type": "h",
+   "text": "Et ensuite ?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Tu peux demander plus : « Dis-m'en plus sur le deuxième fait ».",
+    "Si tu ne comprends pas, écris : « Explique plus simplement ».",
+    "Pour un nouveau sujet, ouvre une nouvelle discussion."
+   ]
+  }
+ ]
+}

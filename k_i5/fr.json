@@ -1,0 +1,59 @@
+{
+ "id": "k_i5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA est maline, mais elle se trompe parfois – tout en ayant l'air sûre d'elle. Un vrai détective vérifie toujours !"
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Astuces de détective"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Demande à l'IA : « Tu es sûr ? »",
+    "Vérifie dans ton manuel ou une encyclopédie.",
+    "Demande à un professeur ou à un parent.",
+    "Compare avec un autre site fiable (par ex. celui d'un musée ou d'une encyclopédie)."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Ce qu'il faut le plus souvent vérifier"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Les chiffres et les dates.",
+    "Les noms de personnes et de lieux.",
+    "Les citations – qui a dit quoi.",
+    "Les dernières actualités."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Si l'IA et ton livre disent des choses différentes, crois le livre et demande à ton professeur."
+  },
+  {
+   "type": "try",
+   "text": "Dis-moi quand le téléphone a été inventé et par qui. À la fin, écris quelles parties je dois vérifier dans un livre."
+  }
+ ]
+}

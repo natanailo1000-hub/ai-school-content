@@ -1,0 +1,61 @@
+{
+ "id": "k_b2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "La IA parece inteligente, pero no es mago ni persona. Veamos cuáles son sus límites."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude es para adultos (18+). Por eso, practica las lecciones de Claude junto con tu mamá o tu papá, que usan su propia cuenta.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puedes usar ChatGPT desde los 13 años y solo con permiso de tus padres. Si eres menor, practica junto con ellos.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "La IA no lo sabe todo"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A veces inventa una respuesta y suena segura: eso se llama \"alucinación\".",
+    "No siempre conoce las noticias más nuevas.",
+    "Se puede equivocar en cuentas o datos."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "La IA no tiene sentimientos"
+  },
+  {
+   "type": "p",
+   "text": "La IA puede escribir amable y parecer un amigo, pero no siente nada y no te conoce como un amigo de verdad. Si estás triste, te peleaste o tienes un problema, habla con tus papás, un maestro u otra persona de confianza."
+  },
+  {
+   "type": "h",
+   "text": "La IA no hace tu trabajo por ti"
+  },
+  {
+   "type": "p",
+   "text": "Si la IA hace tu tarea, no aprendiste nada, y los maestros muchas veces lo notan. Usa la IA para que te explique, no para copiar."
+  },
+  {
+   "type": "tip",
+   "text": "Buena regla: la IA es como un ayudante listo, no alguien que decide por ti."
+  },
+  {
+   "type": "try",
+   "text": "Explícame 3 cosas que la IA no hace bien, con un ejemplo de cada una. Escríbelo para un niño de 12 años."
+  }
+ ]
+}

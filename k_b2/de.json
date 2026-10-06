@@ -1,0 +1,61 @@
+{
+ "id": "k_b2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI wirkt schlau, aber sie ist weder Zauberer noch Mensch. Schauen wir, wo ihre Grenzen sind."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "KI weiß nicht alles"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Manchmal erfindet sie eine Antwort und klingt trotzdem sicher – das nennt man \"Halluzination\".",
+    "Sie kennt nicht immer die neuesten Nachrichten.",
+    "Sie kann sich beim Rechnen oder bei Fakten irren."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "KI hat keine Gefühle"
+  },
+  {
+   "type": "p",
+   "text": "KI kann freundlich schreiben und wie ein Freund klingen, aber sie fühlt nichts und kennt dich nicht wie ein echter Freund. Wenn du traurig bist, Streit oder ein Problem hast, sprich mit deinen Eltern, einer Lehrkraft oder einer anderen Person, der du vertraust."
+  },
+  {
+   "type": "h",
+   "text": "KI macht deine Arbeit nicht für dich"
+  },
+  {
+   "type": "p",
+   "text": "Wenn die KI deine Hausaufgaben schreibt, hast du nichts gelernt – und Lehrkräfte merken das oft. Nutze KI zum Erklären, nicht zum Abschreiben."
+  },
+  {
+   "type": "tip",
+   "text": "Gute Regel: KI ist wie ein schlauer Helfer, nicht jemand, der für dich entscheidet."
+  },
+  {
+   "type": "try",
+   "text": "Erkläre mir 3 Dinge, die KI nicht gut kann, mit je einem Beispiel. Schreib es für ein 12-jähriges Kind."
+  }
+ ]
+}

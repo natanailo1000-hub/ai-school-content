@@ -1,0 +1,62 @@
+{
+ "id": "k_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA può prepararti un piano di studio, un quiz e delle schede di ripasso, partendo dai tuoi appunti!"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Passo dopo passo"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Scrivi o incolla gli appunti del quaderno (o descrivili in breve).",
+    "Chiedi all'IA un breve riassunto delle cose più importanti.",
+    "Chiedi un quiz, una domanda alla volta.",
+    "Quello che sbagli, ripassalo domani."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Questi sono i miei appunti sui vulcani: [incolla gli appunti]. Fammi 8 domande di quiz, una alla volta, e dimmi se la mia risposta è giusta."
+  },
+  {
+   "type": "h",
+   "text": "Un piano per la settimana"
+  },
+  {
+   "type": "try",
+   "text": "Venerdì ho una verifica di geografia. Oggi è lunedì e posso studiare 30 minuti al giorno. Fammi un piano di studio giorno per giorno."
+  },
+  {
+   "type": "tip",
+   "text": "Studiare un po' ogni giorno è meglio che tanto la sera prima della verifica."
+  },
+  {
+   "type": "h",
+   "text": "Schede di ripasso"
+  },
+  {
+   "type": "p",
+   "text": "Chiedi all'IA delle \"schede\": la domanda da una parte e la risposta dall'altra. Scrivile su carta ed esercitati con un amico."
+  }
+ ]
+}

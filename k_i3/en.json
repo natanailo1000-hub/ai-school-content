@@ -1,0 +1,54 @@
+{
+ "id": "k_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "With school, training, homework and friends, it's easy to lose track. AI can help you fit everything in."
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "What to tell it"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Your fixed activities (school, training, lessons).",
+    "What you have to do this week (homework, tests).",
+    "How much time you want for rest and play.",
+    "When you go to bed."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "I'm in 7th grade. School is from 8 am to 2 pm. I have training on Tuesdays and Thursdays from 5 to 6:30 pm. On Friday I have a biology test. Make me a schedule for this week with time for studying, rest and play. I go to bed at 10 pm."
+  },
+  {
+   "type": "h",
+   "text": "Training and health"
+  },
+  {
+   "type": "p",
+   "text": "AI can suggest a warm-up or an exercise plan for your sport. But always show it to your coach or a parent – they know what's safe for you."
+  },
+  {
+   "type": "tip",
+   "text": "A plan is there to help you, not stress you out. If you don't manage something, just ask the AI to rearrange it."
+  }
+ ]
+}

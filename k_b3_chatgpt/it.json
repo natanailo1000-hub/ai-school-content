@@ -1,0 +1,51 @@
+{
+ "id": "k_b3_chatgpt",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Mandiamo il tuo primo messaggio! ChatGPT è un'IA creata dall'azienda OpenAI."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore."
+  },
+  {
+   "type": "h",
+   "text": "Come iniziare"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insieme a un genitore, apri chatgpt.com o l'app ChatGPT.",
+    "Tocca la casella del messaggio.",
+    "Scrivi la tua domanda con frasi normali.",
+    "Premi il pulsante di invio e aspetta la risposta."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Cosa chiedere?"
+  },
+  {
+   "type": "p",
+   "text": "Più dettagli dai, migliore sarà la risposta. Di' cosa ti incuriosisce e quanti anni hai, così l'IA te lo spiega nel modo giusto per te."
+  },
+  {
+   "type": "try",
+   "text": "Ciao! Ho 12 anni. Dimmi 3 curiosità sui polpi, ognuna in una frase."
+  },
+  {
+   "type": "h",
+   "text": "E poi?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Puoi chiedere di più: \"Dimmi di più sulla seconda curiosità\".",
+    "Se non capisci qualcosa, scrivi: \"Spiegalo in modo più semplice\".",
+    "Per un argomento nuovo, apri una nuova chat."
+   ]
+  }
+ ]
+}

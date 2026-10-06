@@ -1,0 +1,61 @@
+{
+ "id": "k_b2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA a l'air maline, mais ce n'est ni un magicien ni une personne. Voyons où sont ses limites."
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "L'IA ne sait pas tout"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Parfois, elle invente une réponse tout en ayant l'air sûre : on appelle ça une « hallucination ».",
+    "Elle ne connaît pas toujours les dernières nouvelles.",
+    "Elle peut se tromper en calcul ou sur des faits."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "L'IA n'a pas de sentiments"
+  },
+  {
+   "type": "p",
+   "text": "L'IA peut écrire gentiment et ressembler à un ami, mais elle ne ressent rien et ne te connaît pas comme un vrai ami. Si tu es triste, fâché avec quelqu'un ou si tu as un problème, parles-en à tes parents, à un professeur ou à une personne de confiance."
+  },
+  {
+   "type": "h",
+   "text": "L'IA ne fait pas ton travail à ta place"
+  },
+  {
+   "type": "p",
+   "text": "Si l'IA fait tes devoirs, tu n'as rien appris – et les professeurs le remarquent souvent. Utilise l'IA pour qu'elle t'explique, pas pour copier."
+  },
+  {
+   "type": "tip",
+   "text": "Bonne règle : l'IA est comme un assistant malin, pas quelqu'un qui décide à ta place."
+  },
+  {
+   "type": "try",
+   "text": "Explique-moi 3 choses que l'IA ne fait pas bien, avec un exemple pour chacune. Écris-le pour un enfant de 12 ans."
+  }
+ ]
+}

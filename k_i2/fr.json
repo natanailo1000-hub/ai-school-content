@@ -1,0 +1,62 @@
+{
+ "id": "k_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA peut te faire un planning de révisions, un quiz et des fiches – à partir de tes propres notes !"
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Étape par étape"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Tape ou colle tes notes du cahier (ou décris-les rapidement).",
+    "Demande à l'IA un court résumé de l'essentiel.",
+    "Demande un quiz – une question à la fois.",
+    "Ce que tu rates, revois-le demain."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Voici mes notes sur les volcans : [colle tes notes]. Fais-moi 8 questions de quiz, une à la fois, et dis-moi si ma réponse est juste."
+  },
+  {
+   "type": "h",
+   "text": "Un planning pour la semaine"
+  },
+  {
+   "type": "try",
+   "text": "J'ai un contrôle de géographie vendredi. On est lundi et je peux réviser 30 minutes par jour. Fais-moi un planning de révisions jour par jour."
+  },
+  {
+   "type": "tip",
+   "text": "Réviser un peu chaque jour vaut mieux que beaucoup la veille du contrôle."
+  },
+  {
+   "type": "h",
+   "text": "Les fiches"
+  },
+  {
+   "type": "p",
+   "text": "Demande à l'IA de faire des « fiches » : une question d'un côté, la réponse de l'autre. Écris-les sur papier et entraîne-toi avec un ami."
+  }
+ ]
+}

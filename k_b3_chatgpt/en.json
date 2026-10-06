@@ -1,0 +1,51 @@
+{
+ "id": "k_b3_chatgpt",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Let's send your first message! ChatGPT is an AI made by the company OpenAI."
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent."
+  },
+  {
+   "type": "h",
+   "text": "How to start"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Together with a parent, open chatgpt.com or the ChatGPT app.",
+    "Tap the message box.",
+    "Write your question in normal sentences.",
+    "Press the send button and wait for the answer."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "What should you ask?"
+  },
+  {
+   "type": "p",
+   "text": "The more details you give, the better the answer. Say what you're curious about and how old you are, so the AI explains it the right way for you."
+  },
+  {
+   "type": "try",
+   "text": "Hi! I'm 12. Tell me 3 interesting facts about octopuses, each in one sentence."
+  },
+  {
+   "type": "h",
+   "text": "What next?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "You can ask more: \"Tell me more about the second fact\".",
+    "If you don't understand something, write: \"Explain it more simply\".",
+    "For a new topic, start a new chat."
+   ]
+  }
+ ]
+}

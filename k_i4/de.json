@@ -1,0 +1,57 @@
+{
+ "id": "k_i4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Dieselbe Frage kann eine schwache oder eine super Antwort bekommen – es kommt darauf an, wie du fragst. Das nennt man einen Prompt schreiben."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Das Geheimrezept"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Was du willst: erklären, schreiben, aufzählen, vergleichen.",
+    "Wer du bist: dein Alter und was du schon weißt.",
+    "Welche Antwort: kurz, in Punkten, mit Beispiel."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Beispiel"
+  },
+  {
+   "type": "p",
+   "text": "Schwach: \"Dinosaurier\"."
+  },
+  {
+   "type": "p",
+   "text": "Super: \"Ich bin 11. Erklär mir in 5 kurzen Punkten, warum die Dinosaurier ausgestorben sind, mit einem witzigen Fakt am Ende.\""
+  },
+  {
+   "type": "tip",
+   "text": "Wenn dir die Antwort nicht gefällt, gib nicht auf – sag, was sich ändern soll: \"kürzer\", \"einfacher\", \"mit Beispiel\"."
+  },
+  {
+   "type": "try",
+   "text": "Ich bin 12. Vergleiche Katzen und Hunde in einer Tabelle: Futter, Pflege, Spielen, wie lange sie leben."
+  }
+ ]
+}

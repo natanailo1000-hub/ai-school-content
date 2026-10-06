@@ -1,0 +1,62 @@
+{
+ "id": "k_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI je zabavan i koristan, ali na internetu uvek važe pravila bezbednosti."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Nikad ne piši AI-ju"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Svoje puno ime i prezime, adresu ili školu.",
+    "Broj telefona ili lozinke.",
+    "Slike lica – svoje ili tuđe.",
+    "Tuđe tajne."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Kad nešto deluje čudno"
+  },
+  {
+   "type": "p",
+   "text": "Ako ti AI (ili bilo ko na internetu) napiše nešto što te uplaši, zbuni ili ti je neprijatno – prestani i odmah reci roditelju ili nastavniku. Nisi ti kriv i nećeš biti u nevolji."
+  },
+  {
+   "type": "h",
+   "text": "Laži i lažne slike"
+  },
+  {
+   "type": "p",
+   "text": "AI može da napravi slike i glasove koji izgledaju stvarno, a nisu. Ne veruj odmah svemu što vidiš na internetu."
+  },
+  {
+   "type": "tip",
+   "text": "Zlatno pravilo: ono što ne bi rekao nepoznatoj osobi na ulici, ne piši ni AI-ju."
+  },
+  {
+   "type": "try",
+   "text": "Daj mi 5 pravila za bezbedno korišćenje interneta za decu od 12 godina, kratko i jasno."
+  }
+ ]
+}

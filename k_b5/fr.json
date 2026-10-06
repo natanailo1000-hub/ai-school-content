@@ -1,0 +1,61 @@
+{
+ "id": "k_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA n'est pas que pour l'école : tu peux aussi t'amuser et être créatif avec elle !"
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Histoires"
+  },
+  {
+   "type": "try",
+   "text": "Écris une histoire courte et drôle sur un chat qui veut devenir astronaute. 10 phrases maximum, pour des enfants de 11 ans."
+  },
+  {
+   "type": "h",
+   "text": "Blagues et devinettes"
+  },
+  {
+   "type": "try",
+   "text": "Donne-moi 3 devinettes sur les animaux et écris les réponses à la fin."
+  },
+  {
+   "type": "h",
+   "text": "Un quiz rien que pour toi"
+  },
+  {
+   "type": "try",
+   "text": "Fais-moi un quiz de 5 questions sur le foot, une question à la fois. Attends ma réponse avant la suivante."
+  },
+  {
+   "type": "tip",
+   "text": "C'est toi l'auteur ! Demande des idées à l'IA, puis change-les à ta façon : l'histoire devient vraiment la tienne."
+  },
+  {
+   "type": "h",
+   "text": "Jeu de rôle"
+  },
+  {
+   "type": "p",
+   "text": "Tu peux demander : « Tu es un guide spatial et je suis astronaute. Fais-moi visiter le système solaire. » L'IA joue le rôle et t'apprend des choses en route."
+  }
+ ]
+}

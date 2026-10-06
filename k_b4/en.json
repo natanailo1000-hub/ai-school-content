@@ -1,0 +1,62 @@
+{
+ "id": "k_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI is fun and useful, but on the internet the safety rules always apply."
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Never write to an AI"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Your full name, address or school.",
+    "Your phone number or passwords.",
+    "Photos of faces – yours or anyone else's.",
+    "Other people's secrets."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "When something feels strange"
+  },
+  {
+   "type": "p",
+   "text": "If an AI (or anyone online) writes something that scares you, confuses you or makes you uncomfortable – stop and tell a parent or teacher straight away. It's not your fault and you won't be in trouble."
+  },
+  {
+   "type": "h",
+   "text": "Lies and fake pictures"
+  },
+  {
+   "type": "p",
+   "text": "AI can make pictures and voices that look real but aren't. Don't believe everything you see online right away."
+  },
+  {
+   "type": "tip",
+   "text": "Golden rule: if you wouldn't say it to a stranger on the street, don't write it to an AI."
+  },
+  {
+   "type": "try",
+   "text": "Give me 5 rules for using the internet safely, for 12-year-olds, short and clear."
+  }
+ ]
+}

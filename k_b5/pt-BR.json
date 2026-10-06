@@ -1,0 +1,61 @@
+{
+ "id": "k_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA não serve só para a escola – com ela você também pode se divertir e ser criativo!"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Histórias"
+  },
+  {
+   "type": "try",
+   "text": "Escreva uma história curta e engraçada sobre um gato que quer ser astronauta. No máximo 10 frases, para crianças de 11 anos."
+  },
+  {
+   "type": "h",
+   "text": "Piadas e charadas"
+  },
+  {
+   "type": "try",
+   "text": "Me dê 3 charadas sobre animais e escreva as respostas no final."
+  },
+  {
+   "type": "h",
+   "text": "Um quiz só para você"
+  },
+  {
+   "type": "try",
+   "text": "Faça um quiz de 5 perguntas sobre futebol, uma de cada vez. Espere minha resposta antes da próxima."
+  },
+  {
+   "type": "tip",
+   "text": "Você é o autor! Peça ideias à IA e depois mude do seu jeito – assim a história é realmente sua."
+  },
+  {
+   "type": "h",
+   "text": "Faz de conta"
+  },
+  {
+   "type": "p",
+   "text": "Você pode pedir: \"Você é um guia espacial e eu sou astronauta. Me leve pelo Sistema Solar.\" A IA faz o papel e te ensina pelo caminho."
+  }
+ ]
+}

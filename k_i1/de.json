@@ -1,0 +1,58 @@
+{
+ "id": "k_i1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "KI kann wie eine Nachhilfe sein, die um 23 Uhr noch wach ist und sich nie über dieselbe Frage ärgert. Aber es kommt darauf an, wie du sie nutzt."
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Gute Arten, sie zu nutzen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Eine Stunde erklären lassen, die du im Unterricht nicht verstanden hast.",
+    "Beispiele bekommen, als wärst du 12.",
+    "Deine Aufgabe prüfen lassen und erfahren, wo der Fehler ist – ohne dass sie sie für dich löst.",
+    "Dir Fragen stellen lassen, um zu sehen, was du schon kannst."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Schlechte Arten, sie zu nutzen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Die ganzen Hausaufgaben abschreiben.",
+    "KI-Text als deinen eigenen abgeben.",
+    "Alles ungeprüft glauben."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Frag deine Lehrkraft, ob du KI für Hausaufgaben nutzen darfst. Manche Schulen haben Regeln dafür."
+  },
+  {
+   "type": "try",
+   "text": "Ich verstehe Brüche nicht. Erklär sie mir, als wäre ich 11, mit einem Pizza-Beispiel. Gib mir dann 3 leichte Aufgaben zum Üben."
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "k_b5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI isn't just for school – you can also have fun and be creative with it!"
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Stories"
+  },
+  {
+   "type": "try",
+   "text": "Write a short, funny story about a cat who wants to become an astronaut. Max 10 sentences, for 11-year-olds."
+  },
+  {
+   "type": "h",
+   "text": "Jokes and riddles"
+  },
+  {
+   "type": "try",
+   "text": "Give me 3 riddles about animals, and write the answers at the end."
+  },
+  {
+   "type": "h",
+   "text": "A quiz just for you"
+  },
+  {
+   "type": "try",
+   "text": "Make me a 5-question quiz about football, one question at a time. Wait for my answer before the next question."
+  },
+  {
+   "type": "tip",
+   "text": "You're the author! Ask the AI for ideas, then change them your way – that makes the story really yours."
+  },
+  {
+   "type": "h",
+   "text": "Role play"
+  },
+  {
+   "type": "p",
+   "text": "You can ask: \"You're a space guide and I'm an astronaut. Take me through the Solar System.\" The AI will play the role and teach you along the way."
+  }
+ ]
+}

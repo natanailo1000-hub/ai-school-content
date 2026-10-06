@@ -1,0 +1,54 @@
+{
+ "id": "k_i3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Entre l'école, le sport, les devoirs et les copains, on s'y perd vite. L'IA peut t'aider à tout caser."
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Ce qu'il faut lui dire"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Tes activités fixes (école, entraînement, cours).",
+    "Ce que tu dois faire cette semaine (devoirs, contrôles).",
+    "Combien de temps tu veux pour te reposer et jouer.",
+    "À quelle heure tu te couches."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Je suis en 5e. L'école, c'est de 8 h à 14 h. J'ai entraînement le mardi et le jeudi de 17 h à 18 h 30. Vendredi, j'ai un contrôle de SVT. Fais-moi un emploi du temps pour cette semaine, avec du temps pour réviser, me reposer et jouer. Je me couche à 22 h."
+  },
+  {
+   "type": "h",
+   "text": "Sport et santé"
+  },
+  {
+   "type": "p",
+   "text": "L'IA peut te proposer un échauffement ou un programme d'exercices pour ton sport. Mais montre-le toujours à ton entraîneur ou à un parent : ils savent ce qui est sans danger pour toi."
+  },
+  {
+   "type": "tip",
+   "text": "Un planning est là pour t'aider, pas pour te stresser. Si tu n'as pas le temps de tout faire, demande juste à l'IA de réorganiser."
+  }
+ ]
+}

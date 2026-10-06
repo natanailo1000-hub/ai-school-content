@@ -1,0 +1,51 @@
+{
+ "id": "k_b3_chatgpt",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Hajde da pošalješ svoju prvu poruku! ChatGPT je AI koji pravi kompanija OpenAI."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem."
+  },
+  {
+   "type": "h",
+   "text": "Kako da počneš"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Zajedno sa roditeljem otvori chatgpt.com ili aplikaciju ChatGPT.",
+    "Klikni u polje za poruku.",
+    "Napiši pitanje normalnim rečenicama.",
+    "Pritisni dugme za slanje i sačekaj odgovor."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Šta da pitaš?"
+  },
+  {
+   "type": "p",
+   "text": "Što više detalja daš, to je odgovor bolji. Reci šta te zanima i koliko imaš godina, da ti AI objasni baš kako tebi odgovara."
+  },
+  {
+   "type": "try",
+   "text": "Zdravo! Imam 12 godina. Napiši mi 3 zanimljive činjenice o hobotnicama, svaku u jednoj rečenici."
+  },
+  {
+   "type": "h",
+   "text": "Šta dalje?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Možeš da pitaš još: „Reci mi više o drugoj činjenici“.",
+    "Ako nešto ne razumeš, napiši: „Objasni jednostavnije“.",
+    "Za novu temu otvori novi razgovor."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "k_b4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "L'IA est amusante et utile, mais sur internet, les règles de sécurité s'appliquent toujours."
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "N'écris jamais à une IA"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ton nom complet, ton adresse ou ton école.",
+    "Ton numéro de téléphone ou tes mots de passe.",
+    "Des photos de visages – le tien ou celui des autres.",
+    "Les secrets des autres."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Quand quelque chose te semble bizarre"
+  },
+  {
+   "type": "p",
+   "text": "Si une IA (ou n'importe qui sur internet) t'écrit quelque chose qui te fait peur, te trouble ou te met mal à l'aise, arrête et parles-en tout de suite à un parent ou à un professeur. Ce n'est pas ta faute et tu ne seras pas puni."
+  },
+  {
+   "type": "h",
+   "text": "Mensonges et fausses images"
+  },
+  {
+   "type": "p",
+   "text": "L'IA peut créer des images et des voix qui ont l'air vraies, mais qui ne le sont pas. Ne crois pas tout de suite tout ce que tu vois en ligne."
+  },
+  {
+   "type": "tip",
+   "text": "Règle d'or : ce que tu ne dirais pas à un inconnu dans la rue, ne l'écris pas non plus à une IA."
+  },
+  {
+   "type": "try",
+   "text": "Donne-moi 5 règles pour utiliser internet en sécurité, pour des enfants de 12 ans, courtes et claires."
+  }
+ ]
+}

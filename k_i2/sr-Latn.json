@@ -1,0 +1,62 @@
+{
+ "id": "k_i2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI može da ti napravi plan učenja, kviz i kartice za ponavljanje – od tvojih beleški!"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Korak po korak"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Prepiši ili nalepi beleške iz sveske (ili ih ukratko opiši).",
+    "Traži od AI-ja kratak pregled najvažnijeg.",
+    "Traži kviz – jedno po jedno pitanje.",
+    "Ono što pogrešiš, ponovi sutra."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ovo su moje beleške o vulkanima: [nalepi beleške]. Napravi mi 8 pitanja za kviz, jedno po jedno, i reci mi da li sam tačno odgovorio."
+  },
+  {
+   "type": "h",
+   "text": "Plan za nedelju"
+  },
+  {
+   "type": "try",
+   "text": "U petak imam kontrolni iz geografije. Danas je ponedeljak i mogu da učim 30 minuta dnevno. Napravi mi plan učenja po danima."
+  },
+  {
+   "type": "tip",
+   "text": "Malo učenja svaki dan je bolje od mnogo učenja veče pred kontrolni."
+  },
+  {
+   "type": "h",
+   "text": "Kartice za ponavljanje"
+  },
+  {
+   "type": "p",
+   "text": "Zamoli AI da napravi „kartice“: pitanje sa jedne strane, odgovor sa druge. Napiši ih na papir i vežbaj sa drugom."
+  }
+ ]
+}
