@@ -1,0 +1,58 @@
+{
+ "id": "k_b1",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI is a computer program that has read a huge amount of text and learned to chat with people. Claude is one of these AIs."
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "How does it know the answers?"
+  },
+  {
+   "type": "p",
+   "text": "Imagine a friend who has read a million books. When you ask something, they remember what they read and put an answer together. AI works in a similar way – just much faster."
+  },
+  {
+   "type": "h",
+   "text": "What can it do?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Explain a school lesson in an easier way",
+    "Make up a story or a joke",
+    "Help you make a study plan",
+    "Answer questions when you're curious about something"
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "AI isn't always right! If something matters, check it with a teacher or a parent. And never give it personal info like your address or passwords."
+  },
+  {
+   "type": "tip",
+   "text": "New tip: didn't understand the answer? Write \"Explain it like I'm 10\" and the AI will make it easier!"
+  },
+  {
+   "type": "try",
+   "text": "Explain how volcanoes work as if I'm 12 years old."
+  }
+ ]
+}

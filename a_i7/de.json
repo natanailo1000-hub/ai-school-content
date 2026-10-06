@@ -1,0 +1,65 @@
+{
+ "id": "a_i7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Wenn du die Grundlagen beherrschst, bringen dir diese Tricks Antworten auf Profi-Niveau."
+  },
+  {
+   "type": "h",
+   "text": "1. Gib Beispiele"
+  },
+  {
+   "type": "p",
+   "text": "Zeig ein Beispiel für die Antwort, die du willst. Einem Beispiel folgt die KI viel besser als einer Beschreibung."
+  },
+  {
+   "type": "h",
+   "text": "2. Teile in Schritte"
+  },
+  {
+   "type": "p",
+   "text": "Bei einer komplexen Aufgabe bitte um Schritt-für-Schritt-Arbeit: \"Mach zuerst einen Plan, warte auf mein OK, dann schreib.\""
+  },
+  {
+   "type": "h",
+   "text": "3. Lass dich fragen"
+  },
+  {
+   "type": "p",
+   "text": "Schreib: \"Bevor du antwortest, stell mir 3 Fragen, die dir helfen, besser zu antworten.\""
+  },
+  {
+   "type": "h",
+   "text": "4. Iteriere"
+  },
+  {
+   "type": "p",
+   "text": "Die erste Antwort ist ein Entwurf. Gib Feedback: was gut ist, was nicht, was sich ändern soll."
+  },
+  {
+   "type": "try",
+   "text": "Ich will eine Produktbeschreibung für einen Onlineshop schreiben. Stell mir vorher 5 Fragen zum Produkt und zu den Kunden. Schreib dann 2 Versionen: eine kurze und eine ausführliche. Hier ist ein Beispiel, das mir gefällt: [Beispiel]."
+  },
+  {
+   "type": "tip",
+   "text": "Speichere Prompts, die gut funktionieren (z. B. in den Notizen dieser App) – so kannst du sie wiederverwenden."
+  },
+  {
+   "type": "tip",
+   "text": "In Claude kannst du ein \"Projekt\" mit festen Anweisungen und Dokumenten anlegen, damit du nicht jedes Mal alles erklären musst.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT kannst du ein eigenes GPT oder ein Projekt mit festen Anweisungen für eine häufige Aufgabe erstellen.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "In Gemini kannst du ein \"Gem\" erstellen – deinen eigenen Assistenten mit festen Anweisungen für eine bestimmte Aufgabe.",
+   "tool": "gemini"
+  }
+ ]
+}

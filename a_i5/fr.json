@@ -1,80 +1,54 @@
 {
- "quick": [
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Quelle est la première étape pour un long texte ?",
-   "options": [
-    "Un plan et une structure",
-    "La relecture finale",
-    "L'envoi",
-    "L'impression"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Un rapport, un blog, un mémoire ou un chapitre de livre : l'IA t'aide du plan à la dernière correction. Mais l'auteur, c'est toi."
   },
   {
-   "q": "Comment faire pour que le texte te ressemble ?",
-   "options": [
-    "Donner un exemple de ton écriture et demander ce style",
-    "Écrire en majuscules",
-    "Ne rien donner",
-    "Demander un « style robot »"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Le processus en 4 étapes"
   },
   {
-   "q": "Qu'est-ce qui est mieux pour un long texte ?",
-   "options": [
-    "Écrire partie par partie",
-    "Tout d'un coup sans plan",
-    "Ne pas le relire",
-    "Copier le texte de quelqu'un"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Plan : demande une structure (parties, idées principales).",
+    "Brouillon : écris partie par partie, pas tout d'un coup.",
+    "Révision : demande de raccourcir, clarifier ou changer le ton.",
+    "Relecture finale : orthographe, répétitions, logique."
+   ]
   },
   {
-   "q": "L'IA a ajouté une citation d'une célébrité. Que fais-tu ?",
-   "options": [
-    "Je vérifie que la citation est réelle",
-    "Je la laisse",
-    "J'en invente une autre",
-    "Rien"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "L'IA a écrit un brouillon (en évidence), mais il est trop long. Qu'écris-tu ?",
-   "options": [
-    "« Réduis de moitié en gardant l'essentiel »",
-    "Rien",
-    "« Rallonge-le »",
-    "Je supprime tout"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "J'écris un rapport de 2 pages pour mon directeur sur les résultats d'un projet [description du projet]. Propose une structure avec des titres et ce que chaque partie doit contenir. N'écris pas encore le texte complet."
   },
   {
-   "image": "chat_user",
-   "q": "Dans le message mis en évidence, tu as collé un ancien texte à toi. Pourquoi ?",
-   "options": [
-    "Pour que l'IA écrive dans mon style",
-    "Pour qu'elle l'efface",
-    "Sans raison",
-    "Pour le traduire en chinois"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Ton style"
+  },
   {
-   "task": "Écris un prompt pour demander la structure d'un article de blog sur ton sujet.",
-   "seconds": 150,
-   "checklist": [
-    "Le sujet et le public du blog",
-    "La longueur",
-    "Ce que tu veux (titre, intertitres, idées principales)"
-   ],
-   "example": "J'écris un article de blog de 800 mots pour les débutants sur comment commencer à courir. Propose un titre accrocheur, 5 intertitres et 2 ou 3 idées principales pour chaque partie."
+   "type": "p",
+   "text": "Colle un exemple de ce que tu as écrit et dis : « Écris dans ce style. » Ainsi, le texte te ressemble au lieu de sonner comme un robot."
+  },
+  {
+   "type": "tip",
+   "text": "Ne rends pas un texte écrit par l'IA comme le tien si les règles de ton école ou de ton travail ne l'autorisent pas. Et vérifie toujours les faits et les citations."
+  },
+  {
+   "type": "tip",
+   "text": "Claude est particulièrement bon pour les longs textes et peut écrire dans ton style si tu lui donnes un exemple.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT a une vue d'édition spéciale (Canvas) où tu peux modifier le texte partie par partie.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini peut aussi t'aider directement dans Google Docs, avec certaines offres.",
+   "tool": "gemini"
   }
  ]
 }

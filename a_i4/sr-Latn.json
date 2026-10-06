@@ -1,80 +1,55 @@
 {
- "quick": [
+ "id": "a_i4",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Koji je najbolji način da zapamtiš gradivo?",
-   "options": [
-    "Da te AI ispituje, pa moraš da se prisećaš",
-    "Samo da čitaš",
-    "Da ne učiš",
-    "Da sve prepišeš"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Hoćeš da naučiš jezik, programiranje, gitaru ili istoriju? AI može da bude tvoj lični nastavnik, prilagođen tvom tempu."
   },
   {
-   "q": "Šta prvo kažeš AI-ju kad počinješ da učiš?",
-   "options": [
-    "Šta već znaš i šta želiš da postigneš",
-    "Svoju adresu",
-    "Ništa",
-    "Svoju lozinku"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Metod koji radi"
   },
   {
-   "q": "Šta znači „ne daj mi rešenje, postavljaj mi pitanja“?",
-   "options": [
-    "AI te vodi pitanjima dok sam ne dođeš do odgovora",
-    "AI ćuti",
-    "AI odbija da pomogne",
-    "AI briše razgovor"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Reci šta već znaš i šta želiš da postigneš.",
+    "Traži plan učenja po nedeljama.",
+    "Uči u malim delovima: objašnjenje, primer, mali zadatak.",
+    "Traži da te ispituje – aktivno prisećanje je najbolji način učenja.",
+    "Objasni AI-ju svojim rečima šta si naučio i traži da te ispravi."
+   ]
   },
   {
-   "q": "Kako je najbolje učiti?",
-   "options": [
-    "U malim delovima: objašnjenje, primer, zadatak",
-    "Sve za jedan dan",
-    "Samo gledanjem videa",
-    "Nikako"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "AI ti je objasnio lekciju (označeno). Koji je dobar sledeći korak?",
-   "options": [
-    "Tražim mali zadatak ili kviz",
-    "Zatvorim aplikaciju",
-    "Kopiram tekst",
-    "Ništa"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Želim da naučim osnove Excela za posao za 4 nedelje, 3 puta nedeljno po 30 minuta. Znam samo da otvorim fajl. Napravi plan, a onda krenimo sa prvom lekcijom: objašnjenje, primer i mali zadatak."
   },
   {
-   "image": "chat_user",
-   "q": "U označenoj poruci svojim rečima objašnjavaš šta si naučio. Zašto?",
-   "options": [
-    "Da AI proveri da li sam dobro razumeo",
-    "Da ga zbunim",
-    "Bez razloga",
-    "Da dobijem poklon"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Sokratovski metod"
+  },
   {
-   "task": "Napiši prompt kojim počinješ da učiš novi jezik od nule.",
-   "seconds": 150,
-   "checklist": [
-    "Koji jezik i zašto",
-    "Koliko vremena imaš",
-    "Kako želiš da učiš (lekcije, kviz, razgovor)"
-   ],
-   "example": "Želim da naučim osnove španskog za putovanje za 2 meseca. Imam 20 minuta dnevno i potpuni sam početnik. Napravi plan po nedeljama i počni prvom lekcijom: 10 najkorisnijih fraza, izgovor i kratak kviz."
+   "type": "p",
+   "text": "Možeš da tražiš od AI-ja da ti ne daje odgovore, već da te vodi pitanjima: „Ne daj mi rešenje, postavljaj mi pitanja dok sam ne dođem do odgovora.“"
+  },
+  {
+   "type": "tip",
+   "text": "Najbolje učiš kad se trudiš da se setiš, a ne kad samo čitaš. Zato uvek traži kviz na kraju."
+  },
+  {
+   "type": "tip",
+   "text": "Neke verzije Claude-a imaju režim za učenje, u kom te vodi pitanjima umesto da ti odmah da odgovor.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ima režim za učenje (Study mode) u kom te vodi korak po korak.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini ima alat za vođeno učenje (Guided Learning) koji objašnjava korak po korak.",
+   "tool": "gemini"
   }
  ]
 }

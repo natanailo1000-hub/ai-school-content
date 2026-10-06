@@ -1,0 +1,64 @@
+{
+ "id": "a_i6",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Gli strumenti di IA di oggi non capiscono solo il testo: possono \"vedere\" le immagini. Scatti una foto e l'IA ti spiega cosa c'è."
+  },
+  {
+   "type": "h",
+   "text": "Cosa puoi fare"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Fotografare istruzioni in una lingua straniera e chiedere la traduzione.",
+    "Fotografare uno scontrino e farti mettere i prodotti in una tabella.",
+    "Fotografare una pianta o un guasto e chiedere cos'è (poi verifica!).",
+    "Mandare un grafico e chiedere una spiegazione."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "[allega la foto di uno scontrino] Metti tutti i prodotti di questo scontrino in una tabella: nome, quantità, prezzo. Alla fine somma il totale e confrontalo con l'importo dello scontrino."
+  },
+  {
+   "type": "h",
+   "text": "Creare immagini"
+  },
+  {
+   "type": "p",
+   "text": "Alcuni strumenti di IA possono anche creare una nuova immagine dalla tua descrizione. Descrivi cosa c'è, lo stile, i colori e la disposizione. Più la descrizione è precisa, migliore sarà l'immagine."
+  },
+  {
+   "type": "tip",
+   "text": "Claude legge e analizza molto bene immagini e documenti che gli invii, ma non crea nuove immagini: per quello usa un altro strumento.",
+   "tool": "claude"
+  },
+  {
+   "type": "try",
+   "text": "Crea un'illustrazione per un invito di compleanno: un orsetto allegro con i palloncini, colori pastello, stile cartone semplice, spazio vuoto in alto per il testo.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "try",
+   "text": "Crea un'illustrazione per un invito di compleanno: un orsetto allegro con i palloncini, colori pastello, stile cartone semplice, spazio vuoto in alto per il testo.",
+   "tool": "gemini"
+  },
+  {
+   "type": "tip",
+   "text": "Non inviare foto di volti o documenti di altre persone senza permesso. E non spacciare immagini create con l'IA per foto vere."
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT può analizzare immagini e anche crearne di nuove dalla tua descrizione.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini può analizzare immagini e anche crearne di nuove dalla tua descrizione.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,80 +1,54 @@
 {
- "quick": [
+ "id": "a_i5",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Koji je prvi korak kod dužeg teksta?",
-   "options": [
-    "Plan i struktura",
-    "Završna provera",
-    "Slanje",
-    "Štampanje"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Izveštaj, blog, seminarski ili poglavlje knjige – AI ti pomaže od plana do poslednje ispravke. Ali autor ostaješ ti."
   },
   {
-   "q": "Kako da tekst zvuči kao ti?",
-   "options": [
-    "Daš primer svog teksta i tražiš taj stil",
-    "Pišeš samo velikim slovima",
-    "Ne daješ ništa",
-    "Tražiš „robotski stil“"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Proces u 4 koraka"
   },
   {
-   "q": "Šta je bolje kod dugog teksta?",
-   "options": [
-    "Pisati deo po deo",
-    "Sve odjednom bez plana",
-    "Ne čitati ga",
-    "Kopirati tuđi tekst"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Plan: traži strukturu (delove, glavne tačke).",
+    "Nacrt: piši deo po deo, a ne sve odjednom.",
+    "Uređivanje: traži da skrati, pojasni ili promeni ton.",
+    "Završna provera: pravopis, ponavljanja, logika."
+   ]
   },
   {
-   "q": "AI je u tekst ubacio citat poznate osobe. Šta radiš?",
-   "options": [
-    "Proverim da li je citat stvaran",
-    "Ostavim ga",
-    "Izmislim još jedan",
-    "Ništa"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "AI je napisao nacrt (označeno), ali je predugačak. Šta pišeš?",
-   "options": [
-    "„Skrati na pola, zadrži glavne tačke“",
-    "Ništa",
-    "„Napiši duže“",
-    "Obrišem sve"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Pišem izveštaj od 2 strane za direktora o rezultatima projekta [opis projekta]. Predloži strukturu sa naslovima i šta treba da bude u svakom delu. Još ne piši ceo tekst."
   },
   {
-   "image": "chat_user",
-   "q": "U označenu poruku nalepio si svoj stari tekst. Zašto?",
-   "options": [
-    "Da AI piše u mom stilu",
-    "Da ga obriše",
-    "Bez razloga",
-    "Da ga prevede na kineski"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Tvoj stil"
+  },
   {
-   "task": "Napiši prompt kojim tražiš strukturu blog teksta na tvoju temu.",
-   "seconds": 150,
-   "checklist": [
-    "Tema i za koga je blog",
-    "Dužina",
-    "Šta tražiš (naslov, podnaslovi, glavne tačke)"
-   ],
-   "example": "Pišem blog od 800 reči za početnike o tome kako da počnu da trče. Predloži privlačan naslov, 5 podnaslova i 2–3 glavne tačke za svaki deo."
+   "type": "p",
+   "text": "Nalepi primer svog teksta i reci: „Piši u ovom stilu.“ Tako će tekst zvučati kao ti, a ne kao robot."
+  },
+  {
+   "type": "tip",
+   "text": "Ne predaj tekst koji je napisao AI kao svoj ako pravila škole ili posla to ne dozvoljavaju. I uvek proveri činjenice i citate."
+  },
+  {
+   "type": "tip",
+   "text": "Claude je posebno dobar za duže tekstove i ume da piše u tvom stilu ako mu daš primer.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ima poseban prikaz za uređivanje teksta (Canvas), u kom menjaš deo po deo.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može da ti pomogne i direktno u Google dokumentima (Docs), u nekim planovima.",
+   "tool": "gemini"
   }
  ]
 }

@@ -1,0 +1,65 @@
+{
+ "id": "a_i7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Once you've mastered the basics, these tricks will get you expert-level answers."
+  },
+  {
+   "type": "h",
+   "text": "1. Give examples"
+  },
+  {
+   "type": "p",
+   "text": "Show an example of the kind of answer you want. The AI follows an example much better than a description."
+  },
+  {
+   "type": "h",
+   "text": "2. Split it into steps"
+  },
+  {
+   "type": "p",
+   "text": "For a complex task, ask it to work step by step: \"First make a plan, wait for my OK, then write.\""
+  },
+  {
+   "type": "h",
+   "text": "3. Let it ask you"
+  },
+  {
+   "type": "p",
+   "text": "Write: \"Before you answer, ask me 3 questions that will help you give a better answer.\""
+  },
+  {
+   "type": "h",
+   "text": "4. Iterate"
+  },
+  {
+   "type": "p",
+   "text": "The first answer is a draft. Give feedback: what's good, what isn't, what to change."
+  },
+  {
+   "type": "try",
+   "text": "I want to write a product description for an online shop. Before you start, ask me 5 questions about the product and the customers. Then write 2 versions: a short one and a detailed one. Here's an example description I like: [example]."
+  },
+  {
+   "type": "tip",
+   "text": "Save prompts that work well (for example in Notes in this app) – that way you can reuse them."
+  },
+  {
+   "type": "tip",
+   "text": "In Claude you can create a \"Project\" with standing instructions and documents, so you don't have to explain everything every time.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT you can create your own GPT or a project with standing instructions for a task you do often.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "In Gemini you can create a \"Gem\" – your own assistant with standing instructions for a specific task.",
+   "tool": "gemini"
+  }
+ ]
+}

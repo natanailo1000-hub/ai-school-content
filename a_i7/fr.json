@@ -1,0 +1,65 @@
+{
+ "id": "a_i7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Une fois les bases acquises, ces astuces te donneront des réponses de niveau expert."
+  },
+  {
+   "type": "h",
+   "text": "1. Donne des exemples"
+  },
+  {
+   "type": "p",
+   "text": "Montre un exemple du type de réponse que tu veux. L'IA suit un exemple bien mieux qu'une description."
+  },
+  {
+   "type": "h",
+   "text": "2. Découpe en étapes"
+  },
+  {
+   "type": "p",
+   "text": "Pour une tâche complexe, demande-lui de travailler étape par étape : « Fais d'abord un plan, attends mon accord, puis rédige. »"
+  },
+  {
+   "type": "h",
+   "text": "3. Laisse-la te poser des questions"
+  },
+  {
+   "type": "p",
+   "text": "Écris : « Avant de répondre, pose-moi 3 questions qui t'aideront à mieux répondre. »"
+  },
+  {
+   "type": "h",
+   "text": "4. Itère"
+  },
+  {
+   "type": "p",
+   "text": "La première réponse est un brouillon. Donne ton avis : ce qui est bien, ce qui ne l'est pas, ce qu'il faut changer."
+  },
+  {
+   "type": "try",
+   "text": "Je veux écrire la description d'un produit pour une boutique en ligne. Avant de commencer, pose-moi 5 questions sur le produit et les clients. Puis écris 2 versions : une courte et une détaillée. Voici un exemple de description que j'aime : [exemple]."
+  },
+  {
+   "type": "tip",
+   "text": "Garde les prompts qui marchent bien (par exemple dans les Notes de cette appli) pour les réutiliser."
+  },
+  {
+   "type": "tip",
+   "text": "Dans Claude, tu peux créer un « Projet » avec des consignes et des documents permanents, pour ne pas tout réexpliquer à chaque fois.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Dans ChatGPT, tu peux créer ton propre GPT ou un projet avec des consignes permanentes pour une tâche fréquente.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Dans Gemini, tu peux créer un « Gem » : ton propre assistant avec des consignes permanentes pour une tâche précise.",
+   "tool": "gemini"
+  }
+ ]
+}

@@ -1,80 +1,55 @@
 {
- "quick": [
+ "id": "a_i4",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Wie merkst du dir Lernstoff am besten?",
-   "options": [
-    "Dich von der KI abfragen lassen, damit du dich erinnern musst",
-    "Nur lesen",
-    "Nicht lernen",
-    "Alles abschreiben"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Du willst eine Sprache, Programmieren, Gitarre oder Geschichte lernen? KI kann deine persönliche Lehrkraft sein, angepasst an dein Tempo."
   },
   {
-   "q": "Was sagst du der KI zuerst, wenn du anfängst zu lernen?",
-   "options": [
-    "Was du schon kannst und was du erreichen willst",
-    "Deine Adresse",
-    "Nichts",
-    "Dein Passwort"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Eine Methode, die funktioniert"
   },
   {
-   "q": "Was bedeutet \"Gib mir nicht die Lösung, stell mir Fragen\"?",
-   "options": [
-    "Die KI führt dich mit Fragen, bis du die Antwort findest",
-    "Die KI schweigt",
-    "Die KI verweigert die Hilfe",
-    "Die KI löscht den Chat"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Sag, was du schon kannst und was du erreichen willst.",
+    "Bitte um einen Lernplan Woche für Woche.",
+    "Lerne in kleinen Häppchen: Erklärung, Beispiel, kleine Aufgabe.",
+    "Lass dich abfragen – aktives Erinnern ist die beste Lernmethode.",
+    "Erklär der KI in eigenen Worten, was du gelernt hast, und lass dich korrigieren."
+   ]
   },
   {
-   "q": "Wie lernst du am besten?",
-   "options": [
-    "In kleinen Häppchen: Erklärung, Beispiel, Aufgabe",
-    "Alles an einem Tag",
-    "Nur Videos schauen",
-    "Gar nicht"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "Die KI hat eine Lektion erklärt (markiert). Was ist ein guter nächster Schritt?",
-   "options": [
-    "Um eine kleine Aufgabe oder ein Quiz bitten",
-    "Die App schließen",
-    "Den Text kopieren",
-    "Nichts"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Ich will in 4 Wochen Excel-Grundlagen für die Arbeit lernen, 3-mal pro Woche je 30 Minuten. Ich kann nur eine Datei öffnen. Mach einen Plan und lass uns mit der ersten Lektion starten: Erklärung, Beispiel und kleine Aufgabe."
   },
   {
-   "image": "chat_user",
-   "q": "In der markierten Nachricht erklärst du in eigenen Worten, was du gelernt hast. Warum?",
-   "options": [
-    "Damit die KI prüft, ob ich es verstanden habe",
-    "Um sie zu verwirren",
-    "Ohne Grund",
-    "Um ein Geschenk zu bekommen"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Die sokratische Methode"
+  },
   {
-   "task": "Schreib einen Prompt, um eine neue Sprache von null zu lernen.",
-   "seconds": 150,
-   "checklist": [
-    "Welche Sprache und warum",
-    "Wie viel Zeit du hast",
-    "Wie du lernen willst (Lektionen, Quiz, Gespräch)"
-   ],
-   "example": "Ich will in 2 Monaten Grundkenntnisse in Spanisch für eine Reise lernen. Ich habe 20 Minuten am Tag und bin absoluter Anfänger. Mach einen Plan nach Wochen und starte mit Lektion eins: die 10 nützlichsten Sätze, Aussprache und ein kurzes Quiz."
+   "type": "p",
+   "text": "Du kannst die KI bitten, dir keine Antworten zu geben, sondern dich mit Fragen zu führen: \"Gib mir nicht die Lösung, stell mir Fragen, bis ich selbst draufkomme.\""
+  },
+  {
+   "type": "tip",
+   "text": "Am besten lernst du, wenn du dich anstrengst, dich zu erinnern – nicht, wenn du nur liest. Bitte deshalb am Ende immer um ein Quiz."
+  },
+  {
+   "type": "tip",
+   "text": "Manche Versionen von Claude haben einen Lernmodus, der dich mit Fragen führt, statt sofort die Antwort zu geben.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT hat einen Lernmodus, der dich Schritt für Schritt führt.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini hat ein Werkzeug für geführtes Lernen, das Schritt für Schritt erklärt.",
+   "tool": "gemini"
   }
  ]
 }

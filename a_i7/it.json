@@ -1,0 +1,65 @@
+{
+ "id": "a_i7",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Una volta padroneggiate le basi, questi trucchi ti daranno risposte da esperto."
+  },
+  {
+   "type": "h",
+   "text": "1. Dai esempi"
+  },
+  {
+   "type": "p",
+   "text": "Mostra un esempio del tipo di risposta che vuoi. L'IA segue un esempio molto meglio di una descrizione."
+  },
+  {
+   "type": "h",
+   "text": "2. Dividi in passaggi"
+  },
+  {
+   "type": "p",
+   "text": "Per un compito complesso, chiedi di lavorare passo dopo passo: \"Prima fai un piano, aspetta il mio ok, poi scrivi.\""
+  },
+  {
+   "type": "h",
+   "text": "3. Lascia che ti faccia domande"
+  },
+  {
+   "type": "p",
+   "text": "Scrivi: \"Prima di rispondere, fammi 3 domande che ti aiutino a rispondere meglio.\""
+  },
+  {
+   "type": "h",
+   "text": "4. Itera"
+  },
+  {
+   "type": "p",
+   "text": "La prima risposta è una bozza. Dai un riscontro: cosa va bene, cosa no, cosa cambiare."
+  },
+  {
+   "type": "try",
+   "text": "Voglio scrivere la descrizione di un prodotto per un negozio online. Prima di iniziare, fammi 5 domande sul prodotto e sui clienti. Poi scrivi 2 versioni: una breve e una dettagliata. Ecco un esempio di descrizione che mi piace: [esempio]."
+  },
+  {
+   "type": "tip",
+   "text": "Salva i prompt che funzionano bene (per esempio nelle Note di questa app), così li riusi."
+  },
+  {
+   "type": "tip",
+   "text": "In Claude puoi creare un \"Progetto\" con istruzioni e documenti fissi, così non devi rispiegare tutto ogni volta.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT puoi creare il tuo GPT o un progetto con istruzioni fisse per un compito che fai spesso.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "In Gemini puoi creare una \"Gem\": il tuo assistente con istruzioni fisse per un compito specifico.",
+   "tool": "gemini"
+  }
+ ]
+}
