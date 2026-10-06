@@ -1,0 +1,54 @@
+{
+ "id": "k_p5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI is like a patient foreign-language teacher who's always there. You can practise conversation, words and grammar – without feeling embarrassed."
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Ways to practise"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Conversation: \"Talk with me in Spanish about football, using simple words, and gently correct me.\"",
+    "Words: ask for 10 new words with example sentences.",
+    "Game: \"Give me a word in English and I'll translate it.\"",
+    "Grammar: ask for an explanation with lots of examples."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "I'm 12 and learning Spanish. Let's talk about my favourite film. Ask me simple questions in Spanish, one at a time, and when I make a mistake, correct me and explain in English."
+  },
+  {
+   "type": "tip",
+   "text": "10 minutes every day is better than an hour once a week."
+  },
+  {
+   "type": "h",
+   "text": "Pronunciation"
+  },
+  {
+   "type": "p",
+   "text": "Some AI tools have a voice mode, so you can also talk out loud. Ask a parent to help you turn it on."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "k_p5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA é como um professor de idiomas paciente que está sempre por perto. Você pode treinar conversa, palavras e gramática – sem vergonha."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Jeitos de praticar"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Conversa: \"Converse comigo em inglês sobre futebol, com palavras simples, e me corrija com gentileza\".",
+    "Palavras: peça 10 palavras novas com frases de exemplo.",
+    "Jogo: \"Me dê uma palavra em português e eu traduzo\".",
+    "Gramática: peça uma explicação com muitos exemplos."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Tenho 12 anos e estou aprendendo inglês. Vamos falar do meu filme favorito. Me faça perguntas simples em inglês, uma de cada vez, e quando eu errar, me corrija e explique em português."
+  },
+  {
+   "type": "tip",
+   "text": "10 minutos todo dia é melhor do que uma hora uma vez por semana."
+  },
+  {
+   "type": "h",
+   "text": "Pronúncia"
+  },
+  {
+   "type": "p",
+   "text": "Algumas ferramentas de IA têm modo de voz, então você também pode falar em voz alta. Peça ajuda aos seus pais para ativar."
+  }
+ ]
+}

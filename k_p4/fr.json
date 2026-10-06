@@ -1,0 +1,53 @@
+{
+ "id": "k_p4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tu as une idée de BD, d'histoire ou de vidéo pour l'école ou internet ? L'IA est une super partenaire pour trouver des idées – et c'est toi le réalisateur !"
+  },
+  {
+   "type": "tip",
+   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "BD"
+  },
+  {
+   "type": "try",
+   "text": "Aide-moi à inventer une BD de 6 cases sur un robot qui apprend à jouer au foot. Pour chaque case, écris ce qu'on voit et ce que disent les personnages. Je la dessinerai."
+  },
+  {
+   "type": "h",
+   "text": "Histoire"
+  },
+  {
+   "type": "p",
+   "text": "Demande à l'IA de t'aider pour les personnages, l'intrigue et la fin – puis écris avec tes propres mots. Tu peux aussi demander « 3 fins différentes » et en choisir une."
+  },
+  {
+   "type": "h",
+   "text": "Vidéo"
+  },
+  {
+   "type": "try",
+   "text": "Je fais une vidéo d'1 minute sur comment fabriquer un avion en papier. Écris-moi un scénario : ce qu'on voit, ce que je dis et combien de temps dure chaque partie."
+  },
+  {
+   "type": "tip",
+   "text": "Si tu publies quelque chose en ligne, demande d'abord à tes parents. Et n'utilise pas les images, la musique ou les personnages des autres sans permission."
+  }
+ ]
+}

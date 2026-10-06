@@ -1,56 +1,80 @@
 {
- "id": "a_b2_gemini",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Gemini est un assistant IA créé par Google. Tu peux l'utiliser gratuitement sur ordinateur (site gemini.google.com) ou sur ton téléphone (application Gemini sur Google Play)."
+   "q": "Quelle entreprise a créé Gemini ?",
+   "options": [
+    "Google",
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Créer un compte"
+   "q": "Où peux-tu utiliser Gemini ?",
+   "options": [
+    "Sur le site gemini.google.com ou dans l'application",
+    "Seulement à la télé",
+    "Seulement par téléphone",
+    "Seulement en magasin"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Ouvre gemini.google.com ou installe l'application Gemini.",
-    "Connecte-toi avec ton compte Google (le même que pour Gmail).",
-    "Confirme ton compte (e-mail ou code), si on te le demande.",
-    "C'est prêt : tu vois une zone vide pour ton message."
-   ]
+   "q": "Tu veux parler d'un nouveau sujet. Que faire ?",
+   "options": [
+    "Ouvrir une nouvelle discussion",
+    "Supprimer l'application",
+    "Écrire en majuscules",
+    "Attendre un jour"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Les règles d'âge de Gemini dépendent du pays ; les enfants ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible."
+   "q": "Quel premier message est le meilleur ?",
+   "options": [
+    "Aide-moi à écrire un e-mail court et poli à mon propriétaire au sujet du chauffage en panne.",
+    "e-mail",
+    "Aide",
+    "Écris un truc"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Où écris-tu ton message à Gemini ?",
+   "options": [
+    "Dans la zone mise en évidence",
+    "Dans la réponse au-dessus",
+    "Dans les paramètres",
+    "Nulle part, il lit dans les pensées"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Ton premier message"
-  },
+   "image": "send_button",
+   "q": "À quoi sert le bouton mis en évidence ?",
+   "options": [
+    "À envoyer ton message",
+    "À supprimer la discussion",
+    "À ouvrir les paramètres",
+    "À éteindre l'application"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Touche la zone de message, écris ce dont tu as besoin et envoie. Écris comme à un collègue malin : des phrases normales, avec des détails."
-  },
-  {
-   "type": "try",
-   "text": "Bonjour ! Je suis débutant. En 3 points courts, dis-moi ce que tu peux faire pour moi au quotidien."
-  },
-  {
-   "type": "h",
-   "text": "Bon à savoir"
-  },
-  {
-   "type": "list",
-   "items": [
-    "La version gratuite a un nombre limité de messages ; les offres payantes en donnent plus.",
-    "Pour un nouveau sujet, ouvre une nouvelle discussion : les réponses restent plus claires.",
-    "Tu peux continuer la conversation : pose une autre question ou demande de modifier la réponse.",
-    "L'apparence de l'application change avec le temps, mais la zone de message est toujours là."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Gemini est relié aux services et à la recherche de Google, pratique pour les infos à jour. Sur beaucoup de téléphones Android, il est déjà installé."
+   "task": "Écris ton premier vrai message à Gemini : demande-lui de planifier les dîners de 3 jours avec ce que tu as chez toi (choisis 4–5 ingrédients).",
+   "seconds": 120,
+   "checklist": [
+    "Ce que tu veux (des dîners pour 3 jours)",
+    "Ce que tu as (les ingrédients)",
+    "Les limites (temps, budget, sans viande…)"
+   ],
+   "example": "Planifie mes dîners pour 3 jours avec seulement : œufs, pommes de terre, riz, tomates et fromage. Chaque dîner doit prendre moins de 30 minutes. Donne-moi une courte liste de courses pour le reste."
   }
  ]
 }

@@ -1,0 +1,53 @@
+{
+ "id": "k_p4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Tem uma ideia para um quadrinho, uma história ou um vídeo para a escola ou a internet? A IA é ótima parceira para ter ideias – e o diretor é você!"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Quadrinho"
+  },
+  {
+   "type": "try",
+   "text": "Me ajude a criar um quadrinho de 6 quadros sobre um robô que aprende a jogar futebol. Para cada quadro, escreva o que aparece e o que os personagens dizem. Eu vou desenhar."
+  },
+  {
+   "type": "h",
+   "text": "História"
+  },
+  {
+   "type": "p",
+   "text": "Peça ajuda à IA com os personagens, o enredo e o final – depois escreva com suas palavras. Você também pode pedir \"3 finais diferentes\" e escolher um."
+  },
+  {
+   "type": "h",
+   "text": "Vídeo"
+  },
+  {
+   "type": "try",
+   "text": "Estou fazendo um vídeo de 1 minuto sobre como fazer um avião de papel. Escreva um roteiro: o que aparece, o que eu falo e quanto tempo dura cada parte."
+  },
+  {
+   "type": "tip",
+   "text": "Se for postar algo na internet, pergunte antes aos seus pais. E não use imagens, músicas ou personagens dos outros sem permissão."
+  }
+ ]
+}

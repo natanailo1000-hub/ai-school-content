@@ -1,0 +1,66 @@
+{
+ "id": "k_p2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A IA pode ajudar numa redação ou trabalho – mas de um jeito honesto. O objetivo é VOCÊ aprender a escrever."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Permitido e útil"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ajudar você a ter ideias e fazer um plano.",
+    "Explicar um assunto que você não entende.",
+    "Ler seu texto e dizer o que pode melhorar.",
+    "Corrigir a ortografia e explicar os erros."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Não é honesto"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Deixar a IA escrever a redação inteira e entregar como sua.",
+    "Copiar frases da IA sem entender.",
+    "Dizer que não usou IA quando usou."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Pergunte ao professor o que é permitido. Se usar IA, seja sincero e conte como usou."
+  },
+  {
+   "type": "try",
+   "text": "Estou escrevendo uma redação sobre \"O dia mais legal da minha vida\". Não escreva por mim! Me faça 5 perguntas para eu lembrar dos detalhes e depois sugira um plano: introdução, desenvolvimento e conclusão."
+  },
+  {
+   "type": "h",
+   "text": "Depois de escrever"
+  },
+  {
+   "type": "try",
+   "text": "Esta é a minha redação: [cole o texto]. Não reescreva tudo. Me diga 3 coisas que estão boas e 3 que posso melhorar, explicando por quê."
+  }
+ ]
+}

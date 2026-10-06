@@ -1,56 +1,80 @@
 {
- "id": "a_b2_gemini",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Gemini is an AI assistant made by Google. You can use it for free on a computer (website gemini.google.com) or on your phone (the Gemini app from Google Play)."
+   "q": "Which company made Gemini?",
+   "options": [
+    "Google",
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Create an account"
+   "q": "Where can you use Gemini?",
+   "options": [
+    "On the website gemini.google.com or in the app",
+    "Only on a TV",
+    "Only by phone call",
+    "Only in a shop"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Open gemini.google.com or install the Gemini app.",
-    "Sign in with your Google account (the same one you use for Gmail).",
-    "Confirm your account (email or code), if asked.",
-    "Done – you'll see an empty box for your message."
-   ]
+   "q": "You want to talk about a new topic. What's the best thing to do?",
+   "options": [
+    "Start a new chat",
+    "Delete the app",
+    "Write in capital letters",
+    "Wait a day"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Age rules for Gemini depend on your country; children can use it only through a parent's Family Link account, where available."
+   "q": "Which first message is best?",
+   "options": [
+    "Help me write a short, polite email to my landlord about a broken heater.",
+    "email",
+    "Help",
+    "Write something"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Where do you type your message to Gemini?",
+   "options": [
+    "In the highlighted box",
+    "In the answer above",
+    "In the settings",
+    "Nowhere – it reads your mind"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Your first message"
-  },
+   "image": "send_button",
+   "q": "What does the highlighted button do?",
+   "options": [
+    "Sends your message",
+    "Deletes the chat",
+    "Opens settings",
+    "Turns off the app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Tap the message box, type what you need and send it. Write like you would to a smart colleague: normal sentences, with details."
-  },
-  {
-   "type": "try",
-   "text": "Hi! I'm a beginner. In 3 short points, tell me what you can do for me in everyday life."
-  },
-  {
-   "type": "h",
-   "text": "Good to know"
-  },
-  {
-   "type": "list",
-   "items": [
-    "The free version has a limited number of messages; paid plans give you more.",
-    "For a new topic, start a new chat – answers stay clearer.",
-    "You can continue the conversation: ask a follow-up or ask it to change the answer.",
-    "The app's look changes over time, but the message box is always there."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Gemini is connected to Google services and search, so it's handy for up-to-date information. On many Android phones it's already installed."
+   "task": "Write your first real message to Gemini: ask it to plan dinners for 3 days using what you have at home (pick 4–5 ingredients).",
+   "seconds": 120,
+   "checklist": [
+    "What you want (a dinner plan for 3 days)",
+    "What you have (the ingredients)",
+    "Any limits (time, budget, no meat…)"
+   ],
+   "example": "Plan dinners for 3 days using only: eggs, potatoes, rice, tomatoes and cheese. Each dinner should take under 30 minutes. Give me a short shopping list for anything extra."
   }
  ]
 }

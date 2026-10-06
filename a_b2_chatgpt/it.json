@@ -1,56 +1,80 @@
 {
- "id": "a_b2_chatgpt",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "ChatGPT è un assistente IA creato da OpenAI. Puoi usarlo gratis sul computer (sito chatgpt.com) o sul telefono (app ChatGPT su Google Play)."
+   "q": "Quale azienda ha creato ChatGPT?",
+   "options": [
+    "OpenAI",
+    "Google",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Crea un account"
+   "q": "Dove puoi usare ChatGPT?",
+   "options": [
+    "Sul sito chatgpt.com o nell'app",
+    "Solo in TV",
+    "Solo per telefono",
+    "Solo in negozio"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Apri chatgpt.com o installa l'app ChatGPT.",
-    "Accedi con la tua e-mail o un account Google, Microsoft o Apple.",
-    "Conferma l'account (e-mail o codice), se richiesto.",
-    "Fatto: vedrai una casella vuota per il tuo messaggio."
-   ]
+   "q": "Vuoi parlare di un argomento nuovo. Cosa conviene fare?",
+   "options": [
+    "Aprire una nuova chat",
+    "Cancellare l'app",
+    "Scrivere in maiuscolo",
+    "Aspettare un giorno"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "ChatGPT è dai 13 anni in su; sotto i 18 serve il permesso di un genitore."
+   "q": "Qual è il primo messaggio migliore?",
+   "options": [
+    "Aiutami a scrivere un'e-mail breve e gentile al padrone di casa per il riscaldamento rotto.",
+    "e-mail",
+    "Aiuto",
+    "Scrivi qualcosa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Dove scrivi il tuo messaggio a ChatGPT?",
+   "options": [
+    "Nella casella evidenziata",
+    "Nella risposta sopra",
+    "Nelle impostazioni",
+    "Da nessuna parte, legge nel pensiero"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Il tuo primo messaggio"
-  },
+   "image": "send_button",
+   "q": "Cosa fa il pulsante evidenziato?",
+   "options": [
+    "Invia il tuo messaggio",
+    "Cancella la chat",
+    "Apre le impostazioni",
+    "Spegne l'app"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Tocca la casella del messaggio, scrivi cosa ti serve e invia. Scrivi come a un collega sveglio: frasi normali, con dettagli."
-  },
-  {
-   "type": "try",
-   "text": "Ciao! Sono un principiante. In 3 punti brevi, dimmi cosa puoi fare per me nella vita di tutti i giorni."
-  },
-  {
-   "type": "h",
-   "text": "Buono a sapersi"
-  },
-  {
-   "type": "list",
-   "items": [
-    "La versione gratuita ha un numero limitato di messaggi; i piani a pagamento ne offrono di più.",
-    "Per un argomento nuovo, apri una nuova chat: le risposte restano più chiare.",
-    "Puoi continuare la conversazione: fai un'altra domanda o chiedi di cambiare la risposta.",
-    "L'aspetto dell'app cambia nel tempo, ma la casella del messaggio c'è sempre."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT ha molte funzioni extra: per esempio può creare immagini e puoi parlargli a voce."
+   "task": "Scrivi il tuo primo vero messaggio a ChatGPT: chiedigli di pianificare le cene per 3 giorni con quello che hai in casa (scegli 4–5 ingredienti).",
+   "seconds": 120,
+   "checklist": [
+    "Cosa vuoi (cene per 3 giorni)",
+    "Cosa hai (gli ingredienti)",
+    "I limiti (tempo, budget, niente carne…)"
+   ],
+   "example": "Pianifica le cene per 3 giorni usando solo: uova, patate, riso, pomodori e formaggio. Ogni cena deve richiedere meno di 30 minuti. Dammi una breve lista della spesa per ciò che manca."
   }
  ]
 }

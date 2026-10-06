@@ -1,0 +1,54 @@
+{
+ "id": "k_p5",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI je kao strpljiv nastavnik stranog jezika koji je uvek tu. Možeš da vežbaš razgovor, reči i gramatiku – bez stida."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Načini vežbanja"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Razgovor: „Pričaj sa mnom na engleskom o fudbalu, jednostavnim rečima, i nežno me ispravljaj.“",
+    "Reči: traži 10 novih reči sa primerima rečenica.",
+    "Igra: „Daj mi reč na srpskom, a ja ću je prevesti.“",
+    "Gramatika: traži objašnjenje sa puno primera."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Imam 12 godina i učim engleski. Hajde da pričamo o mom omiljenom filmu. Postavljaj mi jednostavna pitanja na engleskom, jedno po jedno, a kad pogrešim, ispravi me i objasni na srpskom."
+  },
+  {
+   "type": "tip",
+   "text": "Po 10 minuta svaki dan je bolje nego sat vremena jednom nedeljno."
+  },
+  {
+   "type": "h",
+   "text": "Izgovor"
+  },
+  {
+   "type": "p",
+   "text": "Neki AI alati imaju glasovni režim, pa možeš i da pričaš naglas. Zamoli roditelja da ti pomogne da ga uključiš."
+  }
+ ]
+}

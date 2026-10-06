@@ -1,43 +1,80 @@
 {
- "id": "a_b1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI (veštačka inteligencija) je ovde program koji je učio na ogromnoj količini teksta i sada razume pitanja i piše odgovore. Claude, ChatGPT i Gemini su takvi programi, a zovu se i AI asistenti."
+   "q": "Šta je AI asistent kao što je Claude?",
+   "options": [
+    "Program koji je učio na mnogo tekstova i piše odgovore",
+    "Pretraživač koji prikazuje samo linkove",
+    "Osoba koja odgovara na tvoje poruke",
+    "Program koji samo računa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Kako radi, ukratko"
+   "q": "Kako AI sastavlja odgovor?",
+   "options": [
+    "Reč po reč predviđa odgovor koji najbolje odgovara",
+    "Kopira odgovor sa jednog sajta",
+    "Pita drugu osobu",
+    "Bira nasumičnu rečenicu"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Kad mu pošalješ poruku, AI reč po reč predviđa koji odgovor najbolje odgovara. On ne traži odgovor kao u enciklopediji, nego ga sastavlja na osnovu onoga što je naučio."
+   "q": "Šta da radiš sa važnim činjenicama (zdravlje, novac, zakon) koje ti da AI?",
+   "options": [
+    "Uvek ih proveri",
+    "Potpuno im veruj",
+    "Odmah ih podeli",
+    "Ignoriši ih"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Šta može da uradi za tebe"
+   "q": "U čemu od ovoga AI može da ti pomogne?",
+   "options": [
+    "Da napišeš mejl ili CV",
+    "Da sam popravi tvoj auto",
+    "Da obavi telefonski poziv umesto tebe",
+    "Da ti skuva večeru"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Kako se zove označeni deo?",
+   "options": [
+    "Polje za poruku u koje pišeš svoj prompt",
+    "Odgovor AI-ja",
+    "Meni podešavanja",
+    "Istorija četa"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Da objasni nešto komplikovano jednostavnim rečima",
-    "Da napiše ili popravi tekst: mejl, poruku, CV",
-    "Da napravi plan: putovanje, trening, gustu nedelju na poslu",
-    "Da ti pomogne da smisliš ideje"
-   ]
-  },
+   "image": "chat_reply",
+   "q": "Šta prikazuje označeni deo?",
+   "options": [
+    "Odgovor AI-ja",
+    "Tvoju poruku",
+    "Reklamu",
+    "Dugme za slanje"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "AI ponekad pogreši, a zvuči sigurno. Važne činjenice (zdravlje, novac, zakon) uvek proveri."
-  },
-  {
-   "type": "tip",
-   "text": "Novi savet: ako ti je odgovor previše komplikovan, samo napiši „Objasni to jednostavnije“ i AI će pokušati ponovo."
-  },
-  {
-   "type": "try",
-   "text": "Objasni mi kao potpunom početniku šta je veštačka inteligencija, u 5 rečenica."
+   "task": "Hoćeš slobodan dan sledećeg petka. Napiši poruku za Claude-a kojom ćeš dobiti dobar mejl za šefa.",
+   "seconds": 120,
+   "checklist": [
+    "Kome je mejl (šefu)",
+    "Šta želiš (slobodan sledeći petak)",
+    "Ton (ljubazno, kratko)"
+   ],
+   "example": "Napiši kratak i ljubazan mejl mom šefu u kom tražim slobodan dan sledećeg petka. Napomeni da ću završiti svoje zadatke pre toga."
   }
  ]
 }

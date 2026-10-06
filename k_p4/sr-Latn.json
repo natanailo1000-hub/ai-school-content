@@ -1,0 +1,53 @@
+{
+ "id": "k_p4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Imaš ideju za strip, priču ili video za školu ili internet? AI je odličan partner za smišljanje – a ti si reditelj!"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Strip"
+  },
+  {
+   "type": "try",
+   "text": "Pomozi mi da smislim strip od 6 sličica o robotu koji uči da igra fudbal. Za svaku sličicu napiši šta se vidi i šta junaci govore. Ja ću ga nacrtati."
+  },
+  {
+   "type": "h",
+   "text": "Priča"
+  },
+  {
+   "type": "p",
+   "text": "Traži od AI-ja pomoć oko likova, zapleta i kraja – a onda piši svojim rečima. Možeš da tražiš i „3 različita kraja“ pa da izabereš jedan."
+  },
+  {
+   "type": "h",
+   "text": "Video"
+  },
+  {
+   "type": "try",
+   "text": "Pravim kratak video od 1 minuta o tome kako se pravi papirni avion. Napiši mi scenario: šta se vidi, šta govorim i koliko traje svaki deo."
+  },
+  {
+   "type": "tip",
+   "text": "Ako nešto objavljuješ na internetu, prvo pitaj roditelje. I ne koristi tuđe slike, muziku ili likove bez dozvole."
+  }
+ ]
+}

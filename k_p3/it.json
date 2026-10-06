@@ -1,0 +1,55 @@
+{
+ "id": "k_p3",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Un progetto scolastico richiede una ricerca. L'IA può essere la tua guida: ti aiuta a fare le domande giuste e a trovare la strada verso le risposte."
+  },
+  {
+   "type": "tip",
+   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Passo dopo passo"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Scegli un argomento e restringilo (non \"Lo spazio\", ma \"Come mangiano gli astronauti nello spazio\").",
+    "Chiedi all'IA 5 domande a cui il tuo progetto deve rispondere.",
+    "Per ogni domanda, trova la risposta su libri o siti affidabili.",
+    "Annota le fonti: il titolo del libro o il nome del sito.",
+    "Alla fine, chiedi all'IA di aiutarti a mettere tutto in un ordine logico."
+   ]
+  },
+  {
+   "type": "try",
+   "text": "Ho 13 anni e sto facendo un progetto su come mangiano gli astronauti nello spazio. Proponi 5 domande a cui il mio progetto deve rispondere e, per ciascuna, dove cercare una risposta affidabile."
+  },
+  {
+   "type": "tip",
+   "text": "A volte l'IA inventa fonti e link! Controlla sempre che il libro o il sito esistano davvero."
+  },
+  {
+   "type": "h",
+   "text": "Lavoro di squadra"
+  },
+  {
+   "type": "p",
+   "text": "Se lavorate in gruppo, l'IA può aiutarvi a dividere i compiti: chi cerca cosa, chi fa le slide, chi presenta."
+  }
+ ]
+}

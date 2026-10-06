@@ -1,0 +1,66 @@
+{
+ "id": "k_p2",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "AI može da ti pomogne oko sastava ili referata – ali na pošten način. Cilj je da TI naučiš da pišeš."
+  },
+  {
+   "type": "tip",
+   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Dozvoljeno i korisno"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Da ti pomogne da smisliš ideje i plan.",
+    "Da ti objasni temu koju ne razumeš.",
+    "Da pročita tvoj tekst i kaže šta može bolje.",
+    "Da ti ispravi pravopis i objasni greške."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Nije pošteno"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Da AI napiše ceo sastav, a ti ga predaš kao svoj.",
+    "Da prepisuješ rečenice od AI-ja, a da ih ne razumeš.",
+    "Da kažeš da nisi koristio AI, a jesi."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Pitaj nastavnika šta je dozvoljeno. Ako koristiš AI, budi iskren i reci kako si ga koristio."
+  },
+  {
+   "type": "try",
+   "text": "Pišem sastav na temu „Moj najlepši dan“. Nemoj da ga pišeš umesto mene! Postavi mi 5 pitanja koja će mi pomoći da se setim detalja, a onda mi predloži plan: uvod, razrada, zaključak."
+  },
+  {
+   "type": "h",
+   "text": "Kad napišeš"
+  },
+  {
+   "type": "try",
+   "text": "Ovo je moj sastav: [nalepi tekst]. Nemoj da ga prepravljaš celog. Navedi mi 3 stvari koje su dobre i 3 koje mogu da popravim, i objasni zašto."
+  }
+ ]
+}

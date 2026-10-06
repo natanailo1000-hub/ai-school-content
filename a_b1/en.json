@@ -1,43 +1,80 @@
 {
- "id": "a_b1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI (artificial intelligence) here means a program that learned from a huge amount of text and can now understand questions and write answers. Claude, ChatGPT and Gemini are programs like this, also called AI assistants."
+   "q": "What is an AI assistant like Claude?",
+   "options": [
+    "A program that learned from lots of text and writes answers",
+    "A search engine that only shows links",
+    "A person who replies to your messages",
+    "A program that can only do math"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "How it works, in short"
+   "q": "How does AI build its answer?",
+   "options": [
+    "It predicts the best-fitting answer, word by word",
+    "It copies the answer from one website",
+    "It asks another person",
+    "It picks a random sentence"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "When you send a message, the AI predicts which answer fits best, word by word. It doesn't look things up like an encyclopedia – it builds the answer from patterns it learned."
+   "q": "What should you do with important facts (health, money, law) from AI?",
+   "options": [
+    "Always double-check them",
+    "Trust them completely",
+    "Share them right away",
+    "Ignore them"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "What it can do for you"
+   "q": "Which of these can AI help you with?",
+   "options": [
+    "Writing an email or a CV",
+    "Repairing your car on its own",
+    "Making a phone call for you",
+    "Cooking your dinner"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "What is the highlighted part called?",
+   "options": [
+    "The message box where you write your prompt",
+    "The AI's answer",
+    "The settings menu",
+    "The chat history"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Explain something complicated in simple words",
-    "Write or improve text: an email, a message, a CV",
-    "Make a plan: a trip, a workout, a busy week at work",
-    "Help you come up with ideas"
-   ]
-  },
+   "image": "chat_reply",
+   "q": "What does the highlighted part show?",
+   "options": [
+    "The AI's answer",
+    "Your message",
+    "An ad",
+    "The send button"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "AI sometimes makes mistakes while sounding confident. Always double-check important facts (health, money, law)."
-  },
-  {
-   "type": "tip",
-   "text": "New tip: if an answer is too complicated, just write \"Explain that more simply\" – the AI will try again."
-  },
-  {
-   "type": "try",
-   "text": "Explain to me, as a complete beginner, what artificial intelligence is, in 5 sentences."
+   "task": "You want a day off next Friday. Write a message for Claude that will get you a good email to your boss.",
+   "seconds": 120,
+   "checklist": [
+    "Who the email is for (your boss)",
+    "What you want (a day off next Friday)",
+    "The tone (polite, short)"
+   ],
+   "example": "Write a short, polite email to my boss asking for a day off next Friday. Mention that I'll finish my tasks before then."
   }
  ]
 }

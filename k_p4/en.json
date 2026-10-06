@@ -1,0 +1,53 @@
+{
+ "id": "k_p4",
+ "updated": "2026-10-06",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Got an idea for a comic, a story or a video for school or online? AI is a great partner for brainstorming – and you're the director!"
+  },
+  {
+   "type": "tip",
+   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
+   "tool": "gemini"
+  },
+  {
+   "type": "h",
+   "text": "Comic"
+  },
+  {
+   "type": "try",
+   "text": "Help me come up with a 6-panel comic about a robot learning to play football. For each panel, write what we see and what the characters say. I'll draw it."
+  },
+  {
+   "type": "h",
+   "text": "Story"
+  },
+  {
+   "type": "p",
+   "text": "Ask the AI to help with characters, plot and ending – then write it in your own words. You can also ask for \"3 different endings\" and pick one."
+  },
+  {
+   "type": "h",
+   "text": "Video"
+  },
+  {
+   "type": "try",
+   "text": "I'm making a 1-minute video about how to make a paper plane. Write me a script: what's on screen, what I say and how long each part lasts."
+  },
+  {
+   "type": "tip",
+   "text": "If you post something online, ask your parents first. And don't use other people's pictures, music or characters without permission."
+  }
+ ]
+}

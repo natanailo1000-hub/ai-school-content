@@ -1,43 +1,80 @@
 {
- "id": "a_b1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA (intelligenza artificiale), qui, è un programma che ha imparato da un'enorme quantità di testi e ora capisce le domande e scrive risposte. Claude, ChatGPT e Gemini sono programmi di questo tipo, chiamati anche assistenti IA."
+   "q": "Cos'è un assistente IA come Claude?",
+   "options": [
+    "Un programma che ha imparato da tanti testi e scrive risposte",
+    "Un motore di ricerca che mostra solo link",
+    "Una persona che risponde ai tuoi messaggi",
+    "Un programma che fa solo calcoli"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Come funziona, in breve"
+   "q": "Come costruisce la risposta l'IA?",
+   "options": [
+    "Prevede, parola per parola, la risposta più adatta",
+    "Copia la risposta da un sito web",
+    "Chiede a un'altra persona",
+    "Sceglie una frase a caso"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Quando invii un messaggio, l'IA prevede, parola per parola, la risposta più adatta. Non cerca come in un'enciclopedia: costruisce la risposta in base a ciò che ha imparato."
+   "q": "Cosa fare con le informazioni importanti (salute, soldi, leggi) date dall'IA?",
+   "options": [
+    "Controllarle sempre",
+    "Fidarsi completamente",
+    "Condividerle subito",
+    "Ignorarle"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cosa può fare per te"
+   "q": "In quale di queste cose può aiutarti l'IA?",
+   "options": [
+    "Scrivere un'e-mail o un CV",
+    "Riparare la tua auto da sola",
+    "Fare una telefonata al posto tuo",
+    "Cucinarti la cena"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Come si chiama la parte evidenziata?",
+   "options": [
+    "La casella in cui scrivi il tuo prompt",
+    "La risposta dell'IA",
+    "Il menu delle impostazioni",
+    "La cronologia della chat"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Spiegare qualcosa di complicato con parole semplici",
-    "Scrivere o migliorare testi: e-mail, messaggi, CV",
-    "Fare un piano: un viaggio, un allenamento, una settimana piena di lavoro",
-    "Aiutarti a trovare idee"
-   ]
-  },
+   "image": "chat_reply",
+   "q": "Cosa mostra la parte evidenziata?",
+   "options": [
+    "La risposta dell'IA",
+    "Il tuo messaggio",
+    "Una pubblicità",
+    "Il pulsante di invio"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "tip",
-   "text": "A volte l'IA sbaglia, anche se sembra sicura. Controlla sempre le informazioni importanti (salute, soldi, leggi)."
-  },
-  {
-   "type": "tip",
-   "text": "Nuovo consiglio: se una risposta è troppo complicata, scrivi \"Spiegalo in modo più semplice\" e l'IA ci riproverà."
-  },
-  {
-   "type": "try",
-   "text": "Spiegami, come a un principiante assoluto, cos'è l'intelligenza artificiale, in 5 frasi."
+   "task": "Vuoi prenderti libero venerdì prossimo. Scrivi un messaggio a Claude per ottenere una buona e-mail al tuo capo.",
+   "seconds": 120,
+   "checklist": [
+    "A chi è rivolta l'e-mail (il tuo capo)",
+    "Cosa vuoi (venerdì prossimo libero)",
+    "Il tono (gentile, breve)"
+   ],
+   "example": "Scrivi un'e-mail breve e gentile al mio capo per chiedere un giorno libero venerdì prossimo. Specifica che finirò i miei compiti prima."
   }
  ]
 }
