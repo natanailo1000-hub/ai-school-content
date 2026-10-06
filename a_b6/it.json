@@ -1,80 +1,60 @@
 {
- "quick": [
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Cos'è un'\"allucinazione\" dell'IA?",
-   "options": [
-    "Quando l'IA inventa un'informazione falsa ma sembra sicura",
-    "Quando l'app si blocca",
-    "Quando l'IA risponde troppo breve",
-    "Quando l'IA disegna"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "A volte l'IA inventa fatti, numeri o fonti, e sembra sicurissima. Si chiama \"allucinazione\". La buona notizia: è facile imparare a proteggersi."
   },
   {
-   "q": "Dove sbaglia più spesso l'IA?",
-   "options": [
-    "Numeri esatti, date e fonti",
-    "Saluti",
-    "Consigli generali di scrittura",
-    "Idee per compleanni"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Quando l'IA sbaglia più spesso"
   },
   {
-   "q": "L'IA ti ha dato una fonte. Cosa fai?",
-   "options": [
-    "La apro e controllo che esista davvero",
-    "Ci credo senza controllare",
-    "Cancello la chat",
-    "Niente"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Numeri esatti, date e citazioni.",
+    "Notizie e prezzi più recenti.",
+    "Dettagli molto tecnici (leggi, farmaci, tasse).",
+    "Link e titoli di libri o studi."
+   ]
   },
   {
-   "q": "Chi decide quale farmaco prendi?",
-   "options": [
-    "Un medico o un farmacista",
-    "L'IA",
-    "Un sito qualsiasi",
-    "Il tuo vicino"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "Nella risposta evidenziata l'IA ha scritto la data esatta di una legge. Cosa fai?",
-   "options": [
-    "La controllo su un sito ufficiale",
-    "Ci credo perché sembra sicura",
-    "La copio in un contratto",
-    "Niente"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "5 trucchi per verificare"
   },
   {
-   "image": "chat_input",
-   "q": "Dove puoi chiedere all'IA \"Quanto sei sicuro?\"",
-   "options": [
-    "Nella casella del messaggio evidenziata",
-    "Nelle impostazioni",
-    "Da nessuna parte, non risponde",
-    "Nello store delle app"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "Chiedi: \"Quanto sei sicuro? Cosa dovrei verificare?\"",
+    "Chiedi le fonti, poi aprile e controlla che esistano davvero.",
+    "Verifica le cose importanti su un sito ufficiale o con un esperto.",
+    "Fai la stessa domanda in modo diverso e confronta.",
+    "Confronta con un altro strumento di IA."
+   ]
+  },
   {
-   "task": "L'IA ti ha detto che una città è la capitale di un paese, ma non sei sicuro. Scrivi un messaggio per verificare la risposta.",
-   "seconds": 90,
-   "checklist": [
-    "Chiedi quanto è sicura",
-    "Chiedi una fonte",
-    "Prevedi di controllare in un posto affidabile"
-   ],
-   "example": "Quanto sei sicuro di questa risposta? Dammi una fonte affidabile dove posso controllare e dimmi se c'è la possibilità che tu stia sbagliando."
+   "type": "try",
+   "text": "Rispondi alla mia domanda e alla fine elenca a parte quali punti dovrei verificare e dove. Domanda: quanto dura il passaporto per adulti in Italia?"
+  },
+  {
+   "type": "tip",
+   "text": "L'IA è ottima per capire e trovare idee, ma per le decisioni finali su salute, soldi e leggi chiedi sempre a un esperto."
+  },
+  {
+   "type": "tip",
+   "text": "Claude spesso dice da solo quando non è sicuro: fai attenzione a queste frasi e verifica proprio quei punti.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT può cercare su internet e mostrare i link alle fonti: cliccali e controlla.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Alcune versioni di Gemini offrono un pulsante per verificare la risposta con la Ricerca Google: usalo quando conta.",
+   "tool": "gemini"
   }
  ]
 }

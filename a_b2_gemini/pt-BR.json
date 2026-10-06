@@ -1,80 +1,56 @@
 {
- "quick": [
+ "id": "a_b2_gemini",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Qual empresa criou o Gemini?",
-   "options": [
-    "Google",
-    "OpenAI",
-    "Anthropic",
-    "Microsoft"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "O Gemini é um assistente de IA criado pela Google. Você pode usá-lo de graça no computador (site gemini.google.com) ou no celular (app Gemini do Google Play)."
   },
   {
-   "q": "Onde você pode usar o Gemini?",
-   "options": [
-    "No site gemini.google.com ou no app",
-    "Só na TV",
-    "Só por ligação",
-    "Só numa loja"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Crie uma conta"
   },
   {
-   "q": "Você quer falar de um assunto novo. O que é melhor?",
-   "options": [
-    "Abrir um novo chat",
-    "Apagar o app",
-    "Escrever em maiúsculas",
-    "Esperar um dia"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Abra gemini.google.com ou instale o app Gemini.",
+    "Entre com sua conta Google (a mesma do Gmail).",
+    "Confirme sua conta (e-mail ou código), se pedirem.",
+    "Pronto – você verá uma caixa vazia para sua mensagem."
+   ]
   },
   {
-   "q": "Qual primeira mensagem é a melhor?",
-   "options": [
-    "Me ajude a escrever um e-mail curto e educado para o proprietário sobre o aquecedor quebrado.",
-    "e-mail",
-    "Ajuda",
-    "Escreve algo"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Onde você escreve sua mensagem para o Gemini?",
-   "options": [
-    "Na caixa destacada",
-    "Na resposta acima",
-    "Nas configurações",
-    "Em lugar nenhum, ele lê mentes"
-   ],
-   "answer": 0
+   "type": "tip",
+   "text": "As regras de idade do Gemini dependem do país; crianças só podem usá-lo pela conta Family Link dos pais, onde estiver disponível."
   },
   {
-   "image": "send_button",
-   "q": "O que faz o botão destacado?",
-   "options": [
-    "Envia sua mensagem",
-    "Apaga o chat",
-    "Abre as configurações",
-    "Desliga o app"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Sua primeira mensagem"
+  },
   {
-   "task": "Escreva sua primeira mensagem de verdade para o Gemini: peça um plano de jantares para 3 dias com o que você tem em casa (escolha 4–5 ingredientes).",
-   "seconds": 120,
-   "checklist": [
-    "O que você quer (jantares para 3 dias)",
-    "O que você tem (os ingredientes)",
-    "Limites (tempo, orçamento, sem carne…)"
-   ],
-   "example": "Planeje jantares para 3 dias usando só: ovos, batatas, arroz, tomates e queijo. Cada jantar deve levar menos de 30 minutos. Me dê uma lista curta de compras para o que faltar."
+   "type": "p",
+   "text": "Toque na caixa de mensagem, escreva o que precisa e envie. Escreva como escreveria para um colega inteligente: frases normais, com detalhes."
+  },
+  {
+   "type": "try",
+   "text": "Oi! Sou iniciante. Em 3 pontos curtos, me diga como você pode me ajudar no dia a dia."
+  },
+  {
+   "type": "h",
+   "text": "É bom saber"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A versão gratuita tem um limite de mensagens; os planos pagos dão mais.",
+    "Para um assunto novo, abra um novo chat – as respostas ficam mais claras.",
+    "Você pode continuar a conversa: faça outra pergunta ou peça para mudar a resposta.",
+    "O visual do app muda com o tempo, mas a caixa de mensagem está sempre lá."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini é ligado aos serviços e à pesquisa do Google, então é útil para informações atuais. Em muitos celulares Android ele já vem instalado."
   }
  ]
 }

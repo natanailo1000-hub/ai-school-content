@@ -1,80 +1,58 @@
 {
- "quick": [
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "¿Cuánto texto va en una diapositiva?",
-   "options": [
-    "Poco: 3 a 5 puntos cortos",
-    "Un ensayo entero",
-    "Nada, solo números",
-    "Cuanto más, mejor"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "La IA te puede ahorrar horas en una presentación: desde la estructura hasta el texto de las diapositivas y lo que vas a decir."
   },
   {
-   "q": "¿Qué son las notas del orador?",
-   "options": [
-    "Lo que dirás en cada diapositiva",
-    "Una lista de imágenes",
-    "La tipografía",
-    "El precio de la presentación"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Paso 1 – estructura"
   },
   {
-   "q": "¿Qué le pides primero a la IA?",
-   "options": [
-    "La estructura: títulos y puntos",
-    "El color de fondo",
-    "Música",
-    "Nada"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Estoy haciendo una presentación de 10 diapositivas para colegas sobre cómo reducir gastos en la oficina. Público: 15 colegas, 10 minutos. Sugiere títulos de diapositivas y 3 puntos cortos para cada una."
   },
   {
-   "q": "La IA puso una estadística en una diapositiva. ¿Qué haces?",
-   "options": [
-    "Reviso la fuente antes de presentar",
-    "La dejo sin revisar",
-    "Agrando el número",
-    "Borro todas las diapositivas"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "La IA te dio una estructura (resaltada). La quieres más corta. ¿Qué escribes?",
-   "options": [
-    "\"Redúcela a 6 diapositivas\"",
-    "Nada",
-    "Borro la app",
-    "\"Chau\""
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Paso 2 – texto y exposición"
   },
   {
-   "image": "chat_input",
-   "q": "¿Dónde describes el público y la duración?",
-   "options": [
-    "En el cuadro de mensaje resaltado",
-    "En la configuración",
-    "En el nombre del archivo",
-    "En ningún lado"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "En la diapositiva: poco texto, máximo 3 a 5 puntos cortos.",
+    "Pídele a la IA \"notas del orador\": qué decir en cada diapositiva.",
+    "Pide una historia o ejemplo para empezar y captar la atención.",
+    "Al final: una conclusión clara y qué debe hacer el público."
+   ]
+  },
   {
-   "task": "Escribe un prompt para una presentación de 5 minutos sobre tu hobby para amigos.",
-   "seconds": 150,
-   "checklist": [
-    "Tema y público",
-    "Duración y cantidad de diapositivas",
-    "Qué quieres (títulos, puntos, notas)"
-   ],
-   "example": "Estoy haciendo una presentación de 6 diapositivas para amigos sobre senderismo, de 5 minutos. Sugiere títulos, 3 puntos cortos para cada una y notas breves de qué decir."
+   "type": "h",
+   "text": "Paso 3 – diseño"
+  },
+  {
+   "type": "p",
+   "text": "La IA puede sugerir colores, distribución e imágenes para cada diapositiva. Algunas herramientas incluso crean el archivo de la presentación, que luego ajustas en PowerPoint o Presentaciones de Google."
+  },
+  {
+   "type": "tip",
+   "text": "Revisa cada número y dato de tus diapositivas: el público los va a recordar."
+  },
+  {
+   "type": "tip",
+   "text": "Claude puede crear un archivo de PowerPoint listo para descargar (en versiones que crean archivos): pídele \"un archivo .pptx\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT puede crear un archivo de presentación para descargar y sugerir imágenes para las diapositivas.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini funciona con Presentaciones de Google: en algunos planes te ayuda directamente ahí.",
+   "tool": "gemini"
   }
  ]
 }

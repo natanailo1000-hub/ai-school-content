@@ -1,80 +1,66 @@
 {
- "quick": [
+ "id": "a_b4",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "¿Qué es lo más importante decirle a la IA al escribir un correo?",
-   "options": [
-    "A quién le escribes y qué quieres lograr",
-    "Qué teléfono tienes",
-    "Cuántos años tienes",
-    "Nada, lo adivina"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "La IA te ahorra mucho tiempo al escribir: tú das la idea y ella te da un texto bien redactado. Tú siempre lo lees y lo envías."
   },
   {
-   "q": "¿Cómo mejoras tu propio texto con IA?",
-   "options": [
-    "Pegas el texto y dices qué cambiar",
-    "Lo copias a mano 3 veces",
-    "Envías un correo vacío",
-    "Lo borras"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Correos y mensajes"
   },
   {
-   "q": "¿Qué NO debe hacer la IA en tu CV?",
-   "options": [
-    "Inventar experiencia o títulos",
-    "Corregir la gramática",
-    "Acortar el texto",
-    "Sugerir un mejor diseño"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Di a quién le escribes y qué relación tienen (jefe, vecino, empresa).",
+    "Di qué quieres lograr (disculpa, queja, agradecimiento, pedido).",
+    "Da los datos clave (fechas, números, nombres).",
+    "Pide un tono: amable, breve, firme."
+   ]
   },
   {
-   "q": "¿Quién es responsable del correo que envías?",
-   "options": [
-    "Tú: léelo siempre antes de enviarlo",
-    "La IA",
-    "La empresa que hace la IA",
-    "Nadie"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "La IA te escribió un correo (resaltado). ¿Qué haces antes de enviarlo?",
-   "options": [
-    "Lo leo y reviso los datos",
-    "Lo envío sin leer",
-    "Lo traduzco",
-    "Lo borro"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Escribe un correo corto y amable a mi proveedor de internet. Mi internet no funciona desde el lunes y ya llamé dos veces. Pido que manden un técnico esta semana y que me hagan un descuento en la factura."
   },
   {
-   "image": "chat_input",
-   "q": "¿Dónde pegas tu texto para que la IA lo mejore?",
-   "options": [
-    "En el cuadro de mensaje resaltado",
-    "En la respuesta de la IA",
-    "En la configuración del teléfono",
-    "En ningún lado"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Mejora tu propio texto"
+  },
   {
-   "task": "Tu vecino te prestó un taladro y lo rompiste sin querer. Escribe un prompt para obtener un mensaje de disculpa.",
-   "seconds": 120,
-   "checklist": [
-    "Para quién es (el vecino)",
-    "Qué pasó (el taladro roto)",
-    "Qué ofreces (arreglo o uno nuevo) y el tono (sincero, breve)"
-   ],
-   "example": "Escribe un mensaje corto y sincero de disculpa para mi vecino. Me prestó su taladro y lo rompí sin querer. Ofrece comprarle uno nuevo o pagar el arreglo. Máximo 4 oraciones, tono amistoso."
+   "type": "p",
+   "text": "No tienes que empezar de cero. Pega tu texto y pide: \"Corrige los errores\", \"Acórtalo a la mitad\", \"Que suene más profesional\"."
+  },
+  {
+   "type": "h",
+   "text": "CV y postulaciones"
+  },
+  {
+   "type": "p",
+   "text": "La IA puede ordenar tu CV y escribir una carta de presentación adaptada al aviso. Dale tu experiencia real y el texto del aviso."
+  },
+  {
+   "type": "try",
+   "text": "Esta es mi experiencia: [tu experiencia]. Este es el aviso: [texto del aviso]. Escribe una carta de presentación de 150 palabras que destaque lo que pide el aviso. No inventes experiencia que no tengo."
+  },
+  {
+   "type": "tip",
+   "text": "Nunca dejes que la IA invente títulos o experiencia. Todo en tu CV debe ser verdad: las empresas lo revisan."
+  },
+  {
+   "type": "tip",
+   "text": "Claude es especialmente bueno para escribir y pulir textos: pídele 2 o 3 versiones para elegir.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "En ChatGPT puedes pedir 2 o 3 versiones de un texto a la vez y elegir la mejor.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Si usas Gmail, Gemini también puede ayudarte a escribir correos dentro de las apps de Google (según tu plan).",
+   "tool": "gemini"
   }
  ]
 }

@@ -1,80 +1,58 @@
 {
- "quick": [
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Quanto texto vai num slide?",
-   "options": [
-    "Pouco – 3 a 5 tópicos curtos",
-    "Uma redação inteira",
-    "Nenhum, só números",
-    "Quanto mais, melhor"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "A IA pode economizar horas numa apresentação: da estrutura ao texto dos slides e ao que você vai falar."
   },
   {
-   "q": "O que são notas do apresentador?",
-   "options": [
-    "O que você vai falar em cada slide",
-    "Uma lista de imagens",
-    "A fonte",
-    "O preço da apresentação"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Passo 1 – estrutura"
   },
   {
-   "q": "O que você pede primeiro à IA?",
-   "options": [
-    "A estrutura: títulos e tópicos",
-    "A cor de fundo",
-    "Música",
-    "Nada"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Estou fazendo uma apresentação de 10 slides para colegas sobre como reduzir custos no escritório. Público: 15 colegas, 10 minutos. Sugira títulos de slides e 3 tópicos curtos para cada um."
   },
   {
-   "q": "A IA colocou uma estatística num slide. O que fazer?",
-   "options": [
-    "Conferir a fonte antes de apresentar",
-    "Deixar sem conferir",
-    "Aumentar o número",
-    "Apagar todos os slides"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "A IA te deu uma estrutura (destacada). Você quer menor. O que escreve?",
-   "options": [
-    "\"Reduza para 6 slides\"",
-    "Nada",
-    "Apago o app",
-    "\"Tchau\""
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Passo 2 – texto e fala"
   },
   {
-   "image": "chat_input",
-   "q": "Onde você descreve o público e a duração?",
-   "options": [
-    "Na caixa de mensagem destacada",
-    "Nas configurações",
-    "No nome do arquivo",
-    "Em lugar nenhum"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "No slide: pouco texto, no máximo 3 a 5 tópicos curtos.",
+    "Peça à IA \"notas do apresentador\" – o que falar em cada slide.",
+    "Peça uma história ou exemplo para abrir e prender a atenção.",
+    "No final: uma conclusão clara e o que o público deve fazer."
+   ]
+  },
   {
-   "task": "Escreva um prompt para uma apresentação de 5 minutos sobre seu hobby para amigos.",
-   "seconds": 150,
-   "checklist": [
-    "Tema e público",
-    "Duração e número de slides",
-    "O que você quer (títulos, tópicos, notas)"
-   ],
-   "example": "Estou fazendo uma apresentação de 6 slides para amigos sobre trilhas, de 5 minutos. Sugira títulos, 3 tópicos curtos para cada slide e notas curtas do que falar."
+   "type": "h",
+   "text": "Passo 3 – visual"
+  },
+  {
+   "type": "p",
+   "text": "A IA pode sugerir cores, layout e imagens para cada slide. Algumas ferramentas até criam o arquivo da apresentação pronto, que você depois ajusta no PowerPoint ou no Google Apresentações."
+  },
+  {
+   "type": "tip",
+   "text": "Confira todos os números e fatos dos slides – o público vai lembrar deles."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude pode criar um arquivo de PowerPoint pronto para baixar (nas versões que criam arquivos) – é só pedir \"um arquivo .pptx\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT pode criar um arquivo de apresentação para baixar e sugerir imagens para os slides.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini funciona com o Google Apresentações – em alguns planos ele ajuda direto lá.",
+   "tool": "gemini"
   }
  ]
 }

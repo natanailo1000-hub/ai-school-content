@@ -1,80 +1,54 @@
 {
- "quick": [
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "What's a good request for a long document?",
-   "options": [
-    "A 5-point summary plus all deadlines",
-    "\"Read\"",
-    "Nothing",
-    "\"Nice\""
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "A long contract, report or manual? AI reads it in seconds and pulls out what you need."
   },
   {
-   "q": "The contract is complicated. How does AI help?",
-   "options": [
-    "It explains it in plain language",
-    "It signs it for you",
-    "It sends it to a lawyer",
-    "It deletes it"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "What you can ask for"
   },
   {
-   "q": "Before signing an important contract:",
-   "options": [
-    "Ask an expert – AI is for understanding",
-    "Trust only the AI",
-    "Read nothing",
-    "Sign right away"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "A summary in 5 points.",
+    "What matters most for you (deadlines, prices, obligations).",
+    "Complicated parts explained in plain language.",
+    "Questions you should ask before signing."
+   ]
   },
   {
-   "q": "The document is very long. What do you do?",
-   "options": [
-    "Ask it to work part by part",
-    "Give up",
-    "Send only the title",
-    "Nothing"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Where do you paste the document text?",
-   "options": [
-    "In the highlighted message box",
-    "In the phone settings",
-    "In the app store",
-    "Nowhere"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "I'll paste the terms of my internet contract. Write: 1) a 5-point summary, 2) all deadlines and costs, 3) what to watch out for. [paste text]"
   },
   {
-   "image": "chat_reply",
-   "q": "The AI made a summary (highlighted). One deadline looks odd. What do you do?",
-   "options": [
-    "Check that deadline in the original document",
-    "Trust it",
-    "Ignore it",
-    "Sign"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "How to add a document"
+  },
   {
-   "task": "Write a prompt asking for an analysis of an app's terms before you buy it.",
-   "seconds": 150,
-   "checklist": [
-    "What the document is",
-    "What you care about (price, cancelling, data)",
-    "Answer format (points, warnings)"
-   ],
-   "example": "I'll paste the terms of an app I want to buy. List in points: how much it costs, how to cancel the subscription, what they do with my data, and what to watch out for. [text]"
+   "type": "p",
+   "text": "You can paste the text or attach a file (PDF, Word) with the attachment button, if the tool supports it. For very long documents, ask it to work part by part."
+  },
+  {
+   "type": "tip",
+   "text": "For contracts, loans and the law, AI helps you understand – before signing, ask an expert. And don't upload documents with other people's personal data without permission."
+  },
+  {
+   "type": "tip",
+   "text": "Claude can work with very long documents at once – it's great for summaries and comparing documents.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT you can add several files and ask questions about them.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini can also work with files from your Google Drive, if you allow it.",
+   "tool": "gemini"
   }
  ]
 }

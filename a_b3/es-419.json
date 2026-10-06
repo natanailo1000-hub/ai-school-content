@@ -1,80 +1,66 @@
 {
- "quick": [
+ "id": "a_b3",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "¿Qué es un prompt?",
-   "options": [
-    "El mensaje o la instrucción que le envías a la IA",
-    "Un tipo de virus informático",
-    "El botón de enviar",
-    "Un plan pago"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Un prompt es el mensaje que le envías a la IA. Cuanto más claro sea, mejor será la respuesta. La IA no sabe nada de ti, salvo lo que le escribes."
   },
   {
-   "q": "¿Cuál de estos es contexto?",
-   "options": [
-    "\"Es para mi jefe, soy principiante\"",
-    "\"Escribe\"",
-    "\"Tabla\"",
-    "\"Gracias\""
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Los cuatro ingredientes de un buen prompt"
   },
   {
-   "q": "La respuesta no sirve. ¿Qué es lo mejor?",
-   "options": [
-    "Decir qué cambiar, por ejemplo \"más corto y formal\"",
-    "Borrar la app",
-    "Enviar el mismo prompt 10 veces",
-    "Rendirte"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Tarea: qué quieres exactamente (escribir, explicar, comparar, hacer una lista).",
+    "Contexto: para quién es y para qué (\"para mi jefe\", \"soy principiante\", \"tengo 30 minutos\").",
+    "Detalles o un ejemplo: lo que ya tienes, lo que te gusta y lo que no.",
+    "Formato: cómo quieres la respuesta (5 puntos, una tabla, corta, menos de 100 palabras)."
+   ]
   },
   {
-   "q": "¿Qué prompt es el mejor?",
-   "options": [
-    "Dame 3 ideas de fiesta de cumpleaños para un niño de 8 años al que le encantan los dinosaurios, con un presupuesto de 50 dólares.",
-    "Ideas de cumpleaños",
-    "¿¿cumpleaños??",
-    "Ayuda"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_user",
-   "q": "¿Qué hay en la parte resaltada?",
-   "options": [
-    "Tu prompt: el mensaje que enviaste",
-    "La respuesta de la IA",
-    "Un anuncio",
-    "La configuración"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Mismo pedido, dos prompts"
   },
   {
-   "image": "chat_reply",
-   "q": "No te gusta la respuesta resaltada. ¿Qué haces?",
-   "options": [
-    "Escribes un mensaje nuevo diciendo qué cambiar",
-    "Nada, la IA siempre sabe más",
-    "Apagas el teléfono",
-    "Compras un teléfono nuevo"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "p",
+   "text": "Débil: \"Escribe una publicación para Instagram.\""
+  },
   {
-   "task": "Convierte este prompt débil en uno fuerte: \"escribe un anuncio\". Vendes una bicicleta.",
-   "seconds": 150,
-   "checklist": [
-    "La tarea (un anuncio para vender una bici)",
-    "Detalles (tipo, estado, precio)",
-    "Formato (largo, tono)"
-   ],
-   "example": "Escribe un anuncio corto para vender una bicicleta infantil (rodado 20, roja, poco uso) a 60 dólares. Tono amable, máximo 5 oraciones y al final una invitación a escribirme."
+   "type": "p",
+   "text": "Fuerte: \"Escribe una publicación corta y alegre para Instagram para mi panadería, que cumple 5 años este sábado. Menciona 20% de descuento en medialunas. Máximo 3 oraciones y 3 hashtags.\""
+  },
+  {
+   "type": "tip",
+   "text": "Si la respuesta no sirve, no empieces de cero: di qué cambiar, como \"más corto\", \"más formal\" o \"agrega un ejemplo\"."
+  },
+  {
+   "type": "h",
+   "text": "Dale un rol"
+  },
+  {
+   "type": "p",
+   "text": "Puedes empezar con \"Actúa como un entrenador con experiencia\" o \"Eres profesor de matemáticas\". Así la IA acierta mejor el tono y el nivel."
+  },
+  {
+   "type": "try",
+   "text": "Eres un entrenador personal con experiencia. Hazme un plan de ejercicio en casa para 3 días por semana, 20 minutos cada uno, sin equipo. Soy principiante total. Dame la respuesta en una tabla."
+  },
+  {
+   "type": "tip",
+   "text": "Con Claude puedes escribir prompts más largos y detallados: sigue bien las instrucciones largas. También puedes pegar un texto completo y pedirle que trabaje con él.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "En ChatGPT puedes guardar instrucciones permanentes sobre ti en la configuración (por ejemplo, \"responde breve\"), así no tienes que repetirlas cada vez.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini puede usar la Búsqueda de Google, así que puedes pedirle información actual, pero siempre revisa las fuentes que te da.",
+   "tool": "gemini"
   }
  ]
 }

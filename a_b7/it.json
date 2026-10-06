@@ -1,80 +1,67 @@
 {
- "quick": [
+ "id": "a_b7",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Cosa non condividi mai con l'IA?",
-   "options": [
-    "Password e numeri di carta",
-    "Un'idea per il pranzo",
-    "Una domanda di storia",
-    "Un piano di allenamento"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Tutto ciò che scrivi a un'IA viene inviato ai server dell'azienda. Quindi fai attenzione a cosa condividi, come ovunque su internet."
   },
   {
-   "q": "Come chiedi aiuto in sicurezza per un documento personale?",
-   "options": [
-    "Sostituisci i dati veri con segnaposto come [NOME]",
-    "Incolli tutto il documento con tutti i numeri",
-    "Invii una foto della carta d'identità",
-    "Scrivi la tua password"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Non condividere mai"
   },
   {
-   "q": "Qualcuno chiama con la voce di un parente e chiede soldi urgenti. Cosa fai?",
-   "options": [
-    "Riattacco e lo richiamo io a un numero noto",
-    "Mando subito i soldi",
-    "Do i dati della carta",
-    "Non controllo niente"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Password e PIN.",
+    "Numeri di carte e conti bancari.",
+    "Numero della carta d'identità o del passaporto.",
+    "Dati privati di altre persone senza permesso (salute, indirizzi, numeri di telefono)."
+   ]
   },
   {
-   "q": "Da dove scarichi un'app di IA?",
-   "options": [
-    "Solo da una fonte ufficiale (store, sito ufficiale)",
-    "Da un link qualsiasi in un messaggio",
-    "Da sconosciuti",
-    "Da una pubblicità sospetta"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Stai scrivendo il numero della carta nella casella evidenziata. Cosa devi fare?",
-   "options": [
-    "Cancellarlo: non si condivide mai",
-    "Inviarlo",
-    "Aggiungere anche il PIN",
-    "Niente"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Come chiedere in sicurezza"
   },
   {
-   "image": "chat_reply",
-   "q": "Il messaggio evidenziato chiede la password della banca. Cos'è?",
-   "options": [
-    "Un segnale di truffa: non darla mai",
-    "Una cosa normale",
-    "Un passaggio obbligatorio",
-    "Un regalo"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "p",
+   "text": "Se ti serve aiuto con un documento personale, sostituisci nomi e numeri veri con dati inventati o segnaposto ([NOME], [IMPORTO]). All'IA serve la struttura del problema, non i tuoi dati reali."
+  },
   {
-   "task": "Ti serve aiuto per scrivere un reclamo al padrone di casa, ma non vuoi rivelare nome, indirizzo e affitto. Scrivi un prompt sicuro.",
-   "seconds": 120,
-   "checklist": [
-    "Usi segnaposto invece dei dati veri",
-    "Descrivi chiaramente il problema",
-    "Chiedi tono e lunghezza"
-   ],
-   "example": "Aiutami a scrivere un reclamo al padrone di casa [NOME], che da [NUMERO] settimane non ripara una perdita d'acqua nel bagno dell'appartamento in [INDIRIZZO]. Tono deciso ma gentile, massimo 120 parole."
+   "type": "try",
+   "text": "Aiutami a scrivere un reclamo alla mia banca per un addebito di [IMPORTO] fatto due volte il [DATA]. Mi chiamo [NOME]. Tono deciso ma gentile."
+  },
+  {
+   "type": "h",
+   "text": "Truffe e IA false"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Usa solo le app e i siti ufficiali degli strumenti.",
+    "Attenzione alle app false con nome e logo simili.",
+    "Le voci e le immagini create con l'IA si possono falsificare: se qualcuno ti chiede soldi \"urgentemente\", verifica richiamando tu.",
+    "Nessuno dell'azienda ti chiederà la password in chat."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Al lavoro: prima di caricare documenti aziendali, controlla le regole della tua azienda sull'uso dell'IA."
+  },
+  {
+   "type": "tip",
+   "text": "Nelle impostazioni di Claude puoi verificare se le tue chat vengono usate per migliorare i modelli e disattivarlo.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ha una chat temporanea che non resta nella cronologia e un'impostazione per non usare le tue chat per l'addestramento.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Nel tuo account Google puoi decidere se salvare la tua attività su Gemini e per quanto tempo.",
+   "tool": "gemini"
   }
  ]
 }

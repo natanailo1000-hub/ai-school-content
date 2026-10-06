@@ -1,80 +1,60 @@
 {
- "quick": [
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Šta je „halucinacija“ kod AI-ja?",
-   "options": [
-    "Kad AI izmisli netačan podatak, a zvuči sigurno",
-    "Kad se aplikacija ugasi",
-    "Kad AI odgovori previše kratko",
-    "Kad AI crta slike"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "AI ponekad izmisli činjenice, brojeve ili izvore – a zvuči potpuno sigurno. To se zove „halucinacija“. Dobra vest: lako je naučiti kako da se zaštitiš."
   },
   {
-   "q": "Gde AI najčešće greši?",
-   "options": [
-    "Kod tačnih brojeva, datuma i izvora",
-    "Kod pozdrava",
-    "Kod opštih saveta za pisanje",
-    "Kod ideja za rođendan"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Kada AI najčešće greši"
   },
   {
-   "q": "AI ti je naveo izvor. Šta radiš?",
-   "options": [
-    "Otvorim ga i proverim da li stvarno postoji",
-    "Verujem bez provere",
-    "Obrišem razgovor",
-    "Ništa"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Tačni brojevi, datumi i citati.",
+    "Najnovije vesti i cene.",
+    "Uski stručni detalji (zakoni, lekovi, porezi).",
+    "Linkovi i nazivi knjiga ili istraživanja."
+   ]
   },
   {
-   "q": "Ko odlučuje koji lek piješ?",
-   "options": [
-    "Lekar ili farmaceut",
-    "AI",
-    "Bilo koji sajt",
-    "Komšija"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "U označenom odgovoru AI je napisao tačan datum nekog zakona. Šta radiš?",
-   "options": [
-    "Proverim na zvaničnom sajtu",
-    "Verujem jer zvuči sigurno",
-    "Prepišem ga u ugovor",
-    "Ništa"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "5 trikova za proveru"
   },
   {
-   "image": "chat_input",
-   "q": "Gde možeš da pitaš AI „Koliko si siguran?“",
-   "options": [
-    "U označenom polju za poruku",
-    "U podešavanjima",
-    "Nigde – na to ne odgovara",
-    "U prodavnici aplikacija"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "Pitaj: „Koliko si siguran? Šta od ovoga treba da proverim?“",
+    "Traži izvore – pa ih otvori i proveri da li stvarno postoje.",
+    "Važne stvari proveri na zvaničnom sajtu ili kod stručnjaka.",
+    "Postavi isto pitanje na drugi način i uporedi odgovore.",
+    "Uporedi sa drugim AI alatom."
+   ]
+  },
   {
-   "task": "AI ti je rekao da je neki grad glavni grad države, ali nisi siguran. Napiši poruku kojom ćeš proveriti odgovor.",
-   "seconds": 90,
-   "checklist": [
-    "Traži da kaže koliko je siguran",
-    "Traži izvor",
-    "Planiraj da proveriš na pouzdanom mestu"
-   ],
-   "example": "Koliko si siguran u ovaj odgovor? Navedi mi pouzdan izvor gde mogu da proverim i reci mi da li postoji šansa da grešiš."
+   "type": "try",
+   "text": "Odgovori na moje pitanje, a na kraju posebno navedi koje delove treba da proverim i gde. Pitanje: koliko važi pasoš za odrasle u Srbiji?"
+  },
+  {
+   "type": "tip",
+   "text": "AI je odličan za razumevanje i ideje, ali za konačne odluke o zdravlju, novcu i zakonu uvek pitaj stručnjaka."
+  },
+  {
+   "type": "tip",
+   "text": "Claude će često sam reći kad nije siguran – obrati pažnju na takve rečenice i baš te delove proveri.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT može da pretražuje internet i prikaže linkove ka izvorima – klikni i proveri ih.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Neke verzije Gemini-ja imaju dugme za proveru odgovora preko Google pretrage – iskoristi ga kad je važno.",
+   "tool": "gemini"
   }
  ]
 }

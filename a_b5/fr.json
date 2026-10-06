@@ -1,80 +1,66 @@
 {
- "quick": [
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Que faut-il surtout dire à l'IA pour faire un planning ?",
-   "options": [
-    "Ton objectif, le temps dont tu disposes et tes contraintes",
-    "Seulement ton nom",
-    "Ton film préféré",
-    "Rien"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "L'IA est une excellente planificatrice : elle transforme tes tâches et tes envies en un planning clair. Il suffit de lui dire ce qui compte."
   },
   {
-   "q": "Tu as un problème cardiaque et l'IA t'a donné un programme sportif. Que fais-tu ?",
-   "options": [
-    "Je montre le programme à un médecin avant de commencer",
-    "Je commence à fond",
-    "Je double les exercices",
-    "J'ignore le médecin"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Ce qu'il faut lui dire"
   },
   {
-   "q": "Mercredi, tu ne peux pas suivre le planning. Le plus simple ?",
-   "options": [
-    "Demander à l'IA de réorganiser le planning",
-    "Tout refaire à la main",
-    "Abandonner toute la semaine",
-    "Rien"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "L'objectif – ce que tu veux (te remettre en forme, un voyage sans stress, une semaine plus calme).",
+    "Le temps – combien de jours, d'heures ou de minutes tu as.",
+    "Les contraintes – budget, santé, travail, enfants.",
+    "La forme du plan – par jour, en tableau, en liste d'étapes."
+   ]
   },
   {
-   "q": "Quelle forme de planning est la plus claire pour une semaine ?",
-   "options": [
-    "Un tableau par jour",
-    "Une très longue phrase",
-    "Un poème",
-    "Une image sans texte"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "L'IA t'a donné un programme de voyage (en évidence). Et les prix et horaires ?",
-   "options": [
-    "Je les vérifie sur les sites officiels",
-    "Je les crois sans vérifier",
-    "J'ignore tout le programme",
-    "Je l'envoie tout de suite à tout le monde"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Sport"
   },
   {
-   "image": "chat_user",
-   "q": "Ici, tu as écrit tes tâches. Comment ça s'appelle ?",
-   "options": [
-    "Un prompt",
-    "Un mot de passe",
-    "Une publicité",
-    "La réponse de l'IA"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "try",
+   "text": "Fais-moi un programme de marche et d'exercices sur 4 semaines. J'ai 45 ans, je ne fais pas de sport, je travaille au bureau et j'ai 30 minutes par jour. Chaque semaine doit être un peu plus difficile. Donne-moi un tableau par jour."
+  },
   {
-   "task": "Écris un prompt pour planifier la préparation d'une fête d'anniversaire pour 10 personnes à la maison samedi prochain.",
-   "seconds": 120,
-   "checklist": [
-    "L'objectif (fête pour 10 personnes à la maison)",
-    "Le temps (jusqu'à samedi) et le budget",
-    "La forme (liste par jour ou par tâche)"
-   ],
-   "example": "Aide-moi à organiser une fête d'anniversaire pour 10 personnes chez moi samedi prochain. Mon budget est de 100 euros. Fais une liste de tâches par jour jusqu'à samedi : courses, repas, décoration et ce qu'il faut faire le jour même."
+   "type": "tip",
+   "text": "En cas de problème de santé (cœur, tension, blessures), montre toujours le programme à un médecin. L'IA n'est pas médecin."
+  },
+  {
+   "type": "h",
+   "text": "Voyages"
+  },
+  {
+   "type": "try",
+   "text": "Je prévois 3 jours à Rome avec deux enfants (7 et 11 ans) en juillet. Budget moyen. Fais un programme jour par jour avec 2 ou 3 visites principales, des pauses et des idées de déjeuner pas cher."
+  },
+  {
+   "type": "h",
+   "text": "Ta semaine"
+  },
+  {
+   "type": "p",
+   "text": "Note toutes tes tâches de la semaine, colle-les dans l'IA et demande un planning par jour avec des priorités. Si un imprévu arrive, écris simplement : « Mercredi, je ne peux pas, réorganise »."
+  },
+  {
+   "type": "tip",
+   "text": "Claude peut transformer ton planning en document propre à copier ou enregistrer – demande-le simplement « sous forme de document ».",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Certaines versions de ChatGPT peuvent aussi créer des rappels ou des tâches programmées – regarde ce que propose ton appli.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini peut chercher des infos à jour pour ton voyage (horaires, prix des billets) – vérifie quand même sur le site officiel.",
+   "tool": "gemini"
   }
  ]
 }

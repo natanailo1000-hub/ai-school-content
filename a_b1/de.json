@@ -1,80 +1,43 @@
 {
- "quick": [
+ "id": "a_b1",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Was ist ein KI-Assistent wie Claude?",
-   "options": [
-    "Ein Programm, das aus vielen Texten gelernt hat und Antworten schreibt",
-    "Eine Suchmaschine, die nur Links zeigt",
-    "Ein Mensch, der auf deine Nachrichten antwortet",
-    "Ein Programm, das nur rechnen kann"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "KI (künstliche Intelligenz) ist hier ein Programm, das aus einer riesigen Menge an Texten gelernt hat und jetzt Fragen versteht und Antworten schreibt. Claude, ChatGPT und Gemini sind solche Programme – man nennt sie auch KI-Assistenten."
   },
   {
-   "q": "Wie entsteht die Antwort der KI?",
-   "options": [
-    "Sie sagt Wort für Wort die passendste Antwort voraus",
-    "Sie kopiert die Antwort von einer Website",
-    "Sie fragt einen anderen Menschen",
-    "Sie wählt einen zufälligen Satz"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "So funktioniert es, kurz erklärt"
   },
   {
-   "q": "Was solltest du mit wichtigen Fakten (Gesundheit, Geld, Recht) von der KI tun?",
-   "options": [
-    "Immer nachprüfen",
-    "Ihnen völlig vertrauen",
-    "Sofort teilen",
-    "Sie ignorieren"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Wenn du eine Nachricht schickst, sagt die KI Wort für Wort voraus, welche Antwort am besten passt. Sie schlägt nicht nach wie ein Lexikon, sondern baut die Antwort aus gelernten Mustern."
   },
   {
-   "q": "Wobei kann dir KI helfen?",
-   "options": [
-    "Eine E-Mail oder einen Lebenslauf schreiben",
-    "Dein Auto selbst reparieren",
-    "Für dich telefonieren",
-    "Dein Abendessen kochen"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Wie heißt der markierte Teil?",
-   "options": [
-    "Das Eingabefeld, in das du deinen Prompt schreibst",
-    "Die Antwort der KI",
-    "Das Einstellungsmenü",
-    "Der Chatverlauf"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Was sie für dich tun kann"
   },
   {
-   "image": "chat_reply",
-   "q": "Was zeigt der markierte Teil?",
-   "options": [
-    "Die Antwort der KI",
-    "Deine Nachricht",
-    "Eine Werbung",
-    "Den Senden-Knopf"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "Etwas Kompliziertes in einfachen Worten erklären",
+    "Texte schreiben oder verbessern: E-Mail, Nachricht, Lebenslauf",
+    "Einen Plan machen: Reise, Training, eine volle Arbeitswoche",
+    "Dir helfen, Ideen zu finden"
+   ]
+  },
   {
-   "task": "Du möchtest nächsten Freitag frei haben. Schreib eine Nachricht an Claude, mit der du eine gute E-Mail an deine Chefin oder deinen Chef bekommst.",
-   "seconds": 120,
-   "checklist": [
-    "An wen die E-Mail geht (Chef/Chefin)",
-    "Was du willst (nächsten Freitag frei)",
-    "Den Ton (höflich, kurz)"
-   ],
-   "example": "Schreib eine kurze, höfliche E-Mail an meinen Chef, in der ich um einen freien Tag nächsten Freitag bitte. Erwähne, dass ich meine Aufgaben vorher erledige."
+   "type": "tip",
+   "text": "KI macht manchmal Fehler und klingt dabei sicher. Prüfe wichtige Fakten (Gesundheit, Geld, Recht) immer nach."
+  },
+  {
+   "type": "tip",
+   "text": "Neuer Tipp: Wenn eine Antwort zu kompliziert ist, schreib einfach „Erklär das einfacher“ – die KI versucht es noch einmal."
+  },
+  {
+   "type": "try",
+   "text": "Erkläre mir als absolutem Anfänger in 5 Sätzen, was künstliche Intelligenz ist."
   }
  ]
 }

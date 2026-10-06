@@ -1,80 +1,58 @@
 {
- "quick": [
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "How much text goes on a slide?",
-   "options": [
-    "Little – 3 to 5 short points",
-    "A whole essay",
-    "None, only numbers",
-    "The more the better"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "AI can save you hours on a presentation: from the structure to the slide text and what you'll say."
   },
   {
-   "q": "What are speaker notes?",
-   "options": [
-    "What you'll say with each slide",
-    "A list of images",
-    "The font",
-    "The price of the presentation"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Step 1 – structure"
   },
   {
-   "q": "What do you ask the AI for first?",
-   "options": [
-    "The structure: slide titles and points",
-    "The background colour",
-    "Music",
-    "Nothing"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "I'm making a 10-slide presentation for colleagues on how to cut office costs. Audience: 15 colleagues, 10 minutes. Suggest slide titles and 3 short points for each."
   },
   {
-   "q": "The AI put a statistic on a slide. What do you do?",
-   "options": [
-    "Check the source before presenting",
-    "Leave it unchecked",
-    "Make the number bigger",
-    "Delete all slides"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "The AI gave you a structure (highlighted). You want it shorter. What do you write?",
-   "options": [
-    "\"Cut it to 6 slides\"",
-    "Nothing",
-    "Delete the app",
-    "\"Bye\""
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Step 2 – text and talk"
   },
   {
-   "image": "chat_input",
-   "q": "Where do you describe the audience and length?",
-   "options": [
-    "In the highlighted message box",
-    "In the settings",
-    "In the file name",
-    "Nowhere"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "On the slide: little text, max 3–5 short points.",
+    "Ask the AI for \"speaker notes\" – what to say with each slide.",
+    "Ask for a story or example to open with and grab attention.",
+    "At the end: a clear conclusion and what the audience should do."
+   ]
+  },
   {
-   "task": "Write a prompt for a 5-minute presentation about your hobby for friends.",
-   "seconds": 150,
-   "checklist": [
-    "Topic and audience",
-    "Length and number of slides",
-    "What you want (titles, points, speaker notes)"
-   ],
-   "example": "I'm making a 6-slide presentation for friends about hiking, 5 minutes long. Suggest slide titles, 3 short points each, and short notes on what to say with each."
+   "type": "h",
+   "text": "Step 3 – look"
+  },
+  {
+   "type": "p",
+   "text": "AI can suggest colours, layout and images for each slide. Some tools can even create a ready-made presentation file – which you then polish in PowerPoint or Google Slides."
+  },
+  {
+   "type": "tip",
+   "text": "Check every number and fact on your slides – the audience will remember them."
+  },
+  {
+   "type": "tip",
+   "text": "Claude can create a ready-made PowerPoint file to download (in versions that create files) – just ask for \"a .pptx file\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT can create a presentation file to download and suggest images for the slides.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini works with Google Slides – on some plans it can help you right there.",
+   "tool": "gemini"
   }
  ]
 }

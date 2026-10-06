@@ -1,80 +1,54 @@
 {
- "quick": [
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Qual é um bom pedido para um documento longo?",
-   "options": [
-    "Resumo em 5 tópicos e todos os prazos",
-    "\"Leia\"",
-    "Nada",
-    "\"Legal\""
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Um contrato, relatório ou manual enorme? A IA lê em segundos e tira o que você precisa."
   },
   {
-   "q": "O contrato é complicado. Como a IA ajuda?",
-   "options": [
-    "Explica em linguagem simples",
-    "Assina por você",
-    "Manda para um advogado",
-    "Apaga"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "O que você pode pedir"
   },
   {
-   "q": "Antes de assinar um contrato importante:",
-   "options": [
-    "Consultar um especialista – a IA serve para entender",
-    "Confiar só na IA",
-    "Não ler nada",
-    "Assinar na hora"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Um resumo em 5 tópicos.",
+    "O que é mais importante para você (prazos, preços, obrigações).",
+    "Partes complicadas explicadas em linguagem simples.",
+    "Perguntas que você deve fazer antes de assinar."
+   ]
   },
   {
-   "q": "O documento é muito longo. O que fazer?",
-   "options": [
-    "Pedir para trabalhar por partes",
-    "Desistir",
-    "Mandar só o título",
-    "Nada"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Onde você cola o texto do documento?",
-   "options": [
-    "Na caixa de mensagem destacada",
-    "Nas configurações do celular",
-    "Na loja de apps",
-    "Em lugar nenhum"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Vou colar as condições do meu contrato de internet. Escreva: 1) um resumo em 5 tópicos, 2) todos os prazos e custos, 3) com o que devo tomar cuidado. [cole o texto]"
   },
   {
-   "image": "chat_reply",
-   "q": "A IA fez um resumo (destacado). Um prazo parece estranho. O que fazer?",
-   "options": [
-    "Conferir esse prazo no documento original",
-    "Acreditar",
-    "Ignorar",
-    "Assinar"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Como adicionar um documento"
+  },
   {
-   "task": "Escreva um prompt pedindo a análise dos termos de um app antes de comprá-lo.",
-   "seconds": 150,
-   "checklist": [
-    "Que documento é",
-    "O que te importa (preço, cancelamento, dados)",
-    "Formato da resposta (tópicos, alertas)"
-   ],
-   "example": "Vou colar os termos de um app que quero comprar. Liste em tópicos: quanto custa, como cancelar a assinatura, o que fazem com meus dados e com o que devo tomar cuidado. [texto]"
+   "type": "p",
+   "text": "Você pode colar o texto ou anexar um arquivo (PDF, Word) pelo botão de anexo, se a ferramenta permitir. Para documentos muito longos, peça para trabalhar por partes."
+  },
+  {
+   "type": "tip",
+   "text": "Em contratos, empréstimos e questões legais, a IA ajuda a entender – antes de assinar, consulte um especialista. E não envie documentos com dados pessoais de outras pessoas sem permissão."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude consegue trabalhar com documentos muito longos de uma vez – ótimo para resumos e para comparar documentos.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "No ChatGPT você pode anexar vários arquivos e fazer perguntas sobre eles.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini também pode trabalhar com arquivos do seu Google Drive, se você permitir.",
+   "tool": "gemini"
   }
  ]
 }

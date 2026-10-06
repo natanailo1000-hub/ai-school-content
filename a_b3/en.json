@@ -1,80 +1,66 @@
 {
- "quick": [
+ "id": "a_b3",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "What is a prompt?",
-   "options": [
-    "The message or instruction you send to the AI",
-    "A kind of computer virus",
-    "The send button",
-    "A paid plan"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "A prompt is the message you send to the AI. The clearer your prompt, the better the answer. The AI knows nothing about you except what you write."
   },
   {
-   "q": "Which of these is context?",
-   "options": [
-    "\"This is for my boss, I'm a beginner\"",
-    "\"Write\"",
-    "\"Table\"",
-    "\"Thanks\""
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "The four ingredients of a good prompt"
   },
   {
-   "q": "The answer isn't good. What's best?",
-   "options": [
-    "Say what to change, e.g. \"shorter and more formal\"",
-    "Delete the app",
-    "Send the same prompt 10 times",
-    "Give up"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Task – what exactly you want (write, explain, compare, list).",
+    "Context – who it's for and why (\"for my boss\", \"I'm a beginner\", \"I have 30 minutes\").",
+    "Details or an example – what you already have, what you like and don't like.",
+    "Format – how you want the answer (5 bullet points, a table, short, under 100 words)."
+   ]
   },
   {
-   "q": "Which prompt is best?",
-   "options": [
-    "Give me 3 birthday party ideas for an 8-year-old who loves dinosaurs, budget 50 euros.",
-    "Birthday ideas",
-    "birthday??",
-    "Help"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_user",
-   "q": "What is in the highlighted part?",
-   "options": [
-    "Your prompt – the message you sent",
-    "The AI's answer",
-    "An ad",
-    "The settings"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Same request, two prompts"
   },
   {
-   "image": "chat_reply",
-   "q": "You don't like the highlighted answer. What do you do?",
-   "options": [
-    "Write a new message saying what to change",
-    "Nothing – the AI always knows best",
-    "Turn off the phone",
-    "Buy a new phone"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "p",
+   "text": "Weak: \"Write an Instagram post.\""
+  },
   {
-   "task": "Turn this weak prompt into a strong one: \"write an ad\". You're selling a bike.",
-   "seconds": 150,
-   "checklist": [
-    "The task (an ad for selling a bike)",
-    "Details (type, condition, price)",
-    "Format (length, tone)"
-   ],
-   "example": "Write a short ad for selling a kids' bike (20-inch, red, lightly used) for 60 euros. Friendly tone, max 5 sentences, ending with an invitation to message me."
+   "type": "p",
+   "text": "Strong: \"Write a short, cheerful Instagram post for my bakery, which turns 5 this Saturday. Mention 20% off croissants. Max 3 sentences and 3 hashtags.\""
+  },
+  {
+   "type": "tip",
+   "text": "If the answer isn't good, don't start over – say what to change: \"shorter\", \"more formal\", \"add an example\"."
+  },
+  {
+   "type": "h",
+   "text": "Give it a role"
+  },
+  {
+   "type": "p",
+   "text": "You can start with \"Act as an experienced coach\" or \"You are a maths teacher\". This helps the AI hit the right tone and level."
+  },
+  {
+   "type": "try",
+   "text": "You are an experienced personal trainer. Make me a home workout plan for 3 days a week, 20 minutes each, no equipment. I'm a complete beginner. Give the answer as a table."
+  },
+  {
+   "type": "tip",
+   "text": "With Claude, feel free to write longer, more detailed prompts – it follows long instructions well. You can also paste a whole text and ask it to work with it.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "In ChatGPT you can save lasting instructions about yourself in the settings (for example \"answer briefly\"), so you don't have to repeat them every time.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini can use Google Search, so you can ask for up-to-date information in your prompt – but always check the sources it gives.",
+   "tool": "gemini"
   }
  ]
 }

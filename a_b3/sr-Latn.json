@@ -1,80 +1,66 @@
 {
- "quick": [
+ "id": "a_b3",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Šta je prompt?",
-   "options": [
-    "Poruka ili uputstvo koje šalješ AI-ju",
-    "Vrsta kompjuterskog virusa",
-    "Dugme za slanje",
-    "Plaćeni plan"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Prompt je poruka koju šalješ AI-ju. Što je prompt jasniji, to je odgovor bolji. AI ne zna ništa o tebi osim onoga što mu napišeš."
   },
   {
-   "q": "Šta od ovoga je kontekst?",
-   "options": [
-    "„Ovo je za šefa, ja sam početnik“",
-    "„Napiši“",
-    "„Tabela“",
-    "„Hvala“"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Četiri sastojka dobrog prompta"
   },
   {
-   "q": "Odgovor nije dobar. Šta je najbolje?",
-   "options": [
-    "Reci šta da promeni, npr. „kraće i ozbiljnije“",
-    "Obriši aplikaciju",
-    "Pošalji isti prompt 10 puta",
-    "Odustani"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Zadatak – šta tačno želiš (napiši, objasni, uporedi, napravi spisak).",
+    "Kontekst – za koga je i zašto („za šefa“, „ja sam početnik“, „imam 30 minuta“).",
+    "Detalji ili primer – šta već imaš, šta ti se dopada, a šta ne.",
+    "Format – kakav odgovor želiš (5 tačaka, tabela, kratko, do 100 reči)."
+   ]
   },
   {
-   "q": "Koji prompt je najbolji?",
-   "options": [
-    "Daj mi 3 ideje za rođendan dečaka od 8 godina koji voli dinosauruse, budžet 50 evra.",
-    "Ideje za rođendan",
-    "rođendan??",
-    "Pomoć"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_user",
-   "q": "Šta je u označenom delu?",
-   "options": [
-    "Tvoj prompt – poruka koju si poslao",
-    "Odgovor AI-ja",
-    "Reklama",
-    "Podešavanja"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Isti zahtev, dva prompta"
   },
   {
-   "image": "chat_reply",
-   "q": "Ne dopada ti se označeni odgovor. Šta radiš?",
-   "options": [
-    "Napišeš novu poruku i kažeš šta da promeni",
-    "Ništa – AI uvek zna najbolje",
-    "Ugasiš telefon",
-    "Kupiš novi telefon"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "p",
+   "text": "Slabo: „Napiši objavu za Instagram.“"
+  },
   {
-   "task": "Pretvori ovaj slab prompt u dobar: „napiši oglas“. Prodaješ bicikl.",
-   "seconds": 150,
-   "checklist": [
-    "Zadatak (oglas za prodaju bicikla)",
-    "Detalje (vrsta, stanje, cena)",
-    "Format (dužina, ton)"
-   ],
-   "example": "Napiši kratak oglas za prodaju dečijeg bicikla (20 inča, crveni, malo korišćen) za 60 evra. Prijatan ton, najviše 5 rečenica, a na kraju poziv da mi pošalju poruku."
+   "type": "p",
+   "text": "Dobro: „Napiši kratku, veselu objavu za Instagram za moju pekaru koja ove subote puni 5 godina. Pomeni popust od 20% na kroasane. Najviše 3 rečenice i 3 heštega.“"
+  },
+  {
+   "type": "tip",
+   "text": "Ako odgovor nije dobar, ne kreći ispočetka – reci šta da promeni: „kraće“, „ozbiljnije“, „dodaj primer“."
+  },
+  {
+   "type": "h",
+   "text": "Daj mu ulogu"
+  },
+  {
+   "type": "p",
+   "text": "Možeš da počneš sa „Ponašaj se kao iskusan trener“ ili „Ti si nastavnik matematike“. Tako AI bolje pogodi ton i nivo."
+  },
+  {
+   "type": "try",
+   "text": "Ti si iskusan lični trener. Napravi mi plan vežbanja kod kuće za 3 dana nedeljno, po 20 minuta, bez opreme. Ja sam potpuni početnik. Odgovor daj u obliku tabele."
+  },
+  {
+   "type": "tip",
+   "text": "Kod Claude-a slobodno piši duže i detaljnije promptove – dobro prati duga uputstva. Možeš i da nalepiš ceo tekst i tražiš da radi sa njim.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "U ChatGPT-u možeš u podešavanjima da sačuvaš trajna uputstva o sebi (npr. „odgovaraj kratko“), pa ne moraš svaki put da ih ponavljaš.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može da koristi Google pretragu, pa u promptu slobodno traži aktuelne informacije – ali uvek proveri izvore koje navede.",
+   "tool": "gemini"
   }
  ]
 }

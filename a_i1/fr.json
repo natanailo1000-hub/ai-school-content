@@ -1,80 +1,58 @@
 {
- "quick": [
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Combien de texte sur une diapo ?",
-   "options": [
-    "Peu – 3 à 5 points courts",
-    "Une dissertation entière",
-    "Aucun, seulement des chiffres",
-    "Plus il y en a, mieux c'est"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "L'IA peut te faire gagner des heures sur une présentation : de la structure au texte des diapos et à ce que tu vas dire."
   },
   {
-   "q": "Que sont les notes de l'orateur ?",
-   "options": [
-    "Ce que tu diras pour chaque diapo",
-    "Une liste d'images",
-    "La police",
-    "Le prix de la présentation"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Étape 1 – la structure"
   },
   {
-   "q": "Que demandes-tu d'abord à l'IA ?",
-   "options": [
-    "La structure : titres et points",
-    "La couleur de fond",
-    "De la musique",
-    "Rien"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Je prépare une présentation de 10 diapositives pour des collègues sur la réduction des coûts au bureau. Public : 15 collègues, 10 minutes. Propose des titres de diapos et 3 points courts pour chacune."
   },
   {
-   "q": "L'IA a mis une statistique sur une diapo. Que fais-tu ?",
-   "options": [
-    "Je vérifie la source avant de présenter",
-    "Je la laisse sans vérifier",
-    "J'augmente le chiffre",
-    "Je supprime toutes les diapos"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "L'IA t'a donné une structure (en évidence). Tu la veux plus courte. Qu'écris-tu ?",
-   "options": [
-    "« Réduis à 6 diapos »",
-    "Rien",
-    "Je supprime l'appli",
-    "« Salut »"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Étape 2 – texte et discours"
   },
   {
-   "image": "chat_input",
-   "q": "Où décris-tu le public et la durée ?",
-   "options": [
-    "Dans la zone de message mise en évidence",
-    "Dans les paramètres",
-    "Dans le nom du fichier",
-    "Nulle part"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "Sur la diapo : peu de texte, 3 à 5 points courts maximum.",
+    "Demande à l'IA des « notes de l'orateur » : quoi dire pour chaque diapo.",
+    "Demande une anecdote ou un exemple pour capter l'attention au début.",
+    "À la fin : une conclusion claire et ce que le public doit faire."
+   ]
+  },
   {
-   "task": "Écris un prompt pour une présentation de 5 minutes sur ton loisir, pour des amis.",
-   "seconds": 150,
-   "checklist": [
-    "Le sujet et le public",
-    "La durée et le nombre de diapos",
-    "Ce que tu veux (titres, points, notes)"
-   ],
-   "example": "Je prépare une présentation de 6 diapos pour des amis sur la randonnée, 5 minutes. Propose des titres, 3 points courts par diapo et de courtes notes sur ce que je dois dire."
+   "type": "h",
+   "text": "Étape 3 – l'apparence"
+  },
+  {
+   "type": "p",
+   "text": "L'IA peut proposer couleurs, mise en page et images pour chaque diapo. Certains outils créent même un fichier de présentation prêt, que tu peaufines ensuite dans PowerPoint ou Google Slides."
+  },
+  {
+   "type": "tip",
+   "text": "Vérifie chaque chiffre et chaque fait de tes diapos : le public s'en souviendra."
+  },
+  {
+   "type": "tip",
+   "text": "Claude peut créer un fichier PowerPoint prêt à télécharger (dans les versions qui créent des fichiers) : demande simplement « un fichier .pptx ».",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT peut créer un fichier de présentation à télécharger et proposer des images pour les diapos.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini fonctionne avec Google Slides : avec certaines offres, il t'aide directement dedans.",
+   "tool": "gemini"
   }
  ]
 }

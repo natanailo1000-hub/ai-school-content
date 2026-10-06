@@ -1,80 +1,54 @@
 {
- "quick": [
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Quelle est une bonne demande pour un long document ?",
-   "options": [
-    "Un résumé en 5 points et tous les délais",
-    "« Lis »",
-    "Rien",
-    "« Joli »"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Un long contrat, rapport ou mode d'emploi ? L'IA le lit en quelques secondes et en extrait ce dont tu as besoin."
   },
   {
-   "q": "Le contrat est compliqué. Comment l'IA aide-t-elle ?",
-   "options": [
-    "Elle l'explique simplement",
-    "Elle le signe pour toi",
-    "Elle l'envoie à un avocat",
-    "Elle le supprime"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Ce que tu peux demander"
   },
   {
-   "q": "Avant de signer un contrat important :",
-   "options": [
-    "Demander à un expert – l'IA sert à comprendre",
-    "Ne faire confiance qu'à l'IA",
-    "Ne rien lire",
-    "Signer tout de suite"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Un résumé en 5 points.",
+    "Ce qui compte le plus pour toi (délais, prix, obligations).",
+    "Les passages compliqués expliqués simplement.",
+    "Les questions à poser avant de signer."
+   ]
   },
   {
-   "q": "Le document est très long. Que fais-tu ?",
-   "options": [
-    "Je demande de travailler partie par partie",
-    "J'abandonne",
-    "J'envoie seulement le titre",
-    "Rien"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Où colles-tu le texte du document ?",
-   "options": [
-    "Dans la zone de message mise en évidence",
-    "Dans les réglages du téléphone",
-    "Dans la boutique d'applis",
-    "Nulle part"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Je vais coller les conditions de mon contrat internet. Écris : 1) un résumé en 5 points, 2) tous les délais et les coûts, 3) les points de vigilance. [colle le texte]"
   },
   {
-   "image": "chat_reply",
-   "q": "L'IA a fait un résumé (en évidence). Un délai te paraît bizarre. Que fais-tu ?",
-   "options": [
-    "Je vérifie ce délai dans le document original",
-    "Je le crois",
-    "Je l'ignore",
-    "Je signe"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Comment ajouter un document"
+  },
   {
-   "task": "Écris un prompt pour faire analyser les conditions d'une appli avant de l'acheter.",
-   "seconds": 150,
-   "checklist": [
-    "De quel document il s'agit",
-    "Ce qui t'intéresse (prix, résiliation, données)",
-    "La forme de la réponse (points, alertes)"
-   ],
-   "example": "Je vais coller les conditions d'une appli que je veux acheter. Indique en points : son prix, comment résilier l'abonnement, ce qu'ils font de mes données et ce à quoi je dois faire attention. [texte]"
+   "type": "p",
+   "text": "Tu peux coller le texte ou joindre un fichier (PDF, Word) avec le bouton pièce jointe, si l'outil le permet. Pour les très longs documents, demande-lui de travailler partie par partie."
+  },
+  {
+   "type": "tip",
+   "text": "Pour les contrats, les crédits et le droit, l'IA t'aide à comprendre ; avant de signer, demande à un expert. Et n'importe pas de documents contenant les données personnelles d'autres personnes sans leur accord."
+  },
+  {
+   "type": "tip",
+   "text": "Claude peut traiter de très longs documents d'un coup : il excelle pour les résumés et les comparaisons de documents.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Dans ChatGPT, tu peux ajouter plusieurs fichiers et poser des questions dessus.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini peut aussi travailler avec les fichiers de ton Google Drive, si tu l'autorises.",
+   "tool": "gemini"
   }
  ]
 }

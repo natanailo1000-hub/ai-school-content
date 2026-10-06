@@ -1,80 +1,56 @@
 {
- "quick": [
+ "id": "a_b2_chatgpt",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Koja kompanija je napravila ChatGPT?",
-   "options": [
-    "OpenAI",
-    "Google",
-    "Anthropic",
-    "Microsoft"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "ChatGPT je AI asistent kompanije OpenAI. Besplatno ga možeš koristiti na računaru (sajt chatgpt.com) ili na telefonu (aplikacija ChatGPT sa Google Play-a)."
   },
   {
-   "q": "Gde možeš da koristiš ChatGPT?",
-   "options": [
-    "Na sajtu chatgpt.com ili u aplikaciji",
-    "Samo na televizoru",
-    "Samo telefonskim pozivom",
-    "Samo u prodavnici"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Napravi nalog"
   },
   {
-   "q": "Želiš da pričaš o novoj temi. Šta je najbolje?",
-   "options": [
-    "Otvori novi razgovor",
-    "Obriši aplikaciju",
-    "Piši velikim slovima",
-    "Sačekaj jedan dan"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Otvori chatgpt.com ili instaliraj aplikaciju ChatGPT.",
+    "Prijavi se mejlom ili Google, Microsoft ili Apple nalogom.",
+    "Potvrdi nalog (mejl ili kod), ako to traži.",
+    "Gotovo – vidiš prazno polje za poruku."
+   ]
   },
   {
-   "q": "Koja prva poruka je najbolja?",
-   "options": [
-    "Pomozi mi da napišem kratak, ljubazan mejl stanodavcu o pokvarenom grejanju.",
-    "mejl",
-    "Pomoć",
-    "Napiši nešto"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Gde pišeš poruku za ChatGPT?",
-   "options": [
-    "U označeno polje",
-    "U odgovor iznad",
-    "U podešavanja",
-    "Nigde – on čita misli"
-   ],
-   "answer": 0
+   "type": "tip",
+   "text": "ChatGPT je za osobe od 13+ godina, a do 18 treba dozvola roditelja."
   },
   {
-   "image": "send_button",
-   "q": "Šta radi označeno dugme?",
-   "options": [
-    "Šalje tvoju poruku",
-    "Briše razgovor",
-    "Otvara podešavanja",
-    "Gasi aplikaciju"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Tvoja prva poruka"
+  },
   {
-   "task": "Napiši svoju prvu pravu poruku za ChatGPT: traži da ti isplanira večere za 3 dana od onoga što imaš kod kuće (izaberi 4–5 namirnica).",
-   "seconds": 120,
-   "checklist": [
-    "Šta želiš (plan večera za 3 dana)",
-    "Šta imaš (namirnice)",
-    "Ograničenja (vreme, budžet, bez mesa…)"
-   ],
-   "example": "Isplaniraj mi večere za 3 dana koristeći samo: jaja, krompir, pirinač, paradajz i sir. Svaka večera da traje kraće od 30 minuta. Daj mi kratak spisak za kupovinu za ono što fali."
+   "type": "p",
+   "text": "Klikni u polje za poruku, napiši šta ti treba i pošalji. Piši kao da pišeš pametnom kolegi: normalnim rečenicama, sa detaljima."
+  },
+  {
+   "type": "try",
+   "text": "Zdravo! Ja sam početnik. U 3 kratke tačke reci mi u čemu sve možeš da mi pomogneš u svakodnevnom životu."
+  },
+  {
+   "type": "h",
+   "text": "Dobro je znati"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Besplatna verzija ima ograničen broj poruka, a plaćeni planovi daju više.",
+    "Za novu temu otvori novi razgovor – tako odgovori ostaju jasniji.",
+    "Razgovor možeš da nastaviš: postavi dodatno pitanje ili traži da promeni odgovor.",
+    "Izgled aplikacije se vremenom menja, ali polje za poruku je uvek tu."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT ima mnogo dodatnih mogućnosti – na primer, pravi slike, a možeš i glasom da razgovaraš sa njim."
   }
  ]
 }

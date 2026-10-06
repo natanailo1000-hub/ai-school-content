@@ -1,80 +1,66 @@
 {
- "quick": [
+ "id": "a_b5",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "O que é mais importante dizer à IA ao fazer um plano?",
-   "options": [
-    "Seu objetivo, o tempo que você tem e seus limites",
-    "Só seu nome",
-    "Seu filme favorito",
-    "Nada"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "A IA é ótima para planejar: transforma suas tarefas e desejos em um plano claro. Você só precisa dizer o que é importante."
   },
   {
-   "q": "Você tem um problema no coração e recebeu um plano de treino da IA. O que faz?",
-   "options": [
-    "Mostro o plano a um médico antes de começar",
-    "Começo com tudo",
-    "Dobro os exercícios",
-    "Ignoro o médico"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "O que dizer a ela"
   },
   {
-   "q": "Na quarta você não consegue seguir o plano. O que é mais fácil?",
-   "options": [
-    "Pedir à IA para reorganizar o plano",
-    "Refazer tudo à mão",
-    "Desistir da semana toda",
-    "Nada"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Objetivo – o que você quer (entrar em forma, viagem sem estresse, semana mais tranquila).",
+    "Tempo – quantos dias, horas ou minutos você tem.",
+    "Limites – orçamento, saúde, trabalho, filhos.",
+    "Formato do plano – por dia, em tabela, lista de passos."
+   ]
   },
   {
-   "q": "Qual formato de plano é mais claro para uma semana?",
-   "options": [
-    "Uma tabela por dia",
-    "Uma frase enorme",
-    "Um poema",
-    "Uma imagem sem texto"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "A IA te deu um plano de viagem (destacado). E os preços e horários?",
-   "options": [
-    "Confiro nos sites oficiais",
-    "Acredito sem conferir",
-    "Ignoro o plano todo",
-    "Mando para todo mundo na hora"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Treino"
   },
   {
-   "image": "chat_user",
-   "q": "Aqui você escreveu suas tarefas. Como isso se chama?",
-   "options": [
-    "Um prompt",
-    "Uma senha",
-    "Um anúncio",
-    "A resposta da IA"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "try",
+   "text": "Monte um plano de 4 semanas de caminhada e exercícios. Tenho 45 anos, não treino, trabalho em escritório e tenho 30 minutos por dia. Cada semana deve ser um pouco mais puxada. Me dê uma tabela por dia."
+  },
   {
-   "task": "Escreva um prompt para um plano de preparação de uma festa de aniversário para 10 pessoas em casa no próximo sábado.",
-   "seconds": 120,
-   "checklist": [
-    "O objetivo (festa para 10 pessoas em casa)",
-    "Tempo (até sábado) e orçamento",
-    "Formato (lista por dia ou por tarefa)"
-   ],
-   "example": "Me ajude a organizar uma festa de aniversário para 10 pessoas na minha casa no próximo sábado. Meu orçamento é de 500 reais. Faça uma lista de tarefas por dia até sábado: compras, comida, decoração e o que fazer no próprio dia."
+   "type": "tip",
+   "text": "Se você tem problemas de saúde (coração, pressão, lesões), mostre o plano a um médico antes. A IA não é médica."
+  },
+  {
+   "type": "h",
+   "text": "Viagens"
+  },
+  {
+   "type": "try",
+   "text": "Estou planejando 3 dias em Roma com dois filhos (7 e 11 anos) em julho. Orçamento médio. Faça um plano por dia com 2–3 atrações principais, pausas e ideias de almoço barato."
+  },
+  {
+   "type": "h",
+   "text": "Sua semana"
+  },
+  {
+   "type": "p",
+   "text": "Liste todas as tarefas da semana, cole na IA e peça um plano por dia com prioridades. Se surgir algo, é só escrever \"na quarta não dá, reorganize\"."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude pode transformar seu plano num documento organizado para copiar ou salvar – é só pedir \"em forma de documento\".",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "Algumas versões do ChatGPT também criam lembretes ou tarefas agendadas – veja o que o seu app oferece.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "O Gemini pode buscar informações atuais para sua viagem (horários, preços de ingressos) – mesmo assim, confira no site oficial.",
+   "tool": "gemini"
   }
  ]
 }

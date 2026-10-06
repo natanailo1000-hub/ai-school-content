@@ -1,80 +1,58 @@
 {
- "quick": [
+ "id": "a_i1",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Koliko teksta ide na slajd?",
-   "options": [
-    "Malo – 3 do 5 kratkih tačaka",
-    "Ceo esej",
-    "Ništa, samo brojevi",
-    "Što više, to bolje"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "AI može da ti uštedi sate rada na prezentaciji: od strukture, preko teksta na slajdovima, do onoga što ćeš govoriti."
   },
   {
-   "q": "Šta su beleške za govornika?",
-   "options": [
-    "Šta ćeš govoriti uz svaki slajd",
-    "Spisak slika",
-    "Font",
-    "Cena prezentacije"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Korak 1 – struktura"
   },
   {
-   "q": "Šta prvo tražiš od AI-ja?",
-   "options": [
-    "Strukturu: naslove slajdova i tačke",
-    "Boju pozadine",
-    "Muziku",
-    "Ništa"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Pravim prezentaciju od 10 slajdova za kolege na temu: kako smanjiti troškove u kancelariji. Publika: 15 kolega, 10 minuta. Predloži naslove slajdova i po 3 kratke tačke za svaki."
   },
   {
-   "q": "AI je stavio statistiku na slajd. Šta radiš?",
-   "options": [
-    "Proverim izvor pre prezentovanja",
-    "Ostavim bez provere",
-    "Povećam broj",
-    "Obrišem sve slajdove"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "AI ti je dao strukturu (označeno). Hoćeš kraću. Šta pišeš?",
-   "options": [
-    "„Skrati na 6 slajdova“",
-    "Ništa",
-    "Obrišem aplikaciju",
-    "„Ćao“"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Korak 2 – tekst i govor"
   },
   {
-   "image": "chat_input",
-   "q": "Gde opisuješ publiku i trajanje?",
-   "options": [
-    "U označenom polju za poruku",
-    "U podešavanjima",
-    "U nazivu fajla",
-    "Nigde"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "Na slajdu: malo teksta, najviše 3–5 kratkih tačaka.",
+    "Traži od AI-ja „beleške za govornika“ – šta da kažeš uz svaki slajd.",
+    "Traži priču ili primer za početak, da privučeš pažnju.",
+    "Na kraju: jasan zaključak i šta publika treba da uradi."
+   ]
+  },
   {
-   "task": "Napiši prompt za prezentaciju od 5 minuta o svom hobiju za prijatelje.",
-   "seconds": 150,
-   "checklist": [
-    "Tema i publika",
-    "Trajanje i broj slajdova",
-    "Šta tražiš (naslovi, tačke, beleške za govor)"
-   ],
-   "example": "Pravim prezentaciju od 6 slajdova za prijatelje o planinarenju, traje 5 minuta. Predloži naslove, po 3 kratke tačke i kratke beleške šta da kažem uz svaki slajd."
+   "type": "h",
+   "text": "Korak 3 – izgled"
+  },
+  {
+   "type": "p",
+   "text": "AI može da ti predloži boje, raspored i slike za svaki slajd. Neki alati mogu i da naprave gotov fajl prezentacije, koji posle doteraš u PowerPointu ili Google prezentacijama."
+  },
+  {
+   "type": "tip",
+   "text": "Proveri svaki broj i činjenicu na slajdovima – publika će ih zapamtiti."
+  },
+  {
+   "type": "tip",
+   "text": "Claude može da napravi gotov PowerPoint fajl za preuzimanje (u verzijama koje prave fajlove) – samo traži „.pptx fajl“.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT može da napravi fajl prezentacije za preuzimanje i da predloži slike za slajdove.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini radi sa Google prezentacijama (Slides) – u nekim planovima može da ti pomogne direktno tamo.",
+   "tool": "gemini"
   }
  ]
 }

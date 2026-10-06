@@ -1,80 +1,54 @@
 {
- "quick": [
+ "id": "a_i2",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Šta je dobar zahtev za dugačak dokument?",
-   "options": [
-    "Sažetak u 5 tačaka i svi rokovi",
-    "„Pročitaj“",
-    "Ništa",
-    "„Lepo“"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Dugačak ugovor, izveštaj ili uputstvo? AI ga pročita za nekoliko sekundi i izvuče ono što ti treba."
   },
   {
-   "q": "Ugovor je komplikovan. Kako AI pomaže?",
-   "options": [
-    "Objasni ga običnim jezikom",
-    "Potpiše ga umesto tebe",
-    "Pošalje ga advokatu",
-    "Obriše ga"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Šta možeš da tražiš"
   },
   {
-   "q": "Pre potpisivanja važnog ugovora:",
-   "options": [
-    "Pitaš stručnjaka – AI služi za razumevanje",
-    "Veruješ samo AI-ju",
-    "Ništa ne čitaš",
-    "Odmah potpišeš"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Sažetak u 5 tačaka.",
+    "Šta je najvažnije za tebe (rokovi, cene, obaveze).",
+    "Objašnjenje komplikovanih delova običnim jezikom.",
+    "Pitanja koja treba da postaviš pre potpisivanja."
+   ]
   },
   {
-   "q": "Dokument je jako dugačak. Šta radiš?",
-   "options": [
-    "Tražiš da radi deo po deo",
-    "Odustaneš",
-    "Pošalješ samo naslov",
-    "Ništa"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Gde nalepiš tekst dokumenta?",
-   "options": [
-    "U označeno polje za poruku",
-    "U podešavanja telefona",
-    "U prodavnicu aplikacija",
-    "Nigde"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Nalepiću ti uslove ugovora za internet. Napiši: 1) sažetak u 5 tačaka, 2) sve rokove i troškove, 3) na šta da pazim. [nalepi tekst]"
   },
   {
-   "image": "chat_reply",
-   "q": "AI je napravio sažetak (označeno). Jedan rok ti deluje čudno. Šta radiš?",
-   "options": [
-    "Proverim taj rok u originalnom dokumentu",
-    "Verujem",
-    "Ignorišem",
-    "Potpišem"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Kako da ubaciš dokument"
+  },
   {
-   "task": "Napiši prompt kojim tražiš analizu uslova korišćenja aplikacije pre nego što je kupiš.",
-   "seconds": 150,
-   "checklist": [
-    "Koji je dokument",
-    "Šta te zanima (cena, otkazivanje, podaci)",
-    "Oblik odgovora (tačke, upozorenja)"
-   ],
-   "example": "Nalepiću ti uslove korišćenja aplikacije koju želim da kupim. Napiši mi u tačkama: koliko košta, kako da otkažem pretplatu, šta rade sa mojim podacima i na šta posebno da pazim. [tekst]"
+   "type": "p",
+   "text": "Možeš da nalepiš tekst ili da dodaš fajl (PDF, Word) preko dugmeta za prilog, ako alat to podržava. Za vrlo duge dokumente traži da radi deo po deo."
+  },
+  {
+   "type": "tip",
+   "text": "Kod ugovora, kredita i zakona AI ti pomaže da razumeš – pre potpisivanja pitaj stručnjaka. I ne ubacuj dokumente sa tuđim ličnim podacima bez dozvole."
+  },
+  {
+   "type": "tip",
+   "text": "Claude može odjednom da radi sa veoma dugim dokumentima – odličan je za sažetke i poređenje dokumenata.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "U ChatGPT možeš da dodaš više fajlova i postavljaš pitanja o njima.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini može da radi i sa fajlovima sa tvog Google Drive-a, ako mu to dozvoliš.",
+   "tool": "gemini"
   }
  ]
 }

@@ -1,80 +1,60 @@
 {
- "quick": [
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Was ist eine KI-\"Halluzination\"?",
-   "options": [
-    "Wenn die KI falsche Infos erfindet, aber sicher klingt",
-    "Wenn die App abstürzt",
-    "Wenn die KI zu kurz antwortet",
-    "Wenn die KI Bilder malt"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "KI erfindet manchmal Fakten, Zahlen oder Quellen – und klingt dabei völlig sicher. Das nennt man \"Halluzination\". Die gute Nachricht: Man kann leicht lernen, sich davor zu schützen."
   },
   {
-   "q": "Wo macht KI am häufigsten Fehler?",
-   "options": [
-    "Genaue Zahlen, Daten und Quellen",
-    "Begrüßungen",
-    "Allgemeine Schreibtipps",
-    "Geburtstagsideen"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Wann KI am häufigsten Fehler macht"
   },
   {
-   "q": "Die KI nennt dir eine Quelle. Was tust du?",
-   "options": [
-    "Öffnen und prüfen, ob es sie wirklich gibt",
-    "Ungeprüft glauben",
-    "Den Chat löschen",
-    "Nichts"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Genaue Zahlen, Daten und Zitate.",
+    "Neueste Nachrichten und Preise.",
+    "Spezielle Fachdetails (Gesetze, Medikamente, Steuern).",
+    "Links und Titel von Büchern oder Studien."
+   ]
   },
   {
-   "q": "Wer entscheidet, welches Medikament du nimmst?",
-   "options": [
-    "Arzt oder Apotheker",
-    "Die KI",
-    "Irgendeine Website",
-    "Dein Nachbar"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "In der markierten Antwort nennt die KI das genaue Datum eines Gesetzes. Was tust du?",
-   "options": [
-    "Auf einer offiziellen Website prüfen",
-    "Glauben, weil es sicher klingt",
-    "In einen Vertrag kopieren",
-    "Nichts"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "5 Tricks zum Prüfen"
   },
   {
-   "image": "chat_input",
-   "q": "Wo kannst du die KI fragen: \"Wie sicher bist du?\"",
-   "options": [
-    "Im markierten Nachrichtenfeld",
-    "In den Einstellungen",
-    "Nirgends – darauf antwortet sie nicht",
-    "Im App-Store"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "Frag: \"Wie sicher bist du? Was sollte ich hier nachprüfen?\"",
+    "Bitte um Quellen – öffne sie und prüfe, ob es sie wirklich gibt.",
+    "Prüfe Wichtiges auf einer offiziellen Website oder bei Fachleuten.",
+    "Stell dieselbe Frage anders und vergleiche.",
+    "Vergleiche mit einem anderen KI-Tool."
+   ]
+  },
   {
-   "task": "Die KI hat gesagt, eine Stadt sei die Hauptstadt eines Landes, aber du bist unsicher. Schreib eine Nachricht, um die Antwort zu prüfen.",
-   "seconds": 90,
-   "checklist": [
-    "Frag, wie sicher sie ist",
-    "Bitte um eine Quelle",
-    "Plane, es an einer zuverlässigen Stelle zu prüfen"
-   ],
-   "example": "Wie sicher bist du bei dieser Antwort? Nenne mir eine zuverlässige Quelle, wo ich das prüfen kann, und sag mir, ob du dich irren könntest."
+   "type": "try",
+   "text": "Beantworte meine Frage und liste am Ende separat auf, welche Teile ich nachprüfen sollte und wo. Frage: Wie lange ist ein Reisepass für Erwachsene in Deutschland gültig?"
+  },
+  {
+   "type": "tip",
+   "text": "KI ist super zum Verstehen und für Ideen, aber bei endgültigen Entscheidungen zu Gesundheit, Geld und Recht frag immer Fachleute."
+  },
+  {
+   "type": "tip",
+   "text": "Claude sagt oft selbst, wenn es unsicher ist – achte auf solche Sätze und prüfe genau diese Stellen.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT kann im Internet suchen und Links zu Quellen zeigen – klick sie an und prüfe sie.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Manche Versionen von Gemini bieten einen Knopf, um die Antwort mit der Google-Suche zu überprüfen – nutze ihn, wenn es wichtig ist.",
+   "tool": "gemini"
   }
  ]
 }

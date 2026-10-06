@@ -1,80 +1,60 @@
 {
- "quick": [
+ "id": "a_b6",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "O que é uma \"alucinação\" da IA?",
-   "options": [
-    "Quando a IA inventa uma informação errada, mas parece segura",
-    "Quando o app trava",
-    "Quando a IA responde curto demais",
-    "Quando a IA desenha"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Às vezes a IA inventa fatos, números ou fontes – e parece totalmente segura. Isso se chama \"alucinação\". A boa notícia: é fácil aprender a se proteger."
   },
   {
-   "q": "Onde a IA mais erra?",
-   "options": [
-    "Números exatos, datas e fontes",
-    "Cumprimentos",
-    "Dicas gerais de escrita",
-    "Ideias de aniversário"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Quando a IA mais erra"
   },
   {
-   "q": "A IA te deu uma fonte. O que fazer?",
-   "options": [
-    "Abrir e conferir se ela existe mesmo",
-    "Acreditar sem conferir",
-    "Apagar o chat",
-    "Nada"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Números exatos, datas e citações.",
+    "Notícias e preços mais recentes.",
+    "Detalhes técnicos específicos (leis, remédios, impostos).",
+    "Links e títulos de livros ou estudos."
+   ]
   },
   {
-   "q": "Quem decide qual remédio você toma?",
-   "options": [
-    "Um médico ou farmacêutico",
-    "A IA",
-    "Qualquer site",
-    "Seu vizinho"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "Na resposta destacada, a IA escreveu a data exata de uma lei. O que fazer?",
-   "options": [
-    "Conferir num site oficial",
-    "Acreditar porque parece segura",
-    "Copiar num contrato",
-    "Nada"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "5 truques para conferir"
   },
   {
-   "image": "chat_input",
-   "q": "Onde você pode perguntar à IA \"Quão seguro você está?\"",
-   "options": [
-    "Na caixa de mensagem destacada",
-    "Nas configurações",
-    "Em lugar nenhum, ela não responde isso",
-    "Na loja de apps"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "list",
+   "items": [
+    "Pergunte: \"Quão seguro você está? O que eu devo conferir?\"",
+    "Peça fontes – abra e veja se existem mesmo.",
+    "Confira o que é importante num site oficial ou com um especialista.",
+    "Faça a mesma pergunta de outro jeito e compare.",
+    "Compare com outra ferramenta de IA."
+   ]
+  },
   {
-   "task": "A IA disse que uma cidade é a capital de um país, mas você não tem certeza. Escreva uma mensagem para conferir a resposta.",
-   "seconds": 90,
-   "checklist": [
-    "Peça para dizer quão segura está",
-    "Peça uma fonte",
-    "Planeje conferir num lugar confiável"
-   ],
-   "example": "Quão seguro você está dessa resposta? Me dê uma fonte confiável onde eu possa conferir e diga se existe chance de você estar errado."
+   "type": "try",
+   "text": "Responda minha pergunta e, no final, liste separadamente quais partes devo conferir e onde. Pergunta: quanto tempo vale o passaporte de adulto no Brasil?"
+  },
+  {
+   "type": "tip",
+   "text": "A IA é ótima para entender e ter ideias, mas para decisões finais sobre saúde, dinheiro e leis, sempre consulte um especialista."
+  },
+  {
+   "type": "tip",
+   "text": "O Claude costuma dizer quando não tem certeza – preste atenção nessas frases e confira justamente essas partes.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "O ChatGPT pode pesquisar na internet e mostrar links das fontes – clique e confira.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Algumas versões do Gemini têm um botão para conferir a resposta com a Pesquisa Google – use quando for importante.",
+   "tool": "gemini"
   }
  ]
 }

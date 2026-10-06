@@ -1,80 +1,49 @@
 {
- "quick": [
+ "id": "a_i3",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Come ottieni una formula dall'IA?",
-   "options": [
-    "Descrivendo a parole cosa calcolare e dove sono i dati",
-    "Mandando la password",
-    "Dicendo solo \"formula\"",
-    "Non si può"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "L'IA è ottima per budget, tabelle e formule di Excel o Fogli Google, anche se non ami i numeri."
   },
   {
-   "q": "Prima di fidarti di una formula:",
-   "options": [
-    "La controlli su qualche esempio",
-    "La usi subito per tutto",
-    "Cancelli la tabella",
-    "Niente"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Budget familiare"
   },
   {
-   "q": "Cos'è la regola 50/30/20?",
-   "options": [
-    "Dividere il reddito tra bisogni, desideri e risparmi",
-    "Una velocità di internet",
-    "Una ricetta",
-    "Un voto scolastico"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Il mio reddito mensile è [IMPORTO]. Spese: affitto, cibo, trasporti, bollette, telefono. Fammi una tabella di budget con quanto mettere da parte per ogni voce e per i risparmi, secondo la regola 50/30/20, e spiegami la regola."
   },
   {
-   "q": "L'IA ha sommato numeri nella chat. Cosa è furbo?",
-   "options": [
-    "Controllare o chiedere di usare una tabella",
-    "Crederci senza controllare",
-    "Moltiplicare per 2",
-    "Niente"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "L'IA ha scritto una formula (evidenziata). Non la capisci. Cosa scrivi?",
-   "options": [
-    "\"Spiega la formula passo dopo passo\"",
-    "Niente",
-    "\"Ciao\"",
-    "Cancello la tabella"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Formule"
   },
   {
-   "image": "chat_user",
-   "q": "Nel messaggio evidenziato descrivi la tabella. Cosa è importante scrivere?",
-   "options": [
-    "Quali dati ci sono in ogni colonna",
-    "La password",
-    "Il numero della carta",
-    "Niente"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "p",
+   "text": "Descrivi a parole cosa vuoi e l'IA scrive la formula. Per esempio: \"Nella colonna B ci sono i prezzi, nella C le quantità. Mi serve il totale in D1.\""
+  },
   {
-   "task": "Scrivi un prompt per una formula che calcoli la media dei voti della colonna C.",
-   "seconds": 150,
-   "checklist": [
-    "Dove sono i dati (colonna, righe)",
-    "Cosa calcolare",
-    "Quale programma (Excel o Fogli Google) e una spiegazione"
-   ],
-   "example": "In Excel, nella colonna C da C2 a C30 ci sono i voti. Scrivi una formula che calcoli la media arrotondata a 2 decimali e spiegala in modo semplice."
+   "type": "try",
+   "text": "In un foglio Google, la colonna A ha le date e la colonna B gli importi delle spese. Scrivi una formula che sommi solo le spese di ottobre e spiegala passo dopo passo."
+  },
+  {
+   "type": "tip",
+   "text": "Controlla a mano il risultato di una formula su qualche esempio prima di fidarti. E per le somme dentro la chat: a volte l'IA sbaglia i conti, quindi chiedi di usare una tabella o uno strumento di calcolo."
+  },
+  {
+   "type": "tip",
+   "text": "Claude può analizzare una tabella che aggiungi (per esempio CSV o Excel) e creare un grafico o un report.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT può aprire un file Excel, fare i calcoli e creare grafici.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini funziona anche dentro Fogli Google, dove può aiutarti direttamente (con alcuni piani).",
+   "tool": "gemini"
   }
  ]
 }

@@ -1,80 +1,49 @@
 {
- "quick": [
+ "id": "a_i3",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Wie bekommst du eine Formel von der KI?",
-   "options": [
-    "In Worten beschreiben, was berechnet werden soll und wo die Daten stehen",
-    "Dein Passwort schicken",
-    "Nur \"Formel\" sagen",
-    "Gar nicht"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "KI ist super für Budgets, Tabellen und Formeln in Excel oder Google Tabellen – auch wenn du Zahlen nicht magst."
   },
   {
-   "q": "Bevor du einer Formel vertraust:",
-   "options": [
-    "An ein paar Beispielen prüfen",
-    "Sofort überall nutzen",
-    "Die Tabelle löschen",
-    "Nichts"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Haushaltsbudget"
   },
   {
-   "q": "Was ist die 50/30/20-Regel?",
-   "options": [
-    "Einkommen aufteilen in Bedarf, Wünsche und Sparen",
-    "Eine Internetgeschwindigkeit",
-    "Ein Rezept",
-    "Eine Schulnote"
-   ],
-   "answer": 0
+   "type": "try",
+   "text": "Mein monatliches Einkommen ist [BETRAG]. Ausgaben: Miete, Essen, Verkehr, Rechnungen, Handy. Erstelle mir eine Budgettabelle mit Vorschlägen, wie viel ich für jeden Posten und zum Sparen zurücklegen sollte, nach der 50/30/20-Regel, und erkläre die Regel."
   },
   {
-   "q": "Die KI hat im Chat Zahlen addiert. Was ist klug?",
-   "options": [
-    "Nachprüfen oder sie eine Tabelle nutzen lassen",
-    "Ungeprüft glauben",
-    "Mal 2 nehmen",
-    "Nichts"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_reply",
-   "q": "Die KI hat eine Formel geschrieben (markiert). Du verstehst sie nicht. Was schreibst du?",
-   "options": [
-    "\"Erkläre die Formel Schritt für Schritt\"",
-    "Nichts",
-    "\"Tschüss\"",
-    "Die Tabelle löschen"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Formeln"
   },
   {
-   "image": "chat_user",
-   "q": "In der markierten Nachricht beschreibst du deine Tabelle. Was ist wichtig?",
-   "options": [
-    "Welche Spalte welche Daten enthält",
-    "Dein Passwort",
-    "Deine Kartennummer",
-    "Nichts"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "p",
+   "text": "Beschreib in Worten, was du willst, und die KI schreibt die Formel. Zum Beispiel: \"In Spalte B stehen Preise, in Spalte C Mengen. Ich brauche die Gesamtsumme in D1.\""
+  },
   {
-   "task": "Schreib einen Prompt für eine Formel, die den Notendurchschnitt aus Spalte C berechnet.",
-   "seconds": 150,
-   "checklist": [
-    "Wo die Daten stehen (Spalte, Zeilen)",
-    "Was berechnet werden soll",
-    "Welches Programm (Excel oder Google Tabellen) und eine Erklärung"
-   ],
-   "example": "In Excel stehen in Spalte C von C2 bis C30 Noten. Schreib eine Formel, die den Durchschnitt auf 2 Nachkommastellen gerundet berechnet, und erkläre sie einfach."
+   "type": "try",
+   "text": "In einer Google-Tabelle stehen in Spalte A Daten und in Spalte B Ausgaben. Schreib eine Formel, die nur die Ausgaben im Oktober addiert, und erkläre sie Schritt für Schritt."
+  },
+  {
+   "type": "tip",
+   "text": "Prüfe das Ergebnis einer Formel an ein paar Beispielen von Hand, bevor du ihr vertraust. Und bei Summen direkt im Chat: KI verrechnet sich manchmal, also bitte sie, eine Tabelle oder ein Rechenwerkzeug zu nutzen."
+  },
+  {
+   "type": "tip",
+   "text": "Claude kann eine hinzugefügte Tabelle (z. B. CSV oder Excel) analysieren und ein Diagramm oder einen Bericht erstellen.",
+   "tool": "claude"
+  },
+  {
+   "type": "tip",
+   "text": "ChatGPT kann eine Excel-Datei öffnen, rechnen und Diagramme erstellen.",
+   "tool": "chatgpt"
+  },
+  {
+   "type": "tip",
+   "text": "Gemini arbeitet auch in Google Tabellen und kann dort direkt helfen (in manchen Plänen).",
+   "tool": "gemini"
   }
  ]
 }

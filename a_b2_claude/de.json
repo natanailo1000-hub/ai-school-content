@@ -1,80 +1,56 @@
 {
- "quick": [
+ "id": "a_b2_claude",
+ "updated": "2026-10-06",
+ "blocks": [
   {
-   "q": "Welche Firma hat Claude entwickelt?",
-   "options": [
-    "Anthropic",
-    "OpenAI",
-    "Google",
-    "Microsoft"
-   ],
-   "answer": 0
+   "type": "p",
+   "text": "Claude ist ein KI-Assistent von Anthropic. Du kannst ihn kostenlos am Computer (Website claude.ai) oder am Handy (App Claude aus Google Play) nutzen."
   },
   {
-   "q": "Wo kannst du Claude nutzen?",
-   "options": [
-    "Auf der Website claude.ai oder in der App",
-    "Nur am Fernseher",
-    "Nur per Telefonanruf",
-    "Nur im Geschäft"
-   ],
-   "answer": 0
+   "type": "h",
+   "text": "Konto erstellen"
   },
   {
-   "q": "Du willst über ein neues Thema sprechen. Was ist am besten?",
-   "options": [
-    "Einen neuen Chat starten",
-    "Die App löschen",
-    "In Großbuchstaben schreiben",
-    "Einen Tag warten"
-   ],
-   "answer": 0
+   "type": "list",
+   "items": [
+    "Öffne claude.ai oder installiere die App Claude.",
+    "Melde dich mit deiner E-Mail oder deinem Google-Konto an.",
+    "Bestätige dein Konto (E-Mail oder Code), falls gefragt.",
+    "Fertig – du siehst ein leeres Feld für deine Nachricht."
+   ]
   },
   {
-   "q": "Welche erste Nachricht ist am besten?",
-   "options": [
-    "Hilf mir, eine kurze, höfliche E-Mail an meinen Vermieter wegen der kaputten Heizung zu schreiben.",
-    "E-Mail",
-    "Hilfe",
-    "Schreib was"
-   ],
-   "answer": 0
-  }
- ],
- "image": [
-  {
-   "image": "chat_input",
-   "q": "Wo schreibst du deine Nachricht an Claude?",
-   "options": [
-    "In das markierte Feld",
-    "In die Antwort oben",
-    "In die Einstellungen",
-    "Nirgends – es liest Gedanken"
-   ],
-   "answer": 0
+   "type": "tip",
+   "text": "Claude ist nur für Personen ab 18 Jahren."
   },
   {
-   "image": "send_button",
-   "q": "Was macht der markierte Knopf?",
-   "options": [
-    "Er sendet deine Nachricht",
-    "Er löscht den Chat",
-    "Er öffnet die Einstellungen",
-    "Er schaltet die App aus"
-   ],
-   "answer": 0
-  }
- ],
- "challenge": [
+   "type": "h",
+   "text": "Deine erste Nachricht"
+  },
   {
-   "task": "Schreib deine erste echte Nachricht an Claude: Lass dir Abendessen für 3 Tage planen, mit dem, was du zu Hause hast (wähle 4–5 Zutaten).",
-   "seconds": 120,
-   "checklist": [
-    "Was du willst (Abendessen für 3 Tage)",
-    "Was du hast (die Zutaten)",
-    "Grenzen (Zeit, Budget, kein Fleisch …)"
-   ],
-   "example": "Plane Abendessen für 3 Tage nur mit: Eiern, Kartoffeln, Reis, Tomaten und Käse. Jedes Essen soll unter 30 Minuten dauern. Gib mir eine kurze Einkaufsliste für alles Zusätzliche."
+   "type": "p",
+   "text": "Tippe ins Nachrichtenfeld, schreib, was du brauchst, und schick es ab. Schreib wie an eine kluge Kollegin: normale Sätze, mit Details."
+  },
+  {
+   "type": "try",
+   "text": "Hallo! Ich bin Anfänger. Sag mir in 3 kurzen Punkten, wobei du mir im Alltag helfen kannst."
+  },
+  {
+   "type": "h",
+   "text": "Gut zu wissen"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Die kostenlose Version hat eine begrenzte Anzahl Nachrichten; bezahlte Pläne bieten mehr.",
+    "Für ein neues Thema starte einen neuen Chat – so bleiben die Antworten klarer.",
+    "Du kannst das Gespräch fortsetzen: Stell eine Nachfrage oder bitte um eine Änderung.",
+    "Das Aussehen der App ändert sich, aber das Nachrichtenfeld ist immer da."
+   ]
+  },
+  {
+   "type": "tip",
+   "text": "Claude ist besonders gut im Schreiben, im klaren Erklären und im Arbeiten mit langen Texten und Dokumenten."
   }
  ]
 }
