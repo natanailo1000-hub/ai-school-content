@@ -1,66 +1,80 @@
 {
- "id": "k_p2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI can help with an essay or a report – but in a fair way. The goal is for YOU to learn to write."
+   "q": "What's a fair way to use AI for an essay?",
+   "options": [
+    "Getting help with ideas and feedback on your text",
+    "Letting it write the whole essay",
+    "Copying its text",
+    "Lying to the teacher"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "The AI corrected a spelling mistake. What's best?",
+   "options": [
+    "Ask why it's a mistake, so you learn",
+    "Ignore it",
+    "Delete the text",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "You're not sure if AI is allowed for homework. What do you do?",
+   "options": [
+    "Ask the teacher",
+    "Use it secretly",
+    "Lie",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "What does \"don't write it for me\" in a prompt mean?",
+   "options": [
+    "You want help, but you'll write it yourself",
+    "The AI does nothing",
+    "The AI deletes the text",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI wrote a whole essay (highlighted). What's fair?",
+   "options": [
+    "Not handing it in as mine – I write my own",
+    "Hand it in",
+    "Change one word and hand it in",
+    "Send it to a friend"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Allowed and useful"
-  },
+   "image": "chat_user",
+   "q": "You pasted your essay in the highlighted message. What are you asking for?",
+   "options": [
+    "Tips on what to improve",
+    "To delete it",
+    "To translate it into Chinese",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Helping you come up with ideas and a plan.",
-    "Explaining a topic you don't understand.",
-    "Reading your text and saying what could be better.",
-    "Correcting your spelling and explaining the mistakes."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Not fair"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Letting the AI write the whole essay and handing it in as yours.",
-    "Copying the AI's sentences without understanding them.",
-    "Saying you didn't use AI when you did."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Ask your teacher what's allowed. If you use AI, be honest and say how you used it."
-  },
-  {
-   "type": "try",
-   "text": "I'm writing an essay called \"My best day ever\". Don't write it for me! Ask me 5 questions to help me remember the details, then suggest a plan: introduction, middle, ending."
-  },
-  {
-   "type": "h",
-   "text": "When you've written it"
-  },
-  {
-   "type": "try",
-   "text": "Here is my essay: [paste text]. Don't rewrite all of it. Tell me 3 things that are good and 3 things I could improve, and explain why."
+   "task": "Write a prompt asking for help with a report about an animal, so that you still write it yourself.",
+   "seconds": 120,
+   "checklist": [
+    "The topic of the report",
+    "Clearly say it shouldn't write it for you",
+    "What you want (a plan, questions, explanations)"
+   ],
+   "example": "I'm writing a report about bees. Don't write it for me. Suggest a plan with 4 parts and, for each part, 2 questions my text should answer."
   }
  ]
 }

@@ -1,66 +1,80 @@
 {
- "id": "k_p2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA può aiutarti con un tema o una relazione, ma in modo onesto. L'obiettivo è che TU impari a scrivere."
+   "q": "Qual è un modo onesto di usare l'IA per un tema?",
+   "options": [
+    "Farsi aiutare con le idee e un parere sul tuo testo",
+    "Fargli scrivere tutto il tema",
+    "Copiare il suo testo",
+    "Mentire all'insegnante"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
-   "tool": "claude"
+   "q": "L'IA ha corretto un errore di ortografia. Cosa è meglio?",
+   "options": [
+    "Chiedere perché è un errore, per imparare",
+    "Ignorarlo",
+    "Cancellare il testo",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
-   "tool": "chatgpt"
+   "q": "Non sai se l'IA è permessa per i compiti. Cosa fai?",
+   "options": [
+    "Lo chiedo all'insegnante",
+    "La uso di nascosto",
+    "Mento",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
-   "tool": "gemini"
+   "q": "Cosa significa \"non scriverlo al posto mio\" in un prompt?",
+   "options": [
+    "Vuoi aiuto, ma lo scrivi tu",
+    "L'IA non fa niente",
+    "L'IA cancella il testo",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ha scritto tutto il tema (evidenziato). Cosa è onesto?",
+   "options": [
+    "Non consegnarlo come mio e scrivere il mio",
+    "Consegnarlo",
+    "Cambiare una parola e consegnarlo",
+    "Mandarlo a un amico"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Permesso e utile"
-  },
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato hai incollato il tuo tema. Cosa chiedi?",
+   "options": [
+    "Consigli su cosa migliorare",
+    "Di cancellarlo",
+    "Di tradurlo in cinese",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Aiutarti a trovare idee e un piano.",
-    "Spiegarti un argomento che non capisci.",
-    "Leggere il tuo testo e dire cosa si può migliorare.",
-    "Correggere l'ortografia e spiegarti gli errori."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Non è onesto"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Far scrivere all'IA tutto il tema e consegnarlo come tuo.",
-    "Copiare frasi dell'IA senza capirle.",
-    "Dire che non hai usato l'IA quando invece l'hai usata."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Chiedi all'insegnante cosa è permesso. Se usi l'IA, sii sincero e di' come l'hai usata."
-  },
-  {
-   "type": "try",
-   "text": "Sto scrivendo un tema su \"Il giorno più bello della mia vita\". Non scriverlo al posto mio! Fammi 5 domande che mi aiutino a ricordare i dettagli e poi proponi un piano: introduzione, svolgimento, conclusione."
-  },
-  {
-   "type": "h",
-   "text": "Quando l'hai scritto"
-  },
-  {
-   "type": "try",
-   "text": "Ecco il mio tema: [incolla il testo]. Non riscriverlo tutto. Dimmi 3 cose belle e 3 che posso migliorare, spiegando perché."
+   "task": "Scrivi un prompt per chiedere aiuto per una relazione su un animale, ma in modo da scriverla tu.",
+   "seconds": 120,
+   "checklist": [
+    "L'argomento della relazione",
+    "Dire chiaramente di non scriverla al posto tuo",
+    "Cosa vuoi (piano, domande, spiegazioni)"
+   ],
+   "example": "Sto scrivendo una relazione sulle api. Non scriverla al posto mio. Proponi un piano in 4 parti e, per ogni parte, 2 domande a cui il mio testo deve rispondere."
   }
  ]
 }

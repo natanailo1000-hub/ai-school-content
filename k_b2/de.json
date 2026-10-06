@@ -1,61 +1,80 @@
 {
- "id": "k_b2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI wirkt schlau, aber sie ist weder Zauberer noch Mensch. Schauen wir, wo ihre Grenzen sind."
+   "q": "Was ist eine KI-\"Halluzination\"?",
+   "options": [
+    "Wenn die KI eine Antwort erfindet, aber sicher klingt",
+    "Wenn die KI Geister sieht",
+    "Wenn das Handy ausgeht",
+    "Wenn die KI singt"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Hat KI Gefühle?",
+   "options": [
+    "Nein, sie schreibt nur so, als hätte sie welche",
+    "Ja, wie ein Mensch",
+    "Nur am Wochenende",
+    "Ja, aber nur wenn sie glücklich ist"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Du bist nach einem Streit mit einem Freund traurig. Mit wem redest du am besten?",
+   "options": [
+    "Mit Eltern, einer Lehrkraft oder jemandem, dem du vertraust",
+    "Nur mit der KI",
+    "Mit niemandem",
+    "Mit einem Fremden im Internet"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Wie nutzt du KI am besten für Hausaufgaben?",
+   "options": [
+    "Sie erklärt dir das Thema, dann machst du es selbst",
+    "Die ganze Antwort abschreiben",
+    "Sie gar nicht lesen",
+    "Als deine eigene abgeben"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In der markierten Antwort nennt die KI ein Datum aus der Geschichte. Es ist für die Schule. Was tust du?",
+   "options": [
+    "Im Buch oder bei der Lehrkraft prüfen",
+    "Ungeprüft glauben",
+    "Das Buch wegwerfen",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "KI weiß nicht alles"
-  },
+   "image": "chat_user",
+   "q": "Das ist deine Nachricht an die KI. Was sollte NICHT drinstehen?",
+   "options": [
+    "Deine Adresse oder dein Passwort",
+    "Eine Frage über Planeten",
+    "Bitte",
+    "Ein Thema für eine Geschichte"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Manchmal erfindet sie eine Antwort und klingt trotzdem sicher – das nennt man \"Halluzination\".",
-    "Sie kennt nicht immer die neuesten Nachrichten.",
-    "Sie kann sich beim Rechnen oder bei Fakten irren."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "KI hat keine Gefühle"
-  },
-  {
-   "type": "p",
-   "text": "KI kann freundlich schreiben und wie ein Freund klingen, aber sie fühlt nichts und kennt dich nicht wie ein echter Freund. Wenn du traurig bist, Streit oder ein Problem hast, sprich mit deinen Eltern, einer Lehrkraft oder einer anderen Person, der du vertraust."
-  },
-  {
-   "type": "h",
-   "text": "KI macht deine Arbeit nicht für dich"
-  },
-  {
-   "type": "p",
-   "text": "Wenn die KI deine Hausaufgaben schreibt, hast du nichts gelernt – und Lehrkräfte merken das oft. Nutze KI zum Erklären, nicht zum Abschreiben."
-  },
-  {
-   "type": "tip",
-   "text": "Gute Regel: KI ist wie ein schlauer Helfer, nicht jemand, der für dich entscheidet."
-  },
-  {
-   "type": "try",
-   "text": "Erkläre mir 3 Dinge, die KI nicht gut kann, mit je einem Beispiel. Schreib es für ein 12-jähriges Kind."
+   "task": "Schreib eine Nachricht, in der du die KI bittest, eine Matheaufgabe zu ERKLÄREN, statt nur das Ergebnis zu nennen.",
+   "seconds": 120,
+   "checklist": [
+    "Du bittest um eine Erklärung Schritt für Schritt",
+    "Du sagst dein Alter oder deine Klasse",
+    "Du bittest am Ende um eine ähnliche Aufgabe zum Üben"
+   ],
+   "example": "Ich bin 12. Gib mir nicht nur das Ergebnis, sondern erkläre Schritt für Schritt, wie man 3x + 5 = 20 löst. Gib mir am Ende eine ähnliche Aufgabe zum Selbstprobieren."
   }
  ]
 }

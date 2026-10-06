@@ -1,58 +1,80 @@
 {
- "id": "k_i1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI može da bude kao privatni nastavnik koji je budan u 11 uveče i nikad se ne nervira ako ga dvaput pitaš isto. Ali važno je kako ga koristiš."
+   "q": "Koji je dobar način da koristiš AI za školu?",
+   "options": [
+    "Da ti objasni lekciju koju nisi razumeo",
+    "Da prepišeš ceo domaći",
+    "Da predaš njegov tekst kao svoj",
+    "Da ništa ne naučiš"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Uradio si zadatak. Kako AI može da pomogne?",
+   "options": [
+    "Da ga proveri i kaže gde si pogrešio",
+    "Da ga obriše",
+    "Da ga pošalje nastavniku",
+    "Nikako"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Ne znaš da li u tvojoj školi sme da se koristi AI. Šta radiš?",
+   "options": [
+    "Pitam nastavnika",
+    "Koristim ga krišom",
+    "Lažem",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Kako da ti AI objasni jednostavnije?",
+   "options": [
+    "Napišeš koliko imaš godina i tražiš primer",
+    "Pišeš velikim slovima",
+    "Pošalješ praznu poruku",
+    "Ugasiš aplikaciju"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "U označenom odgovoru AI je rešio ceo tvoj domaći. Šta je bolje?",
+   "options": [
+    "Da tražim objašnjenje, pa uradim sam",
+    "Da sve prepišem",
+    "Da pošaljem drugarima",
+    "Da predam bez čitanja"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Dobri načini"
-  },
+   "image": "chat_user",
+   "q": "U označenoj poruci tražiš pomoć. Šta je dobro da napišeš?",
+   "options": [
+    "Šta ne razumeš i koji si razred",
+    "Svoju lozinku",
+    "Svoju adresu",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Da ti objasni lekciju koju nisi razumeo na času.",
-    "Da ti da primere, kao da imaš 12 godina.",
-    "Da proveri tvoj zadatak i kaže gde si pogrešio – a da ga ne reši umesto tebe.",
-    "Da ti postavlja pitanja, da vidiš šta znaš."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Loši načini"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Da prepišeš ceo domaći.",
-    "Da predaš tekst AI-ja kao svoj.",
-    "Da veruješ svemu bez provere."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Pitaj nastavnika da li sme da se koristi AI za domaći. U nekim školama postoje pravila o tome."
-  },
-  {
-   "type": "try",
-   "text": "Ne razumem razlomke. Objasni mi ih kao da imam 11 godina, uz primer sa picom. Onda mi daj 3 laka zadatka da probam."
+   "task": "Napiši poruku u kojoj tražiš od AI-ja da ti objasni lekciju iz istorije koju nisi razumeo.",
+   "seconds": 120,
+   "checklist": [
+    "Koja lekcija (tema)",
+    "Koji si razred ili koliko imaš godina",
+    "Kako da objasni (jednostavno, sa primerom, pa pitanja)"
+   ],
+   "example": "Ja sam u 6. razredu i ne razumem zašto je počeo Prvi svetski rat. Objasni mi jednostavno u 5 kratkih tačaka, pa mi postavi 3 pitanja da proverim da li sam razumeo."
   }
  ]
 }

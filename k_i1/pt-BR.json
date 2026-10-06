@@ -1,58 +1,80 @@
 {
- "id": "k_i1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA pode ser como um professor particular que está acordado às 11 da noite e nunca fica bravo com a mesma pergunta. Mas o jeito de usar faz diferença."
+   "q": "Qual é um bom jeito de usar a IA para a escola?",
+   "options": [
+    "Pedir para explicar uma matéria que você não entendeu",
+    "Copiar a lição inteira",
+    "Entregar o texto dela como seu",
+    "Não aprender nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "Você fez um exercício. Como a IA ajuda?",
+   "options": [
+    "Confere e mostra onde você errou",
+    "Apaga o exercício",
+    "Manda para o professor",
+    "Não ajuda"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Você não sabe se a IA é permitida na sua escola. O que faz?",
+   "options": [
+    "Pergunto ao professor",
+    "Uso escondido",
+    "Minto",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "Como fazer a IA explicar mais fácil?",
+   "options": [
+    "Dizer sua idade e pedir um exemplo",
+    "Escrever em maiúsculas",
+    "Mandar mensagem vazia",
+    "Fechar o app"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Na resposta destacada, a IA resolveu toda a sua lição. O que é melhor?",
+   "options": [
+    "Pedir para explicar e fazer sozinho",
+    "Copiar tudo",
+    "Mandar para os amigos",
+    "Entregar sem ler"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Bons jeitos de usar"
-  },
+   "image": "chat_user",
+   "q": "Na mensagem destacada você pede ajuda. O que é bom colocar?",
+   "options": [
+    "O que você não entende e seu ano escolar",
+    "Sua senha",
+    "Seu endereço",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Pedir para explicar uma matéria que você não entendeu na aula.",
-    "Pedir exemplos, como se você tivesse 12 anos.",
-    "Pedir para conferir sua lição e mostrar onde você errou – sem resolver por você.",
-    "Pedir que ela te faça perguntas para ver o que você já sabe."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Jeitos ruins de usar"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Copiar a lição inteira.",
-    "Entregar o texto da IA como se fosse seu.",
-    "Acreditar em tudo sem conferir."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Pergunte ao professor se pode usar IA na lição de casa. Algumas escolas têm regras sobre isso."
-  },
-  {
-   "type": "try",
-   "text": "Não entendo frações. Me explique como se eu tivesse 11 anos, com um exemplo de pizza. Depois me dê 3 exercícios fáceis para treinar."
+   "task": "Escreva uma mensagem pedindo para a IA explicar uma matéria de história que você não entendeu.",
+   "seconds": 120,
+   "checklist": [
+    "Qual matéria (tema)",
+    "Seu ano ou idade",
+    "Como explicar (simples, com exemplo e perguntas no fim)"
+   ],
+   "example": "Estou no 6º ano e não entendo por que começou a Primeira Guerra Mundial. Explique de forma simples em 5 tópicos curtos e depois me faça 3 perguntas para ver se entendi."
   }
  ]
 }

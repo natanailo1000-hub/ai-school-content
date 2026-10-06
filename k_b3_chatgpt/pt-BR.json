@@ -1,51 +1,80 @@
 {
- "id": "k_b3_chatgpt",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Vamos mandar sua primeira mensagem! O ChatGPT é uma IA criada pela empresa OpenAI."
+   "q": "Qual empresa faz o ChatGPT?",
+   "options": [
+    "OpenAI",
+    "Google",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles."
+   "q": "O que é bom escrever na sua primeira mensagem?",
+   "options": [
+    "O que você quer saber e quantos anos tem",
+    "Seu endereço",
+    "Sua senha",
+    "Nada, só \"oi\""
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Como começar"
+   "q": "Você não entendeu a resposta. O que escreve?",
+   "options": [
+    "\"Explique mais fácil\"",
+    "Fecha o app",
+    "Letras maiúsculas bravas",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Junto com seu pai ou sua mãe, abra chatgpt.com ou o app ChatGPT.",
-    "Toque na caixa de mensagem.",
-    "Escreva sua pergunta com frases normais.",
-    "Aperte o botão de enviar e espere a resposta."
-   ]
+   "q": "Com quem é melhor testar o ChatGPT pela primeira vez?",
+   "options": [
+    "Com seu pai ou sua mãe",
+    "Com um estranho",
+    "Sozinho, escondido",
+    "Com ninguém"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Onde você escreve sua mensagem para o ChatGPT?",
+   "options": [
+    "Na caixa destacada",
+    "Na resposta acima",
+    "Nas configurações",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "O que perguntar?"
-  },
+   "image": "send_button",
+   "q": "O que faz o botão destacado?",
+   "options": [
+    "Envia sua mensagem",
+    "Apaga tudo",
+    "Desliga o celular",
+    "Toca música"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Quanto mais detalhes você der, melhor a resposta. Diga o que você quer saber e quantos anos tem, para a IA explicar do jeito certo para você."
-  },
-  {
-   "type": "try",
-   "text": "Oi! Tenho 12 anos. Me conte 3 curiosidades sobre polvos, cada uma em uma frase."
-  },
-  {
-   "type": "h",
-   "text": "E depois?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Você pode perguntar mais: \"Me conte mais sobre a segunda curiosidade\".",
-    "Se não entender algo, escreva: \"Explique mais fácil\".",
-    "Para um assunto novo, abra um novo chat."
-   ]
+   "task": "Escreva sua primeira mensagem para o ChatGPT: pergunte algo sobre seu animal favorito.",
+   "seconds": 120,
+   "checklist": [
+    "Qual animal você quer conhecer",
+    "Quantos anos você tem",
+    "O que exatamente você quer (por ex. 3 curiosidades curtas)"
+   ],
+   "example": "Tenho 11 anos e adoro golfinhos. Escreva 3 curiosidades curtas e legais sobre golfinhos."
   }
  ]
 }

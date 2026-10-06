@@ -1,55 +1,80 @@
 {
- "id": "k_p3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Ein Schulprojekt braucht Recherche. KI kann dein Wegweiser sein – sie hilft dir, die richtigen Fragen zu stellen und den Weg zu den Antworten zu finden."
+   "q": "Welches Thema ist für ein Projekt besser?",
+   "options": [
+    "\"Wie Astronauten im Weltall essen\"",
+    "\"Weltall\"",
+    "\"Sachen\"",
+    "\"Alles über alles\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Die KI hat dir einen Link zu einer Quelle gegeben. Was tust du?",
+   "options": [
+    "Prüfen, ob die Website wirklich existiert",
+    "Sofort glauben",
+    "Ungeprüft aufschreiben",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Warum schreibst du deine Quellen auf?",
+   "options": [
+    "Damit man weiß, woher die Infos stammen",
+    "Ohne Grund",
+    "Damit es länger wird",
+    "Um die Lehrkraft zu verwirren"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Wie kann KI einem Team helfen?",
+   "options": [
+    "Sie schlägt vor, wie man Aufgaben verteilt",
+    "Sie macht die Arbeit für alle",
+    "Sie fängt Streit an",
+    "Gar nicht"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat 5 Fragen für dein Projekt vorgeschlagen (markiert). Was kommt jetzt?",
+   "options": [
+    "Antworten in Büchern und auf zuverlässigen Websites suchen",
+    "Fragen abschreiben und abgeben",
+    "Sie löschen",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Schritt für Schritt"
-  },
+   "image": "chat_user",
+   "q": "In der markierten Nachricht beschreibst du dein Projekt. Was ist wichtig?",
+   "options": [
+    "Das Thema und dein Alter",
+    "Deine Adresse",
+    "Dein Passwort",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Wähl ein Thema und grenz es ein (nicht \"Weltall\", sondern \"Wie Astronauten im Weltall essen\").",
-    "Lass dir von der KI 5 Fragen geben, die dein Projekt beantworten soll.",
-    "Such zu jeder Frage die Antwort in Büchern oder auf zuverlässigen Websites.",
-    "Schreib deine Quellen auf: Buchtitel oder Name der Website.",
-    "Lass dir am Ende von der KI helfen, alles logisch zu ordnen."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Ich bin 13 und mache ein Projekt darüber, wie Astronauten im Weltall essen. Schlag 5 Fragen vor, die mein Projekt beantworten soll, und wo ich jeweils eine zuverlässige Antwort finde."
-  },
-  {
-   "type": "tip",
-   "text": "KI erfindet manchmal Quellen und Links! Prüf immer, ob es das Buch oder die Website wirklich gibt."
-  },
-  {
-   "type": "h",
-   "text": "Teamarbeit"
-  },
-  {
-   "type": "p",
-   "text": "Wenn ihr in einer Gruppe arbeitet, kann KI helfen, die Aufgaben zu verteilen: wer was recherchiert, wer die Folien macht, wer vorträgt."
+   "task": "Schreib einen Prompt, um die Recherche zu einem Thema deiner Wahl für ein Schulprojekt zu starten.",
+   "seconds": 120,
+   "checklist": [
+    "Ein eng gefasstes Thema",
+    "Dein Alter",
+    "Was du willst (Fragen, wo du Quellen findest)"
+   ],
+   "example": "Ich bin 12 und mache ein Projekt darüber, warum Bienen Honig machen. Schlag 5 Recherchefragen vor und zu jeder eine Art zuverlässiger Quelle, wo ich die Antwort suchen kann."
   }
  ]
 }

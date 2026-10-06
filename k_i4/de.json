@@ -1,57 +1,80 @@
 {
- "id": "k_i4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Dieselbe Frage kann eine schwache oder eine super Antwort bekommen – es kommt darauf an, wie du fragst. Das nennt man einen Prompt schreiben."
+   "q": "Was ist ein Prompt?",
+   "options": [
+    "Die Nachricht, die du der KI schreibst",
+    "Ein Spiel",
+    "Ein Passwort",
+    "Ein Knopf"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Welche Frage ist am besten?",
+   "options": [
+    "Ich bin 11. Erklär mir in 3 kurzen Sätzen, wie ein Regenbogen entsteht.",
+    "Regenbogen",
+    "Regenbogen?",
+    "sag was"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Die Antwort ist zu lang. Was schreibst du?",
+   "options": [
+    "\"Kürzer, in 3 Punkten\"",
+    "Nichts",
+    "Handy ausschalten",
+    "Dieselbe Frage nochmal"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Warum ist es gut, dein Alter zu sagen?",
+   "options": [
+    "Damit die KI passend erklärt",
+    "Damit die KI weiß, wo du wohnst",
+    "Damit sie dir ein Geschenk schickt",
+    "Ist egal"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "In der markierten Nachricht steht nur \"Vulkane\". Wie verbesserst du sie?",
+   "options": [
+    "Ergänzen, was du willst, wer du bist und welche Antwort",
+    "Dein Passwort ergänzen",
+    "Alles löschen",
+    "So lassen"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Das Geheimrezept"
-  },
+   "image": "chat_reply",
+   "q": "Die markierte Antwort ist schwer zu verstehen. Was schreibst du?",
+   "options": [
+    "\"Erklär es einfacher\"",
+    "\"Tschüss\"",
+    "Nichts",
+    "\"Passwort 123\""
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Was du willst: erklären, schreiben, aufzählen, vergleichen.",
-    "Wer du bist: dein Alter und was du schon weißt.",
-    "Welche Antwort: kurz, in Punkten, mit Beispiel."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Beispiel"
-  },
-  {
-   "type": "p",
-   "text": "Schwach: \"Dinosaurier\"."
-  },
-  {
-   "type": "p",
-   "text": "Super: \"Ich bin 11. Erklär mir in 5 kurzen Punkten, warum die Dinosaurier ausgestorben sind, mit einem witzigen Fakt am Ende.\""
-  },
-  {
-   "type": "tip",
-   "text": "Wenn dir die Antwort nicht gefällt, gib nicht auf – sag, was sich ändern soll: \"kürzer\", \"einfacher\", \"mit Beispiel\"."
-  },
-  {
-   "type": "try",
-   "text": "Ich bin 12. Vergleiche Katzen und Hunde in einer Tabelle: Futter, Pflege, Spielen, wie lange sie leben."
+   "task": "Verbessere diese schwache Nachricht: \"Weltall\". Schreib einen guten Prompt.",
+   "seconds": 120,
+   "checklist": [
+    "Was du wissen willst",
+    "Dein Alter",
+    "Welche Antwort (Länge, Form)"
+   ],
+   "example": "Ich bin 12. Erklär mir in 4 kurzen Sätzen, warum es im Weltall dunkel ist, obwohl es so viele Sterne gibt, mit einem Beispiel aus dem Alltag."
   }
  ]
 }

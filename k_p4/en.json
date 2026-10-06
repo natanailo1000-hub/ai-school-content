@@ -1,53 +1,80 @@
 {
- "id": "k_p4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Got an idea for a comic, a story or a video for school or online? AI is a great partner for brainstorming – and you're the director!"
+   "q": "Who is the director of your creative project?",
+   "options": [
+    "You – AI helps with ideas",
+    "Only the AI",
+    "Nobody",
+    "Your phone"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "What is a video script?",
+   "options": [
+    "A plan of what's seen and said in each part",
+    "Music",
+    "A camera",
+    "A password"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "Before posting a video online:",
+   "options": [
+    "Ask your parents",
+    "Post it right away",
+    "Send it to strangers",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "How do you get more ideas for a story ending?",
+   "options": [
+    "Ask for \"3 different endings\"",
+    "Write in capitals",
+    "Give up",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI described the comic panels (highlighted). What do you do?",
+   "options": [
+    "Draw them my own way",
+    "Nothing",
+    "Delete them",
+    "Send them without drawing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Comic"
-  },
+   "image": "chat_user",
+   "q": "In the highlighted message you described your story idea. What else should you add?",
+   "options": [
+    "Who the characters are and who the story is for",
+    "Your address",
+    "Your password",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Help me come up with a 6-panel comic about a robot learning to play football. For each panel, write what we see and what the characters say. I'll draw it."
-  },
-  {
-   "type": "h",
-   "text": "Story"
-  },
-  {
-   "type": "p",
-   "text": "Ask the AI to help with characters, plot and ending – then write it in your own words. You can also ask for \"3 different endings\" and pick one."
-  },
-  {
-   "type": "h",
-   "text": "Video"
-  },
-  {
-   "type": "try",
-   "text": "I'm making a 1-minute video about how to make a paper plane. Write me a script: what's on screen, what I say and how long each part lasts."
-  },
-  {
-   "type": "tip",
-   "text": "If you post something online, ask your parents first. And don't use other people's pictures, music or characters without permission."
+   "task": "Write a prompt for a short video script (1 minute) about your hobby.",
+   "seconds": 120,
+   "checklist": [
+    "Topic and length",
+    "What you want (what's seen, what's said)",
+    "Who the video is for"
+   ],
+   "example": "I'm making a 1-minute video for my friends about how to look after aquarium fish. Write a script in parts: what's on screen, what I say and how many seconds each part lasts."
   }
  ]
 }

@@ -1,54 +1,80 @@
 {
- "id": "k_p5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI ist wie eine geduldige Fremdsprachenlehrerin, die immer da ist. Du kannst Gespräche, Wörter und Grammatik üben – ganz ohne Scham."
+   "q": "Wie bringst du die KI dazu, deine Fehler zu korrigieren?",
+   "options": [
+    "Schreib \"korrigiere mich freundlich und erkläre es\"",
+    "Nichts schreiben",
+    "Nur auf Deutsch schreiben",
+    "Die App schließen"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Wie oft übt man am besten?",
+   "options": [
+    "Jeden Tag ein bisschen",
+    "Einmal im Jahr",
+    "Nie",
+    "Nur vor einer Prüfung"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Was ist ein gutes Sprachspiel mit KI?",
+   "options": [
+    "Wörter übersetzen, die dir die KI gibt",
+    "Dein Passwort schicken",
+    "Den Chat löschen",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Du hast einen Fehler im Satz gemacht. Wie solltest du dich fühlen?",
+   "options": [
+    "Das ist okay – Fehler helfen beim Lernen",
+    "Du solltest aufgeben",
+    "Du solltest dich schämen",
+    "Alles ist schlecht"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dich korrigiert (markiert). Was tust du?",
+   "options": [
+    "Die Korrektur lesen und es nochmal versuchen",
+    "Wütend werden",
+    "Die App löschen",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Wie du üben kannst"
-  },
+   "image": "chat_user",
+   "q": "In der markierten Nachricht hast du einen Satz in einer Fremdsprache geschrieben. Warum?",
+   "options": [
+    "Um zu üben und mich korrigieren zu lassen",
+    "Ohne Grund",
+    "Um die KI zu verwirren",
+    "Um ein Geschenk zu bekommen"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Gespräch: \"Sprich mit mir auf Englisch über Fußball, mit einfachen Wörtern, und korrigiere mich freundlich.\"",
-    "Wörter: Lass dir 10 neue Wörter mit Beispielsätzen geben.",
-    "Spiel: \"Gib mir ein Wort auf Deutsch und ich übersetze es.\"",
-    "Grammatik: Bitte um eine Erklärung mit vielen Beispielen."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Ich bin 12 und lerne Englisch. Lass uns über meinen Lieblingsfilm reden. Stell mir einfache Fragen auf Englisch, eine nach der anderen, und wenn ich einen Fehler mache, korrigiere mich und erkläre es auf Deutsch."
-  },
-  {
-   "type": "tip",
-   "text": "Jeden Tag 10 Minuten sind besser als einmal pro Woche eine Stunde."
-  },
-  {
-   "type": "h",
-   "text": "Aussprache"
-  },
-  {
-   "type": "p",
-   "text": "Manche KI-Tools haben einen Sprachmodus, dann kannst du auch laut sprechen. Bitte deine Eltern, dir beim Einschalten zu helfen."
+   "task": "Schreib einen Prompt, um eine Fremdsprache im Gespräch über dein Hobby zu üben.",
+   "seconds": 120,
+   "checklist": [
+    "Welche Sprache und dein Alter",
+    "Das Gesprächsthema",
+    "Wie sie dich korrigieren soll (freundlich, mit Erklärung)"
+   ],
+   "example": "Ich bin 12 und lerne Englisch. Lass uns über mein Hobby Zeichnen reden. Stell mir einfache Fragen auf Englisch, eine nach der anderen, und korrigiere meine Fehler freundlich mit einer kurzen Erklärung auf Deutsch."
   }
  ]
 }

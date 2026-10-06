@@ -1,54 +1,80 @@
 {
- "id": "k_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Kad imaš školu, trening, domaći i druženje, lako je da se izgubiš. AI može da ti pomogne da sve rasporediš."
+   "q": "Šta treba da kažeš AI-ju kad praviš raspored?",
+   "options": [
+    "Svoje obaveze i koliko vremena imaš",
+    "Svoju lozinku",
+    "Gde živiš",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "AI ti je predložio vežbe za fudbal. Šta radiš?",
+   "options": [
+    "Pokažem ih treneru ili roditelju",
+    "Odmah radim najteže",
+    "Ignorišem trenera",
+    "Vežbam ceo dan"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Nisi stigao sve iz plana. Šta je najbolje?",
+   "options": [
+    "Zamolim AI da preraspodeli",
+    "Odustanem",
+    "Ne spavam",
+    "Naljutim se"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Šta je važno da bude u planu?",
+   "options": [
+    "I vreme za odmor i igru",
+    "Samo učenje",
+    "Samo igrice",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Šta si napisao u označenoj poruci?",
+   "options": [
+    "Svoje obaveze za nedelju",
+    "Odgovor AI-ja",
+    "Reklamu",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Šta da mu kažeš"
-  },
+   "image": "chat_reply",
+   "q": "Gde je tvoj raspored?",
+   "options": [
+    "U označenom odgovoru",
+    "U podešavanjima",
+    "U prodavnici aplikacija",
+    "Nema ga"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Svoje stalne obaveze (škola, trening, časovi).",
-    "Šta moraš da uradiš ove nedelje (domaći, kontrolni).",
-    "Koliko vremena želiš za odmor i igru.",
-    "Kada ideš na spavanje."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Ja sam u 7. razredu. Škola je od 8 do 14h. Trening imam utorkom i četvrtkom od 17 do 18:30h. U petak imam kontrolni iz biologije. Napravi mi raspored za ovu nedelju, sa vremenom za učenje, odmor i igru. Na spavanje idem u 22h."
-  },
-  {
-   "type": "h",
-   "text": "Trening i zdravlje"
-  },
-  {
-   "type": "p",
-   "text": "AI može da predloži zagrevanje ili plan vežbi za tvoj sport. Ali uvek ga pokaži treneru ili roditelju – oni znaju šta je za tebe bezbedno."
-  },
-  {
-   "type": "tip",
-   "text": "Plan je tu da ti pomogne, a ne da te stresira. Ako nešto ne stigneš, samo zamoli AI da preraspodeli."
+   "task": "Napiši poruku za raspored vikenda: imaš domaći, rođendan druga u subotu i želiš da igraš igrice.",
+   "seconds": 120,
+   "checklist": [
+    "Sve obaveze (domaći, rođendan)",
+    "Šta želiš (vreme za igru)",
+    "Oblik (po satima ili delovima dana)"
+   ],
+   "example": "Pomozi mi da isplaniram vikend. Imam domaći iz srpskog i matematike, u subotu od 16h sam na rođendanu druga, a želim i 2 sata igrica. Napravi raspored za subotu i nedelju po delovima dana."
   }
  ]
 }

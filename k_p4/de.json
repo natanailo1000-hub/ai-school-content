@@ -1,53 +1,80 @@
 {
- "id": "k_p4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Du hast eine Idee für einen Comic, eine Geschichte oder ein Video für die Schule oder das Internet? KI ist eine tolle Partnerin zum Ideensammeln – und du führst Regie!"
+   "q": "Wer führt Regie bei deinem kreativen Projekt?",
+   "options": [
+    "Du – die KI hilft mit Ideen",
+    "Nur die KI",
+    "Niemand",
+    "Dein Handy"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Was ist ein Drehbuch für ein Video?",
+   "options": [
+    "Ein Plan, was in jedem Teil zu sehen und zu hören ist",
+    "Musik",
+    "Eine Kamera",
+    "Ein Passwort"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Bevor du ein Video im Internet postest:",
+   "options": [
+    "Deine Eltern fragen",
+    "Sofort posten",
+    "An Fremde schicken",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Wie bekommst du mehr Ideen für das Ende einer Geschichte?",
+   "options": [
+    "Um \"3 verschiedene Enden\" bitten",
+    "In Großbuchstaben schreiben",
+    "Aufgeben",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat die Comicbilder beschrieben (markiert). Was tust du?",
+   "options": [
+    "Sie auf meine Art zeichnen",
+    "Nichts",
+    "Sie löschen",
+    "Sie ungezeichnet verschicken"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Comic"
-  },
+   "image": "chat_user",
+   "q": "In der markierten Nachricht hast du deine Geschichtenidee beschrieben. Was solltest du noch ergänzen?",
+   "options": [
+    "Wer die Figuren sind und für wen die Geschichte ist",
+    "Deine Adresse",
+    "Dein Passwort",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Hilf mir, einen Comic mit 6 Bildern über einen Roboter auszudenken, der Fußball lernt. Schreib für jedes Bild, was man sieht und was die Figuren sagen. Ich zeichne ihn."
-  },
-  {
-   "type": "h",
-   "text": "Geschichte"
-  },
-  {
-   "type": "p",
-   "text": "Lass dir von der KI bei Figuren, Handlung und Ende helfen – und schreib dann mit deinen eigenen Worten. Du kannst auch um \"3 verschiedene Enden\" bitten und eins auswählen."
-  },
-  {
-   "type": "h",
-   "text": "Video"
-  },
-  {
-   "type": "try",
-   "text": "Ich mache ein 1-minütiges Video darüber, wie man einen Papierflieger faltet. Schreib mir ein Drehbuch: was man sieht, was ich sage und wie lange jeder Teil dauert."
-  },
-  {
-   "type": "tip",
-   "text": "Wenn du etwas im Internet veröffentlichst, frag zuerst deine Eltern. Und nutze keine fremden Bilder, Musik oder Figuren ohne Erlaubnis."
+   "task": "Schreib einen Prompt für ein kurzes Video-Drehbuch (1 Minute) über dein Hobby.",
+   "seconds": 120,
+   "checklist": [
+    "Thema und Länge",
+    "Was du willst (was man sieht, was gesagt wird)",
+    "Für wen das Video ist"
+   ],
+   "example": "Ich mache ein 1-minütiges Video für meine Freunde darüber, wie man Aquarienfische pflegt. Schreib ein Drehbuch in Teilen: was man sieht, was ich sage und wie viele Sekunden jeder Teil dauert."
   }
  ]
 }

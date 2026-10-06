@@ -1,51 +1,80 @@
 {
- "id": "k_b3_chatgpt",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Let's send your first message! ChatGPT is an AI made by the company OpenAI."
+   "q": "Which company makes ChatGPT?",
+   "options": [
+    "OpenAI",
+    "Google",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent."
+   "q": "What's good to write in your first message?",
+   "options": [
+    "What you're curious about and how old you are",
+    "Your address",
+    "Your password",
+    "Nothing, just \"hey\""
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "How to start"
+   "q": "You don't understand the answer. What do you write?",
+   "options": [
+    "\"Explain it more simply\"",
+    "Close the app",
+    "Angry capital letters",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Together with a parent, open chatgpt.com or the ChatGPT app.",
-    "Tap the message box.",
-    "Write your question in normal sentences.",
-    "Press the send button and wait for the answer."
-   ]
+   "q": "Who's best to try ChatGPT with the first time?",
+   "options": [
+    "A parent",
+    "A stranger",
+    "Alone, in secret",
+    "Nobody"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Where do you write your message to ChatGPT?",
+   "options": [
+    "In the highlighted box",
+    "In the answer above",
+    "In the settings",
+    "Nowhere"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "What should you ask?"
-  },
+   "image": "send_button",
+   "q": "What does the highlighted button do?",
+   "options": [
+    "Sends your message",
+    "Deletes everything",
+    "Turns off the phone",
+    "Plays music"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "The more details you give, the better the answer. Say what you're curious about and how old you are, so the AI explains it the right way for you."
-  },
-  {
-   "type": "try",
-   "text": "Hi! I'm 12. Tell me 3 interesting facts about octopuses, each in one sentence."
-  },
-  {
-   "type": "h",
-   "text": "What next?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "You can ask more: \"Tell me more about the second fact\".",
-    "If you don't understand something, write: \"Explain it more simply\".",
-    "For a new topic, start a new chat."
-   ]
+   "task": "Write your first message to ChatGPT: ask something about your favourite animal.",
+   "seconds": 120,
+   "checklist": [
+    "Which animal you're curious about",
+    "How old you are",
+    "What exactly you want (e.g. 3 short facts)"
+   ],
+   "example": "I'm 11 and I love dolphins. Write me 3 short, interesting facts about dolphins."
   }
  ]
 }

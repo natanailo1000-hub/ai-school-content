@@ -1,66 +1,80 @@
 {
- "id": "k_p2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI može da ti pomogne oko sastava ili referata – ali na pošten način. Cilj je da TI naučiš da pišeš."
+   "q": "Koji je pošten način da koristiš AI za sastav?",
+   "options": [
+    "Da ti pomogne sa idejama i da pregleda tvoj tekst",
+    "Da napiše ceo sastav umesto tebe",
+    "Da prepišeš njegov tekst",
+    "Da slažeš nastavnika"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "AI ti je ispravio grešku u pravopisu. Šta je najbolje?",
+   "options": [
+    "Da pitaš zašto je to greška, da naučiš",
+    "Da ignorišeš",
+    "Da obrišeš tekst",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Nisi siguran da li sme AI za domaći. Šta radiš?",
+   "options": [
+    "Pitam nastavnika",
+    "Koristim ga krišom",
+    "Lažem",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Šta znači „nemoj da pišeš umesto mene“ u promptu?",
+   "options": [
+    "Tražiš pomoć, ali pišeš sam",
+    "AI ništa ne radi",
+    "AI briše tekst",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI je napisao ceo sastav (označeno). Šta je pošteno?",
+   "options": [
+    "Da ga ne predam kao svoj, nego napišem svoj",
+    "Da ga predam",
+    "Da promenim jednu reč i predam",
+    "Da ga pošaljem drugu"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Dozvoljeno i korisno"
-  },
+   "image": "chat_user",
+   "q": "U označenu poruku nalepio si svoj sastav. Šta tražiš?",
+   "options": [
+    "Savete šta mogu da popravim",
+    "Da ga obriše",
+    "Da ga prevede na kineski",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Da ti pomogne da smisliš ideje i plan.",
-    "Da ti objasni temu koju ne razumeš.",
-    "Da pročita tvoj tekst i kaže šta može bolje.",
-    "Da ti ispravi pravopis i objasni greške."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Nije pošteno"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Da AI napiše ceo sastav, a ti ga predaš kao svoj.",
-    "Da prepisuješ rečenice od AI-ja, a da ih ne razumeš.",
-    "Da kažeš da nisi koristio AI, a jesi."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Pitaj nastavnika šta je dozvoljeno. Ako koristiš AI, budi iskren i reci kako si ga koristio."
-  },
-  {
-   "type": "try",
-   "text": "Pišem sastav na temu „Moj najlepši dan“. Nemoj da ga pišeš umesto mene! Postavi mi 5 pitanja koja će mi pomoći da se setim detalja, a onda mi predloži plan: uvod, razrada, zaključak."
-  },
-  {
-   "type": "h",
-   "text": "Kad napišeš"
-  },
-  {
-   "type": "try",
-   "text": "Ovo je moj sastav: [nalepi tekst]. Nemoj da ga prepravljaš celog. Navedi mi 3 stvari koje su dobre i 3 koje mogu da popravim, i objasni zašto."
+   "task": "Napiši prompt kojim tražiš pomoć za referat o nekoj životinji, ali tako da ga ipak sam napišeš.",
+   "seconds": 120,
+   "checklist": [
+    "Tema referata",
+    "Jasno kažeš da ne piše umesto tebe",
+    "Šta tražiš (plan, pitanja, objašnjenja)"
+   ],
+   "example": "Pišem referat o pčelama. Nemoj da ga pišeš umesto mene. Predloži mi plan sa 4 dela i za svaki deo 2 pitanja na koja moj tekst treba da odgovori."
   }
  ]
 }

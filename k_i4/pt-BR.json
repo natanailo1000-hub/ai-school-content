@@ -1,57 +1,80 @@
 {
- "id": "k_i4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A mesma pergunta pode ter uma resposta fraca ou incrível – depende de como você pergunta. Isso se chama escrever um prompt."
+   "q": "O que é um prompt?",
+   "options": [
+    "A mensagem que você escreve para a IA",
+    "Um jogo",
+    "Uma senha",
+    "Um botão"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "Qual pergunta é a melhor?",
+   "options": [
+    "Tenho 11 anos. Explique como se forma o arco-íris, em 3 frases curtas.",
+    "arco-íris",
+    "Arco-íris?",
+    "fala alguma coisa"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "A resposta está longa demais. O que escrever?",
+   "options": [
+    "\"Mais curto, em 3 tópicos\"",
+    "Nada",
+    "Desligar o celular",
+    "Mandar a mesma pergunta de novo"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "Por que é bom dizer sua idade?",
+   "options": [
+    "Para a IA explicar no nível certo",
+    "Para a IA saber onde você mora",
+    "Para ela mandar um presente",
+    "Não importa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "A mensagem destacada diz só \"vulcões\". Como melhorar?",
+   "options": [
+    "Colocar o que quer, quem você é e que tipo de resposta",
+    "Colocar sua senha",
+    "Apagar tudo",
+    "Deixar assim"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "A receita secreta"
-  },
+   "image": "chat_reply",
+   "q": "A resposta destacada está difícil. O que escrever?",
+   "options": [
+    "\"Explique mais fácil\"",
+    "\"Tchau\"",
+    "Nada",
+    "\"Senha 123\""
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "O que você quer: explicar, escrever, listar, comparar.",
-    "Quem você é: sua idade e o que já sabe.",
-    "Que tipo de resposta: curta, em tópicos, com exemplo."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Exemplo"
-  },
-  {
-   "type": "p",
-   "text": "Fraco: \"dinossauros\"."
-  },
-  {
-   "type": "p",
-   "text": "Incrível: \"Tenho 11 anos. Explique por que os dinossauros foram extintos, em 5 tópicos curtos, com uma curiosidade no final.\""
-  },
-  {
-   "type": "tip",
-   "text": "Se não gostar da resposta, não desista – diga o que mudar: \"mais curto\", \"mais fácil\", \"coloque um exemplo\"."
-  },
-  {
-   "type": "try",
-   "text": "Tenho 12 anos. Compare gatos e cachorros numa tabela: comida, cuidados, brincadeiras e quanto tempo vivem."
+   "task": "Melhore esta mensagem fraca: \"espaço\". Escreva um bom prompt.",
+   "seconds": 120,
+   "checklist": [
+    "O que você quer descobrir",
+    "Sua idade",
+    "Que tipo de resposta (tamanho, formato)"
+   ],
+   "example": "Tenho 12 anos. Explique por que o espaço é escuro mesmo com tantas estrelas, em 4 frases curtas, com um exemplo do dia a dia."
   }
  ]
 }

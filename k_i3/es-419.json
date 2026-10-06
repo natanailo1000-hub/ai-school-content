@@ -1,54 +1,80 @@
 {
- "id": "k_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Con escuela, entrenamiento, tareas y amigos, es fácil perderse. La IA te puede ayudar a organizar todo."
+   "q": "¿Qué le dices a la IA para hacer un horario?",
+   "options": [
+    "Tus actividades y cuánto tiempo tienes",
+    "Tu contraseña",
+    "Dónde vives",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude es para adultos (18+). Por eso, practica las lecciones de Claude junto con tu mamá o tu papá, que usan su propia cuenta.",
-   "tool": "claude"
+   "q": "La IA te sugirió ejercicios de fútbol. ¿Qué haces?",
+   "options": [
+    "Se los muestro a mi entrenador o a mis papás",
+    "Empiezo por los más difíciles",
+    "Ignoro al entrenador",
+    "Entreno todo el día"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puedes usar ChatGPT desde los 13 años y solo con permiso de tus padres. Si eres menor, practica junto con ellos.",
-   "tool": "chatgpt"
+   "q": "No alcanzaste a hacer todo el plan. ¿Qué es mejor?",
+   "options": [
+    "Pedirle a la IA que lo reorganice",
+    "Rendirme",
+    "No dormir",
+    "Enojarme"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible.",
-   "tool": "gemini"
+   "q": "¿Qué es importante que tenga el plan?",
+   "options": [
+    "También tiempo para descansar y jugar",
+    "Solo estudio",
+    "Solo videojuegos",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "¿Qué escribiste en el mensaje resaltado?",
+   "options": [
+    "Tus actividades de la semana",
+    "La respuesta de la IA",
+    "Un anuncio",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Qué decirle"
-  },
+   "image": "chat_reply",
+   "q": "¿Dónde está tu horario?",
+   "options": [
+    "En la respuesta resaltada",
+    "En la configuración",
+    "En la tienda de apps",
+    "No está"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Tus actividades fijas (escuela, entrenamiento, clases).",
-    "Lo que tienes que hacer esta semana (tareas, exámenes).",
-    "Cuánto tiempo quieres para descansar y jugar.",
-    "A qué hora te vas a dormir."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Voy en 7.º grado. La escuela es de 8 a 14 h. Tengo entrenamiento martes y jueves de 17 a 18:30 h. El viernes tengo examen de biología. Hazme un horario para esta semana con tiempo para estudiar, descansar y jugar. Me duermo a las 22 h."
-  },
-  {
-   "type": "h",
-   "text": "Entrenamiento y salud"
-  },
-  {
-   "type": "p",
-   "text": "La IA puede sugerirte un calentamiento o un plan de ejercicios para tu deporte. Pero muéstraselo siempre a tu entrenador o a tus papás: ellos saben qué es seguro para ti."
-  },
-  {
-   "type": "tip",
-   "text": "El plan está para ayudarte, no para estresarte. Si no alcanzas a hacer algo, pídele a la IA que lo reorganice."
+   "task": "Escribe un mensaje para un horario de fin de semana: tienes tarea, el cumpleaños de un amigo el sábado y quieres jugar videojuegos.",
+   "seconds": 120,
+   "checklist": [
+    "Todas tus actividades (tarea, cumpleaños)",
+    "Lo que quieres (tiempo para jugar)",
+    "Forma (por horas o partes del día)"
+   ],
+   "example": "Ayúdame a planear mi fin de semana. Tengo tarea de lengua y de matemáticas, el sábado desde las 16 h estoy en el cumpleaños de un amigo y quiero 2 horas de videojuegos. Haz un horario para sábado y domingo por partes del día."
   }
  ]
 }

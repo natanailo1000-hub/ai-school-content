@@ -1,54 +1,80 @@
 {
- "id": "k_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Entre l'école, le sport, les devoirs et les copains, on s'y perd vite. L'IA peut t'aider à tout caser."
+   "q": "Que dis-tu à l'IA pour faire un emploi du temps ?",
+   "options": [
+    "Tes activités et combien de temps tu as",
+    "Ton mot de passe",
+    "Où tu habites",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
-   "tool": "claude"
+   "q": "L'IA t'a proposé des exercices de foot. Que fais-tu ?",
+   "options": [
+    "Je les montre à mon entraîneur ou à un parent",
+    "Je commence par les plus durs",
+    "J'ignore l'entraîneur",
+    "Je m'entraîne toute la journée"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
-   "tool": "chatgpt"
+   "q": "Tu n'as pas tout fait. Le mieux ?",
+   "options": [
+    "Demander à l'IA de réorganiser",
+    "Abandonner",
+    "Ne pas dormir",
+    "M'énerver"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
-   "tool": "gemini"
+   "q": "Que doit aussi contenir le planning ?",
+   "options": [
+    "Du temps pour se reposer et jouer",
+    "Seulement des révisions",
+    "Seulement des jeux vidéo",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Qu'as-tu écrit dans le message mis en évidence ?",
+   "options": [
+    "Tes activités de la semaine",
+    "La réponse de l'IA",
+    "Une pub",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Ce qu'il faut lui dire"
-  },
+   "image": "chat_reply",
+   "q": "Où est ton emploi du temps ?",
+   "options": [
+    "Dans la réponse mise en évidence",
+    "Dans les paramètres",
+    "Dans la boutique d'applis",
+    "Il n'y est pas"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Tes activités fixes (école, entraînement, cours).",
-    "Ce que tu dois faire cette semaine (devoirs, contrôles).",
-    "Combien de temps tu veux pour te reposer et jouer.",
-    "À quelle heure tu te couches."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Je suis en 5e. L'école, c'est de 8 h à 14 h. J'ai entraînement le mardi et le jeudi de 17 h à 18 h 30. Vendredi, j'ai un contrôle de SVT. Fais-moi un emploi du temps pour cette semaine, avec du temps pour réviser, me reposer et jouer. Je me couche à 22 h."
-  },
-  {
-   "type": "h",
-   "text": "Sport et santé"
-  },
-  {
-   "type": "p",
-   "text": "L'IA peut te proposer un échauffement ou un programme d'exercices pour ton sport. Mais montre-le toujours à ton entraîneur ou à un parent : ils savent ce qui est sans danger pour toi."
-  },
-  {
-   "type": "tip",
-   "text": "Un planning est là pour t'aider, pas pour te stresser. Si tu n'as pas le temps de tout faire, demande juste à l'IA de réorganiser."
+   "task": "Écris un message pour organiser ton week-end : tu as des devoirs, l'anniversaire d'un ami samedi et tu veux jouer aux jeux vidéo.",
+   "seconds": 120,
+   "checklist": [
+    "Toutes tes activités (devoirs, anniversaire)",
+    "Ce que tu veux (du temps pour jouer)",
+    "La forme (par heure ou par moment de la journée)"
+   ],
+   "example": "Aide-moi à organiser mon week-end. J'ai des devoirs de français et de maths, samedi à partir de 16 h je suis à l'anniversaire d'un ami, et je veux 2 heures de jeux vidéo. Fais un planning pour samedi et dimanche par moment de la journée."
   }
  ]
 }

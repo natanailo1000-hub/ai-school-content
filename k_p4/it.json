@@ -1,53 +1,80 @@
 {
- "id": "k_p4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Hai un'idea per un fumetto, una storia o un video per la scuola o per internet? L'IA è un'ottima compagna per le idee, e il regista sei tu!"
+   "q": "Chi è il regista del tuo progetto creativo?",
+   "options": [
+    "Tu: l'IA aiuta con le idee",
+    "Solo l'IA",
+    "Nessuno",
+    "Il tuo telefono"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
-   "tool": "claude"
+   "q": "Cos'è il copione di un video?",
+   "options": [
+    "Un piano di cosa si vede e si dice in ogni parte",
+    "Musica",
+    "Una videocamera",
+    "Una password"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
-   "tool": "chatgpt"
+   "q": "Prima di pubblicare un video online:",
+   "options": [
+    "Chiedo ai miei genitori",
+    "Lo pubblico subito",
+    "Lo mando a sconosciuti",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
-   "tool": "gemini"
+   "q": "Come ottieni più idee per il finale di una storia?",
+   "options": [
+    "Chiedendo \"3 finali diversi\"",
+    "Scrivendo in maiuscolo",
+    "Arrendendomi",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ha descritto le vignette del fumetto (evidenziato). Cosa fai?",
+   "options": [
+    "Le disegno a modo mio",
+    "Niente",
+    "Le cancello",
+    "Le mando senza disegnare"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Fumetto"
-  },
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato hai descritto l'idea della storia. Cos'altro aggiungere?",
+   "options": [
+    "Chi sono i personaggi e per chi è la storia",
+    "Il tuo indirizzo",
+    "La tua password",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Aiutami a inventare un fumetto di 6 vignette su un robot che impara a giocare a calcio. Per ogni vignetta scrivi cosa si vede e cosa dicono i personaggi. Lo disegnerò io."
-  },
-  {
-   "type": "h",
-   "text": "Storia"
-  },
-  {
-   "type": "p",
-   "text": "Chiedi all'IA aiuto per personaggi, trama e finale, poi scrivi con parole tue. Puoi anche chiedere \"3 finali diversi\" e sceglierne uno."
-  },
-  {
-   "type": "h",
-   "text": "Video"
-  },
-  {
-   "type": "try",
-   "text": "Sto facendo un video di 1 minuto su come fare un aeroplanino di carta. Scrivimi un copione: cosa si vede, cosa dico e quanto dura ogni parte."
-  },
-  {
-   "type": "tip",
-   "text": "Se pubblichi qualcosa online, chiedi prima ai tuoi genitori. E non usare immagini, musica o personaggi di altri senza permesso."
+   "task": "Scrivi un prompt per il copione di un breve video (1 minuto) sul tuo hobby.",
+   "seconds": 120,
+   "checklist": [
+    "Argomento e durata",
+    "Cosa vuoi (cosa si vede, cosa si dice)",
+    "Per chi è il video"
+   ],
+   "example": "Sto facendo un video di 1 minuto per i miei amici su come prendersi cura dei pesci d'acquario. Scrivi un copione diviso in parti: cosa si vede, cosa dico e quanti secondi dura ogni parte."
   }
  ]
 }

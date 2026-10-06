@@ -1,62 +1,80 @@
 {
- "id": "k_i2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA pode montar um plano de estudo, um quiz e cartões de revisão – com as suas próprias anotações!"
+   "q": "O que você dá primeiro à IA para ela te ajudar a estudar?",
+   "options": [
+    "Suas anotações ou o tema",
+    "Sua senha",
+    "Uma foto do seu rosto",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "Qual é o melhor jeito de a IA te testar?",
+   "options": [
+    "Uma pergunta de cada vez",
+    "Todas juntas com respostas",
+    "Sem perguntas",
+    "Só escrevendo respostas"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "O que é melhor?",
+   "options": [
+    "Estudar um pouco todo dia",
+    "Tudo na noite anterior",
+    "Não estudar nada",
+    "Só ver desenho"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "O que fazer com as perguntas que você errou?",
+   "options": [
+    "Revisar amanhã",
+    "Esquecer",
+    "Jogar o caderno fora",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Onde você cola suas anotações?",
+   "options": [
+    "Na caixa de mensagem destacada",
+    "Na resposta da IA",
+    "Nas configurações",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Passo a passo"
-  },
+   "image": "chat_reply",
+   "q": "A IA montou um plano de estudo (destacado). O que fazer?",
+   "options": [
+    "Seguir e mudar se precisar",
+    "Ignorar",
+    "Apagar",
+    "Mandar para um estranho"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Digite ou cole suas anotações do caderno (ou descreva rapidinho).",
-    "Peça à IA um resumo curto do mais importante.",
-    "Peça um quiz – uma pergunta de cada vez.",
-    "O que você errar, revise amanhã."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Estas são minhas anotações sobre vulcões: [cole as anotações]. Faça 8 perguntas de quiz, uma de cada vez, e diga se minha resposta está certa."
-  },
-  {
-   "type": "h",
-   "text": "Um plano para a semana"
-  },
-  {
-   "type": "try",
-   "text": "Tenho prova de geografia na sexta. Hoje é segunda e posso estudar 30 minutos por dia. Monte um plano de estudo por dia."
-  },
-  {
-   "type": "tip",
-   "text": "Estudar um pouco todo dia é melhor do que muito na noite antes da prova."
-  },
-  {
-   "type": "h",
-   "text": "Cartões de revisão"
-  },
-  {
-   "type": "p",
-   "text": "Peça à IA \"cartões\": a pergunta de um lado e a resposta do outro. Escreva no papel e treine com um amigo."
+   "task": "Escreva uma mensagem pedindo um plano de estudo de 4 dias para uma prova de matemática.",
+   "seconds": 120,
+   "checklist": [
+    "Matéria e tema",
+    "Quantos dias e quanto tempo por dia",
+    "Formato (plano por dia + mini quiz)"
+   ],
+   "example": "Tenho prova de matemática sobre frações daqui a 4 dias. Posso estudar 30 minutos por dia. Monte um plano por dia com 3 perguntas de revisão no fim de cada dia."
   }
  ]
 }

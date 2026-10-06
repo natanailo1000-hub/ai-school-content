@@ -1,61 +1,80 @@
 {
- "id": "k_b2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI seems clever, but it isn't a wizard or a person. Let's see where its limits are."
+   "q": "What is an AI \"hallucination\"?",
+   "options": [
+    "When AI makes up an answer but sounds sure",
+    "When AI sees ghosts",
+    "When the phone turns off",
+    "When AI sings"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "Does AI have feelings?",
+   "options": [
+    "No, it just writes as if it does",
+    "Yes, like a person",
+    "Only at weekends",
+    "Yes, but only when it's happy"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "You're sad after a fight with a friend. Who's best to talk to?",
+   "options": [
+    "A parent, teacher or someone you trust",
+    "Only the AI",
+    "Nobody",
+    "A stranger online"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "What's the best way to use AI for homework?",
+   "options": [
+    "Let it explain the topic, then do the work yourself",
+    "Copy the whole answer",
+    "Don't even read it",
+    "Hand it in as your own"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In the highlighted answer the AI wrote a date from history. It's for school. What do you do?",
+   "options": [
+    "Check it in a book or with a teacher",
+    "Trust it without checking",
+    "Throw away the book",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "AI doesn't know everything"
-  },
+   "image": "chat_user",
+   "q": "This is your message to the AI. What should NOT be in it?",
+   "options": [
+    "Your address or password",
+    "A question about planets",
+    "Please",
+    "A topic for a story"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Sometimes it makes up an answer and sounds sure – that's called a \"hallucination\".",
-    "It doesn't always know the latest news.",
-    "It can make mistakes in maths or facts."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "AI has no feelings"
-  },
-  {
-   "type": "p",
-   "text": "AI can write kindly and sound like a friend, but it doesn't feel anything and doesn't know you like a real friend. If you're sad, have an argument or a problem, talk to a parent, teacher or another person you trust."
-  },
-  {
-   "type": "h",
-   "text": "AI doesn't do your work for you"
-  },
-  {
-   "type": "p",
-   "text": "If AI writes your homework for you, you haven't learned anything – and teachers often notice. Use AI to explain things, not to copy."
-  },
-  {
-   "type": "tip",
-   "text": "Good rule: AI is like a smart helper, not someone who decides for you."
-  },
-  {
-   "type": "try",
-   "text": "Explain 3 things AI isn't good at, with one example each. Write it for a 12-year-old."
+   "task": "Write a message asking the AI to EXPLAIN a maths problem, not just give you the answer.",
+   "seconds": 120,
+   "checklist": [
+    "You ask for a step-by-step explanation",
+    "You say your age or grade",
+    "You ask to try a similar one yourself at the end"
+   ],
+   "example": "I'm 12. Don't just give me the answer – explain step by step how to solve 3x + 5 = 20. At the end, give me a similar problem to try myself."
   }
  ]
 }

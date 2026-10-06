@@ -1,55 +1,80 @@
 {
- "id": "k_p3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Školski projekat traži istraživanje. AI može da bude tvoj vodič – da ti pomogne da postaviš prava pitanja i nađeš put do odgovora."
+   "q": "Koja tema je bolja za projekat?",
+   "options": [
+    "„Kako astronauti jedu u svemiru“",
+    "„Svemir“",
+    "„Stvari“",
+    "„Sve o svemu“"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "AI ti je dao link ka izvoru. Šta radiš?",
+   "options": [
+    "Proverim da li sajt stvarno postoji",
+    "Odmah poverujem",
+    "Zapišem ga bez provere",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Zašto zapisuješ izvore?",
+   "options": [
+    "Da se zna odakle su informacije",
+    "Bez razloga",
+    "Da bude duže",
+    "Da zbuniš nastavnika"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Kako AI može da pomogne timu?",
+   "options": [
+    "Da predloži kako da podelite zadatke",
+    "Da radi umesto svih",
+    "Da pravi svađe",
+    "Nikako"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI je predložio 5 pitanja za projekat (označeno). Šta je sledeće?",
+   "options": [
+    "Tražim odgovore u knjigama i na pouzdanim sajtovima",
+    "Prepišem pitanja i predam",
+    "Obrišem ih",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Korak po korak"
-  },
+   "image": "chat_user",
+   "q": "U označenoj poruci opisuješ projekat. Šta je bitno?",
+   "options": [
+    "Tema i koliko imaš godina",
+    "Tvoja adresa",
+    "Lozinka",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Izaberi temu i suzi je (ne „Svemir“, nego „Kako astronauti jedu u svemiru“).",
-    "Traži od AI-ja 5 pitanja na koja tvoj projekat treba da odgovori.",
-    "Za svako pitanje nađi odgovor u knjigama ili na pouzdanim sajtovima.",
-    "Zapiši izvore: naslov knjige ili ime sajta.",
-    "Na kraju traži od AI-ja da ti pomogne da sve složiš logičnim redom."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Imam 13 godina i radim projekat o tome kako astronauti jedu u svemiru. Predloži mi 5 pitanja na koja moj projekat treba da odgovori i za svako gde da potražim pouzdan odgovor."
-  },
-  {
-   "type": "tip",
-   "text": "AI ponekad izmisli izvore i linkove! Uvek proveri da li knjiga ili sajt stvarno postoje."
-  },
-  {
-   "type": "h",
-   "text": "Rad u timu"
-  },
-  {
-   "type": "p",
-   "text": "Ako radite u grupi, AI može da vam pomogne da podelite zadatke: ko istražuje šta, ko pravi slajdove, a ko izlaže."
+   "task": "Napiši prompt za početak istraživanja na temu po izboru za školski projekat.",
+   "seconds": 120,
+   "checklist": [
+    "Uska tema",
+    "Koliko imaš godina",
+    "Šta tražiš (pitanja, gde da tražiš izvore)"
+   ],
+   "example": "Imam 12 godina i radim projekat o tome zašto pčele prave med. Predloži mi 5 pitanja za istraživanje i za svako vrstu pouzdanog izvora gde da tražim odgovor."
   }
  ]
 }

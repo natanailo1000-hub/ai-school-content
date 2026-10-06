@@ -1,54 +1,80 @@
 {
- "id": "k_p5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA è come un insegnante di lingue paziente e sempre disponibile. Puoi esercitarti nella conversazione, nelle parole e nella grammatica, senza vergogna."
+   "q": "Come fai a farti correggere gli errori dall'IA?",
+   "options": [
+    "Scrivi \"correggimi con gentilezza e spiega\"",
+    "Non scrivi niente",
+    "Scrivi solo in italiano",
+    "Chiudi l'app"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
-   "tool": "claude"
+   "q": "Ogni quanto è meglio esercitarsi?",
+   "options": [
+    "Un po' ogni giorno",
+    "Una volta all'anno",
+    "Mai",
+    "Solo prima di una verifica"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
-   "tool": "chatgpt"
+   "q": "Qual è un buon gioco linguistico con l'IA?",
+   "options": [
+    "Tradurre le parole che ti dà l'IA",
+    "Mandare la password",
+    "Cancellare la chat",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
-   "tool": "gemini"
+   "q": "Hai sbagliato una frase. Come dovresti sentirti?",
+   "options": [
+    "Va bene: gli errori aiutano a imparare",
+    "Dovresti arrenderti",
+    "Dovresti vergognarti",
+    "È tutto sbagliato"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA ti ha corretto (evidenziato). Cosa fai?",
+   "options": [
+    "Leggo la correzione e riprovo",
+    "Mi arrabbio",
+    "Cancello l'app",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Modi per esercitarti"
-  },
+   "image": "chat_user",
+   "q": "Nel messaggio evidenziato hai scritto una frase in una lingua straniera. Perché?",
+   "options": [
+    "Per esercitarmi e farmi correggere",
+    "Senza motivo",
+    "Per confondere l'IA",
+    "Per avere un regalo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Conversazione: \"Parla con me in inglese di calcio, con parole semplici, e correggimi con gentilezza.\"",
-    "Parole: chiedi 10 parole nuove con frasi d'esempio.",
-    "Gioco: \"Dammi una parola in italiano e io la traduco.\"",
-    "Grammatica: chiedi una spiegazione con tanti esempi."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Ho 12 anni e sto imparando l'inglese. Parliamo del mio film preferito. Fammi domande semplici in inglese, una alla volta, e quando sbaglio correggimi e spiegamelo in italiano."
-  },
-  {
-   "type": "tip",
-   "text": "10 minuti ogni giorno sono meglio di un'ora una volta a settimana."
-  },
-  {
-   "type": "h",
-   "text": "Pronuncia"
-  },
-  {
-   "type": "p",
-   "text": "Alcuni strumenti di IA hanno una modalità vocale, così puoi parlare anche ad alta voce. Chiedi a un genitore di aiutarti ad attivarla."
+   "task": "Scrivi un prompt per esercitarti in una lingua straniera parlando del tuo hobby.",
+   "seconds": 120,
+   "checklist": [
+    "Quale lingua e la tua età",
+    "L'argomento della conversazione",
+    "Come deve correggerti (con gentilezza e spiegazione)"
+   ],
+   "example": "Ho 12 anni e sto imparando l'inglese. Parliamo del mio hobby, il disegno. Fammi domande semplici in inglese, una alla volta, e correggi i miei errori con gentilezza e una breve spiegazione in italiano."
   }
  ]
 }

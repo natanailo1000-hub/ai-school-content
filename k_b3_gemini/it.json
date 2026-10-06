@@ -1,51 +1,80 @@
 {
- "id": "k_b3_gemini",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Mandiamo il tuo primo messaggio! Gemini è un'IA creata dall'azienda Google."
+   "q": "Quale azienda fa Gemini?",
+   "options": [
+    "Google",
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile."
+   "q": "Cosa conviene scrivere nel primo messaggio?",
+   "options": [
+    "Cosa ti incuriosisce e quanti anni hai",
+    "Il tuo indirizzo",
+    "La tua password",
+    "Niente, solo \"ciao\""
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Come iniziare"
+   "q": "Non capisci la risposta. Cosa scrivi?",
+   "options": [
+    "\"Spiegalo in modo più semplice\"",
+    "Chiudi l'app",
+    "Maiuscole arrabbiate",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Insieme a un genitore, apri gemini.google.com o l'app Gemini.",
-    "Tocca la casella del messaggio.",
-    "Scrivi la tua domanda con frasi normali.",
-    "Premi il pulsante di invio e aspetta la risposta."
-   ]
+   "q": "Con chi è meglio provare Gemini la prima volta?",
+   "options": [
+    "Con un genitore",
+    "Con uno sconosciuto",
+    "Da solo, di nascosto",
+    "Con nessuno"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Dove scrivi il tuo messaggio a Gemini?",
+   "options": [
+    "Nella casella evidenziata",
+    "Nella risposta sopra",
+    "Nelle impostazioni",
+    "Da nessuna parte"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cosa chiedere?"
-  },
+   "image": "send_button",
+   "q": "Cosa fa il pulsante evidenziato?",
+   "options": [
+    "Invia il tuo messaggio",
+    "Cancella tutto",
+    "Spegne il telefono",
+    "Mette la musica"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Più dettagli dai, migliore sarà la risposta. Di' cosa ti incuriosisce e quanti anni hai, così l'IA te lo spiega nel modo giusto per te."
-  },
-  {
-   "type": "try",
-   "text": "Ciao! Ho 12 anni. Dimmi 3 curiosità sui polpi, ognuna in una frase."
-  },
-  {
-   "type": "h",
-   "text": "E poi?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Puoi chiedere di più: \"Dimmi di più sulla seconda curiosità\".",
-    "Se non capisci qualcosa, scrivi: \"Spiegalo in modo più semplice\".",
-    "Per un argomento nuovo, apri una nuova chat."
-   ]
+   "task": "Scrivi il tuo primo messaggio a Gemini: chiedi qualcosa sul tuo animale preferito.",
+   "seconds": 120,
+   "checklist": [
+    "Quale animale ti interessa",
+    "Quanti anni hai",
+    "Cosa vuoi esattamente (es. 3 curiosità brevi)"
+   ],
+   "example": "Ho 11 anni e adoro i delfini. Scrivimi 3 curiosità brevi e interessanti sui delfini."
   }
  ]
 }

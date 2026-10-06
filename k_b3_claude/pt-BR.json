@@ -1,51 +1,80 @@
 {
- "id": "k_b3_claude",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Vamos mandar sua primeira mensagem! O Claude é uma IA criada pela empresa Anthropic."
+   "q": "Qual empresa faz o Claude?",
+   "options": [
+    "Anthropic",
+    "OpenAI",
+    "Google",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles."
+   "q": "O que é bom escrever na sua primeira mensagem?",
+   "options": [
+    "O que você quer saber e quantos anos tem",
+    "Seu endereço",
+    "Sua senha",
+    "Nada, só \"oi\""
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Como começar"
+   "q": "Você não entendeu a resposta. O que escreve?",
+   "options": [
+    "\"Explique mais fácil\"",
+    "Fecha o app",
+    "Letras maiúsculas bravas",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Junto com seu pai ou sua mãe, abra claude.ai ou o app Claude.",
-    "Toque na caixa de mensagem.",
-    "Escreva sua pergunta com frases normais.",
-    "Aperte o botão de enviar e espere a resposta."
-   ]
+   "q": "Com quem é melhor testar o Claude pela primeira vez?",
+   "options": [
+    "Com seu pai ou sua mãe",
+    "Com um estranho",
+    "Sozinho, escondido",
+    "Com ninguém"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Onde você escreve sua mensagem para o Claude?",
+   "options": [
+    "Na caixa destacada",
+    "Na resposta acima",
+    "Nas configurações",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "O que perguntar?"
-  },
+   "image": "send_button",
+   "q": "O que faz o botão destacado?",
+   "options": [
+    "Envia sua mensagem",
+    "Apaga tudo",
+    "Desliga o celular",
+    "Toca música"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Quanto mais detalhes você der, melhor a resposta. Diga o que você quer saber e quantos anos tem, para a IA explicar do jeito certo para você."
-  },
-  {
-   "type": "try",
-   "text": "Oi! Tenho 12 anos. Me conte 3 curiosidades sobre polvos, cada uma em uma frase."
-  },
-  {
-   "type": "h",
-   "text": "E depois?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Você pode perguntar mais: \"Me conte mais sobre a segunda curiosidade\".",
-    "Se não entender algo, escreva: \"Explique mais fácil\".",
-    "Para um assunto novo, abra um novo chat."
-   ]
+   "task": "Escreva sua primeira mensagem para o Claude: pergunte algo sobre seu animal favorito.",
+   "seconds": 120,
+   "checklist": [
+    "Qual animal você quer conhecer",
+    "Quantos anos você tem",
+    "O que exatamente você quer (por ex. 3 curiosidades curtas)"
+   ],
+   "example": "Tenho 11 anos e adoro golfinhos. Escreva 3 curiosidades curtas e legais sobre golfinhos."
   }
  ]
 }

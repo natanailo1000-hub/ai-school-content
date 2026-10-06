@@ -1,58 +1,80 @@
 {
- "id": "k_i1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI kann wie eine Nachhilfe sein, die um 23 Uhr noch wach ist und sich nie über dieselbe Frage ärgert. Aber es kommt darauf an, wie du sie nutzt."
+   "q": "Was ist eine gute Art, KI für die Schule zu nutzen?",
+   "options": [
+    "Sie eine Stunde erklären lassen, die du nicht verstanden hast",
+    "Die ganzen Hausaufgaben abschreiben",
+    "Ihren Text als deinen abgeben",
+    "Gar nichts lernen"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Du hast eine Aufgabe gelöst. Wie kann KI helfen?",
+   "options": [
+    "Sie prüfen und sagen, wo der Fehler ist",
+    "Sie löschen",
+    "Sie an die Lehrkraft schicken",
+    "Gar nicht"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Du weißt nicht, ob KI an deiner Schule erlaubt ist. Was tust du?",
+   "options": [
+    "Die Lehrkraft fragen",
+    "Sie heimlich nutzen",
+    "Lügen",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Wie bringst du die KI dazu, einfacher zu erklären?",
+   "options": [
+    "Dein Alter nennen und um ein Beispiel bitten",
+    "In Großbuchstaben schreiben",
+    "Eine leere Nachricht schicken",
+    "Die App schließen"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In der markierten Antwort hat die KI deine ganzen Hausaufgaben gelöst. Was ist besser?",
+   "options": [
+    "Sie erklären lassen und dann selbst machen",
+    "Alles abschreiben",
+    "An Freunde schicken",
+    "Ungelesen abgeben"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Gute Arten, sie zu nutzen"
-  },
+   "image": "chat_user",
+   "q": "In der markierten Nachricht bittest du um Hilfe. Was gehört gut hinein?",
+   "options": [
+    "Was du nicht verstehst und deine Klasse",
+    "Dein Passwort",
+    "Deine Adresse",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Eine Stunde erklären lassen, die du im Unterricht nicht verstanden hast.",
-    "Beispiele bekommen, als wärst du 12.",
-    "Deine Aufgabe prüfen lassen und erfahren, wo der Fehler ist – ohne dass sie sie für dich löst.",
-    "Dir Fragen stellen lassen, um zu sehen, was du schon kannst."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Schlechte Arten, sie zu nutzen"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Die ganzen Hausaufgaben abschreiben.",
-    "KI-Text als deinen eigenen abgeben.",
-    "Alles ungeprüft glauben."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Frag deine Lehrkraft, ob du KI für Hausaufgaben nutzen darfst. Manche Schulen haben Regeln dafür."
-  },
-  {
-   "type": "try",
-   "text": "Ich verstehe Brüche nicht. Erklär sie mir, als wäre ich 11, mit einem Pizza-Beispiel. Gib mir dann 3 leichte Aufgaben zum Üben."
+   "task": "Schreib eine Nachricht, in der du die KI bittest, eine Geschichtsstunde zu erklären, die du nicht verstanden hast.",
+   "seconds": 120,
+   "checklist": [
+    "Welche Stunde (Thema)",
+    "Deine Klasse oder dein Alter",
+    "Wie erklärt werden soll (einfach, mit Beispiel, dann Kontrollfragen)"
+   ],
+   "example": "Ich bin in der 6. Klasse und verstehe nicht, warum der Erste Weltkrieg begann. Erkläre es einfach in 5 kurzen Punkten und stell mir dann 3 Fragen, ob ich es verstanden habe."
   }
  ]
 }

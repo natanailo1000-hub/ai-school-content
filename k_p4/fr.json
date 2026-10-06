@@ -1,53 +1,80 @@
 {
- "id": "k_p4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Tu as une idée de BD, d'histoire ou de vidéo pour l'école ou internet ? L'IA est une super partenaire pour trouver des idées – et c'est toi le réalisateur !"
+   "q": "Qui est le réalisateur de ton projet créatif ?",
+   "options": [
+    "Toi – l'IA aide avec des idées",
+    "Seulement l'IA",
+    "Personne",
+    "Ton téléphone"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
-   "tool": "claude"
+   "q": "Qu'est-ce qu'un scénario de vidéo ?",
+   "options": [
+    "Un plan de ce qu'on voit et dit dans chaque partie",
+    "De la musique",
+    "Une caméra",
+    "Un mot de passe"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
-   "tool": "chatgpt"
+   "q": "Avant de publier une vidéo en ligne :",
+   "options": [
+    "Je demande à mes parents",
+    "Je la publie tout de suite",
+    "Je l'envoie à des inconnus",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
-   "tool": "gemini"
+   "q": "Comment avoir plus d'idées pour la fin d'une histoire ?",
+   "options": [
+    "Demander « 3 fins différentes »",
+    "Écrire en majuscules",
+    "Abandonner",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA a décrit les cases de la BD (en évidence). Que fais-tu ?",
+   "options": [
+    "Je les dessine à ma façon",
+    "Rien",
+    "Je les efface",
+    "Je les envoie sans dessiner"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "BD"
-  },
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu as décrit ton idée d'histoire. Qu'ajouter encore ?",
+   "options": [
+    "Qui sont les personnages et à qui s'adresse l'histoire",
+    "Ton adresse",
+    "Ton mot de passe",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Aide-moi à inventer une BD de 6 cases sur un robot qui apprend à jouer au foot. Pour chaque case, écris ce qu'on voit et ce que disent les personnages. Je la dessinerai."
-  },
-  {
-   "type": "h",
-   "text": "Histoire"
-  },
-  {
-   "type": "p",
-   "text": "Demande à l'IA de t'aider pour les personnages, l'intrigue et la fin – puis écris avec tes propres mots. Tu peux aussi demander « 3 fins différentes » et en choisir une."
-  },
-  {
-   "type": "h",
-   "text": "Vidéo"
-  },
-  {
-   "type": "try",
-   "text": "Je fais une vidéo d'1 minute sur comment fabriquer un avion en papier. Écris-moi un scénario : ce qu'on voit, ce que je dis et combien de temps dure chaque partie."
-  },
-  {
-   "type": "tip",
-   "text": "Si tu publies quelque chose en ligne, demande d'abord à tes parents. Et n'utilise pas les images, la musique ou les personnages des autres sans permission."
+   "task": "Écris un prompt pour le scénario d'une courte vidéo (1 minute) sur ton loisir.",
+   "seconds": 120,
+   "checklist": [
+    "Le sujet et la durée",
+    "Ce que tu veux (ce qu'on voit, ce qu'on dit)",
+    "À qui s'adresse la vidéo"
+   ],
+   "example": "Je fais une vidéo d'1 minute pour mes amis sur comment s'occuper de poissons d'aquarium. Écris un scénario par parties : ce qu'on voit, ce que je dis et combien de secondes dure chaque partie."
   }
  ]
 }

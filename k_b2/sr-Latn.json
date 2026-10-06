@@ -1,61 +1,80 @@
 {
- "id": "k_b2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI deluje pametno, ali nije ni čarobnjak ni čovek. Hajde da vidimo gde su mu granice."
+   "q": "Šta je „halucinacija“ kod AI-ja?",
+   "options": [
+    "Kad AI izmisli odgovor, a zvuči sigurno",
+    "Kad AI vidi duhove",
+    "Kad se telefon ugasi",
+    "Kad AI peva"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Da li AI ima osećanja?",
+   "options": [
+    "Nema, samo piše kao da ih ima",
+    "Ima, kao čovek",
+    "Samo vikendom",
+    "Ima, ali samo kad je srećan"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Tužan si zbog svađe sa drugom. Kome je najbolje da se obratiš?",
+   "options": [
+    "Roditelju, nastavniku ili osobi kojoj veruješ",
+    "Samo AI-ju",
+    "Nikome",
+    "Nepoznatoj osobi na internetu"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Kako je najbolje koristiti AI za domaći?",
+   "options": [
+    "Da ti objasni gradivo, a onda uradiš sam",
+    "Da prepišeš ceo odgovor",
+    "Da ga i ne pročitaš",
+    "Da ga predaš kao svoj"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "U označenom odgovoru AI je napisao datum iz istorije. Treba ti za školu. Šta radiš?",
+   "options": [
+    "Proverim u knjizi ili sa nastavnikom",
+    "Verujem bez provere",
+    "Bacim knjigu",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "AI ne zna sve"
-  },
+   "image": "chat_user",
+   "q": "Ovo je tvoja poruka AI-ju. Šta NE treba da bude u njoj?",
+   "options": [
+    "Tvoja adresa ili lozinka",
+    "Pitanje o planetama",
+    "Molim te",
+    "Tema za priču"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Ponekad izmisli odgovor, a zvuči sigurno – to se zove „halucinacija“.",
-    "Ne zna uvek najnovije vesti.",
-    "Može da pogreši u računu ili činjenicama."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "AI nema osećanja"
-  },
-  {
-   "type": "p",
-   "text": "AI može da piše ljubazno i da zvuči kao drug, ali ništa ne oseća i ne poznaje te kao pravi prijatelj. Ako si tužan, posvađao si se ili imaš problem, razgovaraj sa roditeljem, nastavnikom ili drugom osobom kojoj veruješ."
-  },
-  {
-   "type": "h",
-   "text": "AI ne radi umesto tebe"
-  },
-  {
-   "type": "p",
-   "text": "Ako AI napiše domaći umesto tebe, ništa nisi naučio – a nastavnici to često primete. Koristi AI da ti objasni, a ne da prepisuješ."
-  },
-  {
-   "type": "tip",
-   "text": "Dobro pravilo: AI je kao pametan pomoćnik, a ne neko ko odlučuje umesto tebe."
-  },
-  {
-   "type": "try",
-   "text": "Objasni mi 3 stvari koje AI ne ume dobro, sa po jednim primerom. Piši za dete od 12 godina."
+   "task": "Napiši poruku u kojoj tražiš od AI-ja da ti OBJASNI zadatak iz matematike, a ne da ti da samo rezultat.",
+   "seconds": 120,
+   "checklist": [
+    "Tražiš objašnjenje korak po korak",
+    "Kažeš koliko imaš godina ili koji si razred",
+    "Tražiš sličan zadatak da na kraju probaš sam"
+   ],
+   "example": "Imam 12 godina. Nemoj da mi daš samo rezultat, nego mi objasni korak po korak kako da rešim 3x + 5 = 20. Na kraju mi daj sličan zadatak da probam sam."
   }
  ]
 }

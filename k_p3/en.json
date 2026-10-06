@@ -1,55 +1,80 @@
 {
- "id": "k_p3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A school project needs research. AI can be your guide – helping you ask the right questions and find the way to the answers."
+   "q": "Which topic is better for a project?",
+   "options": [
+    "\"How astronauts eat in space\"",
+    "\"Space\"",
+    "\"Things\"",
+    "\"Everything about everything\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "The AI gave you a link to a source. What do you do?",
+   "options": [
+    "Check that the website really exists",
+    "Trust it right away",
+    "Write it down without checking",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "Why do you write down your sources?",
+   "options": [
+    "So everyone knows where the information comes from",
+    "No reason",
+    "To make it longer",
+    "To confuse the teacher"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "How can AI help a team?",
+   "options": [
+    "By suggesting how to split the tasks",
+    "By doing everyone's work",
+    "By starting arguments",
+    "It can't"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI suggested 5 questions for your project (highlighted). What's next?",
+   "options": [
+    "Look for answers in books and reliable websites",
+    "Copy the questions and hand them in",
+    "Delete them",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Step by step"
-  },
+   "image": "chat_user",
+   "q": "In the highlighted message you describe your project. What's important?",
+   "options": [
+    "The topic and your age",
+    "Your address",
+    "Your password",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Choose a topic and narrow it down (not \"Space\", but \"How astronauts eat in space\").",
-    "Ask the AI for 5 questions your project should answer.",
-    "For each question, find the answer in books or reliable websites.",
-    "Write down your sources: the book title or the website name.",
-    "At the end, ask the AI to help you put everything in a logical order."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "I'm 13 and doing a project on how astronauts eat in space. Suggest 5 questions my project should answer and, for each, where to look for a reliable answer."
-  },
-  {
-   "type": "tip",
-   "text": "AI sometimes makes up sources and links! Always check that the book or website really exists."
-  },
-  {
-   "type": "h",
-   "text": "Teamwork"
-  },
-  {
-   "type": "p",
-   "text": "If you're working in a group, AI can help you split the tasks: who researches what, who makes the slides, who presents."
+   "task": "Write a prompt to start research on a topic of your choice for a school project.",
+   "seconds": 120,
+   "checklist": [
+    "A narrow topic",
+    "Your age",
+    "What you want (questions, where to find sources)"
+   ],
+   "example": "I'm 12 and doing a project on why bees make honey. Suggest 5 research questions and, for each, a type of reliable source where I can look for the answer."
   }
  ]
 }

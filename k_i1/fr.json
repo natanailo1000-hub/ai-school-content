@@ -1,58 +1,80 @@
 {
- "id": "k_i1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA peut être comme un prof particulier, réveillé à 23 h et jamais agacé si tu poses deux fois la même question. Mais tout dépend de la façon dont tu l'utilises."
+   "q": "Quelle est une bonne façon d'utiliser l'IA pour l'école ?",
+   "options": [
+    "Lui faire expliquer une leçon que tu n'as pas comprise",
+    "Recopier tous tes devoirs",
+    "Rendre son texte comme le tien",
+    "Ne rien apprendre"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
-   "tool": "claude"
+   "q": "Tu as fait un exercice. Comment l'IA peut-elle aider ?",
+   "options": [
+    "Le vérifier et te dire où tu t'es trompé",
+    "L'effacer",
+    "L'envoyer au professeur",
+    "Elle ne peut pas"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
-   "tool": "chatgpt"
+   "q": "Tu ne sais pas si l'IA est autorisée dans ton école. Que fais-tu ?",
+   "options": [
+    "Je demande au professeur",
+    "Je l'utilise en cachette",
+    "Je mens",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
-   "tool": "gemini"
+   "q": "Comment obtenir une explication plus simple ?",
+   "options": [
+    "Dire ton âge et demander un exemple",
+    "Écrire en majuscules",
+    "Envoyer un message vide",
+    "Fermer l'application"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Dans la réponse mise en évidence, l'IA a fait tous tes devoirs. Qu'est-ce qui est mieux ?",
+   "options": [
+    "Lui demander d'expliquer, puis le faire moi-même",
+    "Tout recopier",
+    "L'envoyer aux copains",
+    "Le rendre sans lire"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Les bonnes façons de l'utiliser"
-  },
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu demandes de l'aide. Que faut-il y mettre ?",
+   "options": [
+    "Ce que tu ne comprends pas et ta classe",
+    "Ton mot de passe",
+    "Ton adresse",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Lui faire expliquer une leçon que tu n'as pas comprise en classe.",
-    "Lui demander des exemples, comme si tu avais 12 ans.",
-    "Lui faire vérifier ton travail pour savoir où tu t'es trompé, sans qu'elle le fasse à ta place.",
-    "Lui demander de te poser des questions pour voir ce que tu sais."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Les mauvaises façons de l'utiliser"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Recopier tous tes devoirs.",
-    "Rendre le texte de l'IA comme si c'était le tien.",
-    "Tout croire sans vérifier."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Demande à ton professeur si tu as le droit d'utiliser l'IA pour tes devoirs. Certaines écoles ont des règles."
-  },
-  {
-   "type": "try",
-   "text": "Je ne comprends pas les fractions. Explique-les-moi comme si j'avais 11 ans, avec un exemple de pizza. Puis donne-moi 3 exercices faciles pour m'entraîner."
+   "task": "Écris un message pour demander à l'IA d'expliquer une leçon d'histoire que tu n'as pas comprise.",
+   "seconds": 120,
+   "checklist": [
+    "Quelle leçon (sujet)",
+    "Ta classe ou ton âge",
+    "Comment expliquer (simplement, avec un exemple, puis des questions)"
+   ],
+   "example": "Je suis en 6e et je ne comprends pas pourquoi la Première Guerre mondiale a commencé. Explique-le simplement en 5 points courts, puis pose-moi 3 questions pour vérifier que j'ai compris."
   }
  ]
 }

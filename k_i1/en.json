@@ -1,58 +1,80 @@
 {
- "id": "k_i1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI can be like a private tutor who's awake at 11 pm and never gets annoyed by the same question twice. But how you use it matters."
+   "q": "Which is a good way to use AI for school?",
+   "options": [
+    "Getting it to explain a lesson you didn't understand",
+    "Copying your whole homework",
+    "Handing in its text as yours",
+    "Not learning anything"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "You've done a problem. How can AI help?",
+   "options": [
+    "Check it and tell you where you went wrong",
+    "Delete it",
+    "Send it to your teacher",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "You don't know if AI is allowed at your school. What do you do?",
+   "options": [
+    "Ask your teacher",
+    "Use it secretly",
+    "Lie",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "How do you get AI to explain more simply?",
+   "options": [
+    "Say your age and ask for an example",
+    "Write in capital letters",
+    "Send an empty message",
+    "Close the app"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In the highlighted answer the AI solved your whole homework. What's better?",
+   "options": [
+    "Ask it to explain, then do it yourself",
+    "Copy everything",
+    "Send it to friends",
+    "Hand it in without reading"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Good ways to use it"
-  },
+   "image": "chat_user",
+   "q": "You're asking for help in the highlighted message. What's good to include?",
+   "options": [
+    "What you don't understand and your grade",
+    "Your password",
+    "Your address",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "To explain a lesson you didn't understand in class.",
-    "To give you examples, as if you were 12.",
-    "To check your work and say where you went wrong – without solving it for you.",
-    "To ask you questions so you can see what you know."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Bad ways to use it"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Copying your whole homework.",
-    "Handing in AI text as your own.",
-    "Believing everything without checking."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Ask your teacher whether you may use AI for homework. Some schools have rules about it."
-  },
-  {
-   "type": "try",
-   "text": "I don't understand fractions. Explain them as if I'm 11, with a pizza example. Then give me 3 easy problems to try."
+   "task": "Write a message asking AI to explain a history lesson you didn't understand.",
+   "seconds": 120,
+   "checklist": [
+    "Which lesson (topic)",
+    "Your grade or age",
+    "How to explain (simply, with an example, then check questions)"
+   ],
+   "example": "I'm in 6th grade and I don't understand why World War I started. Explain it simply in 5 short points, then ask me 3 questions to check I understood."
   }
  ]
 }

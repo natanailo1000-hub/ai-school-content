@@ -1,54 +1,80 @@
 {
- "id": "k_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Tra scuola, allenamenti, compiti e amici è facile perdersi. L'IA può aiutarti a far stare tutto nella settimana."
+   "q": "Cosa dici all'IA per fare un programma?",
+   "options": [
+    "I tuoi impegni e quanto tempo hai",
+    "La tua password",
+    "Dove abiti",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
-   "tool": "claude"
+   "q": "L'IA ti ha proposto esercizi di calcio. Cosa fai?",
+   "options": [
+    "Li mostro all'allenatore o a un genitore",
+    "Comincio dai più difficili",
+    "Ignoro l'allenatore",
+    "Mi alleno tutto il giorno"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
-   "tool": "chatgpt"
+   "q": "Non sei riuscito a fare tutto. Cosa è meglio?",
+   "options": [
+    "Chiedere all'IA di riorganizzare",
+    "Arrendermi",
+    "Non dormire",
+    "Arrabbiarmi"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
-   "tool": "gemini"
+   "q": "Cosa è importante nel piano?",
+   "options": [
+    "Anche tempo per riposare e giocare",
+    "Solo studio",
+    "Solo videogiochi",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Cosa hai scritto nel messaggio evidenziato?",
+   "options": [
+    "I tuoi impegni della settimana",
+    "La risposta dell'IA",
+    "Una pubblicità",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cosa dirle"
-  },
+   "image": "chat_reply",
+   "q": "Dov'è il tuo programma?",
+   "options": [
+    "Nella risposta evidenziata",
+    "Nelle impostazioni",
+    "Nello store",
+    "Non c'è"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "I tuoi impegni fissi (scuola, allenamenti, lezioni).",
-    "Cosa devi fare questa settimana (compiti, verifiche).",
-    "Quanto tempo vuoi per riposarti e giocare.",
-    "A che ora vai a dormire."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Faccio la seconda media. La scuola è dalle 8 alle 14. Ho allenamento il martedì e il giovedì dalle 17 alle 18:30. Venerdì ho la verifica di scienze. Fammi un programma per questa settimana con tempo per studiare, riposare e giocare. Vado a dormire alle 22."
-  },
-  {
-   "type": "h",
-   "text": "Allenamento e salute"
-  },
-  {
-   "type": "p",
-   "text": "L'IA può proporti un riscaldamento o un piano di esercizi per il tuo sport. Ma mostralo sempre all'allenatore o a un genitore: loro sanno cosa è sicuro per te."
-  },
-  {
-   "type": "tip",
-   "text": "Il piano serve ad aiutarti, non a stressarti. Se non riesci a fare qualcosa, chiedi all'IA di riorganizzarlo."
+   "task": "Scrivi un messaggio per organizzare il weekend: hai i compiti, la festa di compleanno di un amico sabato e vuoi giocare ai videogiochi.",
+   "seconds": 120,
+   "checklist": [
+    "Tutti gli impegni (compiti, festa)",
+    "Cosa vuoi (tempo per giocare)",
+    "Forma (per ore o momenti della giornata)"
+   ],
+   "example": "Aiutami a organizzare il weekend. Ho i compiti di italiano e matematica, sabato dalle 16 sono alla festa di un amico e voglio 2 ore di videogiochi. Fai un programma per sabato e domenica diviso per momenti della giornata."
   }
  ]
 }

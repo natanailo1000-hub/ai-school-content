@@ -1,61 +1,80 @@
 {
- "id": "k_b2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA a l'air maline, mais ce n'est ni un magicien ni une personne. Voyons où sont ses limites."
+   "q": "Qu'est-ce qu'une « hallucination » de l'IA ?",
+   "options": [
+    "Quand l'IA invente une réponse tout en ayant l'air sûre",
+    "Quand l'IA voit des fantômes",
+    "Quand le téléphone s'éteint",
+    "Quand l'IA chante"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
-   "tool": "claude"
+   "q": "L'IA a-t-elle des sentiments ?",
+   "options": [
+    "Non, elle écrit seulement comme si elle en avait",
+    "Oui, comme une personne",
+    "Seulement le week-end",
+    "Oui, mais seulement quand elle est contente"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
-   "tool": "chatgpt"
+   "q": "Tu es triste après une dispute avec un ami. À qui vaut-il mieux en parler ?",
+   "options": [
+    "À un parent, un professeur ou quelqu'un de confiance",
+    "Seulement à l'IA",
+    "À personne",
+    "À un inconnu sur internet"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
-   "tool": "gemini"
+   "q": "Quelle est la meilleure façon d'utiliser l'IA pour les devoirs ?",
+   "options": [
+    "Elle t'explique la leçon, puis tu fais le travail toi-même",
+    "Copier toute la réponse",
+    "Ne même pas la lire",
+    "La rendre comme si c'était la tienne"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Dans la réponse mise en évidence, l'IA donne une date d'histoire. C'est pour l'école. Que fais-tu ?",
+   "options": [
+    "Je vérifie dans un livre ou avec le professeur",
+    "Je la crois sans vérifier",
+    "Je jette le livre",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "L'IA ne sait pas tout"
-  },
+   "image": "chat_user",
+   "q": "Voici ton message à l'IA. Que ne doit-il PAS contenir ?",
+   "options": [
+    "Ton adresse ou ton mot de passe",
+    "Une question sur les planètes",
+    "S'il te plaît",
+    "Un sujet d'histoire"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Parfois, elle invente une réponse tout en ayant l'air sûre : on appelle ça une « hallucination ».",
-    "Elle ne connaît pas toujours les dernières nouvelles.",
-    "Elle peut se tromper en calcul ou sur des faits."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "L'IA n'a pas de sentiments"
-  },
-  {
-   "type": "p",
-   "text": "L'IA peut écrire gentiment et ressembler à un ami, mais elle ne ressent rien et ne te connaît pas comme un vrai ami. Si tu es triste, fâché avec quelqu'un ou si tu as un problème, parles-en à tes parents, à un professeur ou à une personne de confiance."
-  },
-  {
-   "type": "h",
-   "text": "L'IA ne fait pas ton travail à ta place"
-  },
-  {
-   "type": "p",
-   "text": "Si l'IA fait tes devoirs, tu n'as rien appris – et les professeurs le remarquent souvent. Utilise l'IA pour qu'elle t'explique, pas pour copier."
-  },
-  {
-   "type": "tip",
-   "text": "Bonne règle : l'IA est comme un assistant malin, pas quelqu'un qui décide à ta place."
-  },
-  {
-   "type": "try",
-   "text": "Explique-moi 3 choses que l'IA ne fait pas bien, avec un exemple pour chacune. Écris-le pour un enfant de 12 ans."
+   "task": "Écris un message pour demander à l'IA de t'EXPLIQUER un exercice de maths, pas seulement de te donner le résultat.",
+   "seconds": 120,
+   "checklist": [
+    "Tu demandes une explication étape par étape",
+    "Tu dis ton âge ou ta classe",
+    "Tu demandes un exercice semblable pour t'entraîner à la fin"
+   ],
+   "example": "J'ai 12 ans. Ne me donne pas juste le résultat : explique-moi étape par étape comment résoudre 3x + 5 = 20. À la fin, donne-moi un exercice semblable à faire seul."
   }
  ]
 }

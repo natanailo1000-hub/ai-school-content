@@ -1,51 +1,80 @@
 {
- "id": "k_b3_gemini",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Lass uns deine erste Nachricht schicken! Gemini ist eine KI der Firma Google."
+   "q": "Welche Firma macht Gemini?",
+   "options": [
+    "Google",
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar."
+   "q": "Was schreibst du am besten in deine erste Nachricht?",
+   "options": [
+    "Was dich interessiert und wie alt du bist",
+    "Deine Adresse",
+    "Dein Passwort",
+    "Nichts, nur \"hey\""
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "So fängst du an"
+   "q": "Du verstehst die Antwort nicht. Was schreibst du?",
+   "options": [
+    "\"Erklär es einfacher\"",
+    "Die App schließen",
+    "Wütende Großbuchstaben",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Öffne zusammen mit einem Elternteil gemini.google.com oder die App Gemini.",
-    "Tippe ins Nachrichtenfeld.",
-    "Schreib deine Frage in normalen Sätzen.",
-    "Drück auf Senden und warte auf die Antwort."
-   ]
+   "q": "Mit wem probierst du Gemini am besten das erste Mal aus?",
+   "options": [
+    "Mit einem Elternteil",
+    "Mit einem Fremden",
+    "Allein, heimlich",
+    "Mit niemandem"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Wo schreibst du deine Nachricht an Gemini?",
+   "options": [
+    "In das markierte Feld",
+    "In die Antwort oben",
+    "In die Einstellungen",
+    "Nirgends"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Was solltest du fragen?"
-  },
+   "image": "send_button",
+   "q": "Was macht der markierte Knopf?",
+   "options": [
+    "Er sendet deine Nachricht",
+    "Er löscht alles",
+    "Er schaltet das Handy aus",
+    "Er spielt Musik"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Je mehr Details du gibst, desto besser die Antwort. Sag, was dich interessiert und wie alt du bist, damit die KI es passend für dich erklärt."
-  },
-  {
-   "type": "try",
-   "text": "Hallo! Ich bin 12. Nenne mir 3 spannende Fakten über Kraken, jeden in einem Satz."
-  },
-  {
-   "type": "h",
-   "text": "Und dann?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Du kannst nachfragen: \"Erzähl mir mehr über den zweiten Fakt\".",
-    "Wenn du etwas nicht verstehst, schreib: \"Erklär es einfacher\".",
-    "Für ein neues Thema starte einen neuen Chat."
-   ]
+   "task": "Schreib deine erste Nachricht an Gemini: Frag etwas über dein Lieblingstier.",
+   "seconds": 120,
+   "checklist": [
+    "Welches Tier dich interessiert",
+    "Wie alt du bist",
+    "Was genau du willst (z. B. 3 kurze Fakten)"
+   ],
+   "example": "Ich bin 11 und liebe Delfine. Schreib mir 3 kurze, spannende Fakten über Delfine."
   }
  ]
 }

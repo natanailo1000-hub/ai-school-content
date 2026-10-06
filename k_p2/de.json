@@ -1,66 +1,80 @@
 {
- "id": "k_p2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI kann dir bei einem Aufsatz oder Referat helfen – aber fair. Das Ziel ist, dass DU schreiben lernst."
+   "q": "Was ist ein fairer Weg, KI für einen Aufsatz zu nutzen?",
+   "options": [
+    "Hilfe bei Ideen und Feedback zu deinem Text",
+    "Sie den ganzen Aufsatz schreiben lassen",
+    "Ihren Text abschreiben",
+    "Die Lehrkraft anlügen"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Die KI hat einen Rechtschreibfehler korrigiert. Was ist am besten?",
+   "options": [
+    "Fragen, warum es falsch war, um zu lernen",
+    "Ignorieren",
+    "Den Text löschen",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Du weißt nicht, ob KI für Hausaufgaben erlaubt ist. Was tust du?",
+   "options": [
+    "Die Lehrkraft fragen",
+    "Heimlich nutzen",
+    "Lügen",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Was bedeutet \"Schreib ihn nicht für mich\" im Prompt?",
+   "options": [
+    "Du willst Hilfe, schreibst aber selbst",
+    "Die KI tut nichts",
+    "Die KI löscht den Text",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat einen ganzen Aufsatz geschrieben (markiert). Was ist fair?",
+   "options": [
+    "Ihn nicht als meinen abgeben – ich schreibe selbst",
+    "Abgeben",
+    "Ein Wort ändern und abgeben",
+    "An einen Freund schicken"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Erlaubt und nützlich"
-  },
+   "image": "chat_user",
+   "q": "Du hast deinen Aufsatz in die markierte Nachricht eingefügt. Worum bittest du?",
+   "options": [
+    "Um Tipps, was ich verbessern kann",
+    "Ihn zu löschen",
+    "Ihn ins Chinesische zu übersetzen",
+    "Um nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Dir helfen, Ideen und einen Plan zu finden.",
-    "Ein Thema erklären, das du nicht verstehst.",
-    "Deinen Text lesen und sagen, was besser geht.",
-    "Rechtschreibung korrigieren und die Fehler erklären."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Nicht fair"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Die KI den ganzen Aufsatz schreiben lassen und ihn als deinen abgeben.",
-    "Sätze der KI abschreiben, ohne sie zu verstehen.",
-    "Sagen, du hättest keine KI benutzt, obwohl du es getan hast."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Frag deine Lehrkraft, was erlaubt ist. Wenn du KI nutzt, sei ehrlich und sag, wie du sie genutzt hast."
-  },
-  {
-   "type": "try",
-   "text": "Ich schreibe einen Aufsatz zum Thema \"Mein schönster Tag\". Schreib ihn nicht für mich! Stell mir 5 Fragen, die mir helfen, mich an Details zu erinnern, und schlag dann einen Plan vor: Einleitung, Hauptteil, Schluss."
-  },
-  {
-   "type": "h",
-   "text": "Wenn du fertig bist"
-  },
-  {
-   "type": "try",
-   "text": "Hier ist mein Aufsatz: [Text einfügen]. Schreib ihn nicht ganz um. Nenne mir 3 Dinge, die gut sind, und 3, die ich verbessern kann, und erkläre warum."
+   "task": "Schreib einen Prompt, in dem du um Hilfe für ein Referat über ein Tier bittest – so, dass du es trotzdem selbst schreibst.",
+   "seconds": 120,
+   "checklist": [
+    "Das Thema des Referats",
+    "Klar sagen, dass sie es nicht für dich schreibt",
+    "Was du willst (Plan, Fragen, Erklärungen)"
+   ],
+   "example": "Ich schreibe ein Referat über Bienen. Schreib es nicht für mich. Schlag einen Plan mit 4 Teilen vor und für jeden Teil 2 Fragen, die mein Text beantworten soll."
   }
  ]
 }

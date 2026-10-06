@@ -1,66 +1,80 @@
 {
- "id": "k_p2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "La IA puede ayudarte con una redacción o un informe, pero de forma honesta. La meta es que TÚ aprendas a escribir."
+   "q": "¿Cuál es una forma honesta de usar la IA para una redacción?",
+   "options": [
+    "Pedir ayuda con ideas y comentarios sobre tu texto",
+    "Que escriba toda la redacción",
+    "Copiar su texto",
+    "Mentirle al maestro"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude es para adultos (18+). Por eso, practica las lecciones de Claude junto con tu mamá o tu papá, que usan su propia cuenta.",
-   "tool": "claude"
+   "q": "La IA corrigió un error de ortografía. ¿Qué es mejor?",
+   "options": [
+    "Preguntar por qué es un error, para aprender",
+    "Ignorarlo",
+    "Borrar el texto",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puedes usar ChatGPT desde los 13 años y solo con permiso de tus padres. Si eres menor, practica junto con ellos.",
-   "tool": "chatgpt"
+   "q": "No sabes si se permite la IA para la tarea. ¿Qué haces?",
+   "options": [
+    "Le pregunto al maestro",
+    "La uso a escondidas",
+    "Miento",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible.",
-   "tool": "gemini"
+   "q": "¿Qué significa \"no la escribas por mí\" en un prompt?",
+   "options": [
+    "Quieres ayuda, pero la escribes tú",
+    "La IA no hace nada",
+    "La IA borra el texto",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA escribió toda la redacción (resaltado). ¿Qué es lo honesto?",
+   "options": [
+    "No entregarla como mía y escribir la mía",
+    "Entregarla",
+    "Cambiar una palabra y entregarla",
+    "Mandársela a un amigo"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Permitido y útil"
-  },
+   "image": "chat_user",
+   "q": "En el mensaje resaltado pegaste tu redacción. ¿Qué estás pidiendo?",
+   "options": [
+    "Consejos de qué mejorar",
+    "Que la borre",
+    "Que la traduzca al chino",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Ayudarte a pensar ideas y un plan.",
-    "Explicarte un tema que no entiendes.",
-    "Leer tu texto y decirte qué se puede mejorar.",
-    "Corregir tu ortografía y explicarte los errores."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "No es honesto"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Que la IA escriba toda la redacción y la entregues como tuya.",
-    "Copiar oraciones de la IA sin entenderlas.",
-    "Decir que no usaste IA cuando sí la usaste."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Pregúntale a tu maestro qué está permitido. Si usas IA, sé sincero y cuenta cómo la usaste."
-  },
-  {
-   "type": "try",
-   "text": "Estoy escribiendo una redacción sobre \"El mejor día de mi vida\". ¡No la escribas por mí! Hazme 5 preguntas que me ayuden a recordar detalles y después sugiere un plan: introducción, desarrollo y final."
-  },
-  {
-   "type": "h",
-   "text": "Cuando ya la escribiste"
-  },
-  {
-   "type": "try",
-   "text": "Esta es mi redacción: [pega el texto]. No la reescribas toda. Dime 3 cosas que están bien y 3 que puedo mejorar, y explica por qué."
+   "task": "Escribe un prompt pidiendo ayuda para un informe sobre un animal, pero de forma que lo escribas tú.",
+   "seconds": 120,
+   "checklist": [
+    "El tema del informe",
+    "Decir claramente que no lo escriba por ti",
+    "Qué quieres (plan, preguntas, explicaciones)"
+   ],
+   "example": "Estoy escribiendo un informe sobre las abejas. No lo escribas por mí. Sugiere un plan con 4 partes y, para cada parte, 2 preguntas que mi texto debe responder."
   }
  ]
 }

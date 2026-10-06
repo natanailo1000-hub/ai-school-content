@@ -1,62 +1,80 @@
 {
- "id": "k_i2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA può prepararti un piano di studio, un quiz e delle schede di ripasso, partendo dai tuoi appunti!"
+   "q": "Cosa dai prima all'IA per farti aiutare a studiare?",
+   "options": [
+    "I tuoi appunti o l'argomento",
+    "La tua password",
+    "Una foto del tuo viso",
+    "Niente"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
-   "tool": "claude"
+   "q": "Qual è il modo migliore per farti interrogare dall'IA?",
+   "options": [
+    "Una domanda alla volta",
+    "Tutte insieme con le risposte",
+    "Senza domande",
+    "Solo scrivendo le risposte"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
-   "tool": "chatgpt"
+   "q": "Cosa è meglio?",
+   "options": [
+    "Studiare un po' ogni giorno",
+    "Tutto la sera prima",
+    "Non studiare",
+    "Guardare solo cartoni"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
-   "tool": "gemini"
+   "q": "Cosa fai con le domande sbagliate?",
+   "options": [
+    "Le ripasso domani",
+    "Le dimentico",
+    "Butto il quaderno",
+    "Niente"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Dove incolli i tuoi appunti?",
+   "options": [
+    "Nella casella del messaggio evidenziata",
+    "Nella risposta dell'IA",
+    "Nelle impostazioni",
+    "Da nessuna parte"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Passo dopo passo"
-  },
+   "image": "chat_reply",
+   "q": "L'IA ti ha fatto un piano di studio (evidenziato). Cosa fai?",
+   "options": [
+    "Lo seguo e lo cambio se serve",
+    "Lo ignoro",
+    "Lo cancello",
+    "Lo mando a uno sconosciuto"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Scrivi o incolla gli appunti del quaderno (o descrivili in breve).",
-    "Chiedi all'IA un breve riassunto delle cose più importanti.",
-    "Chiedi un quiz, una domanda alla volta.",
-    "Quello che sbagli, ripassalo domani."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Questi sono i miei appunti sui vulcani: [incolla gli appunti]. Fammi 8 domande di quiz, una alla volta, e dimmi se la mia risposta è giusta."
-  },
-  {
-   "type": "h",
-   "text": "Un piano per la settimana"
-  },
-  {
-   "type": "try",
-   "text": "Venerdì ho una verifica di geografia. Oggi è lunedì e posso studiare 30 minuti al giorno. Fammi un piano di studio giorno per giorno."
-  },
-  {
-   "type": "tip",
-   "text": "Studiare un po' ogni giorno è meglio che tanto la sera prima della verifica."
-  },
-  {
-   "type": "h",
-   "text": "Schede di ripasso"
-  },
-  {
-   "type": "p",
-   "text": "Chiedi all'IA delle \"schede\": la domanda da una parte e la risposta dall'altra. Scrivile su carta ed esercitati con un amico."
+   "task": "Scrivi un messaggio per chiedere un piano di studio di 4 giorni per una verifica di matematica.",
+   "seconds": 120,
+   "checklist": [
+    "Materia e argomento",
+    "Quanti giorni e quanto tempo al giorno",
+    "Forma (piano per giorni + mini quiz)"
+   ],
+   "example": "Tra 4 giorni ho una verifica di matematica sulle frazioni. Posso studiare 30 minuti al giorno. Fammi un piano per giorni con 3 domande di controllo alla fine di ogni giorno."
   }
  ]
 }

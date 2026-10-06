@@ -1,54 +1,80 @@
 {
- "id": "k_p5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI is like a patient foreign-language teacher who's always there. You can practise conversation, words and grammar – without feeling embarrassed."
+   "q": "How do you get the AI to correct your mistakes?",
+   "options": [
+    "Write \"correct me gently and explain\"",
+    "Write nothing",
+    "Write only in English",
+    "Close the app"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "How often is it best to practise?",
+   "options": [
+    "A little every day",
+    "Once a year",
+    "Never",
+    "Only before a test"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "What's a good language game with AI?",
+   "options": [
+    "Translating words the AI gives you",
+    "Sending your password",
+    "Deleting the chat",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "You made a mistake in a sentence. How should you feel?",
+   "options": [
+    "It's okay – mistakes help you learn",
+    "You should give up",
+    "You should be ashamed",
+    "Everything is bad"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI corrected you (highlighted). What do you do?",
+   "options": [
+    "Read the correction and try again",
+    "Get angry",
+    "Delete the app",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Ways to practise"
-  },
+   "image": "chat_user",
+   "q": "In the highlighted message you wrote a sentence in a foreign language. Why?",
+   "options": [
+    "To practise and let the AI correct me",
+    "No reason",
+    "To confuse the AI",
+    "To get a present"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Conversation: \"Talk with me in Spanish about football, using simple words, and gently correct me.\"",
-    "Words: ask for 10 new words with example sentences.",
-    "Game: \"Give me a word in English and I'll translate it.\"",
-    "Grammar: ask for an explanation with lots of examples."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "I'm 12 and learning Spanish. Let's talk about my favourite film. Ask me simple questions in Spanish, one at a time, and when I make a mistake, correct me and explain in English."
-  },
-  {
-   "type": "tip",
-   "text": "10 minutes every day is better than an hour once a week."
-  },
-  {
-   "type": "h",
-   "text": "Pronunciation"
-  },
-  {
-   "type": "p",
-   "text": "Some AI tools have a voice mode, so you can also talk out loud. Ask a parent to help you turn it on."
+   "task": "Write a prompt to practise a foreign language by chatting about your hobby.",
+   "seconds": 120,
+   "checklist": [
+    "Which language and your age",
+    "The conversation topic",
+    "How it should correct you (gently, with explanations)"
+   ],
+   "example": "I'm 12 and learning Spanish. Let's chat about drawing, my hobby. Ask me simple questions in Spanish, one at a time, and gently correct my mistakes with a short explanation in English."
   }
  ]
 }

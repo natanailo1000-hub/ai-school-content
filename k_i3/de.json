@@ -1,54 +1,80 @@
 {
- "id": "k_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Mit Schule, Training, Hausaufgaben und Freunden verliert man leicht den Überblick. KI kann dir helfen, alles unterzubringen."
+   "q": "Was sagst du der KI, wenn sie einen Plan machen soll?",
+   "options": [
+    "Deine Termine und wie viel Zeit du hast",
+    "Dein Passwort",
+    "Wo du wohnst",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Die KI hat Fußballübungen vorgeschlagen. Was tust du?",
+   "options": [
+    "Sie dem Trainer oder den Eltern zeigen",
+    "Sofort die schwersten machen",
+    "Den Trainer ignorieren",
+    "Den ganzen Tag trainieren"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Du hast nicht alles aus dem Plan geschafft. Was ist am besten?",
+   "options": [
+    "Die KI bitten, umzuplanen",
+    "Aufgeben",
+    "Nicht schlafen",
+    "Wütend werden"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Was gehört unbedingt in den Plan?",
+   "options": [
+    "Auch Zeit für Pausen und Spielen",
+    "Nur Lernen",
+    "Nur Videospiele",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Was hast du in die markierte Nachricht geschrieben?",
+   "options": [
+    "Deine Termine für die Woche",
+    "Die Antwort der KI",
+    "Eine Werbung",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Was du ihr sagen solltest"
-  },
+   "image": "chat_reply",
+   "q": "Wo ist dein Plan?",
+   "options": [
+    "In der markierten Antwort",
+    "In den Einstellungen",
+    "Im App-Store",
+    "Nirgends"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Deine festen Termine (Schule, Training, Unterricht).",
-    "Was du diese Woche erledigen musst (Hausaufgaben, Tests).",
-    "Wie viel Zeit du für Pausen und Spielen willst.",
-    "Wann du schlafen gehst."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Ich bin in der 7. Klasse. Schule ist von 8 bis 14 Uhr. Training habe ich dienstags und donnerstags von 17 bis 18:30 Uhr. Am Freitag schreibe ich einen Biotest. Mach mir einen Plan für diese Woche mit Zeit zum Lernen, Ausruhen und Spielen. Ich gehe um 22 Uhr schlafen."
-  },
-  {
-   "type": "h",
-   "text": "Training und Gesundheit"
-  },
-  {
-   "type": "p",
-   "text": "KI kann dir ein Aufwärmen oder einen Übungsplan für deinen Sport vorschlagen. Zeig ihn aber immer deinem Trainer oder deinen Eltern – sie wissen, was für dich sicher ist."
-  },
-  {
-   "type": "tip",
-   "text": "Ein Plan soll dir helfen, nicht Stress machen. Wenn du etwas nicht schaffst, bitte die KI einfach, umzuplanen."
+   "task": "Schreib eine Nachricht für einen Wochenendplan: Du hast Hausaufgaben, am Samstag eine Geburtstagsparty bei einem Freund und willst Videospiele spielen.",
+   "seconds": 120,
+   "checklist": [
+    "Alle Termine (Hausaufgaben, Party)",
+    "Was du willst (Zeit zum Spielen)",
+    "Form (nach Stunden oder Tageszeiten)"
+   ],
+   "example": "Hilf mir, mein Wochenende zu planen. Ich habe Hausaufgaben in Deutsch und Mathe, am Samstag ab 16 Uhr bin ich auf einer Geburtstagsparty und ich will 2 Stunden Videospiele spielen. Mach einen Plan für Samstag und Sonntag nach Tageszeiten."
   }
  ]
 }

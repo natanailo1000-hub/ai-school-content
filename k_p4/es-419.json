@@ -1,53 +1,80 @@
 {
- "id": "k_p4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "¿Tienes una idea para un cómic, un cuento o un video para la escuela o internet? La IA es una gran compañera para pensar ideas, ¡y tú eres el director!"
+   "q": "¿Quién es el director de tu proyecto creativo?",
+   "options": [
+    "Tú: la IA ayuda con ideas",
+    "Solo la IA",
+    "Nadie",
+    "Tu teléfono"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude es para adultos (18+). Por eso, practica las lecciones de Claude junto con tu mamá o tu papá, que usan su propia cuenta.",
-   "tool": "claude"
+   "q": "¿Qué es el guion de un video?",
+   "options": [
+    "Un plan de lo que se ve y se dice en cada parte",
+    "Música",
+    "Una cámara",
+    "Una contraseña"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puedes usar ChatGPT desde los 13 años y solo con permiso de tus padres. Si eres menor, practica junto con ellos.",
-   "tool": "chatgpt"
+   "q": "Antes de publicar un video en internet:",
+   "options": [
+    "Les pregunto a mis papás",
+    "Lo publico enseguida",
+    "Se lo mando a desconocidos",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible.",
-   "tool": "gemini"
+   "q": "¿Cómo consigues más ideas para el final de un cuento?",
+   "options": [
+    "Pidiendo \"3 finales distintos\"",
+    "Escribiendo en mayúsculas",
+    "Rindiéndote",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA describió las viñetas del cómic (resaltado). ¿Qué haces?",
+   "options": [
+    "Las dibujo a mi manera",
+    "Nada",
+    "Las borro",
+    "Las mando sin dibujar"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cómic"
-  },
+   "image": "chat_user",
+   "q": "En el mensaje resaltado describiste tu idea de cuento. ¿Qué más deberías agregar?",
+   "options": [
+    "Quiénes son los personajes y para quién es el cuento",
+    "Tu dirección",
+    "Tu contraseña",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Ayúdame a inventar un cómic de 6 viñetas sobre un robot que aprende a jugar al fútbol. Para cada viñeta, escribe qué se ve y qué dicen los personajes. Yo lo voy a dibujar."
-  },
-  {
-   "type": "h",
-   "text": "Cuento"
-  },
-  {
-   "type": "p",
-   "text": "Pídele a la IA ayuda con los personajes, la trama y el final, y después escríbelo con tus palabras. También puedes pedir \"3 finales distintos\" y elegir uno."
-  },
-  {
-   "type": "h",
-   "text": "Video"
-  },
-  {
-   "type": "try",
-   "text": "Estoy haciendo un video de 1 minuto sobre cómo hacer un avión de papel. Escríbeme un guion: qué se ve, qué digo y cuánto dura cada parte."
-  },
-  {
-   "type": "tip",
-   "text": "Si publicas algo en internet, pregúntales antes a tus papás. Y no uses imágenes, música ni personajes de otros sin permiso."
+   "task": "Escribe un prompt para el guion de un video corto (1 minuto) sobre tu hobby.",
+   "seconds": 120,
+   "checklist": [
+    "Tema y duración",
+    "Qué quieres (qué se ve, qué se dice)",
+    "Para quién es el video"
+   ],
+   "example": "Estoy haciendo un video de 1 minuto para mis amigos sobre cómo cuidar peces de acuario. Escribe un guion por partes: qué se ve, qué digo y cuántos segundos dura cada parte."
   }
  ]
 }

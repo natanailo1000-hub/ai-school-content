@@ -1,55 +1,80 @@
 {
- "id": "k_p3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Um projeto da escola precisa de pesquisa. A IA pode ser sua guia – ajudando a fazer as perguntas certas e a achar o caminho até as respostas."
+   "q": "Qual tema é melhor para um projeto?",
+   "options": [
+    "\"Como os astronautas comem no espaço\"",
+    "\"O espaço\"",
+    "\"Coisas\"",
+    "\"Tudo sobre tudo\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "A IA te deu um link de fonte. O que fazer?",
+   "options": [
+    "Conferir se o site existe mesmo",
+    "Acreditar na hora",
+    "Anotar sem conferir",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Por que anotar as fontes?",
+   "options": [
+    "Para saber de onde vêm as informações",
+    "Sem motivo",
+    "Para ficar mais longo",
+    "Para confundir o professor"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "Como a IA pode ajudar uma equipe?",
+   "options": [
+    "Sugerindo como dividir as tarefas",
+    "Fazendo o trabalho de todos",
+    "Criando brigas",
+    "Não pode"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA sugeriu 5 perguntas para o projeto (destacado). E agora?",
+   "options": [
+    "Procurar respostas em livros e sites confiáveis",
+    "Copiar as perguntas e entregar",
+    "Apagar",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Passo a passo"
-  },
+   "image": "chat_user",
+   "q": "Na mensagem destacada você descreve o projeto. O que é importante?",
+   "options": [
+    "O tema e sua idade",
+    "Seu endereço",
+    "Sua senha",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Escolha um tema e deixe ele mais específico (não \"O espaço\", mas \"Como os astronautas comem no espaço\").",
-    "Peça à IA 5 perguntas que seu projeto deve responder.",
-    "Para cada pergunta, procure a resposta em livros ou sites confiáveis.",
-    "Anote suas fontes: o título do livro ou o nome do site.",
-    "No final, peça à IA para ajudar a organizar tudo numa ordem lógica."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Tenho 13 anos e estou fazendo um projeto sobre como os astronautas comem no espaço. Sugira 5 perguntas que meu projeto deve responder e, para cada uma, onde procurar uma resposta confiável."
-  },
-  {
-   "type": "tip",
-   "text": "A IA às vezes inventa fontes e links! Sempre confira se o livro ou o site existe mesmo."
-  },
-  {
-   "type": "h",
-   "text": "Trabalho em equipe"
-  },
-  {
-   "type": "p",
-   "text": "Se vocês trabalham em grupo, a IA pode ajudar a dividir as tarefas: quem pesquisa o quê, quem faz os slides, quem apresenta."
+   "task": "Escreva um prompt para começar a pesquisa sobre um tema à sua escolha para um projeto da escola.",
+   "seconds": 120,
+   "checklist": [
+    "Um tema específico",
+    "Sua idade",
+    "O que você quer (perguntas, onde achar fontes)"
+   ],
+   "example": "Tenho 12 anos e estou fazendo um projeto sobre por que as abelhas fazem mel. Sugira 5 perguntas de pesquisa e, para cada uma, um tipo de fonte confiável onde procurar a resposta."
   }
  ]
 }

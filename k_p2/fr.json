@@ -1,66 +1,80 @@
 {
- "id": "k_p2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA peut t'aider pour une rédaction ou un exposé, mais honnêtement. Le but, c'est que TOI tu apprennes à écrire."
+   "q": "Quelle est une façon honnête d'utiliser l'IA pour une rédaction ?",
+   "options": [
+    "Demander de l'aide pour les idées et un avis sur ton texte",
+    "La laisser écrire toute la rédaction",
+    "Recopier son texte",
+    "Mentir au professeur"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
-   "tool": "claude"
+   "q": "L'IA a corrigé une faute d'orthographe. Le mieux ?",
+   "options": [
+    "Demander pourquoi c'est une faute, pour apprendre",
+    "L'ignorer",
+    "Effacer le texte",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
-   "tool": "chatgpt"
+   "q": "Tu ne sais pas si l'IA est autorisée pour les devoirs. Que fais-tu ?",
+   "options": [
+    "Je demande au professeur",
+    "Je l'utilise en cachette",
+    "Je mens",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
-   "tool": "gemini"
+   "q": "Que veut dire « ne l'écris pas à ma place » dans un prompt ?",
+   "options": [
+    "Tu veux de l'aide, mais tu écris toi-même",
+    "L'IA ne fait rien",
+    "L'IA efface le texte",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA a écrit toute la rédaction (en évidence). Qu'est-ce qui est honnête ?",
+   "options": [
+    "Ne pas la rendre comme la mienne et écrire la mienne",
+    "La rendre",
+    "Changer un mot et la rendre",
+    "L'envoyer à un ami"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Autorisé et utile"
-  },
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu as collé ta rédaction. Que demandes-tu ?",
+   "options": [
+    "Des conseils pour l'améliorer",
+    "De l'effacer",
+    "De la traduire en chinois",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "T'aider à trouver des idées et un plan.",
-    "T'expliquer un sujet que tu ne comprends pas.",
-    "Lire ton texte et dire ce qui peut être amélioré.",
-    "Corriger ton orthographe et t'expliquer les fautes."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Pas honnête"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Laisser l'IA écrire toute la rédaction et la rendre comme la tienne.",
-    "Recopier les phrases de l'IA sans les comprendre.",
-    "Dire que tu n'as pas utilisé l'IA alors que si."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Demande à ton professeur ce qui est autorisé. Si tu utilises l'IA, sois honnête et explique comment."
-  },
-  {
-   "type": "try",
-   "text": "J'écris une rédaction sur « Le plus beau jour de ma vie ». Ne l'écris pas à ma place ! Pose-moi 5 questions pour m'aider à me souvenir des détails, puis propose un plan : introduction, développement, conclusion."
-  },
-  {
-   "type": "h",
-   "text": "Une fois écrite"
-  },
-  {
-   "type": "try",
-   "text": "Voici ma rédaction : [colle le texte]. Ne la réécris pas entièrement. Dis-moi 3 choses réussies et 3 choses à améliorer, en expliquant pourquoi."
+   "task": "Écris un prompt pour demander de l'aide pour un exposé sur un animal, tout en l'écrivant toi-même.",
+   "seconds": 120,
+   "checklist": [
+    "Le sujet de l'exposé",
+    "Dire clairement de ne pas l'écrire à ta place",
+    "Ce que tu veux (plan, questions, explications)"
+   ],
+   "example": "Je prépare un exposé sur les abeilles. Ne l'écris pas à ma place. Propose un plan en 4 parties et, pour chaque partie, 2 questions auxquelles mon texte doit répondre."
   }
  ]
 }

@@ -1,57 +1,80 @@
 {
- "id": "k_i4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Isto pitanje može da dobije slab ili odličan odgovor – sve zavisi od toga kako ga postaviš. To se zove pisanje prompta."
+   "q": "Šta je prompt?",
+   "options": [
+    "Poruka koju pišeš AI-ju",
+    "Igrica",
+    "Lozinka",
+    "Dugme"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Koje pitanje je najbolje?",
+   "options": [
+    "Imam 11 godina. Objasni kako nastaje duga, u 3 kratke rečenice.",
+    "duga",
+    "Duga?",
+    "reci nešto"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Odgovor je predugačak. Šta pišeš?",
+   "options": [
+    "„Kraće, u 3 tačke“",
+    "Ništa",
+    "Ugasim telefon",
+    "Pošaljem isto pitanje ponovo"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Zašto je dobro da kažeš koliko imaš godina?",
+   "options": [
+    "Da AI objasni na pravom nivou",
+    "Da AI zna gde živiš",
+    "Da ti pošalje poklon",
+    "Nije važno"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "U označenoj poruci piše samo „vulkani“. Kako da je popraviš?",
+   "options": [
+    "Dodaš šta želiš, ko si i kakav odgovor",
+    "Dodaš lozinku",
+    "Obrišeš sve",
+    "Ostaviš tako"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Tajni recept"
-  },
+   "image": "chat_reply",
+   "q": "Označeni odgovor je težak za razumevanje. Šta pišeš?",
+   "options": [
+    "„Objasni jednostavnije“",
+    "„Ćao“",
+    "Ništa",
+    "„Lozinka 123“"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Šta želiš: objasni, napiši, nabroj, uporedi.",
-    "Ko si ti: koliko imaš godina i šta već znaš.",
-    "Kakav odgovor: kratko, u tačkama, sa primerom."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Primer"
-  },
-  {
-   "type": "p",
-   "text": "Slabo: „dinosaurusi“."
-  },
-  {
-   "type": "p",
-   "text": "Odlično: „Imam 11 godina. Objasni mi zašto su dinosaurusi izumrli, u 5 kratkih tačaka, sa jednom zanimljivošću na kraju.“"
-  },
-  {
-   "type": "tip",
-   "text": "Ako ti se odgovor ne dopada, ne odustaj – reci šta da promeni: „kraće“, „jednostavnije“, „dodaj primer“."
-  },
-  {
-   "type": "try",
-   "text": "Imam 12 godina. Uporedi mačke i pse u tabeli: hrana, briga, igra i koliko dugo žive."
+   "task": "Popravi ovu slabu poruku: „svemir“. Napiši dobar prompt.",
+   "seconds": 120,
+   "checklist": [
+    "Šta želiš da saznaš",
+    "Koliko imaš godina",
+    "Kakav odgovor (dužina, oblik)"
+   ],
+   "example": "Imam 12 godina. Objasni mi zašto je u svemiru mrak iako ima toliko zvezda, u 4 kratke rečenice, sa jednim primerom iz svakodnevnog života."
   }
  ]
 }

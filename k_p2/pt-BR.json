@@ -1,66 +1,80 @@
 {
- "id": "k_p2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA pode ajudar numa redação ou trabalho – mas de um jeito honesto. O objetivo é VOCÊ aprender a escrever."
+   "q": "Qual é um jeito honesto de usar a IA numa redação?",
+   "options": [
+    "Pedir ajuda com ideias e comentários sobre seu texto",
+    "Deixar ela escrever tudo",
+    "Copiar o texto dela",
+    "Mentir para o professor"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "A IA corrigiu um erro de ortografia. O que é melhor?",
+   "options": [
+    "Perguntar por que está errado, para aprender",
+    "Ignorar",
+    "Apagar o texto",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Você não sabe se pode usar IA na lição. O que faz?",
+   "options": [
+    "Pergunto ao professor",
+    "Uso escondido",
+    "Minto",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "O que significa \"não escreva por mim\" num prompt?",
+   "options": [
+    "Você quer ajuda, mas vai escrever sozinho",
+    "A IA não faz nada",
+    "A IA apaga o texto",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA escreveu a redação inteira (destacado). O que é honesto?",
+   "options": [
+    "Não entregar como minha e escrever a minha",
+    "Entregar",
+    "Mudar uma palavra e entregar",
+    "Mandar para um amigo"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Permitido e útil"
-  },
+   "image": "chat_user",
+   "q": "Na mensagem destacada você colou sua redação. O que está pedindo?",
+   "options": [
+    "Dicas do que melhorar",
+    "Que ela apague",
+    "Que traduza para o chinês",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Ajudar você a ter ideias e fazer um plano.",
-    "Explicar um assunto que você não entende.",
-    "Ler seu texto e dizer o que pode melhorar.",
-    "Corrigir a ortografia e explicar os erros."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Não é honesto"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Deixar a IA escrever a redação inteira e entregar como sua.",
-    "Copiar frases da IA sem entender.",
-    "Dizer que não usou IA quando usou."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Pergunte ao professor o que é permitido. Se usar IA, seja sincero e conte como usou."
-  },
-  {
-   "type": "try",
-   "text": "Estou escrevendo uma redação sobre \"O dia mais legal da minha vida\". Não escreva por mim! Me faça 5 perguntas para eu lembrar dos detalhes e depois sugira um plano: introdução, desenvolvimento e conclusão."
-  },
-  {
-   "type": "h",
-   "text": "Depois de escrever"
-  },
-  {
-   "type": "try",
-   "text": "Esta é a minha redação: [cole o texto]. Não reescreva tudo. Me diga 3 coisas que estão boas e 3 que posso melhorar, explicando por quê."
+   "task": "Escreva um prompt pedindo ajuda para um trabalho sobre um animal, de um jeito que você mesmo escreva.",
+   "seconds": 120,
+   "checklist": [
+    "O tema do trabalho",
+    "Dizer claramente que ela não deve escrever por você",
+    "O que você quer (plano, perguntas, explicações)"
+   ],
+   "example": "Estou fazendo um trabalho sobre abelhas. Não escreva por mim. Sugira um plano com 4 partes e, para cada parte, 2 perguntas que meu texto deve responder."
   }
  ]
 }

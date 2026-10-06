@@ -1,51 +1,80 @@
 {
- "id": "k_b3_claude",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Hajde da pošalješ svoju prvu poruku! Claude je AI koji pravi kompanija Anthropic."
+   "q": "Koja kompanija pravi Claude?",
+   "options": [
+    "Anthropic",
+    "OpenAI",
+    "Google",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog."
+   "q": "Šta je dobro da napišeš u prvoj poruci?",
+   "options": [
+    "Šta te zanima i koliko imaš godina",
+    "Svoju adresu",
+    "Svoju lozinku",
+    "Ništa, samo „ćao“"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Kako da počneš"
+   "q": "Ne razumeš odgovor. Šta pišeš?",
+   "options": [
+    "„Objasni jednostavnije“",
+    "Ugasiš aplikaciju",
+    "Ljuta velika slova",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Zajedno sa roditeljem otvori claude.ai ili aplikaciju Claude.",
-    "Klikni u polje za poruku.",
-    "Napiši pitanje normalnim rečenicama.",
-    "Pritisni dugme za slanje i sačekaj odgovor."
-   ]
+   "q": "Sa kim je najbolje da prvi put probaš Claude?",
+   "options": [
+    "Sa roditeljem",
+    "Sa nepoznatom osobom",
+    "Sam, krišom",
+    "Ni sa kim"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Gde pišeš poruku za Claude?",
+   "options": [
+    "U označeno polje",
+    "U odgovor iznad",
+    "U podešavanja",
+    "Nigde"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Šta da pitaš?"
-  },
+   "image": "send_button",
+   "q": "Šta radi označeno dugme?",
+   "options": [
+    "Šalje tvoju poruku",
+    "Briše sve",
+    "Gasi telefon",
+    "Pušta muziku"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Što više detalja daš, to je odgovor bolji. Reci šta te zanima i koliko imaš godina, da ti AI objasni baš kako tebi odgovara."
-  },
-  {
-   "type": "try",
-   "text": "Zdravo! Imam 12 godina. Napiši mi 3 zanimljive činjenice o hobotnicama, svaku u jednoj rečenici."
-  },
-  {
-   "type": "h",
-   "text": "Šta dalje?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Možeš da pitaš još: „Reci mi više o drugoj činjenici“.",
-    "Ako nešto ne razumeš, napiši: „Objasni jednostavnije“.",
-    "Za novu temu otvori novi razgovor."
-   ]
+   "task": "Napiši svoju prvu poruku za Claude: pitaj nešto o svojoj omiljenoj životinji.",
+   "seconds": 120,
+   "checklist": [
+    "Koja životinja te zanima",
+    "Koliko imaš godina",
+    "Šta tačno želiš (npr. 3 kratke činjenice)"
+   ],
+   "example": "Imam 11 godina i volim delfine. Napiši mi 3 kratke i zanimljive činjenice o delfinima."
   }
  ]
 }

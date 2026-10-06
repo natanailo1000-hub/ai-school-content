@@ -1,54 +1,80 @@
 {
- "id": "k_p5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI je kao strpljiv nastavnik stranog jezika koji je uvek tu. Možeš da vežbaš razgovor, reči i gramatiku – bez stida."
+   "q": "Kako da te AI ispravlja kad pogrešiš?",
+   "options": [
+    "Napišeš „nežno me ispravljaj i objasni“",
+    "Ne pišeš ništa",
+    "Pišeš samo na srpskom",
+    "Ugasiš aplikaciju"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Koliko često je najbolje vežbati?",
+   "options": [
+    "Malo svaki dan",
+    "Jednom godišnje",
+    "Nikad",
+    "Samo pred kontrolni"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Šta je dobra jezička igra sa AI-jem?",
+   "options": [
+    "Prevođenje reči koje ti AI daje",
+    "Slanje lozinke",
+    "Brisanje razgovora",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Pogrešio si u rečenici. Kako treba da se osećaš?",
+   "options": [
+    "U redu je – greške pomažu da učiš",
+    "Treba da odustaneš",
+    "Treba da se stidiš",
+    "Sve je loše"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI te je ispravio (označeno). Šta radiš?",
+   "options": [
+    "Pročitam ispravku i probam ponovo",
+    "Naljutim se",
+    "Obrišem aplikaciju",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Načini vežbanja"
-  },
+   "image": "chat_user",
+   "q": "U označenoj poruci napisao si rečenicu na stranom jeziku. Zašto?",
+   "options": [
+    "Da vežbam i da me AI ispravi",
+    "Bez razloga",
+    "Da zbunim AI",
+    "Da dobijem poklon"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Razgovor: „Pričaj sa mnom na engleskom o fudbalu, jednostavnim rečima, i nežno me ispravljaj.“",
-    "Reči: traži 10 novih reči sa primerima rečenica.",
-    "Igra: „Daj mi reč na srpskom, a ja ću je prevesti.“",
-    "Gramatika: traži objašnjenje sa puno primera."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Imam 12 godina i učim engleski. Hajde da pričamo o mom omiljenom filmu. Postavljaj mi jednostavna pitanja na engleskom, jedno po jedno, a kad pogrešim, ispravi me i objasni na srpskom."
-  },
-  {
-   "type": "tip",
-   "text": "Po 10 minuta svaki dan je bolje nego sat vremena jednom nedeljno."
-  },
-  {
-   "type": "h",
-   "text": "Izgovor"
-  },
-  {
-   "type": "p",
-   "text": "Neki AI alati imaju glasovni režim, pa možeš i da pričaš naglas. Zamoli roditelja da ti pomogne da ga uključiš."
+   "task": "Napiši prompt za vežbanje stranog jezika kroz razgovor o svom hobiju.",
+   "seconds": 120,
+   "checklist": [
+    "Koji jezik i koliko imaš godina",
+    "Tema razgovora",
+    "Kako da te ispravlja (nežno, sa objašnjenjem)"
+   ],
+   "example": "Imam 12 godina i učim engleski. Hajde da pričamo o mom hobiju, crtanju. Postavljaj mi jednostavna pitanja na engleskom, jedno po jedno, i nežno ispravljaj moje greške uz kratko objašnjenje na srpskom."
   }
  ]
 }

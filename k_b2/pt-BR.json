@@ -1,61 +1,80 @@
 {
- "id": "k_b2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA parece inteligente, mas não é mágica nem uma pessoa. Vamos ver onde estão os limites dela."
+   "q": "O que é uma \"alucinação\" da IA?",
+   "options": [
+    "Quando a IA inventa uma resposta, mas parece segura",
+    "Quando a IA vê fantasmas",
+    "Quando o celular desliga",
+    "Quando a IA canta"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "A IA tem sentimentos?",
+   "options": [
+    "Não, ela só escreve como se tivesse",
+    "Sim, como uma pessoa",
+    "Só nos fins de semana",
+    "Sim, mas só quando está feliz"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Você está triste depois de brigar com um amigo. Com quem é melhor falar?",
+   "options": [
+    "Com seus pais, um professor ou alguém de confiança",
+    "Só com a IA",
+    "Com ninguém",
+    "Com um estranho na internet"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "Qual é o melhor jeito de usar a IA na lição de casa?",
+   "options": [
+    "Ela explica o assunto e depois você faz sozinho",
+    "Copiar a resposta inteira",
+    "Nem ler",
+    "Entregar como se fosse sua"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Na resposta destacada, a IA escreveu uma data de história. É para a escola. O que fazer?",
+   "options": [
+    "Conferir no livro ou com o professor",
+    "Acreditar sem conferir",
+    "Jogar o livro fora",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "A IA não sabe tudo"
-  },
+   "image": "chat_user",
+   "q": "Esta é sua mensagem para a IA. O que NÃO deve estar nela?",
+   "options": [
+    "Seu endereço ou sua senha",
+    "Uma pergunta sobre planetas",
+    "Por favor",
+    "Um tema para uma história"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Às vezes inventa uma resposta e parece segura – isso se chama \"alucinação\".",
-    "Nem sempre sabe as notícias mais novas.",
-    "Pode errar em contas ou em fatos."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "A IA não tem sentimentos"
-  },
-  {
-   "type": "p",
-   "text": "A IA pode escrever de um jeito gentil e parecer um amigo, mas não sente nada e não te conhece como um amigo de verdade. Se estiver triste, brigou com alguém ou tem um problema, converse com seus pais, um professor ou outra pessoa de confiança."
-  },
-  {
-   "type": "h",
-   "text": "A IA não faz seu trabalho por você"
-  },
-  {
-   "type": "p",
-   "text": "Se a IA fizer sua lição, você não aprendeu nada – e os professores muitas vezes percebem. Use a IA para explicar, não para copiar."
-  },
-  {
-   "type": "tip",
-   "text": "Boa regra: a IA é como um ajudante esperto, não alguém que decide por você."
-  },
-  {
-   "type": "try",
-   "text": "Me explique 3 coisas em que a IA não é boa, com um exemplo de cada. Escreva para uma criança de 12 anos."
+   "task": "Escreva uma mensagem pedindo para a IA EXPLICAR um exercício de matemática, e não só dar a resposta.",
+   "seconds": 120,
+   "checklist": [
+    "Você pede uma explicação passo a passo",
+    "Diz sua idade ou ano escolar",
+    "Pede um exercício parecido para tentar sozinho no final"
+   ],
+   "example": "Tenho 12 anos. Não me dê só a resposta: explique passo a passo como resolver 3x + 5 = 20. No final, me dê um exercício parecido para eu tentar sozinho."
   }
  ]
 }

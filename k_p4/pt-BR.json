@@ -1,53 +1,80 @@
 {
- "id": "k_p4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Tem uma ideia para um quadrinho, uma história ou um vídeo para a escola ou a internet? A IA é ótima parceira para ter ideias – e o diretor é você!"
+   "q": "Quem é o diretor do seu projeto criativo?",
+   "options": [
+    "Você – a IA ajuda com ideias",
+    "Só a IA",
+    "Ninguém",
+    "Seu celular"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "O que é o roteiro de um vídeo?",
+   "options": [
+    "Um plano do que aparece e do que se fala em cada parte",
+    "Música",
+    "Uma câmera",
+    "Uma senha"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Antes de postar um vídeo na internet:",
+   "options": [
+    "Pergunto aos meus pais",
+    "Posto na hora",
+    "Mando para estranhos",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "Como ter mais ideias para o final de uma história?",
+   "options": [
+    "Pedindo \"3 finais diferentes\"",
+    "Escrevendo em maiúsculas",
+    "Desistindo",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA descreveu os quadros do quadrinho (destacado). O que fazer?",
+   "options": [
+    "Desenhar do meu jeito",
+    "Nada",
+    "Apagar",
+    "Mandar sem desenhar"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Quadrinho"
-  },
+   "image": "chat_user",
+   "q": "Na mensagem destacada você descreveu a ideia da história. O que mais deve colocar?",
+   "options": [
+    "Quem são os personagens e para quem é a história",
+    "Seu endereço",
+    "Sua senha",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Me ajude a criar um quadrinho de 6 quadros sobre um robô que aprende a jogar futebol. Para cada quadro, escreva o que aparece e o que os personagens dizem. Eu vou desenhar."
-  },
-  {
-   "type": "h",
-   "text": "História"
-  },
-  {
-   "type": "p",
-   "text": "Peça ajuda à IA com os personagens, o enredo e o final – depois escreva com suas palavras. Você também pode pedir \"3 finais diferentes\" e escolher um."
-  },
-  {
-   "type": "h",
-   "text": "Vídeo"
-  },
-  {
-   "type": "try",
-   "text": "Estou fazendo um vídeo de 1 minuto sobre como fazer um avião de papel. Escreva um roteiro: o que aparece, o que eu falo e quanto tempo dura cada parte."
-  },
-  {
-   "type": "tip",
-   "text": "Se for postar algo na internet, pergunte antes aos seus pais. E não use imagens, músicas ou personagens dos outros sem permissão."
+   "task": "Escreva um prompt para o roteiro de um vídeo curto (1 minuto) sobre o seu hobby.",
+   "seconds": 120,
+   "checklist": [
+    "Tema e duração",
+    "O que você quer (o que aparece, o que se fala)",
+    "Para quem é o vídeo"
+   ],
+   "example": "Estou fazendo um vídeo de 1 minuto para meus amigos sobre como cuidar de peixes de aquário. Escreva um roteiro por partes: o que aparece, o que eu falo e quantos segundos dura cada parte."
   }
  ]
 }

@@ -1,62 +1,80 @@
 {
- "id": "k_i2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI can make you a study plan, a quiz and flashcards – from your own notes!"
+   "q": "What do you give the AI first to help you study?",
+   "options": [
+    "Your notes or the topic",
+    "Your password",
+    "A photo of your face",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "What's the best way for the AI to test you?",
+   "options": [
+    "One question at a time",
+    "All questions at once with answers",
+    "No questions",
+    "Only writing answers"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "Which is better?",
+   "options": [
+    "A little studying every day",
+    "Everything the night before",
+    "Not studying at all",
+    "Only watching cartoons"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "What do you do with questions you got wrong?",
+   "options": [
+    "Go over them again tomorrow",
+    "Forget them",
+    "Throw away your notebook",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Where do you paste your notes?",
+   "options": [
+    "In the highlighted message box",
+    "In the AI's answer",
+    "In the settings",
+    "Nowhere"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Step by step"
-  },
+   "image": "chat_reply",
+   "q": "The AI made you a study plan (highlighted). What do you do?",
+   "options": [
+    "Follow it and change it if needed",
+    "Ignore it",
+    "Delete it",
+    "Send it to a stranger"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Type or paste your notes from your notebook (or describe them briefly).",
-    "Ask the AI for a short summary of the most important points.",
-    "Ask for a quiz – one question at a time.",
-    "Whatever you get wrong, go over again tomorrow."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "These are my notes about volcanoes: [paste notes]. Make me 8 quiz questions, one at a time, and tell me if my answer is right."
-  },
-  {
-   "type": "h",
-   "text": "A plan for the week"
-  },
-  {
-   "type": "try",
-   "text": "I have a geography test on Friday. Today is Monday and I can study 30 minutes a day. Make me a study plan by day."
-  },
-  {
-   "type": "tip",
-   "text": "A little studying every day is better than a lot the night before the test."
-  },
-  {
-   "type": "h",
-   "text": "Flashcards"
-  },
-  {
-   "type": "p",
-   "text": "Ask the AI to make \"flashcards\": a question on one side, the answer on the other. Write them on paper and practise with a friend."
+   "task": "Write a message asking for a 4-day study plan for a maths test.",
+   "seconds": 120,
+   "checklist": [
+    "Subject and topic",
+    "How many days and how much time a day",
+    "Format (a plan by day + a mini quiz)"
+   ],
+   "example": "I have a maths test on fractions in 4 days. I can study 30 minutes a day. Make me a plan by day, with 3 check questions at the end of each day."
   }
  ]
 }

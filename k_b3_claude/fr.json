@@ -1,51 +1,80 @@
 {
- "id": "k_b3_claude",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Envoyons ton premier message ! Claude est une IA créée par l'entreprise Anthropic."
+   "q": "Quelle entreprise fait Claude ?",
+   "options": [
+    "Anthropic",
+    "OpenAI",
+    "Google",
+    "Microsoft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte."
+   "q": "Que vaut-il mieux écrire dans ton premier message ?",
+   "options": [
+    "Ce qui t'intéresse et ton âge",
+    "Ton adresse",
+    "Ton mot de passe",
+    "Rien, juste « salut »"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Pour commencer"
+   "q": "Tu ne comprends pas la réponse. Qu'écris-tu ?",
+   "options": [
+    "« Explique plus simplement »",
+    "Fermer l'application",
+    "Des majuscules énervées",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Avec un parent, ouvre claude.ai ou l'application Claude.",
-    "Touche la zone de message.",
-    "Écris ta question avec des phrases normales.",
-    "Appuie sur le bouton d'envoi et attends la réponse."
-   ]
+   "q": "Avec qui vaut-il mieux essayer Claude la première fois ?",
+   "options": [
+    "Avec un parent",
+    "Avec un inconnu",
+    "Seul, en cachette",
+    "Avec personne"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Où écris-tu ton message à Claude ?",
+   "options": [
+    "Dans la zone mise en évidence",
+    "Dans la réponse au-dessus",
+    "Dans les paramètres",
+    "Nulle part"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Que demander ?"
-  },
+   "image": "send_button",
+   "q": "À quoi sert le bouton mis en évidence ?",
+   "options": [
+    "À envoyer ton message",
+    "À tout effacer",
+    "À éteindre le téléphone",
+    "À mettre de la musique"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Plus tu donnes de détails, meilleure est la réponse. Dis ce qui t'intéresse et ton âge, pour que l'IA t'explique les choses à ton niveau."
-  },
-  {
-   "type": "try",
-   "text": "Salut ! J'ai 12 ans. Donne-moi 3 faits étonnants sur les pieuvres, chacun en une phrase."
-  },
-  {
-   "type": "h",
-   "text": "Et ensuite ?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Tu peux demander plus : « Dis-m'en plus sur le deuxième fait ».",
-    "Si tu ne comprends pas, écris : « Explique plus simplement ».",
-    "Pour un nouveau sujet, ouvre une nouvelle discussion."
-   ]
+   "task": "Écris ton premier message à Claude : pose une question sur ton animal préféré.",
+   "seconds": 120,
+   "checklist": [
+    "Quel animal t'intéresse",
+    "Ton âge",
+    "Ce que tu veux exactement (par ex. 3 faits courts)"
+   ],
+   "example": "J'ai 11 ans et j'adore les dauphins. Écris-moi 3 faits courts et étonnants sur les dauphins."
   }
  ]
 }
