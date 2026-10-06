@@ -1,61 +1,80 @@
 {
- "id": "k_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI nije samo za školu – sa njim možeš i da se zabavljaš i budeš kreativan!"
+   "q": "Kako da dobiješ smešniju priču?",
+   "options": [
+    "Napišeš: „Neka bude smešnija“",
+    "Obrišeš aplikaciju",
+    "Ništa ne pišeš",
+    "Pošalješ lozinku"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Hoćeš kviz u kom AI čeka tvoj odgovor. Šta pišeš?",
+   "options": [
+    "„Jedno po jedno pitanje, sačekaj moj odgovor“",
+    "„Sva pitanja odjednom bez rešenja“",
+    "„Ne“",
+    "Samo „kviz“"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Ako AI da ideju, a ti je promeniš, ko je autor?",
+   "options": [
+    "Ti – tvoje ideje je čine tvojom",
+    "Samo AI",
+    "Niko",
+    "Tvoj komšija"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Šta je igra uloga sa AI-jem?",
+   "options": [
+    "AI glumi nekoga (npr. vodiča), a ti učiš kroz igru",
+    "AI te zove telefonom",
+    "AI igra fudbal",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Šta si napisao u označenoj poruci?",
+   "options": [
+    "Svoj zahtev (prompt) za priču",
+    "Odgovor AI-ja",
+    "Reklamu",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Priče"
-  },
+   "image": "chat_reply",
+   "q": "Gde je priča koju je AI napisao?",
+   "options": [
+    "U označenom oblačiću",
+    "U podešavanjima",
+    "U prodavnici aplikacija",
+    "Nema je"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Napiši kratku smešnu priču o mački koja želi da postane astronaut. Najviše 10 rečenica, za decu od 11 godina."
-  },
-  {
-   "type": "h",
-   "text": "Šale i zagonetke"
-  },
-  {
-   "type": "try",
-   "text": "Daj mi 3 zagonetke o životinjama, a rešenja napiši na kraju."
-  },
-  {
-   "type": "h",
-   "text": "Kviz samo za tebe"
-  },
-  {
-   "type": "try",
-   "text": "Napravi mi kviz od 5 pitanja o fudbalu, jedno po jedno. Sačekaj moj odgovor pre sledećeg pitanja."
-  },
-  {
-   "type": "tip",
-   "text": "Ti si autor! Traži od AI-ja ideje, pa ih promeni po svom – tako priča stvarno postaje tvoja."
-  },
-  {
-   "type": "h",
-   "text": "Igra uloga"
-  },
-  {
-   "type": "p",
-   "text": "Možeš da tražiš: „Ti si vodič kroz svemir, a ja sam astronaut. Provedi me kroz Sunčev sistem.“ AI će igrati ulogu i usput te nečemu naučiti."
+   "task": "Napiši prompt za priču: glavni junak je tvoja omiljena životinja, a radnja se dešava u školi.",
+   "seconds": 120,
+   "checklist": [
+    "Glavni junak (životinja)",
+    "Mesto (škola)",
+    "Dužina i ton (kratko, smešno)"
+   ],
+   "example": "Napiši kratku smešnu priču o pingvinu koji prvi dan ide u školu. Najviše 8 rečenica, za decu od 12 godina."
   }
  ]
 }

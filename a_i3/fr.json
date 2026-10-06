@@ -1,49 +1,80 @@
 {
- "id": "a_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA est parfaite pour les budgets, les tableaux et les formules Excel ou Google Sheets – même si tu n'aimes pas les chiffres."
+   "q": "Comment obtenir une formule de l'IA ?",
+   "options": [
+    "Décrire avec des mots quoi calculer et où sont les données",
+    "Envoyer ton mot de passe",
+    "Dire seulement « formule »",
+    "Impossible"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Budget du foyer"
+   "q": "Avant de faire confiance à une formule :",
+   "options": [
+    "La tester sur quelques exemples",
+    "L'utiliser partout tout de suite",
+    "Supprimer le tableau",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Mon revenu mensuel est de [MONTANT]. Dépenses : loyer, courses, transports, factures, téléphone. Fais-moi un tableau de budget indiquant combien mettre de côté pour chaque poste et pour l'épargne, selon la règle 50/30/20, et explique la règle."
+   "q": "Qu'est-ce que la règle 50/30/20 ?",
+   "options": [
+    "Répartir ses revenus entre besoins, envies et épargne",
+    "Un débit internet",
+    "Une recette",
+    "Une note scolaire"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Les formules"
+   "q": "L'IA a additionné des chiffres dans la discussion. Le plus malin ?",
+   "options": [
+    "Vérifier ou lui demander d'utiliser un tableau",
+    "La croire sans vérifier",
+    "Multiplier par 2",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA a écrit une formule (en évidence). Tu ne la comprends pas. Qu'écris-tu ?",
+   "options": [
+    "« Explique la formule étape par étape »",
+    "Rien",
+    "« Salut »",
+    "Je supprime le tableau"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Décris avec des mots ce que tu veux, et l'IA écrit la formule. Par exemple : « La colonne B contient les prix, la colonne C les quantités. Il me faut le total en D1. »"
-  },
+   "image": "chat_user",
+   "q": "Dans le message mis en évidence, tu décris ton tableau. Qu'est-il important d'indiquer ?",
+   "options": [
+    "Quelles données sont dans quelle colonne",
+    "Ton mot de passe",
+    "Ton numéro de carte",
+    "Rien"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Dans un tableau Google Sheets, la colonne A contient des dates et la colonne B des montants de dépenses. Écris une formule qui additionne seulement les dépenses d'octobre et explique-la étape par étape."
-  },
-  {
-   "type": "tip",
-   "text": "Vérifie le résultat d'une formule à la main sur quelques exemples avant de lui faire confiance. Et pour les additions dans la discussion : l'IA se trompe parfois dans les calculs, demande-lui d'utiliser un tableau ou un outil de calcul."
-  },
-  {
-   "type": "tip",
-   "text": "Claude peut analyser un tableau que tu ajoutes (par ex. CSV ou Excel) et créer un graphique ou un rapport.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT peut ouvrir un fichier Excel, faire les calculs et créer des graphiques.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini fonctionne aussi dans Google Sheets, où il peut t'aider directement (avec certaines offres).",
-   "tool": "gemini"
+   "task": "Écris un prompt pour une formule qui calcule la moyenne des notes de la colonne C.",
+   "seconds": 150,
+   "checklist": [
+    "Où sont les données (colonne, lignes)",
+    "Ce qu'il faut calculer",
+    "Quel logiciel (Excel ou Google Sheets) et une explication"
+   ],
+   "example": "Dans Excel, la colonne C de C2 à C30 contient des notes. Écris une formule qui calcule la moyenne arrondie à 2 décimales, et explique-la simplement."
   }
  ]
 }

@@ -1,62 +1,80 @@
 {
- "id": "k_b4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI is fun and useful, but on the internet the safety rules always apply."
+   "q": "What can you write to an AI?",
+   "options": [
+    "A question about dinosaurs",
+    "Your address",
+    "Your password",
+    "Your phone number"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "An AI wrote something that scared you. What do you do?",
+   "options": [
+    "Stop and tell a parent or teacher",
+    "Keep quiet and tell no one",
+    "Keep writing",
+    "Send your address"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "A video looks real. Is it definitely true?",
+   "options": [
+    "No – AI can make fake pictures and videos",
+    "Yes, always",
+    "Yes, if it's funny",
+    "Yes, if it has lots of likes"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "What's the golden rule?",
+   "options": [
+    "What you wouldn't tell a stranger, don't write to an AI",
+    "You can tell AI anything",
+    "Passwords are for sharing",
+    "Tell nobody anything, not even parents"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "You want to type the name of your school in the highlighted box. Is that OK?",
+   "options": [
+    "No – that's personal information",
+    "Yes, always",
+    "Yes, with your address",
+    "Yes, with your password"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Never write to an AI"
-  },
+   "image": "chat_reply",
+   "q": "The highlighted message asks where you live. What do you do?",
+   "options": [
+    "Don't answer and tell a parent",
+    "Write my address",
+    "Send a photo of my house",
+    "Write my phone number"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Your full name, address or school.",
-    "Your phone number or passwords.",
-    "Photos of faces – yours or anyone else's.",
-    "Other people's secrets."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "When something feels strange"
-  },
-  {
-   "type": "p",
-   "text": "If an AI (or anyone online) writes something that scares you, confuses you or makes you uncomfortable – stop and tell a parent or teacher straight away. It's not your fault and you won't be in trouble."
-  },
-  {
-   "type": "h",
-   "text": "Lies and fake pictures"
-  },
-  {
-   "type": "p",
-   "text": "AI can make pictures and voices that look real but aren't. Don't believe everything you see online right away."
-  },
-  {
-   "type": "tip",
-   "text": "Golden rule: if you wouldn't say it to a stranger on the street, don't write it to an AI."
-  },
-  {
-   "type": "try",
-   "text": "Give me 5 rules for using the internet safely, for 12-year-olds, short and clear."
+   "task": "Write a message asking AI for help with a project about a city – WITHOUT any personal information.",
+   "seconds": 120,
+   "checklist": [
+    "The topic (the city) without your address or school",
+    "Your age or grade",
+    "What exactly you want (e.g. 5 fun facts)"
+   ],
+   "example": "I'm 12 and I'm doing a project about London. Give me 5 interesting facts about the city's history, in simple words."
   }
  ]
 }

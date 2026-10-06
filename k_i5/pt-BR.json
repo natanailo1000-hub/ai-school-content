@@ -1,59 +1,80 @@
 {
- "id": "k_i5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA é esperta, mas às vezes erra – e parece totalmente segura. Um bom detetive sempre confere!"
+   "q": "A IA diz uma coisa e o livro diz outra. Em quem acreditar?",
+   "options": [
+    "No livro – e perguntar ao professor",
+    "Na IA, sempre",
+    "Em ninguém",
+    "No primeiro site que achar"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "O que mais precisa conferir?",
+   "options": [
+    "Números e datas",
+    "Cumprimentos",
+    "Cores",
+    "Emojis"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Qual pergunta ajuda a conferir a IA?",
+   "options": [
+    "\"Você tem certeza? Onde posso conferir?\"",
+    "\"Oi\"",
+    "\"Escreva um poema\"",
+    "\"Que horas são?\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "Quem é uma fonte confiável para a escola?",
+   "options": [
+    "O livro e o professor",
+    "Um comentário qualquer",
+    "Um vídeo falso",
+    "Um anúncio"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Na resposta destacada, a IA escreve um ano. O que fazer?",
+   "options": [
+    "Conferir num livro",
+    "Acreditar na hora",
+    "Mudar o ano como quiser",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Truques de detetive"
-  },
+   "image": "chat_input",
+   "q": "Onde você pergunta à IA \"Você tem certeza?\"",
+   "options": [
+    "Na caixa destacada",
+    "Nas configurações",
+    "Na loja de apps",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Pergunte à IA: \"Você tem certeza?\"",
-    "Confira no livro da escola ou numa enciclopédia.",
-    "Pergunte a um professor ou aos seus pais.",
-    "Compare com outro site confiável (de um museu ou de uma enciclopédia, por exemplo)."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "O que mais precisa conferir"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Números e datas.",
-    "Nomes de pessoas e lugares.",
-    "Citações – quem disse o quê.",
-    "As notícias mais recentes."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Se a IA e o livro disserem coisas diferentes, confie no livro e pergunte ao professor."
-  },
-  {
-   "type": "try",
-   "text": "Me diga quando o telefone foi inventado e quem o inventou. No final, escreva quais partes eu devo conferir num livro."
+   "task": "A IA te disse a altura do Monte Everest. Escreva uma mensagem para conferir a resposta.",
+   "seconds": 90,
+   "checklist": [
+    "Perguntar quão segura ela está",
+    "Pedir uma fonte confiável",
+    "Planejar conferir no livro ou com o professor"
+   ],
+   "example": "Você tem certeza da altura do Monte Everest que escreveu? Onde posso conferir? Vou olhar também no meu livro de geografia."
   }
  ]
 }

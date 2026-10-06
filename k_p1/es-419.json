@@ -1,55 +1,80 @@
 {
- "id": "k_p1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "¿Tienes una presentación para la escuela? La IA te ayuda a planearla y hacerla interesante, pero tú eres quien la hace y la presenta."
+   "q": "¿Qué va en una diapositiva?",
+   "options": [
+    "Un título y algunos puntos cortos",
+    "Todo el texto del libro",
+    "Nada",
+    "Tu contraseña"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude es para adultos (18+). Por eso, practica las lecciones de Claude junto con tu mamá o tu papá, que usan su propia cuenta.",
-   "tool": "claude"
+   "q": "¿Cómo empiezas una presentación de forma interesante?",
+   "options": [
+    "Con una pregunta o un dato sorprendente",
+    "Quedándote callado",
+    "Leyendo todo el texto",
+    "Pidiendo perdón"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puedes usar ChatGPT desde los 13 años y solo con permiso de tus padres. Si eres menor, practica junto con ellos.",
-   "tool": "chatgpt"
+   "q": "¿Cómo te ayuda la IA a ensayar?",
+   "options": [
+    "Hace de público y te hace preguntas",
+    "Presenta por ti",
+    "Te pone la nota",
+    "No ayuda"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar Gemini necesitas permiso de tus padres. Los niños más pequeños solo pueden usarlo con la cuenta Family Link de sus padres, donde esté disponible.",
-   "tool": "gemini"
+   "q": "¿Qué haces con los datos de tus diapositivas?",
+   "options": [
+    "Los reviso y pongo las fuentes",
+    "Invento otros",
+    "No los leo",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA te dio un plan de presentación (resaltado). ¿Cuál es tu trabajo?",
+   "options": [
+    "Hacer las diapositivas y practicar la exposición",
+    "Nada, ya está todo",
+    "Copiarlo en el cuaderno",
+    "Borrarlo"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Paso a paso"
-  },
+   "image": "chat_user",
+   "q": "En el mensaje resaltado pides ayuda. ¿Qué es bueno escribir?",
+   "options": [
+    "El tema, cuántas diapositivas y cuánto dura",
+    "Tu contraseña",
+    "La dirección de tu escuela",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Pide un plan: cuántas diapositivas y qué va en cada una.",
-    "Para cada diapositiva: un título y 3 puntos cortos (¡no oraciones enteras!).",
-    "Pide un comienzo interesante: una pregunta o un dato sorprendente.",
-    "Pide ideas de imágenes y luego búscalas o dibújalas tú.",
-    "Practica en voz alta: la IA puede hacerte preguntas como si fuera el público."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Tengo 13 años y hago una presentación para la escuela sobre las ballenas, 6 diapositivas, 5 minutos. Sugiere títulos, 3 puntos cortos para cada una y una pregunta interesante para empezar."
-  },
-  {
-   "type": "tip",
-   "text": "Revisa los datos de tus diapositivas en un libro o en un sitio confiable. Y al final pon tus fuentes: ¡a los maestros les encanta!"
-  },
-  {
-   "type": "h",
-   "text": "Ensayo"
-  },
-  {
-   "type": "try",
-   "text": "Actúa como mi clase. Acabo de terminar mi presentación sobre las ballenas. Hazme 3 preguntas como las que harían mis compañeros y el maestro."
+   "task": "Escribe un prompt para una presentación sobre tu deporte favorito para educación física.",
+   "seconds": 120,
+   "checklist": [
+    "Tema y para quién es",
+    "Cantidad de diapositivas y duración",
+    "Qué quieres (títulos, puntos, comienzo interesante)"
+   ],
+   "example": "Tengo 12 años y hago una presentación sobre básquetbol para educación física, 5 diapositivas y 4 minutos. Sugiere títulos, 3 puntos cortos para cada una y un comienzo interesante."
   }
  ]
 }

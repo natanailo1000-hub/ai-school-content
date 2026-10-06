@@ -1,66 +1,80 @@
 {
- "id": "a_b4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA economiza muito tempo na escrita: você dá a ideia e ela devolve um texto bem escrito. Você sempre lê e você envia."
+   "q": "O que é mais importante dizer à IA ao escrever um e-mail?",
+   "options": [
+    "Para quem você escreve e o que quer conseguir",
+    "Qual celular você tem",
+    "Quantos anos você tem",
+    "Nada – ela adivinha"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "E-mails e mensagens"
+   "q": "Como melhorar seu próprio texto com IA?",
+   "options": [
+    "Colar o texto e dizer o que mudar",
+    "Copiar à mão 3 vezes",
+    "Enviar um e-mail vazio",
+    "Apagar o texto"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Diga para quem está escrevendo e qual é a relação (chefe, vizinho, empresa).",
-    "Diga o que quer conseguir (desculpa, reclamação, agradecimento, pedido).",
-    "Dê os fatos principais (datas, números, nomes).",
-    "Peça um tom: educado, curto, firme."
-   ]
+   "q": "O que a IA NÃO deve fazer no seu currículo?",
+   "options": [
+    "Inventar experiência ou diplomas",
+    "Corrigir a gramática",
+    "Encurtar o texto",
+    "Sugerir um layout melhor"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Escreva um e-mail curto e educado para minha operadora de internet. Minha internet não funciona desde segunda e já liguei duas vezes. Peço que mandem um técnico esta semana e deem um desconto na conta."
+   "q": "Quem é responsável pelo e-mail que você envia?",
+   "options": [
+    "Você – sempre leia antes de enviar",
+    "A IA",
+    "A empresa que faz a IA",
+    "Ninguém"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA escreveu um e-mail para você (destacado). O que fazer antes de enviar?",
+   "options": [
+    "Ler e conferir os fatos",
+    "Enviar sem ler",
+    "Traduzir",
+    "Apagar"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Melhore seu próprio texto"
-  },
+   "image": "chat_input",
+   "q": "Onde você cola seu texto para a IA melhorar?",
+   "options": [
+    "Na caixa de mensagem destacada",
+    "Na resposta da IA",
+    "Nas configurações do celular",
+    "Em lugar nenhum"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Você não precisa começar do zero. Cole seu texto e peça: \"Corrija os erros\", \"Reduza pela metade\", \"Deixe mais profissional\"."
-  },
-  {
-   "type": "h",
-   "text": "Currículo e candidaturas"
-  },
-  {
-   "type": "p",
-   "text": "A IA pode organizar seu currículo e escrever uma carta de apresentação feita para a vaga. Dê sua experiência real e o texto da vaga."
-  },
-  {
-   "type": "try",
-   "text": "Esta é minha experiência: [sua experiência]. Esta é a vaga: [texto da vaga]. Escreva uma carta de apresentação de 150 palavras destacando o que a vaga pede. Não invente experiência que eu não tenho."
-  },
-  {
-   "type": "tip",
-   "text": "Nunca deixe a IA inventar diplomas ou experiência. Tudo no currículo precisa ser verdade – as empresas conferem."
-  },
-  {
-   "type": "tip",
-   "text": "O Claude é especialmente bom em escrever e lapidar textos – peça 2 ou 3 versões para escolher.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "No ChatGPT você pode pedir 2 ou 3 versões de um texto de uma vez e escolher a melhor.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Se você usa o Gmail, o Gemini também pode ajudar a escrever e-mails dentro dos apps do Google (dependendo do seu plano).",
-   "tool": "gemini"
+   "task": "Seu vizinho emprestou uma furadeira e você quebrou sem querer. Escreva um prompt para conseguir uma mensagem de desculpas.",
+   "seconds": 120,
+   "checklist": [
+    "Para quem (o vizinho)",
+    "O que aconteceu (a furadeira quebrada)",
+    "O que você oferece (conserto ou uma nova) e o tom (sincero, curto)"
+   ],
+   "example": "Escreva uma mensagem curta e sincera de desculpas para meu vizinho. Ele me emprestou a furadeira e eu quebrei sem querer. Ofereça comprar uma nova ou pagar o conserto. No máximo 4 frases, tom amigável."
   }
  ]
 }

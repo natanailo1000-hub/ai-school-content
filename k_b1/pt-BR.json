@@ -1,58 +1,80 @@
 {
- "id": "k_b1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "IA é um programa de computador que leu uma quantidade enorme de textos e assim aprendeu a conversar com as pessoas. O Claude é uma dessas IAs."
+   "q": "O que é IA?",
+   "options": [
+    "Um programa de computador que aprendeu com muitos textos",
+    "Um robô que mora no seu celular",
+    "Um tipo de videogame",
+    "Uma pessoa numa central de atendimento"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "Como a IA sabe as respostas?",
+   "options": [
+    "Ela aprendeu lendo uma quantidade enorme de textos",
+    "Ela chuta aleatoriamente",
+    "Ela liga para os amigos",
+    "Ela olha no seu caderno"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "A IA está sempre certa?",
+   "options": [
+    "Não, às vezes ela erra",
+    "Sim, sempre",
+    "Só nos fins de semana",
+    "Só sobre jogos"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "O que você NUNCA deve contar para a IA?",
+   "options": [
+    "Seu endereço ou suas senhas",
+    "Sua cor favorita",
+    "Uma pergunta sobre vulcões",
+    "Uma ideia para uma história"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Onde você escreve sua pergunta para a IA?",
+   "options": [
+    "Na caixa destacada",
+    "Na resposta da IA",
+    "No botão de enviar",
+    "Em lugar nenhum, você só fala"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Como ela sabe as respostas?"
-  },
+   "image": "chat_reply",
+   "q": "Quem escreveu a mensagem destacada?",
+   "options": [
+    "A IA",
+    "Você",
+    "Seu professor",
+    "Ninguém"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Imagine um amigo que leu um milhão de livros. Quando você pergunta algo, ele lembra do que leu e monta uma resposta. A IA funciona de um jeito parecido, só que muito mais rápido."
-  },
-  {
-   "type": "h",
-   "text": "O que ela pode fazer?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Explicar uma matéria da escola de um jeito mais fácil",
-    "Inventar uma história ou uma piada",
-    "Ajudar você a montar um plano de estudos",
-    "Responder perguntas quando você fica curioso"
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "A IA nem sempre está certa! Se algo for importante, confira com um professor ou com seus pais. E nunca passe dados pessoais, como seu endereço ou suas senhas."
-  },
-  {
-   "type": "tip",
-   "text": "Nova dica: não entendeu a resposta? Escreva \"Explique como se eu tivesse 10 anos\" e a IA deixa mais fácil!"
-  },
-  {
-   "type": "try",
-   "text": "Me explique como funcionam os vulcões como se eu tivesse 12 anos."
+   "task": "Semana que vem você tem prova sobre os planetas. Escreva uma mensagem pedindo para a IA ajudar você a estudar.",
+   "seconds": 120,
+   "checklist": [
+    "Qual é o tema (planetas)",
+    "Sua idade ou seu ano na escola",
+    "Algo concreto (explicação fácil, perguntas, um plano)"
+   ],
+   "example": "Tenho 12 anos e semana que vem tenho prova sobre os planetas. Me explique os planetas de um jeito simples e depois me faça 5 perguntas."
   }
  ]
 }

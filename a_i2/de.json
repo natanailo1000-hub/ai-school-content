@@ -1,54 +1,80 @@
 {
- "id": "a_i2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Ein langer Vertrag, Bericht oder eine Anleitung? Die KI liest sie in Sekunden und holt heraus, was du brauchst."
+   "q": "Was ist eine gute Bitte für ein langes Dokument?",
+   "options": [
+    "Zusammenfassung in 5 Punkten plus alle Fristen",
+    "\"Lies\"",
+    "Nichts",
+    "\"Schön\""
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Was du verlangen kannst"
+   "q": "Der Vertrag ist kompliziert. Wie hilft KI?",
+   "options": [
+    "Sie erklärt ihn in einfacher Sprache",
+    "Sie unterschreibt für dich",
+    "Sie schickt ihn einem Anwalt",
+    "Sie löscht ihn"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Eine Zusammenfassung in 5 Punkten.",
-    "Was für dich am wichtigsten ist (Fristen, Preise, Pflichten).",
-    "Komplizierte Stellen in einfacher Sprache erklärt.",
-    "Fragen, die du vor der Unterschrift stellen solltest."
-   ]
+   "q": "Vor der Unterschrift eines wichtigen Vertrags:",
+   "options": [
+    "Fachleute fragen – KI ist zum Verstehen da",
+    "Nur der KI vertrauen",
+    "Nichts lesen",
+    "Sofort unterschreiben"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Ich füge die Bedingungen meines Internetvertrags ein. Schreib: 1) eine Zusammenfassung in 5 Punkten, 2) alle Fristen und Kosten, 3) worauf ich achten muss. [Text einfügen]"
+   "q": "Das Dokument ist sehr lang. Was tust du?",
+   "options": [
+    "Um Arbeit in Teilen bitten",
+    "Aufgeben",
+    "Nur den Titel schicken",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Wo fügst du den Dokumenttext ein?",
+   "options": [
+    "Im markierten Nachrichtenfeld",
+    "In den Handy-Einstellungen",
+    "Im App-Store",
+    "Nirgends"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Wie du ein Dokument hinzufügst"
-  },
+   "image": "chat_reply",
+   "q": "Die KI hat eine Zusammenfassung gemacht (markiert). Eine Frist wirkt seltsam. Was tust du?",
+   "options": [
+    "Diese Frist im Original prüfen",
+    "Glauben",
+    "Ignorieren",
+    "Unterschreiben"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Du kannst den Text einfügen oder eine Datei (PDF, Word) über den Anhang-Knopf hinzufügen, wenn das Tool es unterstützt. Bei sehr langen Dokumenten bitte um Arbeit in Teilen."
-  },
-  {
-   "type": "tip",
-   "text": "Bei Verträgen, Krediten und Recht hilft KI beim Verstehen – vor der Unterschrift frag Fachleute. Und lade keine Dokumente mit persönlichen Daten anderer ohne Erlaubnis hoch."
-  },
-  {
-   "type": "tip",
-   "text": "Claude kann mit sehr langen Dokumenten auf einmal arbeiten – ideal für Zusammenfassungen und Vergleiche.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "In ChatGPT kannst du mehrere Dateien hinzufügen und Fragen dazu stellen.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini kann auch mit Dateien aus deinem Google Drive arbeiten, wenn du es erlaubst.",
-   "tool": "gemini"
+   "task": "Schreib einen Prompt für eine Analyse der Nutzungsbedingungen einer App, bevor du sie kaufst.",
+   "seconds": 150,
+   "checklist": [
+    "Was das Dokument ist",
+    "Was dich interessiert (Preis, Kündigung, Daten)",
+    "Antwortform (Punkte, Warnungen)"
+   ],
+   "example": "Ich füge die Bedingungen einer App ein, die ich kaufen will. Liste in Punkten: was sie kostet, wie ich das Abo kündige, was mit meinen Daten passiert und worauf ich achten muss. [Text]"
   }
  ]
 }

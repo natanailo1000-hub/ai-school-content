@@ -1,55 +1,80 @@
 {
- "id": "k_p1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Tem uma apresentação na escola? A IA te ajuda a planejar e deixar tudo interessante – mas quem faz e apresenta é você."
+   "q": "O que vai num slide?",
+   "options": [
+    "Um título e alguns tópicos curtos",
+    "O texto inteiro do livro",
+    "Nada",
+    "Sua senha"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "Como começar uma apresentação de um jeito interessante?",
+   "options": [
+    "Com uma pergunta ou uma curiosidade",
+    "Ficando calado",
+    "Lendo o texto inteiro",
+    "Pedindo desculpas"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Como a IA ajuda no ensaio?",
+   "options": [
+    "Fazendo o papel da plateia e perguntando",
+    "Apresentando por você",
+    "Dando sua nota",
+    "Não ajuda"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "O que fazer com os fatos dos slides?",
+   "options": [
+    "Conferir e colocar as fontes",
+    "Inventar outros",
+    "Não ler",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA te deu um plano de apresentação (destacado). Qual é o seu trabalho?",
+   "options": [
+    "Fazer os slides e treinar a apresentação",
+    "Nada, está tudo pronto",
+    "Copiar no caderno",
+    "Apagar"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Passo a passo"
-  },
+   "image": "chat_user",
+   "q": "Na mensagem destacada você pede ajuda. O que é bom escrever?",
+   "options": [
+    "O tema, quantos slides e quanto tempo dura",
+    "Sua senha",
+    "O endereço da escola",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Peça um plano: quantos slides e o que vai em cada um.",
-    "Para cada slide: um título + 3 tópicos curtos (nada de frases enormes!).",
-    "Peça um começo interessante – uma pergunta ou uma curiosidade.",
-    "Peça ideias de imagens, depois procure ou desenhe você mesmo.",
-    "Treine falando em voz alta – a IA pode fazer perguntas como se fosse a plateia."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Tenho 13 anos e estou fazendo uma apresentação para a escola sobre baleias, 6 slides, 5 minutos. Sugira títulos, 3 tópicos curtos para cada slide e uma pergunta interessante para começar."
-  },
-  {
-   "type": "tip",
-   "text": "Confira os fatos dos slides num livro ou num site confiável. E coloque as fontes no final – os professores adoram!"
-  },
-  {
-   "type": "h",
-   "text": "Ensaio"
-  },
-  {
-   "type": "try",
-   "text": "Finja que você é a minha turma. Acabei de apresentar sobre baleias. Me faça 3 perguntas que os colegas e o professor poderiam fazer."
+   "task": "Escreva um prompt para uma apresentação sobre seu esporte favorito para a aula de educação física.",
+   "seconds": 120,
+   "checklist": [
+    "Tema e para quem é",
+    "Número de slides e duração",
+    "O que você quer (títulos, tópicos, começo interessante)"
+   ],
+   "example": "Tenho 12 anos e estou fazendo uma apresentação sobre basquete para educação física, 5 slides e 4 minutos. Sugira títulos, 3 tópicos curtos para cada um e um começo interessante."
   }
  ]
 }

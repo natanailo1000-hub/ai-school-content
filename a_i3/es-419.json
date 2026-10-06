@@ -1,49 +1,80 @@
 {
- "id": "a_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "La IA es excelente para presupuestos, tablas y fórmulas de Excel o Hojas de cálculo de Google, aunque no te gusten los números."
+   "q": "¿Cómo consigues una fórmula de la IA?",
+   "options": [
+    "Describiendo con palabras qué calcular y dónde están los datos",
+    "Enviando tu contraseña",
+    "Diciendo solo \"fórmula\"",
+    "De ninguna forma"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Presupuesto del hogar"
+   "q": "Antes de confiar en una fórmula:",
+   "options": [
+    "La pruebo con algunos ejemplos",
+    "La uso para todo enseguida",
+    "Borro la tabla",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Mis ingresos mensuales son [MONTO]. Gastos: alquiler, comida, transporte, servicios, teléfono. Hazme una tabla de presupuesto con cuánto apartar para cada cosa y para ahorrar, según la regla 50/30/20, y explícame la regla."
+   "q": "¿Qué es la regla 50/30/20?",
+   "options": [
+    "Dividir el ingreso en necesidades, gustos y ahorro",
+    "Una velocidad de internet",
+    "Una receta",
+    "Una nota escolar"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Fórmulas"
+   "q": "La IA sumó números en el chat. ¿Qué es lo inteligente?",
+   "options": [
+    "Revisarlo o pedir que use una tabla",
+    "Creerle sin revisar",
+    "Multiplicar por 2",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "La IA escribió una fórmula (resaltada). No la entiendes. ¿Qué escribes?",
+   "options": [
+    "\"Explica la fórmula paso a paso\"",
+    "Nada",
+    "\"Chau\"",
+    "Borro la tabla"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Describe con palabras lo que quieres y la IA escribe la fórmula. Por ejemplo: \"En la columna B están los precios y en la C las cantidades. Necesito el total en D1\"."
-  },
+   "image": "chat_user",
+   "q": "En el mensaje resaltado describes tu tabla. ¿Qué es importante incluir?",
+   "options": [
+    "Qué datos hay en cada columna",
+    "Tu contraseña",
+    "Tu número de tarjeta",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "En una hoja de Google, la columna A tiene fechas y la B montos de gastos. Escribe una fórmula que sume solo los gastos de octubre y explícala paso a paso."
-  },
-  {
-   "type": "tip",
-   "text": "Comprueba el resultado de una fórmula a mano con algunos ejemplos antes de confiar en ella. Y para sumas dentro del chat: la IA a veces se equivoca en cuentas, así que pídele que use una tabla o una herramienta de cálculo."
-  },
-  {
-   "type": "tip",
-   "text": "Claude puede analizar una tabla que agregues (por ejemplo CSV o Excel) y crear un gráfico o un informe.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT puede abrir un archivo de Excel, hacer cálculos y crear gráficos.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini también funciona dentro de Hojas de cálculo de Google y puede ayudarte directamente ahí (en algunos planes).",
-   "tool": "gemini"
+   "task": "Escribe un prompt para una fórmula que calcule el promedio de notas de la columna C.",
+   "seconds": 150,
+   "checklist": [
+    "Dónde están los datos (columna, filas)",
+    "Qué calcular",
+    "Qué programa (Excel u Hojas de cálculo de Google) y una explicación"
+   ],
+   "example": "En Excel, la columna C de C2 a C30 tiene notas. Escribe una fórmula que calcule el promedio redondeado a 2 decimales y explícala de forma sencilla."
   }
  ]
 }

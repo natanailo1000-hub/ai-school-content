@@ -1,66 +1,80 @@
 {
- "id": "a_b3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Un prompt, c'est le message que tu envoies à l'IA. Plus ton prompt est clair, meilleure est la réponse. L'IA ne sait rien de toi, sauf ce que tu lui écris."
+   "q": "Qu'est-ce qu'un prompt ?",
+   "options": [
+    "Le message ou la consigne que tu envoies à l'IA",
+    "Un type de virus informatique",
+    "Le bouton d'envoi",
+    "Une offre payante"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Les quatre ingrédients d'un bon prompt"
+   "q": "Lequel de ces éléments est du contexte ?",
+   "options": [
+    "« C'est pour mon chef, je débute »",
+    "« Écris »",
+    "« Tableau »",
+    "« Merci »"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "La tâche – ce que tu veux exactement (écrire, expliquer, comparer, lister).",
-    "Le contexte – pour qui et pourquoi (« pour mon chef », « je débute », « j'ai 30 minutes »).",
-    "Des détails ou un exemple – ce que tu as déjà, ce que tu aimes ou pas.",
-    "Le format – la forme de la réponse (5 points, un tableau, court, moins de 100 mots)."
-   ]
+   "q": "La réponse ne convient pas. Que faire ?",
+   "options": [
+    "Dire ce qu'il faut changer, par ex. « plus court et plus formel »",
+    "Supprimer l'application",
+    "Envoyer le même prompt 10 fois",
+    "Abandonner"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Même demande, deux prompts"
+   "q": "Quel prompt est le meilleur ?",
+   "options": [
+    "Donne-moi 3 idées de fête d'anniversaire pour un garçon de 8 ans qui adore les dinosaures, budget 50 euros.",
+    "Idées d'anniversaire",
+    "anniversaire ??",
+    "Aide"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Qu'y a-t-il dans la partie mise en évidence ?",
+   "options": [
+    "Ton prompt – le message que tu as envoyé",
+    "La réponse de l'IA",
+    "Une publicité",
+    "Les paramètres"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Faible : « Écris un post Instagram. »"
-  },
+   "image": "chat_reply",
+   "q": "La réponse mise en évidence ne te plaît pas. Que fais-tu ?",
+   "options": [
+    "J'écris un nouveau message pour dire quoi changer",
+    "Rien, l'IA sait toujours mieux",
+    "J'éteins le téléphone",
+    "J'achète un nouveau téléphone"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Fort : « Écris un post Instagram court et joyeux pour ma boulangerie, qui fête ses 5 ans ce samedi. Mentionne 20 % de réduction sur les croissants. 3 phrases et 3 hashtags maximum. »"
-  },
-  {
-   "type": "tip",
-   "text": "Si la réponse ne convient pas, ne recommence pas tout : dis ce qu'il faut changer – « plus court », « plus formel », « ajoute un exemple »."
-  },
-  {
-   "type": "h",
-   "text": "Donne-lui un rôle"
-  },
-  {
-   "type": "p",
-   "text": "Tu peux commencer par « Agis comme un coach expérimenté » ou « Tu es professeur de maths ». L'IA trouve alors mieux le ton et le niveau."
-  },
-  {
-   "type": "try",
-   "text": "Tu es un coach sportif expérimenté. Fais-moi un programme d'exercices à la maison, 3 jours par semaine, 20 minutes par séance, sans matériel. Je suis grand débutant. Présente la réponse sous forme de tableau."
-  },
-  {
-   "type": "tip",
-   "text": "Avec Claude, n'hésite pas à écrire des prompts plus longs et détaillés : il suit bien les longues consignes. Tu peux aussi coller un texte entier et lui demander de travailler dessus.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Dans ChatGPT, tu peux enregistrer dans les paramètres des instructions durables sur toi (par exemple « réponds brièvement »), pour ne pas les répéter à chaque fois.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini peut utiliser la recherche Google : tu peux donc demander des infos récentes, mais vérifie toujours les sources qu'il indique.",
-   "tool": "gemini"
+   "task": "Transforme ce prompt faible en bon prompt : « écris une annonce ». Tu vends un vélo.",
+   "seconds": 150,
+   "checklist": [
+    "La tâche (une annonce pour vendre un vélo)",
+    "Des détails (type, état, prix)",
+    "Le format (longueur, ton)"
+   ],
+   "example": "Écris une courte annonce pour vendre un vélo enfant (20 pouces, rouge, peu utilisé) à 60 euros. Ton sympathique, 5 phrases maximum, et termine en invitant à m'envoyer un message."
   }
  ]
 }

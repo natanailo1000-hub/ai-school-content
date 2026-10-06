@@ -1,59 +1,80 @@
 {
- "id": "k_i5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA est maline, mais elle se trompe parfois – tout en ayant l'air sûre d'elle. Un vrai détective vérifie toujours !"
+   "q": "L'IA dit une chose et ton manuel une autre. Qui crois-tu ?",
+   "options": [
+    "Le manuel – et je demande au professeur",
+    "L'IA, toujours",
+    "Personne",
+    "Le premier site trouvé"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
-   "tool": "claude"
+   "q": "Que faut-il vérifier le plus souvent ?",
+   "options": [
+    "Les chiffres et les dates",
+    "Les salutations",
+    "Les couleurs",
+    "Les émojis"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
-   "tool": "chatgpt"
+   "q": "Quelle question t'aide à vérifier l'IA ?",
+   "options": [
+    "« Tu es sûr ? Où puis-je vérifier ? »",
+    "« Salut »",
+    "« Écris un poème »",
+    "« Quelle heure est-il ? »"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
-   "tool": "gemini"
+   "q": "Quelle est une source fiable pour l'école ?",
+   "options": [
+    "Le manuel et le professeur",
+    "Un commentaire au hasard",
+    "Une fausse vidéo",
+    "Une pub"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Dans la réponse mise en évidence, l'IA donne une année. Que fais-tu ?",
+   "options": [
+    "Je vérifie dans un livre",
+    "Je la crois tout de suite",
+    "Je change l'année comme je veux",
+    "Rien"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Astuces de détective"
-  },
+   "image": "chat_input",
+   "q": "Où demandes-tu à l'IA « Tu es sûr ? »",
+   "options": [
+    "Dans la zone mise en évidence",
+    "Dans les paramètres",
+    "Dans la boutique d'applis",
+    "Nulle part"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Demande à l'IA : « Tu es sûr ? »",
-    "Vérifie dans ton manuel ou une encyclopédie.",
-    "Demande à un professeur ou à un parent.",
-    "Compare avec un autre site fiable (par ex. celui d'un musée ou d'une encyclopédie)."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Ce qu'il faut le plus souvent vérifier"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Les chiffres et les dates.",
-    "Les noms de personnes et de lieux.",
-    "Les citations – qui a dit quoi.",
-    "Les dernières actualités."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Si l'IA et ton livre disent des choses différentes, crois le livre et demande à ton professeur."
-  },
-  {
-   "type": "try",
-   "text": "Dis-moi quand le téléphone a été inventé et par qui. À la fin, écris quelles parties je dois vérifier dans un livre."
+   "task": "L'IA t'a dit la hauteur de l'Everest. Écris un message pour vérifier la réponse.",
+   "seconds": 90,
+   "checklist": [
+    "Tu demandes à quel point elle est sûre",
+    "Tu demandes une source fiable",
+    "Tu prévois de vérifier dans un livre ou avec le professeur"
+   ],
+   "example": "Es-tu sûr de la hauteur de l'Everest que tu as écrite ? Où puis-je vérifier ? Je vais aussi regarder dans mon manuel de géographie."
   }
  ]
 }

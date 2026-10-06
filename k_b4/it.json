@@ -1,62 +1,80 @@
 {
- "id": "k_b4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA è divertente e utile, ma su internet valgono sempre le regole di sicurezza."
+   "q": "Cosa puoi scrivere a un'IA?",
+   "options": [
+    "Una domanda sui dinosauri",
+    "Il tuo indirizzo",
+    "La tua password",
+    "Il tuo numero di telefono"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: Claude è per adulti (18+). Quindi fai le lezioni su Claude insieme a un genitore, che usa il proprio account.",
-   "tool": "claude"
+   "q": "Un'IA ti ha scritto qualcosa che ti ha spaventato. Cosa fai?",
+   "options": [
+    "Mi fermo e lo dico a un genitore o a un insegnante",
+    "Sto zitto e non lo dico a nessuno",
+    "Continuo a scrivere",
+    "Mando il mio indirizzo"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: puoi usare ChatGPT dai 13 anni e solo con il permesso dei genitori. Se sei più piccolo, esercitati insieme a un genitore.",
-   "tool": "chatgpt"
+   "q": "Un video sembra vero. È sicuramente vero?",
+   "options": [
+    "No: l'IA può creare immagini e video falsi",
+    "Sì, sempre",
+    "Sì, se fa ridere",
+    "Sì, se ha tanti like"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: per Gemini ti serve il permesso dei genitori. I bambini più piccoli possono usarlo solo tramite l'account Family Link dei genitori, dove disponibile.",
-   "tool": "gemini"
+   "q": "Qual è la regola d'oro?",
+   "options": [
+    "Quello che non diresti a uno sconosciuto, non scriverlo a un'IA",
+    "All'IA puoi dire tutto",
+    "Le password si condividono",
+    "Non dire niente a nessuno, neanche ai genitori"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Vuoi scrivere il nome della tua scuola nella casella evidenziata. Va bene?",
+   "options": [
+    "No: sono dati personali",
+    "Sì, sempre",
+    "Sì, con il mio indirizzo",
+    "Sì, con la mia password"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Non scrivere mai a un'IA"
-  },
+   "image": "chat_reply",
+   "q": "Il messaggio evidenziato ti chiede dove abiti. Cosa fai?",
+   "options": [
+    "Non rispondo e lo dico a un genitore",
+    "Scrivo il mio indirizzo",
+    "Mando una foto di casa mia",
+    "Scrivo il mio numero"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Il tuo nome completo, il tuo indirizzo o la tua scuola.",
-    "Il tuo numero di telefono o le password.",
-    "Foto di volti, il tuo o quello degli altri.",
-    "I segreti degli altri."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Quando qualcosa sembra strano"
-  },
-  {
-   "type": "p",
-   "text": "Se un'IA (o chiunque online) ti scrive qualcosa che ti spaventa, ti confonde o ti mette a disagio, fermati e dillo subito a un genitore o a un insegnante. Non è colpa tua e non finirai nei guai."
-  },
-  {
-   "type": "h",
-   "text": "Bugie e immagini false"
-  },
-  {
-   "type": "p",
-   "text": "L'IA può creare immagini e voci che sembrano vere, ma non lo sono. Non credere subito a tutto quello che vedi online."
-  },
-  {
-   "type": "tip",
-   "text": "Regola d'oro: quello che non diresti a uno sconosciuto per strada, non scriverlo nemmeno a un'IA."
-  },
-  {
-   "type": "try",
-   "text": "Dammi 5 regole per usare internet in sicurezza, per ragazzi di 12 anni, brevi e chiare."
+   "task": "Scrivi un messaggio per chiedere all'IA aiuto per una ricerca su una città, SENZA dati personali.",
+   "seconds": 120,
+   "checklist": [
+    "L'argomento (la città) senza il tuo indirizzo o la tua scuola",
+    "La tua età o la tua classe",
+    "Cosa vuoi esattamente (es. 5 curiosità)"
+   ],
+   "example": "Ho 12 anni e sto facendo una ricerca su Roma. Dammi 5 curiosità sulla storia della città, con parole semplici."
   }
  ]
 }

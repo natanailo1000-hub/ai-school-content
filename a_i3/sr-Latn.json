@@ -1,49 +1,80 @@
 {
- "id": "a_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI je odličan za budžet, tabele i formule u Excelu ili Google Sheets-u – čak i ako ne voliš brojeve."
+   "q": "Kako da dobiješ formulu od AI-ja?",
+   "options": [
+    "Rečima opišeš šta treba da izračuna i gde su podaci",
+    "Pošalješ lozinku",
+    "Kažeš samo „formula“",
+    "Nikako"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Kućni budžet"
+   "q": "Pre nego što poveruješ formuli:",
+   "options": [
+    "Proveriš je na par primera",
+    "Odmah je koristiš za sve",
+    "Obrišeš tabelu",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Moja mesečna primanja su [IZNOS]. Troškovi: kirija, hrana, prevoz, računi, telefon. Napravi mi tabelu budžeta sa predlogom koliko da odvajam za svaku stavku i za štednju, po pravilu 50/30/20, i objasni mi to pravilo."
+   "q": "Šta je pravilo 50/30/20?",
+   "options": [
+    "Podela prihoda na potrebe, želje i štednju",
+    "Brzina interneta",
+    "Recept",
+    "Ocena u školi"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Formule"
+   "q": "AI je sabrao brojeve u poruci. Šta je pametno?",
+   "options": [
+    "Proveriti ili tražiti da koristi tabelu",
+    "Verovati bez provere",
+    "Pomnožiti sa 2",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI je napisao formulu (označeno). Ne razumeš je. Šta pišeš?",
+   "options": [
+    "„Objasni formulu korak po korak“",
+    "Ništa",
+    "„Ćao“",
+    "Obrišem tabelu"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Opiši rečima šta želiš, a AI će napisati formulu. Na primer: „U koloni B su cene, a u koloni C količine. Treba mi ukupna suma u D1.“"
-  },
+   "image": "chat_user",
+   "q": "U označenoj poruci opisuješ tabelu. Šta je važno da napišeš?",
+   "options": [
+    "U kojoj koloni su koji podaci",
+    "Svoju lozinku",
+    "Broj kartice",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "U Google Sheets tabeli u koloni A su datumi, a u koloni B iznosi troškova. Napiši formulu koja sabira samo troškove iz oktobra i objasni je korak po korak."
-  },
-  {
-   "type": "tip",
-   "text": "Pre nego što poveruješ formuli, proveri rezultat ručno na par primera. A za sabiranja u samoj poruci – AI ponekad pogreši u računu, pa traži da koristi tabelu ili alat za računanje."
-  },
-  {
-   "type": "tip",
-   "text": "Claude može da analizira tabelu koju dodaš (npr. CSV ili Excel) i napravi grafikon ili izveštaj.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "ChatGPT može da otvori Excel fajl, izračuna i napravi grafikone.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini radi i u Google Sheets-u, gde može da ti pomogne direktno u tabeli (u nekim planovima).",
-   "tool": "gemini"
+   "task": "Napiši prompt za formulu koja računa prosečnu ocenu iz kolone C.",
+   "seconds": 150,
+   "checklist": [
+    "Gde su podaci (kolona, redovi)",
+    "Šta treba izračunati",
+    "Koji program (Excel ili Google Sheets) i objašnjenje"
+   ],
+   "example": "U Excelu, u koloni C od C2 do C30 su ocene. Napiši formulu koja računa prosečnu ocenu zaokruženu na 2 decimale i objasni je jednostavno."
   }
  ]
 }

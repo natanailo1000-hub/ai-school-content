@@ -1,59 +1,80 @@
 {
- "id": "k_i5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI is clever, but sometimes it gets things wrong – and sounds completely sure. A real detective always checks!"
+   "q": "The AI says one thing and your textbook another. Who do you trust?",
+   "options": [
+    "The textbook – and you ask your teacher",
+    "The AI, always",
+    "Nobody",
+    "The first website you find"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "What most often needs checking?",
+   "options": [
+    "Numbers and dates",
+    "Greetings",
+    "Colours",
+    "Emojis"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "Which question helps you check the AI?",
+   "options": [
+    "\"Are you sure? Where can I check?\"",
+    "\"Hi\"",
+    "\"Write a poem\"",
+    "\"What time is it?\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "Who is a reliable source for school?",
+   "options": [
+    "Your textbook and teacher",
+    "A random comment",
+    "A fake video",
+    "An ad"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In the highlighted answer the AI writes the year something happened. What do you do?",
+   "options": [
+    "Check it in a book",
+    "Believe it right away",
+    "Change the year as I like",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Detective tricks"
-  },
+   "image": "chat_input",
+   "q": "Where do you ask the AI \"Are you sure?\"",
+   "options": [
+    "In the highlighted box",
+    "In the settings",
+    "In the app store",
+    "Nowhere"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Ask the AI: \"Are you sure?\"",
-    "Check in your textbook or an encyclopedia.",
-    "Ask a teacher or a parent.",
-    "Compare with another reliable website (e.g. a museum or encyclopedia site)."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "What to check most often"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Numbers and dates.",
-    "Names of people and places.",
-    "Quotes – who said what.",
-    "The latest news."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "If the AI and your book say different things, trust the book and ask your teacher."
-  },
-  {
-   "type": "try",
-   "text": "Tell me when the telephone was invented and who invented it. At the end, write which parts I should check in a book."
+   "task": "The AI told you how high Mount Everest is. Write a message to check the answer.",
+   "seconds": 90,
+   "checklist": [
+    "You ask how sure it is",
+    "You ask for a reliable source",
+    "You plan to check in a book or with a teacher"
+   ],
+   "example": "Are you sure about the height of Mount Everest you wrote? Where can I check it? I'll also check in my geography book."
   }
  ]
 }

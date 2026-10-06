@@ -1,61 +1,80 @@
 {
- "id": "k_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA não serve só para a escola – com ela você também pode se divertir e ser criativo!"
+   "q": "Como conseguir uma história mais engraçada?",
+   "options": [
+    "Diga: \"Deixe mais engraçada\"",
+    "Apague o app",
+    "Não escreva nada",
+    "Mande sua senha"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: o Claude é para adultos (18+). Por isso, pratique as aulas do Claude junto com seu pai ou sua mãe, usando a conta deles.",
-   "tool": "claude"
+   "q": "Você quer um quiz em que a IA espere sua resposta. O que escreve?",
+   "options": [
+    "\"Uma pergunta de cada vez, espere minha resposta\"",
+    "\"Todas juntas sem respostas\"",
+    "\"Não\"",
+    "Só \"quiz\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: você pode usar o ChatGPT a partir dos 13 anos e só com permissão dos pais. Se for mais novo, pratique junto com eles.",
-   "tool": "chatgpt"
+   "q": "Se a IA dá uma ideia e você muda, quem é o autor?",
+   "options": [
+    "Você – suas ideias tornam a história sua",
+    "Só a IA",
+    "Ninguém",
+    "Seu vizinho"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Importante: para usar o Gemini você precisa da permissão dos pais. Crianças mais novas só podem usá-lo pela conta Family Link dos pais, onde estiver disponível.",
-   "tool": "gemini"
+   "q": "O que é faz de conta com IA?",
+   "options": [
+    "A IA faz um personagem (ex.: um guia) e você aprende brincando",
+    "A IA te liga",
+    "A IA joga futebol",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "O que você escreveu na mensagem destacada?",
+   "options": [
+    "Seu pedido (prompt) para uma história",
+    "A resposta da IA",
+    "Um anúncio",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Histórias"
-  },
+   "image": "chat_reply",
+   "q": "Onde está a história que a IA escreveu?",
+   "options": [
+    "No balão destacado",
+    "Nas configurações",
+    "Na loja de apps",
+    "Não está lá"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Escreva uma história curta e engraçada sobre um gato que quer ser astronauta. No máximo 10 frases, para crianças de 11 anos."
-  },
-  {
-   "type": "h",
-   "text": "Piadas e charadas"
-  },
-  {
-   "type": "try",
-   "text": "Me dê 3 charadas sobre animais e escreva as respostas no final."
-  },
-  {
-   "type": "h",
-   "text": "Um quiz só para você"
-  },
-  {
-   "type": "try",
-   "text": "Faça um quiz de 5 perguntas sobre futebol, uma de cada vez. Espere minha resposta antes da próxima."
-  },
-  {
-   "type": "tip",
-   "text": "Você é o autor! Peça ideias à IA e depois mude do seu jeito – assim a história é realmente sua."
-  },
-  {
-   "type": "h",
-   "text": "Faz de conta"
-  },
-  {
-   "type": "p",
-   "text": "Você pode pedir: \"Você é um guia espacial e eu sou astronauta. Me leve pelo Sistema Solar.\" A IA faz o papel e te ensina pelo caminho."
+   "task": "Escreva um prompt para uma história: o personagem principal é seu animal favorito e tudo acontece na escola.",
+   "seconds": 120,
+   "checklist": [
+    "O personagem principal (um animal)",
+    "O lugar (escola)",
+    "Tamanho e tom (curto, engraçado)"
+   ],
+   "example": "Escreva uma história curta e engraçada sobre o primeiro dia de escola de um pinguim. No máximo 8 frases, para crianças de 12 anos."
   }
  ]
 }

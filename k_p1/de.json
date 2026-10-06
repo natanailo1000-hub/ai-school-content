@@ -1,55 +1,80 @@
 {
- "id": "k_p1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Du musst ein Referat in der Schule halten? KI hilft dir beim Planen und macht es spannend – aber du erstellst es und trägst es vor."
+   "q": "Was gehört auf eine Folie?",
+   "options": [
+    "Ein Titel und ein paar kurze Punkte",
+    "Der ganze Text aus dem Buch",
+    "Nichts",
+    "Dein Passwort"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Wie beginnst du ein Referat spannend?",
+   "options": [
+    "Mit einer Frage oder einem überraschenden Fakt",
+    "Mit Schweigen",
+    "Indem du den ganzen Text vorliest",
+    "Mit einer Entschuldigung"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Wie hilft dir KI beim Üben?",
+   "options": [
+    "Sie spielt das Publikum und stellt Fragen",
+    "Sie hält das Referat für dich",
+    "Sie schreibt deine Note",
+    "Gar nicht"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Was machst du mit den Fakten auf deinen Folien?",
+   "options": [
+    "Prüfen und Quellen nennen",
+    "Neue erfinden",
+    "Nicht lesen",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "Die KI hat dir einen Plan fürs Referat gegeben (markiert). Was ist deine Aufgabe?",
+   "options": [
+    "Die Folien machen und den Vortrag üben",
+    "Nichts, alles ist fertig",
+    "Ins Heft abschreiben",
+    "Ihn löschen"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Schritt für Schritt"
-  },
+   "image": "chat_user",
+   "q": "In der markierten Nachricht bittest du um Hilfe. Was schreibst du am besten?",
+   "options": [
+    "Thema, Folienzahl und Dauer",
+    "Dein Passwort",
+    "Die Adresse deiner Schule",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Bitte um einen Plan: wie viele Folien und was auf jede kommt.",
-    "Für jede Folie: ein Titel + 3 kurze Punkte (keine ganzen Sätze!).",
-    "Bitte um einen spannenden Einstieg – eine Frage oder einen überraschenden Fakt.",
-    "Lass dir Bildideen geben, die Bilder suchst oder zeichnest du selbst.",
-    "Üb den Vortrag laut – die KI kann dir Fragen stellen wie ein Publikum."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Ich bin 13 und mache ein Schulreferat über Wale, 6 Folien, 5 Minuten. Schlag Folientitel vor, je 3 kurze Punkte und eine spannende Frage für den Einstieg."
-  },
-  {
-   "type": "tip",
-   "text": "Prüf die Fakten auf deinen Folien in einem Buch oder auf einer zuverlässigen Website. Und nenn am Ende deine Quellen – das mögen Lehrkräfte!"
-  },
-  {
-   "type": "h",
-   "text": "Generalprobe"
-  },
-  {
-   "type": "try",
-   "text": "Tu so, als wärst du meine Klasse. Ich habe gerade mein Referat über Wale beendet. Stell mir 3 Fragen, wie sie Schüler und Lehrkraft stellen könnten."
+   "task": "Schreib einen Prompt für ein Referat über deinen Lieblingssport für den Sportunterricht.",
+   "seconds": 120,
+   "checklist": [
+    "Thema und für wen",
+    "Folienzahl und Dauer",
+    "Was du willst (Titel, Punkte, spannender Einstieg)"
+   ],
+   "example": "Ich bin 12 und mache ein Referat über Basketball für den Sportunterricht, 5 Folien und 4 Minuten. Schlag Titel, je 3 kurze Punkte und einen spannenden Einstieg vor."
   }
  ]
 }

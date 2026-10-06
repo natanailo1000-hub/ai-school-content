@@ -1,55 +1,80 @@
 {
- "id": "k_p1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Imaš prezentaciju za školu? AI ti pomaže da je isplaniraš i učiniš zanimljivom – ali ti si taj koji je pravi i izlaže."
+   "q": "Šta ide na slajd?",
+   "options": [
+    "Naslov i nekoliko kratkih tačaka",
+    "Ceo tekst iz knjige",
+    "Ništa",
+    "Tvoja lozinka"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Kako da zanimljivo počneš prezentaciju?",
+   "options": [
+    "Pitanjem ili neobičnom činjenicom",
+    "Ćutanjem",
+    "Čitanjem celog teksta",
+    "Izvinjenjem"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Kako AI može da ti pomogne da vežbaš?",
+   "options": [
+    "Da glumi publiku i postavlja pitanja",
+    "Da izlaže umesto tebe",
+    "Da ti upiše ocenu",
+    "Nikako"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Šta radiš sa činjenicama na slajdovima?",
+   "options": [
+    "Proverim ih i navedem izvore",
+    "Izmislim nove",
+    "Ne čitam ih",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "AI ti je dao plan prezentacije (označeno). Šta je tvoj posao?",
+   "options": [
+    "Da napravim slajdove i vežbam izlaganje",
+    "Ništa, sve je gotovo",
+    "Da ga prepišem u svesku",
+    "Da ga obrišem"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Korak po korak"
-  },
+   "image": "chat_user",
+   "q": "U označenoj poruci tražiš pomoć. Šta je dobro da napišeš?",
+   "options": [
+    "Temu, broj slajdova i koliko traje",
+    "Lozinku",
+    "Adresu škole",
+    "Ništa"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Traži plan: koliko slajdova i šta ide na koji.",
-    "Za svaki slajd: naslov + 3 kratke tačke (ne cele rečenice!).",
-    "Traži zanimljiv početak – pitanje ili neobičnu činjenicu.",
-    "Traži ideje za slike, a slike potraži sam ili ih nacrtaj.",
-    "Vežbaj izlaganje naglas – AI može da ti postavlja pitanja kao publika."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "Imam 13 godina i pravim prezentaciju za školu o kitovima, 6 slajdova, 5 minuta. Predloži naslove slajdova, po 3 kratke tačke i jedno zanimljivo pitanje za početak."
-  },
-  {
-   "type": "tip",
-   "text": "Činjenice sa slajdova proveri u knjizi ili na pouzdanom sajtu. I na kraju navedi izvore – nastavnici to vole!"
-  },
-  {
-   "type": "h",
-   "text": "Proba"
-  },
-  {
-   "type": "try",
-   "text": "Ponašaj se kao moj razred. Upravo sam završio prezentaciju o kitovima. Postavi mi 3 pitanja kakva bi postavili učenici i nastavnik."
+   "task": "Napiši prompt za prezentaciju o svom omiljenom sportu za čas fizičkog.",
+   "seconds": 120,
+   "checklist": [
+    "Tema i za koga je",
+    "Broj slajdova i trajanje",
+    "Šta tražiš (naslovi, tačke, zanimljiv početak)"
+   ],
+   "example": "Imam 12 godina i pravim prezentaciju o košarci za čas fizičkog, 5 slajdova i 4 minuta. Predloži naslove, po 3 kratke tačke i zanimljiv početak."
   }
  ]
 }

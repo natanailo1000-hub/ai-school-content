@@ -1,59 +1,80 @@
 {
- "id": "k_i5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI ist schlau, aber manchmal irrt sie sich – und klingt trotzdem total sicher. Ein echter Detektiv prüft immer nach!"
+   "q": "Die KI sagt etwas anderes als dein Schulbuch. Wem glaubst du?",
+   "options": [
+    "Dem Schulbuch – und du fragst deine Lehrkraft",
+    "Immer der KI",
+    "Niemandem",
+    "Der ersten Website, die du findest"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Was muss man am häufigsten prüfen?",
+   "options": [
+    "Zahlen und Daten",
+    "Begrüßungen",
+    "Farben",
+    "Emojis"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Welche Frage hilft dir, die KI zu prüfen?",
+   "options": [
+    "\"Bist du sicher? Wo kann ich das nachprüfen?\"",
+    "\"Hallo\"",
+    "\"Schreib ein Gedicht\"",
+    "\"Wie spät ist es?\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Wer ist eine zuverlässige Quelle für die Schule?",
+   "options": [
+    "Schulbuch und Lehrkraft",
+    "Ein zufälliger Kommentar",
+    "Ein gefälschtes Video",
+    "Eine Werbung"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "In der markierten Antwort nennt die KI ein Jahr. Was tust du?",
+   "options": [
+    "Im Buch nachprüfen",
+    "Sofort glauben",
+    "Das Jahr nach Lust ändern",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Detektiv-Tricks"
-  },
+   "image": "chat_input",
+   "q": "Wo fragst du die KI: \"Bist du sicher?\"",
+   "options": [
+    "Im markierten Feld",
+    "In den Einstellungen",
+    "Im App-Store",
+    "Nirgends"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Frag die KI: \"Bist du sicher?\"",
-    "Schau im Schulbuch oder in einem Lexikon nach.",
-    "Frag eine Lehrkraft oder deine Eltern.",
-    "Vergleiche mit einer anderen zuverlässigen Website (z. B. eines Museums oder Lexikons)."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Was du am häufigsten prüfen solltest"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Zahlen und Daten.",
-    "Namen von Personen und Orten.",
-    "Zitate – wer was gesagt hat.",
-    "Die neuesten Nachrichten."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Wenn KI und Buch etwas anderes sagen, glaub dem Buch und frag deine Lehrkraft."
-  },
-  {
-   "type": "try",
-   "text": "Sag mir, wann das Telefon erfunden wurde und von wem. Schreib am Ende, was ich davon in einem Buch nachprüfen sollte."
+   "task": "Die KI hat dir gesagt, wie hoch der Mount Everest ist. Schreib eine Nachricht, um die Antwort zu prüfen.",
+   "seconds": 90,
+   "checklist": [
+    "Du fragst, wie sicher sie ist",
+    "Du bittest um eine zuverlässige Quelle",
+    "Du planst, im Buch oder bei der Lehrkraft nachzuprüfen"
+   ],
+   "example": "Bist du dir bei der Höhe des Mount Everest sicher? Wo kann ich das nachprüfen? Ich schaue auch in meinem Erdkundebuch nach."
   }
  ]
 }

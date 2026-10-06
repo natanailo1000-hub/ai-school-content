@@ -1,54 +1,80 @@
 {
- "id": "a_i2",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "¿Un contrato, informe o manual largo? La IA lo lee en segundos y saca lo que necesitas."
+   "q": "¿Qué es un buen pedido para un documento largo?",
+   "options": [
+    "Resumen en 5 puntos y todos los plazos",
+    "\"Lee\"",
+    "Nada",
+    "\"Lindo\""
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Qué puedes pedir"
+   "q": "El contrato es complicado. ¿Cómo ayuda la IA?",
+   "options": [
+    "Lo explica en lenguaje simple",
+    "Lo firma por ti",
+    "Se lo manda a un abogado",
+    "Lo borra"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Un resumen en 5 puntos.",
-    "Lo más importante para ti (plazos, precios, obligaciones).",
-    "Las partes complicadas explicadas en lenguaje simple.",
-    "Preguntas que deberías hacer antes de firmar."
-   ]
+   "q": "Antes de firmar un contrato importante:",
+   "options": [
+    "Consulto a un experto; la IA es para entender",
+    "Confío solo en la IA",
+    "No leo nada",
+    "Firmo enseguida"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Voy a pegar las condiciones de mi contrato de internet. Escribe: 1) un resumen en 5 puntos, 2) todos los plazos y costos, 3) a qué debo prestar atención. [pega el texto]"
+   "q": "El documento es muy largo. ¿Qué haces?",
+   "options": [
+    "Pido que trabaje por partes",
+    "Me rindo",
+    "Envío solo el título",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "¿Dónde pegas el texto del documento?",
+   "options": [
+    "En el cuadro de mensaje resaltado",
+    "En la configuración del teléfono",
+    "En la tienda de apps",
+    "En ningún lado"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Cómo agregar un documento"
-  },
+   "image": "chat_reply",
+   "q": "La IA hizo un resumen (resaltado). Un plazo te parece raro. ¿Qué haces?",
+   "options": [
+    "Reviso ese plazo en el documento original",
+    "Lo creo",
+    "Lo ignoro",
+    "Firmo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Puedes pegar el texto o adjuntar un archivo (PDF, Word) con el botón de adjuntar, si la herramienta lo permite. Para documentos muy largos, pide que trabaje por partes."
-  },
-  {
-   "type": "tip",
-   "text": "En contratos, préstamos y temas legales, la IA te ayuda a entender; antes de firmar, consulta a un experto. Y no subas documentos con datos personales de otros sin permiso."
-  },
-  {
-   "type": "tip",
-   "text": "Claude puede trabajar con documentos muy largos de una vez: es excelente para resúmenes y para comparar documentos.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "En ChatGPT puedes agregar varios archivos y hacer preguntas sobre ellos.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Gemini también puede trabajar con archivos de tu Google Drive, si lo permites.",
-   "tool": "gemini"
+   "task": "Escribe un prompt pidiendo un análisis de las condiciones de una app antes de comprarla.",
+   "seconds": 150,
+   "checklist": [
+    "Qué documento es",
+    "Qué te importa (precio, cancelación, datos)",
+    "Formato de respuesta (puntos, advertencias)"
+   ],
+   "example": "Voy a pegar las condiciones de una app que quiero comprar. Dime en puntos: cuánto cuesta, cómo cancelo la suscripción, qué hacen con mis datos y a qué debo prestar atención. [texto]"
   }
  ]
 }

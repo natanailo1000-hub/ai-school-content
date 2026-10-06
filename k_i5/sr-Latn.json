@@ -1,59 +1,80 @@
 {
- "id": "k_i5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI je pametan, ali ponekad pogreši – a zvuči potpuno sigurno. Pravi detektiv uvek proverava!"
+   "q": "AI kaže jedno, a udžbenik drugo. Kome veruješ?",
+   "options": [
+    "Udžbeniku – i pitam nastavnika",
+    "AI-ju, uvek",
+    "Nikome",
+    "Prvom sajtu koji nađem"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Šta najčešće treba proveriti?",
+   "options": [
+    "Brojeve i datume",
+    "Pozdrave",
+    "Boje",
+    "Smajlije"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Koje pitanje pomaže da proveriš AI?",
+   "options": [
+    "„Da li si siguran? Gde mogu da proverim?“",
+    "„Ćao“",
+    "„Napiši pesmu“",
+    "„Koliko je sati?“"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Ko je pouzdan izvor za školu?",
+   "options": [
+    "Udžbenik i nastavnik",
+    "Nasumičan komentar",
+    "Lažni video",
+    "Reklama"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "U označenom odgovoru AI piše godinu kad se nešto desilo. Šta radiš?",
+   "options": [
+    "Proverim u knjizi",
+    "Odmah poverujem",
+    "Promenim godinu kako hoću",
+    "Ništa"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Detektivski trikovi"
-  },
+   "image": "chat_input",
+   "q": "Gde pitaš AI „Da li si siguran?“",
+   "options": [
+    "U označeno polje",
+    "U podešavanjima",
+    "U prodavnici aplikacija",
+    "Nigde"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Pitaj AI: „Da li si siguran?“",
-    "Proveri u udžbeniku ili enciklopediji.",
-    "Pitaj nastavnika ili roditelja.",
-    "Uporedi sa drugim pouzdanim sajtom (npr. sajt muzeja ili enciklopedije)."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Šta najčešće treba proveriti"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Brojeve i datume.",
-    "Imena ljudi i mesta.",
-    "Citate – ko je šta rekao.",
-    "Najnovije vesti."
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "Ako AI i knjiga kažu različito, veruj knjizi i pitaj nastavnika."
-  },
-  {
-   "type": "try",
-   "text": "Reci mi kada je izmišljen telefon i ko ga je izmislio. Na kraju napiši šta od ovoga treba da proverim u knjizi."
+   "task": "AI ti je rekao koliko je visok Mont Everest. Napiši poruku kojom ćeš proveriti odgovor.",
+   "seconds": 90,
+   "checklist": [
+    "Pitaš koliko je siguran",
+    "Tražiš pouzdan izvor",
+    "Planiraš da proveriš u knjizi ili sa nastavnikom"
+   ],
+   "example": "Da li si siguran u visinu Mont Everesta koju si napisao? Gde mogu da proverim? Proveriću i u udžbeniku iz geografije."
   }
  ]
 }

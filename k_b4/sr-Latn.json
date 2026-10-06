@@ -1,62 +1,80 @@
 {
- "id": "k_b4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI je zabavan i koristan, ali na internetu uvek važe pravila bezbednosti."
+   "q": "Šta smeš da napišeš AI-ju?",
+   "options": [
+    "Pitanje o dinosaurusima",
+    "Svoju adresu",
+    "Svoju lozinku",
+    "Svoj broj telefona"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "AI ti je napisao nešto što te uplašilo. Šta radiš?",
+   "options": [
+    "Prestanem i kažem roditelju ili nastavniku",
+    "Ćutim i nikome ne kažem",
+    "Nastavim da pišem",
+    "Pošaljem svoju adresu"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Video izgleda stvarno. Da li je sigurno istinit?",
+   "options": [
+    "Nije – AI može da napravi lažne slike i video",
+    "Jeste, uvek",
+    "Jeste, ako je smešan",
+    "Jeste, ako ima mnogo lajkova"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Koje je zlatno pravilo?",
+   "options": [
+    "Ono što ne bi rekao nepoznatom, ne piši ni AI-ju",
+    "AI-ju možeš sve da kažeš",
+    "Lozinke su za deljenje",
+    "Nikome ništa ne pričaj, ni roditeljima"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Hoćeš da napišeš ime svoje škole u označeno polje. Da li je to u redu?",
+   "options": [
+    "Nije – to su lični podaci",
+    "Jeste, uvek",
+    "Jeste, uz adresu",
+    "Jeste, uz lozinku"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Nikad ne piši AI-ju"
-  },
+   "image": "chat_reply",
+   "q": "Označena poruka te pita gde živiš. Šta radiš?",
+   "options": [
+    "Ne odgovaram i kažem roditelju",
+    "Napišem adresu",
+    "Pošaljem sliku kuće",
+    "Napišem broj telefona"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Svoje puno ime i prezime, adresu ili školu.",
-    "Broj telefona ili lozinke.",
-    "Slike lica – svoje ili tuđe.",
-    "Tuđe tajne."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Kad nešto deluje čudno"
-  },
-  {
-   "type": "p",
-   "text": "Ako ti AI (ili bilo ko na internetu) napiše nešto što te uplaši, zbuni ili ti je neprijatno – prestani i odmah reci roditelju ili nastavniku. Nisi ti kriv i nećeš biti u nevolji."
-  },
-  {
-   "type": "h",
-   "text": "Laži i lažne slike"
-  },
-  {
-   "type": "p",
-   "text": "AI može da napravi slike i glasove koji izgledaju stvarno, a nisu. Ne veruj odmah svemu što vidiš na internetu."
-  },
-  {
-   "type": "tip",
-   "text": "Zlatno pravilo: ono što ne bi rekao nepoznatoj osobi na ulici, ne piši ni AI-ju."
-  },
-  {
-   "type": "try",
-   "text": "Daj mi 5 pravila za bezbedno korišćenje interneta za decu od 12 godina, kratko i jasno."
+   "task": "Napiši poruku u kojoj tražiš od AI-ja pomoć za referat o nekom gradu – BEZ ličnih podataka.",
+   "seconds": 120,
+   "checklist": [
+    "Tema (grad) bez tvoje adrese i škole",
+    "Koliko imaš godina ili koji si razred",
+    "Šta tačno želiš (npr. 5 zanimljivosti)"
+   ],
+   "example": "Imam 12 godina i pišem referat o gradu Beograd. Daj mi 5 zanimljivih činjenica iz istorije grada, jednostavnim rečima."
   }
  ]
 }

@@ -1,62 +1,80 @@
 {
- "id": "k_b4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI macht Spaß und ist nützlich, aber im Internet gelten immer Sicherheitsregeln."
+   "q": "Was darfst du einer KI schreiben?",
+   "options": [
+    "Eine Frage über Dinosaurier",
+    "Deine Adresse",
+    "Dein Passwort",
+    "Deine Telefonnummer"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Eine KI hat etwas geschrieben, das dir Angst macht. Was tust du?",
+   "options": [
+    "Aufhören und es Eltern oder einer Lehrkraft sagen",
+    "Schweigen und es niemandem sagen",
+    "Weiterschreiben",
+    "Deine Adresse schicken"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Ein Video sieht echt aus. Ist es sicher wahr?",
+   "options": [
+    "Nein – KI kann falsche Bilder und Videos machen",
+    "Ja, immer",
+    "Ja, wenn es lustig ist",
+    "Ja, wenn es viele Likes hat"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Was ist die goldene Regel?",
+   "options": [
+    "Was du einem Fremden nicht sagen würdest, schreibst du keiner KI",
+    "Der KI kannst du alles sagen",
+    "Passwörter sind zum Teilen da",
+    "Niemandem etwas sagen, auch nicht den Eltern"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Du willst den Namen deiner Schule ins markierte Feld schreiben. Ist das okay?",
+   "options": [
+    "Nein – das sind persönliche Daten",
+    "Ja, immer",
+    "Ja, mit Adresse",
+    "Ja, mit Passwort"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Schreib einer KI niemals"
-  },
+   "image": "chat_reply",
+   "q": "Die markierte Nachricht fragt, wo du wohnst. Was tust du?",
+   "options": [
+    "Nicht antworten und es den Eltern sagen",
+    "Meine Adresse schreiben",
+    "Ein Foto meines Hauses schicken",
+    "Meine Telefonnummer schreiben"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Deinen vollen Namen, deine Adresse oder Schule.",
-    "Deine Telefonnummer oder Passwörter.",
-    "Fotos von Gesichtern – deinem oder von anderen.",
-    "Geheimnisse anderer Leute."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Wenn sich etwas komisch anfühlt"
-  },
-  {
-   "type": "p",
-   "text": "Wenn eine KI (oder irgendwer im Internet) etwas schreibt, das dir Angst macht, dich verwirrt oder unangenehm ist – hör auf und sag es sofort deinen Eltern oder einer Lehrkraft. Es ist nicht deine Schuld und du bekommst keinen Ärger."
-  },
-  {
-   "type": "h",
-   "text": "Lügen und falsche Bilder"
-  },
-  {
-   "type": "p",
-   "text": "KI kann Bilder und Stimmen machen, die echt aussehen, aber nicht echt sind. Glaub nicht sofort alles, was du im Internet siehst."
-  },
-  {
-   "type": "tip",
-   "text": "Goldene Regel: Was du einem Fremden auf der Straße nicht sagen würdest, schreibst du auch keiner KI."
-  },
-  {
-   "type": "try",
-   "text": "Gib mir 5 Regeln für sicheres Surfen im Internet für 12-Jährige, kurz und klar."
+   "task": "Schreib eine Nachricht, in der du die KI um Hilfe für ein Referat über eine Stadt bittest – OHNE persönliche Daten.",
+   "seconds": 120,
+   "checklist": [
+    "Das Thema (die Stadt) ohne deine Adresse oder Schule",
+    "Dein Alter oder deine Klasse",
+    "Was genau du willst (z. B. 5 spannende Fakten)"
+   ],
+   "example": "Ich bin 12 und mache ein Referat über Berlin. Gib mir 5 spannende Fakten zur Geschichte der Stadt, in einfachen Worten."
   }
  ]
 }

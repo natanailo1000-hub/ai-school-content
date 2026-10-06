@@ -1,66 +1,80 @@
 {
- "id": "a_b3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Um prompt é a mensagem que você envia para a IA. Quanto mais claro o prompt, melhor a resposta. A IA não sabe nada sobre você além do que você escreve."
+   "q": "O que é um prompt?",
+   "options": [
+    "A mensagem ou instrução que você envia para a IA",
+    "Um tipo de vírus de computador",
+    "O botão de enviar",
+    "Um plano pago"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Os quatro ingredientes de um bom prompt"
+   "q": "Qual destes é contexto?",
+   "options": [
+    "\"É para meu chefe, sou iniciante\"",
+    "\"Escreva\"",
+    "\"Tabela\"",
+    "\"Obrigado\""
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Tarefa – o que exatamente você quer (escrever, explicar, comparar, listar).",
-    "Contexto – para quem é e por quê (\"para meu chefe\", \"sou iniciante\", \"tenho 30 minutos\").",
-    "Detalhes ou um exemplo – o que você já tem, do que gosta e do que não gosta.",
-    "Formato – como você quer a resposta (5 tópicos, uma tabela, curta, menos de 100 palavras)."
-   ]
+   "q": "A resposta não ficou boa. O que é melhor?",
+   "options": [
+    "Dizer o que mudar, por exemplo \"mais curto e formal\"",
+    "Apagar o app",
+    "Enviar o mesmo prompt 10 vezes",
+    "Desistir"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Mesmo pedido, dois prompts"
+   "q": "Qual prompt é o melhor?",
+   "options": [
+    "Me dê 3 ideias de festa de aniversário para um menino de 8 anos que ama dinossauros, orçamento de 300 reais.",
+    "Ideias de aniversário",
+    "aniversário??",
+    "Ajuda"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "O que há na parte destacada?",
+   "options": [
+    "Seu prompt – a mensagem que você enviou",
+    "A resposta da IA",
+    "Um anúncio",
+    "As configurações"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Fraco: \"Escreva um post para o Instagram.\""
-  },
+   "image": "chat_reply",
+   "q": "Você não gostou da resposta destacada. O que faz?",
+   "options": [
+    "Escreve uma nova mensagem dizendo o que mudar",
+    "Nada – a IA sempre sabe mais",
+    "Desliga o celular",
+    "Compra um celular novo"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Forte: \"Escreva um post curto e alegre para o Instagram da minha padaria, que faz 5 anos neste sábado. Fale do desconto de 20% no pão de queijo. No máximo 3 frases e 3 hashtags.\""
-  },
-  {
-   "type": "tip",
-   "text": "Se a resposta não ficou boa, não comece do zero – diga o que mudar: \"mais curto\", \"mais formal\", \"coloque um exemplo\"."
-  },
-  {
-   "type": "h",
-   "text": "Dê um papel a ela"
-  },
-  {
-   "type": "p",
-   "text": "Você pode começar com \"Aja como um treinador experiente\" ou \"Você é professor de matemática\". Assim a IA acerta melhor o tom e o nível."
-  },
-  {
-   "type": "try",
-   "text": "Você é um personal trainer experiente. Monte um plano de treino em casa para 3 dias por semana, 20 minutos cada, sem equipamentos. Sou iniciante total. Responda em forma de tabela."
-  },
-  {
-   "type": "tip",
-   "text": "Com o Claude, escreva à vontade prompts mais longos e detalhados – ele segue bem instruções longas. Você também pode colar um texto inteiro e pedir para trabalhar com ele.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "No ChatGPT você pode salvar instruções permanentes sobre você nas configurações (por exemplo, \"responda de forma curta\"), sem precisar repetir toda vez.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "O Gemini pode usar a Pesquisa Google, então você pode pedir informações atuais – mas sempre confira as fontes que ele mostra.",
-   "tool": "gemini"
+   "task": "Transforme este prompt fraco em um bom: \"escreva um anúncio\". Você está vendendo uma bicicleta.",
+   "seconds": 150,
+   "checklist": [
+    "A tarefa (anúncio de venda de bicicleta)",
+    "Detalhes (tipo, estado, preço)",
+    "Formato (tamanho, tom)"
+   ],
+   "example": "Escreva um anúncio curto para vender uma bicicleta infantil (aro 20, vermelha, pouco usada) por 300 reais. Tom simpático, no máximo 5 frases, terminando com um convite para me mandar mensagem."
   }
  ]
 }

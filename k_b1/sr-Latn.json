@@ -1,58 +1,80 @@
 {
- "id": "k_b1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI je kompjuterski program koji je pročitao ogromnu količinu tekstova i tako naučio da priča sa ljudima. Claude je jedan takav AI."
+   "q": "Šta je AI?",
+   "options": [
+    "Kompjuterski program koji je učio na mnogo tekstova",
+    "Robot koji živi u tvom telefonu",
+    "Vrsta video igre",
+    "Osoba u kol centru"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: Claude je za odrasle (18+). Zato lekcije o Claude-u vežbaj zajedno sa roditeljem, koji koristi svoj nalog.",
-   "tool": "claude"
+   "q": "Kako AI zna odgovore?",
+   "options": [
+    "Naučio je čitajući ogromnu količinu tekstova",
+    "Pogađa nasumično",
+    "Zove svoje prijatelje",
+    "Gleda u tvoju svesku"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: ChatGPT smeš da koristiš od 13 godina i samo uz dozvolu roditelja. Ako si mlađi, vežbaj zajedno sa roditeljem.",
-   "tool": "chatgpt"
+   "q": "Da li je AI uvek u pravu?",
+   "options": [
+    "Ne, ponekad pogreši",
+    "Da, uvek",
+    "Samo vikendom",
+    "Samo kad su igrice u pitanju"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Važno: za Gemini ti treba dozvola roditelja. Mlađa deca ga mogu koristiti samo preko roditeljskog Family Link naloga, gde je to dostupno.",
-   "tool": "gemini"
+   "q": "Šta NIKAD ne treba da kažeš AI-ju?",
+   "options": [
+    "Svoju adresu ili lozinke",
+    "Svoju omiljenu boju",
+    "Pitanje o vulkanima",
+    "Ideju za priču"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Gde pišeš svoje pitanje za AI?",
+   "options": [
+    "U označeno polje",
+    "U odgovor AI-ja",
+    "Na dugme za slanje",
+    "Nigde, samo pričaš"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Kako on zna odgovore?"
-  },
+   "image": "chat_reply",
+   "q": "Ko je napisao označenu poruku?",
+   "options": [
+    "AI",
+    "Ti",
+    "Tvoj nastavnik",
+    "Niko"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Zamisli prijatelja koji je pročitao milion knjiga. Kad ga nešto pitaš, seti se šta je čitao i sastavi odgovor. AI radi slično, samo mnogo brže."
-  },
-  {
-   "type": "h",
-   "text": "Šta sve može?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Da ti objasni lekciju iz škole na lakši način",
-    "Da smisli priču ili šalu",
-    "Da ti pomogne da napraviš plan za učenje",
-    "Da odgovori na pitanja kad te nešto zanima"
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "AI nije uvek u pravu! Ako je nešto važno, proveri sa nastavnikom ili roditeljem. I nikad mu ne daj lične podatke, kao što su adresa ili lozinke."
-  },
-  {
-   "type": "tip",
-   "text": "Novi savet: nisi razumeo odgovor? Napiši „Objasni mi kao da imam 10 godina“ i AI će ti objasniti lakše!"
-  },
-  {
-   "type": "try",
-   "text": "Objasni mi kako rade vulkani kao da imam 12 godina."
+   "task": "Sledeće nedelje imaš kontrolni o planetama. Napiši poruku u kojoj tražiš od AI-ja da ti pomogne da naučiš.",
+   "seconds": 120,
+   "checklist": [
+    "Koja je tema (planete)",
+    "Koliko imaš godina ili koji si razred",
+    "Nešto konkretno (lako objašnjenje, kviz, plan)"
+   ],
+   "example": "Imam 12 godina i sledeće nedelje imam kontrolni o planetama. Objasni mi planete jednostavno, a onda mi postavi 5 pitanja."
   }
  ]
 }

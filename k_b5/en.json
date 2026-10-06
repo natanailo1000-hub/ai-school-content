@@ -1,61 +1,80 @@
 {
- "id": "k_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "AI isn't just for school – you can also have fun and be creative with it!"
+   "q": "How do you get a funnier story?",
+   "options": [
+    "Say: \"Make it funnier\"",
+    "Delete the app",
+    "Don't write anything",
+    "Send your password"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "You want a quiz where the AI waits for your answer. What do you write?",
+   "options": [
+    "\"One question at a time, wait for my answer\"",
+    "\"Give all at once without answers\"",
+    "\"No\"",
+    "Just \"quiz\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "If the AI gives an idea and you change it, who is the author?",
+   "options": [
+    "You – your ideas make it yours",
+    "Only the AI",
+    "Nobody",
+    "Your neighbour"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "What is role play with AI?",
+   "options": [
+    "The AI plays a character (e.g. a guide) and you learn through play",
+    "The AI phones you",
+    "The AI plays football",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "What did you write in the highlighted message?",
+   "options": [
+    "Your request (prompt) for a story",
+    "The AI's answer",
+    "An ad",
+    "Nothing"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Stories"
-  },
+   "image": "chat_reply",
+   "q": "Where is the story the AI wrote?",
+   "options": [
+    "In the highlighted bubble",
+    "In the settings",
+    "In the app store",
+    "It isn't there"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Write a short, funny story about a cat who wants to become an astronaut. Max 10 sentences, for 11-year-olds."
-  },
-  {
-   "type": "h",
-   "text": "Jokes and riddles"
-  },
-  {
-   "type": "try",
-   "text": "Give me 3 riddles about animals, and write the answers at the end."
-  },
-  {
-   "type": "h",
-   "text": "A quiz just for you"
-  },
-  {
-   "type": "try",
-   "text": "Make me a 5-question quiz about football, one question at a time. Wait for my answer before the next question."
-  },
-  {
-   "type": "tip",
-   "text": "You're the author! Ask the AI for ideas, then change them your way – that makes the story really yours."
-  },
-  {
-   "type": "h",
-   "text": "Role play"
-  },
-  {
-   "type": "p",
-   "text": "You can ask: \"You're a space guide and I'm an astronaut. Take me through the Solar System.\" The AI will play the role and teach you along the way."
+   "task": "Write a prompt for a story: the main character is your favourite animal and it happens at school.",
+   "seconds": 120,
+   "checklist": [
+    "The main character (an animal)",
+    "The place (school)",
+    "Length and tone (short, funny)"
+   ],
+   "example": "Write a short, funny story about a penguin's first day at school. Max 8 sentences, for 12-year-olds."
   }
  ]
 }

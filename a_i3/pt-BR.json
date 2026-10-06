@@ -1,49 +1,80 @@
 {
- "id": "a_i3",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "A IA é ótima para orçamentos, tabelas e fórmulas do Excel ou do Google Planilhas – mesmo que você não goste de números."
+   "q": "Como conseguir uma fórmula da IA?",
+   "options": [
+    "Descrevendo em palavras o que calcular e onde estão os dados",
+    "Mandando sua senha",
+    "Dizendo só \"fórmula\"",
+    "Não tem como"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Orçamento doméstico"
+   "q": "Antes de confiar numa fórmula:",
+   "options": [
+    "Testar em alguns exemplos",
+    "Usar em tudo na hora",
+    "Apagar a planilha",
+    "Nada"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Minha renda mensal é [VALOR]. Despesas: aluguel, comida, transporte, contas, celular. Monte uma tabela de orçamento com quanto separar para cada item e para poupar, pela regra 50/30/20, e explique a regra."
+   "q": "O que é a regra 50/30/20?",
+   "options": [
+    "Dividir a renda entre necessidades, desejos e poupança",
+    "Uma velocidade de internet",
+    "Uma receita",
+    "Uma nota escolar"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Fórmulas"
+   "q": "A IA somou números no chat. O que é esperto?",
+   "options": [
+    "Conferir ou pedir que use uma tabela",
+    "Acreditar sem conferir",
+    "Multiplicar por 2",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "A IA escreveu uma fórmula (destacada). Você não entendeu. O que escreve?",
+   "options": [
+    "\"Explique a fórmula passo a passo\"",
+    "Nada",
+    "\"Tchau\"",
+    "Apago a planilha"
+   ],
+   "answer": 0
   },
   {
-   "type": "p",
-   "text": "Descreva em palavras o que você quer e a IA escreve a fórmula. Por exemplo: \"Na coluna B estão os preços e na C as quantidades. Preciso do total em D1\"."
-  },
+   "image": "chat_user",
+   "q": "Na mensagem destacada você descreve sua planilha. O que é importante dizer?",
+   "options": [
+    "Que dados estão em cada coluna",
+    "Sua senha",
+    "O número do cartão",
+    "Nada"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Numa planilha do Google, a coluna A tem datas e a coluna B valores de despesas. Escreva uma fórmula que some só as despesas de outubro e explique passo a passo."
-  },
-  {
-   "type": "tip",
-   "text": "Confira o resultado da fórmula à mão em alguns exemplos antes de confiar. E para somas dentro do chat: a IA às vezes erra conta, então peça para usar uma tabela ou uma ferramenta de cálculo."
-  },
-  {
-   "type": "tip",
-   "text": "O Claude pode analisar uma tabela que você enviar (por ex. CSV ou Excel) e fazer um gráfico ou relatório.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "O ChatGPT pode abrir um arquivo Excel, fazer cálculos e criar gráficos.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "O Gemini também funciona dentro do Google Planilhas, ajudando direto na tabela (em alguns planos).",
-   "tool": "gemini"
+   "task": "Escreva um prompt para uma fórmula que calcule a média das notas da coluna C.",
+   "seconds": 150,
+   "checklist": [
+    "Onde estão os dados (coluna, linhas)",
+    "O que calcular",
+    "Qual programa (Excel ou Google Planilhas) e uma explicação"
+   ],
+   "example": "No Excel, a coluna C de C2 a C30 tem notas. Escreva uma fórmula que calcule a média arredondada para 2 casas decimais e explique de forma simples."
   }
  ]
 }

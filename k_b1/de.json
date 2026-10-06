@@ -1,58 +1,80 @@
 {
- "id": "k_b1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI ist ein Computerprogramm, das riesig viele Texte gelesen und so gelernt hat, mit Menschen zu chatten. Claude ist so eine KI."
+   "q": "Was ist KI?",
+   "options": [
+    "Ein Computerprogramm, das aus vielen Texten gelernt hat",
+    "Ein Roboter, der in deinem Handy wohnt",
+    "Eine Art Videospiel",
+    "Ein Mensch in einem Callcenter"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Woher kennt die KI Antworten?",
+   "options": [
+    "Sie hat riesig viele Texte gelesen",
+    "Sie rät zufällig",
+    "Sie ruft ihre Freunde an",
+    "Sie schaut in dein Heft"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Hat KI immer recht?",
+   "options": [
+    "Nein, manchmal macht sie Fehler",
+    "Ja, immer",
+    "Nur am Wochenende",
+    "Nur bei Spielen"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Was solltest du der KI NIE verraten?",
+   "options": [
+    "Deine Adresse oder Passwörter",
+    "Deine Lieblingsfarbe",
+    "Eine Frage über Vulkane",
+    "Eine Idee für eine Geschichte"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Wo schreibst du deine Frage an die KI?",
+   "options": [
+    "In das markierte Feld",
+    "In die Antwort der KI",
+    "Auf den Senden-Knopf",
+    "Nirgends – du sprichst einfach"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Woher kennt sie die Antworten?"
-  },
+   "image": "chat_reply",
+   "q": "Wer hat die markierte Nachricht geschrieben?",
+   "options": [
+    "Die KI",
+    "Du",
+    "Deine Lehrkraft",
+    "Niemand"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Stell dir einen Freund vor, der eine Million Bücher gelesen hat. Wenn du ihn etwas fragst, erinnert er sich an das Gelesene und baut eine Antwort zusammen. KI funktioniert ähnlich – nur viel schneller."
-  },
-  {
-   "type": "h",
-   "text": "Was kann sie?"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Ein Schulthema einfacher erklären",
-    "Eine Geschichte oder einen Witz erfinden",
-    "Dir helfen, einen Lernplan zu machen",
-    "Fragen beantworten, wenn du neugierig bist"
-   ]
-  },
-  {
-   "type": "tip",
-   "text": "KI hat nicht immer recht! Wenn etwas wichtig ist, frag eine Lehrkraft oder deine Eltern. Und gib ihr nie persönliche Daten wie deine Adresse oder Passwörter."
-  },
-  {
-   "type": "tip",
-   "text": "Neuer Tipp: Antwort nicht verstanden? Schreib „Erklär es, als wäre ich 10“ und die KI macht es einfacher!"
-  },
-  {
-   "type": "try",
-   "text": "Erkläre mir, wie Vulkane funktionieren, als wäre ich 12 Jahre alt."
+   "task": "Nächste Woche hast du einen Test über Planeten. Schreib eine Nachricht, in der du die KI bittest, dir beim Lernen zu helfen.",
+   "seconds": 120,
+   "checklist": [
+    "Was das Thema ist (Planeten)",
+    "Wie alt du bist oder in welcher Klasse",
+    "Etwas Konkretes (einfache Erklärung, Quiz, Plan)"
+   ],
+   "example": "Ich bin 12 und habe nächste Woche einen Test über Planeten. Erkläre mir die Planeten einfach und stell mir dann 5 Quizfragen."
   }
  ]
 }

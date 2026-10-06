@@ -1,55 +1,80 @@
 {
- "id": "k_p1",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "Got a presentation for school? AI helps you plan it and make it interesting – but you're the one who makes it and presents it."
+   "q": "What goes on a slide?",
+   "options": [
+    "A title and a few short points",
+    "The whole text from a book",
+    "Nothing",
+    "Your password"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: Claude is for adults (18+). So practise the Claude lessons together with a parent, who uses their own account.",
-   "tool": "claude"
+   "q": "How do you start a presentation in an interesting way?",
+   "options": [
+    "With a question or a surprising fact",
+    "By staying silent",
+    "By reading the whole text",
+    "By apologising"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you may use ChatGPT from age 13 and only with a parent's permission. If you're younger, practise together with a parent.",
-   "tool": "chatgpt"
+   "q": "How can AI help you rehearse?",
+   "options": [
+    "It plays the audience and asks questions",
+    "It presents for you",
+    "It writes your grade",
+    "It can't"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important: you need a parent's permission for Gemini. Younger children can use it only through a parent's Family Link account, where available.",
-   "tool": "gemini"
+   "q": "What do you do with the facts on your slides?",
+   "options": [
+    "Check them and list your sources",
+    "Invent new ones",
+    "Don't read them",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "The AI gave you a presentation plan (highlighted). What's your job?",
+   "options": [
+    "Make the slides and practise presenting",
+    "Nothing, it's all done",
+    "Copy it into my notebook",
+    "Delete it"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Step by step"
-  },
+   "image": "chat_user",
+   "q": "You're asking for help in the highlighted message. What's good to write?",
+   "options": [
+    "The topic, number of slides and how long it is",
+    "Your password",
+    "Your school's address",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Ask for a plan: how many slides and what goes on each.",
-    "For each slide: a title + 3 short points (not whole sentences!).",
-    "Ask for an interesting opening – a question or a surprising fact.",
-    "Ask for picture ideas, then find the pictures yourself or draw them.",
-    "Practise presenting out loud – the AI can ask you questions like an audience."
-   ]
-  },
-  {
-   "type": "try",
-   "text": "I'm 13 and I'm making a school presentation about whales, 6 slides, 5 minutes. Suggest slide titles, 3 short points for each, and one interesting question to open with."
-  },
-  {
-   "type": "tip",
-   "text": "Check the facts on your slides in a book or on a reliable website. And list your sources at the end – teachers love that!"
-  },
-  {
-   "type": "h",
-   "text": "Rehearsal"
-  },
-  {
-   "type": "try",
-   "text": "Act as my class. I've just finished my presentation about whales. Ask me 3 questions that students and the teacher might ask."
+   "task": "Write a prompt for a presentation about your favourite sport for PE class.",
+   "seconds": 120,
+   "checklist": [
+    "Topic and who it's for",
+    "Number of slides and length",
+    "What you want (titles, points, an interesting opening)"
+   ],
+   "example": "I'm 12 and I'm making a presentation about basketball for PE class, 5 slides and 4 minutes. Suggest titles, 3 short points each, and an interesting opening."
   }
  ]
 }

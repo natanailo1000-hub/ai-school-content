@@ -1,62 +1,80 @@
 {
- "id": "k_b4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA est amusante et utile, mais sur internet, les règles de sécurité s'appliquent toujours."
+   "q": "Que peux-tu écrire à une IA ?",
+   "options": [
+    "Une question sur les dinosaures",
+    "Ton adresse",
+    "Ton mot de passe",
+    "Ton numéro de téléphone"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : Claude est réservé aux adultes (18 ans et plus). Fais donc les leçons sur Claude avec un parent, qui utilise son propre compte.",
-   "tool": "claude"
+   "q": "Une IA t'a écrit quelque chose qui t'a fait peur. Que fais-tu ?",
+   "options": [
+    "J'arrête et j'en parle à un parent ou à un professeur",
+    "Je me tais et n'en parle à personne",
+    "Je continue d'écrire",
+    "J'envoie mon adresse"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : tu peux utiliser ChatGPT à partir de 13 ans et seulement avec l'accord de tes parents. Si tu es plus jeune, entraîne-toi avec un parent.",
-   "tool": "chatgpt"
+   "q": "Une vidéo a l'air vraie. Est-elle forcément vraie ?",
+   "options": [
+    "Non – l'IA peut créer de fausses images et vidéos",
+    "Oui, toujours",
+    "Oui, si elle est drôle",
+    "Oui, si elle a beaucoup de likes"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Important : pour Gemini, il te faut l'accord de tes parents. Les plus jeunes ne peuvent l'utiliser que via le compte Family Link d'un parent, là où c'est disponible.",
-   "tool": "gemini"
+   "q": "Quelle est la règle d'or ?",
+   "options": [
+    "Ce que tu ne dirais pas à un inconnu, ne l'écris pas à une IA",
+    "On peut tout dire à l'IA",
+    "Les mots de passe, ça se partage",
+    "Ne rien dire à personne, même pas aux parents"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_input",
+   "q": "Tu veux écrire le nom de ton école dans la zone mise en évidence. Est-ce une bonne idée ?",
+   "options": [
+    "Non – ce sont des infos personnelles",
+    "Oui, toujours",
+    "Oui, avec mon adresse",
+    "Oui, avec mon mot de passe"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "N'écris jamais à une IA"
-  },
+   "image": "chat_reply",
+   "q": "Le message mis en évidence te demande où tu habites. Que fais-tu ?",
+   "options": [
+    "Je ne réponds pas et j'en parle à un parent",
+    "J'écris mon adresse",
+    "J'envoie une photo de ma maison",
+    "J'écris mon numéro"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "list",
-   "items": [
-    "Ton nom complet, ton adresse ou ton école.",
-    "Ton numéro de téléphone ou tes mots de passe.",
-    "Des photos de visages – le tien ou celui des autres.",
-    "Les secrets des autres."
-   ]
-  },
-  {
-   "type": "h",
-   "text": "Quand quelque chose te semble bizarre"
-  },
-  {
-   "type": "p",
-   "text": "Si une IA (ou n'importe qui sur internet) t'écrit quelque chose qui te fait peur, te trouble ou te met mal à l'aise, arrête et parles-en tout de suite à un parent ou à un professeur. Ce n'est pas ta faute et tu ne seras pas puni."
-  },
-  {
-   "type": "h",
-   "text": "Mensonges et fausses images"
-  },
-  {
-   "type": "p",
-   "text": "L'IA peut créer des images et des voix qui ont l'air vraies, mais qui ne le sont pas. Ne crois pas tout de suite tout ce que tu vois en ligne."
-  },
-  {
-   "type": "tip",
-   "text": "Règle d'or : ce que tu ne dirais pas à un inconnu dans la rue, ne l'écris pas non plus à une IA."
-  },
-  {
-   "type": "try",
-   "text": "Donne-moi 5 règles pour utiliser internet en sécurité, pour des enfants de 12 ans, courtes et claires."
+   "task": "Écris un message pour demander à l'IA de l'aide pour un exposé sur une ville – SANS informations personnelles.",
+   "seconds": 120,
+   "checklist": [
+    "Le sujet (la ville) sans ton adresse ni ton école",
+    "Ton âge ou ta classe",
+    "Ce que tu veux exactement (par ex. 5 faits amusants)"
+   ],
+   "example": "J'ai 12 ans et je fais un exposé sur Paris. Donne-moi 5 faits intéressants sur l'histoire de la ville, avec des mots simples."
   }
  ]
 }

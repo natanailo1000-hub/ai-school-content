@@ -1,66 +1,80 @@
 {
- "id": "a_b4",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "L'IA te fait gagner beaucoup de temps à l'écrit : tu donnes l'essentiel, elle te rend un texte bien tourné. C'est toujours toi qui relis et qui envoies."
+   "q": "Qu'est-ce qui compte le plus quand tu demandes un e-mail à l'IA ?",
+   "options": [
+    "À qui tu écris et ce que tu veux obtenir",
+    "Quel téléphone tu as",
+    "Ton âge",
+    "Rien, elle devine"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "E-mails et messages"
+   "q": "Comment améliorer ton propre texte avec l'IA ?",
+   "options": [
+    "Coller le texte et dire quoi changer",
+    "Le recopier 3 fois à la main",
+    "Envoyer un e-mail vide",
+    "Le supprimer"
+   ],
+   "answer": 0
   },
   {
-   "type": "list",
-   "items": [
-    "Dis à qui tu écris et quelle est votre relation (chef, voisin, entreprise).",
-    "Dis ce que tu veux obtenir (excuses, réclamation, remerciement, demande).",
-    "Donne les faits importants (dates, chiffres, noms).",
-    "Demande un ton : poli, court, ferme."
-   ]
+   "q": "Que ne doit PAS faire l'IA dans ton CV ?",
+   "options": [
+    "Inventer une expérience ou des diplômes",
+    "Corriger la grammaire",
+    "Raccourcir le texte",
+    "Proposer une meilleure mise en page"
+   ],
+   "answer": 0
   },
   {
-   "type": "try",
-   "text": "Écris un e-mail court et poli à mon fournisseur internet. Ma connexion ne marche plus depuis lundi et j'ai déjà appelé deux fois. Je demande l'envoi d'un technicien cette semaine et une réduction sur ma facture."
+   "q": "Qui est responsable de l'e-mail que tu envoies ?",
+   "options": [
+    "Toi – relis toujours avant d'envoyer",
+    "L'IA",
+    "L'entreprise qui fait l'IA",
+    "Personne"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_reply",
+   "q": "L'IA t'a écrit un e-mail (en évidence). Que fais-tu avant de l'envoyer ?",
+   "options": [
+    "Je le relis et je vérifie les faits",
+    "Je l'envoie sans lire",
+    "Je le traduis",
+    "Je le supprime"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Améliorer ton propre texte"
-  },
+   "image": "chat_input",
+   "q": "Où colles-tu ton texte pour que l'IA l'améliore ?",
+   "options": [
+    "Dans la zone de message mise en évidence",
+    "Dans la réponse de l'IA",
+    "Dans les réglages du téléphone",
+    "Nulle part"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "p",
-   "text": "Pas besoin de partir de zéro. Colle ton texte et demande : « Corrige les fautes », « Raccourcis de moitié », « Rends-le plus professionnel »."
-  },
-  {
-   "type": "h",
-   "text": "CV et candidatures"
-  },
-  {
-   "type": "p",
-   "text": "L'IA peut mettre ton CV au propre et rédiger une lettre de motivation adaptée à une offre. Donne-lui ton expérience réelle et le texte de l'annonce."
-  },
-  {
-   "type": "try",
-   "text": "Voici mon expérience : [ton expérience]. Voici l'offre d'emploi : [texte de l'offre]. Rédige une lettre de motivation de 150 mots qui met en avant ce que demande l'offre. N'invente pas d'expérience que je n'ai pas."
-  },
-  {
-   "type": "tip",
-   "text": "Ne laisse jamais l'IA inventer des diplômes ou une expérience. Tout dans ton CV doit être vrai : les employeurs vérifient."
-  },
-  {
-   "type": "tip",
-   "text": "Claude est particulièrement doué pour écrire et peaufiner des textes : demande-lui 2 ou 3 versions et choisis.",
-   "tool": "claude"
-  },
-  {
-   "type": "tip",
-   "text": "Dans ChatGPT, tu peux demander 2 ou 3 versions d'un texte d'un coup et choisir la meilleure.",
-   "tool": "chatgpt"
-  },
-  {
-   "type": "tip",
-   "text": "Si tu utilises Gmail, Gemini peut aussi t'aider à rédiger des e-mails directement dans les applis Google (selon ton offre).",
-   "tool": "gemini"
+   "task": "Ton voisin t'a prêté une perceuse et tu l'as cassée sans le vouloir. Écris un prompt pour obtenir un message d'excuses.",
+   "seconds": 120,
+   "checklist": [
+    "Pour qui (le voisin)",
+    "Ce qui s'est passé (la perceuse cassée)",
+    "Ce que tu proposes (réparation ou neuve) et le ton (sincère, court)"
+   ],
+   "example": "Écris un court message d'excuses sincère à mon voisin. Il m'a prêté sa perceuse et je l'ai cassée sans le vouloir. Propose de lui en racheter une ou de payer la réparation. 4 phrases maximum, ton amical."
   }
  ]
 }

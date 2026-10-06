@@ -1,61 +1,80 @@
 {
- "id": "k_b5",
- "updated": "2026-10-06",
- "blocks": [
+ "quick": [
   {
-   "type": "p",
-   "text": "KI ist nicht nur für die Schule – mit ihr kannst du auch Spaß haben und kreativ sein!"
+   "q": "Wie bekommst du eine lustigere Geschichte?",
+   "options": [
+    "Sag: \"Mach sie lustiger\"",
+    "Die App löschen",
+    "Nichts schreiben",
+    "Dein Passwort schicken"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Claude ist für Erwachsene (ab 18). Übe die Claude-Lektionen deshalb zusammen mit einem Elternteil, der sein eigenes Konto nutzt.",
-   "tool": "claude"
+   "q": "Du willst ein Quiz, bei dem die KI auf deine Antwort wartet. Was schreibst du?",
+   "options": [
+    "\"Eine Frage nach der anderen, warte auf meine Antwort\"",
+    "\"Alle auf einmal ohne Lösungen\"",
+    "\"Nein\"",
+    "Nur \"Quiz\""
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: ChatGPT darfst du ab 13 und nur mit Erlaubnis deiner Eltern nutzen. Wenn du jünger bist, übe zusammen mit einem Elternteil.",
-   "tool": "chatgpt"
+   "q": "Die KI gibt eine Idee, du änderst sie. Wer ist der Autor?",
+   "options": [
+    "Du – deine Ideen machen sie zu deiner",
+    "Nur die KI",
+    "Niemand",
+    "Dein Nachbar"
+   ],
+   "answer": 0
   },
   {
-   "type": "tip",
-   "text": "Wichtig: Für Gemini brauchst du die Erlaubnis deiner Eltern. Jüngere Kinder können es nur über das Family-Link-Konto der Eltern nutzen, wo verfügbar.",
-   "tool": "gemini"
+   "q": "Was ist ein Rollenspiel mit KI?",
+   "options": [
+    "Die KI spielt eine Figur (z. B. einen Guide) und du lernst beim Spielen",
+    "Die KI ruft dich an",
+    "Die KI spielt Fußball",
+    "Nichts"
+   ],
+   "answer": 0
+  }
+ ],
+ "image": [
+  {
+   "image": "chat_user",
+   "q": "Was hast du in die markierte Nachricht geschrieben?",
+   "options": [
+    "Deine Bitte (Prompt) für eine Geschichte",
+    "Die Antwort der KI",
+    "Eine Werbung",
+    "Nichts"
+   ],
+   "answer": 0
   },
   {
-   "type": "h",
-   "text": "Geschichten"
-  },
+   "image": "chat_reply",
+   "q": "Wo ist die Geschichte, die die KI geschrieben hat?",
+   "options": [
+    "In der markierten Sprechblase",
+    "In den Einstellungen",
+    "Im App-Store",
+    "Nirgends"
+   ],
+   "answer": 0
+  }
+ ],
+ "challenge": [
   {
-   "type": "try",
-   "text": "Schreib eine kurze, lustige Geschichte über eine Katze, die Astronautin werden will. Höchstens 10 Sätze, für 11-Jährige."
-  },
-  {
-   "type": "h",
-   "text": "Witze und Rätsel"
-  },
-  {
-   "type": "try",
-   "text": "Gib mir 3 Rätsel über Tiere und schreib die Lösungen ans Ende."
-  },
-  {
-   "type": "h",
-   "text": "Ein Quiz nur für dich"
-  },
-  {
-   "type": "try",
-   "text": "Mach mir ein Quiz mit 5 Fragen über Fußball, eine Frage nach der anderen. Warte auf meine Antwort, bevor du die nächste stellst."
-  },
-  {
-   "type": "tip",
-   "text": "Du bist der Autor! Hol dir Ideen von der KI und ändere sie nach deinem Geschmack – so wird die Geschichte wirklich deine."
-  },
-  {
-   "type": "h",
-   "text": "Rollenspiel"
-  },
-  {
-   "type": "p",
-   "text": "Du kannst sagen: \"Du bist ein Weltraum-Guide und ich bin Astronaut. Führ mich durch das Sonnensystem.\" Die KI spielt die Rolle und bringt dir dabei etwas bei."
+   "task": "Schreib einen Prompt für eine Geschichte: Die Hauptfigur ist dein Lieblingstier und sie spielt in der Schule.",
+   "seconds": 120,
+   "checklist": [
+    "Die Hauptfigur (ein Tier)",
+    "Der Ort (Schule)",
+    "Länge und Ton (kurz, lustig)"
+   ],
+   "example": "Schreib eine kurze, lustige Geschichte über den ersten Schultag eines Pinguins. Höchstens 8 Sätze, für 12-Jährige."
   }
  ]
 }
